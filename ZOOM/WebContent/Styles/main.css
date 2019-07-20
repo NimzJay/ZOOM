@@ -1,0 +1,18 @@
+@charset "ISO-8859-1";
+
+*{
+	font-family: 'Calibri';	
+		
+}
+
+input {
+  clear: both;
+  float: right;
+  margin-bottom: 4px;
+  margin-color: white;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
