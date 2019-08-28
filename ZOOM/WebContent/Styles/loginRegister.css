@@ -1,0 +1,77 @@
+@charset "ISO-8859-1";
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background: no-repeat;
+	~webkit-background-size: cover; 
+	font-family: "calibri";
+}
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 530px;
+    box-sizing:border-box;
+    background: rgba(0,0,0,0.2);
+    padding: 50px;
+}
+h3{
+	margin:0;
+	padding: 20 20 20px;
+	color: #ffffff;	
+}
+.login p{
+	margin:0;
+	padding: 0;
+	color: #ffffff;	
+	font-size: 15px;
+}
+.login input,select{
+	margin-bottom: 40px;
+	width: 100%;
+}
+.login input[type=text],.login input[type=password]{
+
+	text-align:left;
+	border: 1px solid #ffffff;
+	background-color: transparent;
+	outline: none;
+	height:40px;
+	color: #ffffff;
+	display: 16px;
+	border-radius: 4px;
+}
+::placeholder{
+	color: #ffffff;
+}
+.login select {
+	margin-top: 20px;
+	padding: 10px 0;
+}
+#link{
+	text-decoration:none;
+	color: white;
+}
+
+#link:hover{
+	text-decoration:none;
+	color: #0080ff;
+}
+
+div.signin {
+	background: cov.jpg;
+}
+
+
