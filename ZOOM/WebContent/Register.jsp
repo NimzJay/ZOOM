@@ -21,33 +21,26 @@
 	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script>
-	$('.dropdown-menu a.dropdown-toggle').on(
-			'click',
-			function(e) {
-				if (!$(this).next().hasClass('show')) {
-					$(this).parents('.dropdown-menu').first().find('.show')
-							.removeClass("show");
-				}
-				var $subMenu = $(this).next(".dropdown-menu");
-				$subMenu.toggleClass('show');
 
-				$(this).parents('li.nav-item.dropdown.show').on(
-						'hidden.bs.dropdown', function(e) {
-							$('.dropdown-submenu .show').removeClass("show");
-						});
-
-				return false;
-			});
+<script type="text/javascript"
+	src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	
+<script type="text/javascript">
+	function googleTranslateElementInit() {
+		new google.translate.TranslateElement({
+			pageLanguage : 'en', includedLanguages: 'en,si,ta',
+			layout : google.translate.TranslateElement.InlineLayout.SIMPLE
+		}, 'google_translate_element');
+	}
 </script>
 
 </head>
 <body>
-	<nav class="navbar navbar-expand-sm bg-dark navbar-dark"
+	<nav class="navbar navbar-expand-xl bg-dark navbar-dark sticky-top"
 		style="border-bottom: 1px; border-color: white;">
 		<a class="navbar-brand" href="index.jsp"> <img
-			src="pix/favicon.png" width="30" height="30"
-			class="d-inline-block align-top" alt=""> &nbsp Zoom.lk | <span>Subtitle
+			src="pix/logo.png" width="100" height="35"
+			class="d-inline-block align-top" alt=""> &nbsp | <span>Subtitle
 				Portal</span>
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -55,58 +48,33 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
-			<ul class="navbar-nav">
-				<li class="nav-item"><a class="nav-link" href="#">&nbsp
-						&nbsp &nbsp Downloads </a></li>
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item"><a class="nav-link" href="#">Summary &nbsp</a></li>
 				<li class="nav-item dropdown"><a
 					class="nav-link dropdown-toggle" href="#"
 					id="navbarDropdownMenuLink" data-toggle="dropdown"
-					aria-haspopup="true" aria-expanded="false"> &nbsp Category </a>
+					aria-haspopup="true" aria-expanded="false"> Download &nbsp</a>
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<li class="dropdown-submenu"><a
-							class="dropdown-item dropdown-toggle" href="#"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="#">Submenu action</a></li>
-								<li><a class="dropdown-item" href="#">Another submenu
-										action</a></li>
-							</ul></li>
-						<li class="dropdown-submenu"><a
-							class="dropdown-item dropdown-toggle" href="#"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Year</a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="#">Submenu action</a></li>
-								<li><a class="dropdown-item" href="#">Another submenu
-										action</a></li>
-							</ul></li>
-						<li class="dropdown-submenu"><a
-							class="dropdown-item dropdown-toggle" href="#"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Genre</a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="#">Submenu action</a></li>
-								<li><a class="dropdown-item" href="#">Another submenu
-										action</a></li>
-							</ul></li>
-					</ul></li>
-				<li class="nav-item"><a class="nav-link" href="#">&nbsp
-						About Us </a></li>
-				<li class="nav-item"><a class="nav-link" href="#">&nbsp FAQ
-				</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">&nbsp
-						Requests</a></li>
-
-			</ul>
-			<ul class="navbar-nav ml-auto">
+						<li><a class="dropdown-item" href="#">All Subtitles</a></li>
+						<li><a class="dropdown-item" href="NewReleaseSub.jsp">New Subtitles</a></li>
+						<li><a class="dropdown-item" href="#">Upcoming Subtitles</a>		
+					</ul>
+				</li>
+				<li class="nav-item"><a class="nav-link" href="#">About Us
+						&nbsp</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">FAQ &nbsp</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Help &nbsp </a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Settings &nbsp &nbsp &nbsp</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
 						<input class="form-control" type="text" placeholder="Search"
 							aria-label="Search"> <i
 							class="fas fa-search text-white ml-2" aria-hidden="true"></i>
 					</form>
-				</li>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-				<li class="nav-item "><a class="btn btn-primary"
-					href="Login.jsp"> Log in </a></li>&nbsp &nbsp
-				<li class="nav-item "><a class="btn btn-primary"
+				</li>
+				<li class="nav-item">&nbsp &nbsp &nbsp<a class="btn btn-primary"
+					href="Login.jsp"> Log in </a>&nbsp &nbsp</li>
+				<li class="nav-item"><a class="btn btn-primary"
 					href="Register.jsp"> Register </a></li>
 			</ul>
 		</div>
@@ -118,6 +86,7 @@
 				<li class="breadcrumb-item active" aria-current="page">Register</li>
 			</ol>
 		</nav>
+		<a class="float-right" id="google_translate_element"></a><br><br>
 		<div class="wrapper register">
 			<div class="row">
 				<div class="col-5" style="padding-left: 110px;">
@@ -201,7 +170,7 @@
 		style="background-color: #555;">
 		<div style="background-color: #f0ad4e;">
 			<div class="container">
-				<div class="row py-4 d-flex align-items-center">
+				<div class="row py-3 d-flex align-items-center">
 					<div
 						class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
 						<h6 class="mb-0">Get Connected with Us on Social Networks!</h6>
@@ -233,7 +202,7 @@
 		</div>
 
 		<!-- Copyright -->
-		<div class="footer-copyright text-center py-2"
+		<div class="footer-copyright text-center py-0.5"
 			style="color: #eee; background-color: #333;">
 			<br> <a href="index.jsp"
 				style="color: #eee; text-decoration: none;"> <img
