@@ -114,7 +114,7 @@
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 						<li><a class="dropdown-item" href="#">All Subtitles</a></li>
 						<li><a class="dropdown-item" href="NewReleaseSub.jsp">New Subtitles</a></li>
-						<li><a class="dropdown-item" href="#">Upcoming Subtitles</a>
+						<li><a class="dropdown-item" href="#">Upcoming Movies</a>
 					</ul></li>
 				<li class="nav-item"><a class="nav-link" href="#">About Us
 						&nbsp</a></li>
