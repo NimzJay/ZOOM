@@ -166,7 +166,7 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="pix/y.jpg" alt="Movie Poster">
+						<img class="card-img-top" src="pix/sali2.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">TERMINATOR 06</h5>
 							<p class="card-text">Sarah Connor and a hybrid cyborg human
@@ -181,7 +181,7 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="pix/z.jpg" alt="Movie Poster">
+						<img class="card-img-top" src="pix/sali3.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">UNDERWATER</h5>
 							<p class="card-text">A crew of underwater researchers must
@@ -199,7 +199,7 @@
 			<div class="row">
 				<div class="col-sm-4">
 					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="pix/w.jpg" alt="Movie Poster">
+						<img class="card-img-top" src="pix/sali4.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">ZOMBIELAND 02</h5>
 							<p class="card-text">The first footage from the movie was
@@ -220,7 +220,7 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="pix/hellboy.jpg" alt="Movie Poster">
+						<img class="card-img-top" src="pix/sali5.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">WATCHMEN</h5>
 							<p class="card-text">Set in an alternate history where masked
@@ -237,9 +237,9 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="pix/alita.jpg" alt="Movie Poster">
+						<img class="card-img-top" src="pix/sali6.jpg" alt="Movie Poster">
 						<div class="card-body">
-							<h5 class="card-title">TERMINATOR 06</h5>
+							<h5 class="card-title">DOCTOR SLEEP</h5>
 							<p class="card-text">Years following the events of "The
 								Shining," a now-adult Dan Torrence meets a young girl with
 								similar powers as his and tries to protect her from a cult known
