@@ -27,7 +27,8 @@
 <script type="text/javascript">
 	function googleTranslateElementInit() {
 		new google.translate.TranslateElement({
-			pageLanguage : 'en', includedLanguages: 'en,si,ta',
+			pageLanguage : 'en',
+			includedLanguages : 'en,si,ta',
 			layout : google.translate.TranslateElement.InlineLayout.SIMPLE
 		}, 'google_translate_element');
 	}
@@ -113,9 +114,14 @@
 					aria-haspopup="true" aria-expanded="false"> Download &nbsp</a>
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 						<li><a class="dropdown-item" href="#">All Subtitles</a></li>
-						<li><a class="dropdown-item" href="NewReleaseSub.jsp">New Subtitles</a></li>
-						<li><a class="dropdown-item" href="#">Upcoming Movies</a>
+						<li><a class="dropdown-item" href="NewReleaseSub.jsp">New
+								Subtitles</a></li>
+
 					</ul></li>
+
+				<li class="nav-item"><a class="nav-link"
+					href="http://localhost:8082/ZOOM/UpcomingMovies.jsp">Upcoming
+						Movies &nbsp</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">About Us
 						&nbsp</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">FAQ &nbsp</a></li>
@@ -139,7 +145,7 @@
 		</div>
 	</nav>
 	<a class="float-right" id="google_translate_element"></a>
-	<div class="jumbotron jumbotron-fluid">	
+	<div class="jumbotron jumbotron-fluid">
 		<div class="container">
 			<h1 class="display-4">Featured Subtitle</h1>
 			<br>
