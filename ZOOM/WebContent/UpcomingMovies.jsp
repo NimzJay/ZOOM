@@ -158,7 +158,7 @@
 								important bonus.</p>
 							<a
 								href="https://www.imdb.com/title/tt1502397/?ref_=nv_sr_1?ref_=nv_sr_1"
-								class="btn btn-primary">IMDb</a> &nbsp &nbsp &nbsp <a
+								class="btn btn-primary">IMDb Link</a> &nbsp &nbsp &nbsp <a
 								href="https://www.youtube.com/watch?v=DjOaTOFgVzg"
 								class="btn btn-warning">Trailer</a>
 						</div>
@@ -173,7 +173,7 @@
 								must protect a young girl from a newly modified liquid
 								Terminator from the future.</p>
 							<a href="https://www.imdb.com/title/tt6450804/"
-								class="btn btn-primary">IMDb</a> &nbsp &nbsp &nbsp <a
+								class="btn btn-primary">IMDb Link</a> &nbsp &nbsp &nbsp <a
 								href="https://www.youtube.com/watch?v=rVy1BPd4A0I"
 								class="btn btn-warning">Trailer</a>
 						</div>
@@ -188,7 +188,7 @@
 								scramble to safety after an earthquake devastates their
 								subterranean laboratory.</p>
 							<a href="https://www.imdb.com/title/tt5774060/"
-								class="btn btn-primary">IMDb</a> &nbsp &nbsp &nbsp <a
+								class="btn btn-primary">IMDb Link</a> &nbsp &nbsp &nbsp <a
 								href="https://www.youtube.com/watch?v=tFzFgGGnKu4"
 								class="btn btn-warning">Trailer</a>
 						</div>
@@ -212,7 +212,7 @@
 								of elements in the trailer.</p>
 							<a
 								href="https://www.imdb.com/title/tt1560220/?ref_=nv_sr_1?ref_=nv_sr_1"
-								class="btn btn-primary">IMDb</a> &nbsp &nbsp &nbsp <a
+								class="btn btn-primary">IMDb Link</a> &nbsp &nbsp &nbsp <a
 								href="https://www.youtube.com/watch?v=DjelrTXP21I"
 								class="btn btn-warning">Trailer</a>
 						</div>
@@ -229,7 +229,7 @@
 								same name, while attempting to break new ground of its own.</p>
 							<a
 								href="https://www.imdb.com/title/tt7049682/?ref_=nv_sr_2?ref_=nv_sr_2"
-								class="btn btn-primary">IMDb</a> &nbsp &nbsp &nbsp <a
+								class="btn btn-primary">IMDb Link</a> &nbsp &nbsp &nbsp <a
 								href="https://www.youtube.com/watch?v=huN34U2rmvs"
 								class="btn btn-warning">Trailer</a>
 						</div>
@@ -247,7 +247,7 @@
 								immortal.</p>
 							<a
 								href="https://www.imdb.com/title/tt5606664/?ref_=nv_sr_2?ref_=nv_sr_2"
-								class="btn btn-primary">IMDB</a> &nbsp &nbsp &nbsp <a
+								class="btn btn-primary">IMDb Link</a> &nbsp &nbsp &nbsp <a
 								href="https://www.youtube.com/watch?v=kk3_89_foMY"
 								class="btn btn-warning">Trailer</a>
 						</div>
