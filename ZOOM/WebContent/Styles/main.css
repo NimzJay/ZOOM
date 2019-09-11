@@ -14,9 +14,9 @@ html, body {
 	padding: 0px;
 }
 
-.nav-item:hover{
+.nav-link:hover{
 	color:white;
-	background-color: #5f5f5f;
+	background-color: #4d4d4d;
 }
 
 .navbar .navbar-brand {
@@ -62,7 +62,7 @@ a.fb-ic i:hover {
 }
 
 a.tw-ic i:hover {
-	color: #0080ff;;
+	color: #0080ff;
 }
 
 a.gplus-ic i:hover {
