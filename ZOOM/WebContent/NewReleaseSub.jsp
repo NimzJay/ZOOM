@@ -60,6 +60,9 @@
 						<li><a class="dropdown-item" href="#">New Subtitles</a></li>
 						<li><a class="dropdown-item" href="#">Upcoming Subtitles</a>
 					</ul></li>
+					<li class="nav-item"><a class="nav-link" href="http://localhost:8082/ZOOM/UpcomingMovies.jsp">Upcoming Movies
+						&nbsp</a></li>
+					
 				<li class="nav-item"><a class="nav-link" href="#">About Us
 						&nbsp</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">FAQ &nbsp</a></li>
