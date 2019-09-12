@@ -6,7 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>Log in | Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
-<link rel="stylesheet" type="text/css" href="Styles/loginRegister.css">
+<link rel="stylesheet" type="text/css" href="Styles/menu.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
@@ -36,7 +36,7 @@
 </script>
 
 </head>
-<body style="background-color:#E9ECEF">
+<body style="background-color: #E9ECEF">
 	<nav class="navbar navbar-expand-xl bg-dark navbar-dark sticky-top"
 		style="border-bottom: 1px; border-color: white;">
 		<a class="navbar-brand" href="index.jsp"> <img src="pix/logo.png"
@@ -51,7 +51,7 @@
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item"><a class="nav-link" href="#">Summary
 						&nbsp;</a></li>
-				<li class="nav-item dropdown"><a
+				<li class="nav-item dropdown active"><a
 					class="nav-link dropdown-toggle" href="#"
 					id="navbarDropdownMenuLink" data-toggle="dropdown"
 					aria-haspopup="true" aria-expanded="false"> Downloads &nbsp;</a>
@@ -84,124 +84,167 @@
 			</ul>
 		</div>
 	</nav>
-	<nav aria-label="breadcrumb">
-		<ol class="breadcrumb">
-			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
-			<li class="breadcrumb-item active" aria-current="page">New
-				Subtitles</li>
-		</ol>
-	</nav>
 	<a class="float-right" id="google_translate_element"></a>
 
-	<div class="jumbotron jumbotron-fluid">
+	<div>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="menu container">
+					<br><h2>Categories</h2><hr>
+					<p>Category by Type</p>
+					<ul class="nav flex-column">
+						<li class="nav-item"><a class="nav-link" href="#">All Subtitles</a></li>
+						<li class="nav-item "><a class="nav-link" href="#">Upcoming Subtitles</a></li>
+						<li class="nav-item"><a class="nav-link active" href="NewReleases.jsp">New Releases</a></li>
 
-		<div class="container">
-			<h1 class="display-4">Newly Released Subtitles</h1>
-			<br>
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="pix/x.jpg" alt="Movie Poster">
-						<div class="card-body">
-							<h5 class="card-title">Aladdin</h5>
-							<p class="card-text">Some quick example text to build on the
-								card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-primary">Download</a> &nbsp &nbsp
-							&nbsp <a
-								href="https://www.imdb.com/title/tt6139732/?ref_=tt_sims_tti"
-								class="btn btn-warning">IMDB link</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="pix/y.jpg" alt="Movie Poster">
-						<div class="card-body">
-							<h5 class="card-title">The Lion King</h5>
-							<p class="card-text">Some quick example text to build on the
-								card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-primary">Download</a> &nbsp &nbsp
-							&nbsp <a
-								href="https://www.imdb.com/title/tt6105098/?ref_=nv_sr_1?ref_=nv_sr_1"
-								class="btn btn-warning">IMDB link</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="pix/z.jpg" alt="Movie Poster">
-						<div class="card-body">
-							<h5 class="card-title">Wonder Woman</h5>
-							<p class="card-text">Some quick example text to build on the
-								card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-primary">Download</a> &nbsp &nbsp
-							&nbsp <a href="https://www.imdb.com/title/tt0451279/"
-								class="btn btn-warning">IMDB link</a>
-						</div>
-					</div>
+					</ul><hr>
+					<p>Category by Genre</p>
+					<ul class="nav flex-column">
+						<li class="nav-item"><a class="nav-link" href="#">Adventure</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Detective</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Horror</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Romance</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">TV Series</a></li>
+					</ul><hr>
+					<p>Category by Year</p>
+					<ul class="nav flex-column">
+						<li class="nav-item"><a class="nav-link" href="#">2019</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">2018</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">2017</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">2016</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">2015</a></li>
+					</ul><hr>
+					<p>Category by Language</p>
+					<ul class="nav flex-column">
+						<li class="nav-item"><a class="nav-link" href="#">English</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Sinhala</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Tamil</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">French</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Spanish</a></li>
+					</ul><br>
 				</div>
 			</div>
-			<br>
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="pix/w.jpg" alt="Movie Poster">
-						<div class="card-body">
-							<h5 class="card-title">Deadpool 2</h5>
-							<p class="card-text">Some quick example text to build on the
-								card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-primary">Download</a> &nbsp &nbsp
-							&nbsp <a href="https://www.imdb.com/title/tt5463162/"
-								class="btn btn-warning">IMDB link</a>
+			<div class="col-md-9">
+				<div class="container">
+					<br><h1 class="display-4">Newly Released Subtitles</h1><br>
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="card" style="width: 18rem;">
+								<img class="card-img-top" src="pix/x.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title"><b>Aladdin</b></h5>
+									<p class="card-text">A kind-hearted street urchin and a
+								power-hungry Grand Vizier vie for a magic lamp that has the
+								power to make their deepest wishes come true.</p>
+									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+									&nbsp; <a
+										href="https://www.imdb.com/title/tt6139732/?ref_=tt_sims_tti"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="card" style="width: 18rem;">
+								<img class="card-img-top" src="pix/y.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title"><b>The Lion King</b></h5>
+									<p class="card-text">After the murder of his father, a young
+								lion prince flees his kingdom only to learn the true meaning of
+								responsibility and bravery.</p>
+									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+									&nbsp; <a
+										href="https://www.imdb.com/title/tt6105098/?ref_=nv_sr_1?ref_=nv_sr_1"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="card" style="width: 18rem;">
+								<img class="card-img-top" src="pix/dark2.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title"><b>Dark Phoenix</b></h5>
+									<p class="card-text">Jean Grey begins to develop incredible
+										powers that corrupt and turn her into a Dark Phoenix. Now the
+										X-Men will have to decide if the life of a team member is
+										worth more than all of humanity.</p>
+									<a href="Mov_DarkPhoenix.jsp" class="btn btn-primary">Download</a>
+									&nbsp; &nbsp; &nbsp; <a
+										href="https://www.imdb.com/title/tt6565702/?ref_=nv_sr_1?ref_=nv_sr_1"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="pix/hellboy.jpg" alt="Movie Poster">
-						<div class="card-body">
-							<h5 class="card-title">Hellboy</h5>
-							<p class="card-text">Some quick example text to build on the
-								card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-primary">Download</a> &nbsp &nbsp
-							&nbsp <a href="https://www.imdb.com/title/tt2274648/"
-								class="btn btn-warning">IMDB link</a>
+					<br>
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="card" style="width: 18rem;">
+								<img class="card-img-top" src="pix/w.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title"><b>Deadpool 2</b></h5>
+									<p class="card-text">Foul-mouthed mutant mercenary Wade
+								Wilson (AKA. Deadpool), brings together a team of fellow mutant
+								rogues to protect a young boy with supernatural abilities from
+								the brutal, time-traveling cyborg, Cable.</p>
+									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+									&nbsp; <a href="https://www.imdb.com/title/tt5463162/"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="pix/alita.jpg" alt="Movie Poster">
-						<div class="card-body">
-							<h5 class="card-title">Alita: Battle Angel</h5>
-							<p class="card-text">Some quick example text to build on the
-								card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-primary">Download</a> &nbsp &nbsp
-							&nbsp <a
-								href="https://www.imdb.com/title/tt0437086/?ref_=nv_sr_1?ref_=nv_sr_1"
-								class="btn btn-warning">IMDB link</a>
+						<div class="col-sm-4">
+							<div class="card" style="width: 18rem;">
+								<img class="card-img-top" src="pix/hellboy.jpg"
+									alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title"><b>Hellboy</b></h5>
+									<p class="card-text">Based on the graphic novels by Mike
+								Mignola, Hellboy, caught between the worlds of the supernatural
+								and human, battles an ancient sorceress bent on revenge.</p>
+									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+									&nbsp; <a href="https://www.imdb.com/title/tt2274648/"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="card" style="width: 18rem;">
+								<img class="card-img-top" src="pix/z.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title"><b>Wonder Woman</b></h5>
+									<p class="card-text">When a pilot crashes and tells of
+								conflict in the outside world, Diana, an Amazonian warrior in
+								training, leaves home to fight a war, discovering her full
+								powers and true destiny.</p>
+									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+									&nbsp; <a href="https://www.imdb.com/title/tt0451279/"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<br> <br>
-		<nav aria-label="Page navigation example">
-			<ul class="pagination justify-content-center">
-				<li class="page-item"><a class="page-link" href="#"
-					aria-label="Previous" tabindex="-1"> <span aria-hidden="true">&laquo;</span>
-						<span class="sr-only">Previous</span></a></li>
-				<li class="page-item active"><a class="page-link"
-					href="index.jsp">1</a></li>
-				<li class="page-item"><a class="page-link" href="#">2</a></li>
-				<li class="page-item"><a class="page-link" href="#">3</a></li>
-				<li class="page-item"><a class="page-link" href="#"
-					aria-label="Next"> <span aria-hidden="true">&raquo;</span> <span
-						class="sr-only">Next</span>
-				</a></li>
-			</ul>
-		</nav>
 	</div>
+	<br>
+	<br>
+	<nav aria-label="Page navigation example">
+		<ul class="pagination justify-content-center">
+			<li class="page-item"><a class="page-link" href="#"
+				aria-label="Previous" tabindex="-1"> <span aria-hidden="true">&laquo;</span>
+					<span class="sr-only">Previous</span></a></li>
+			<li class="page-item active"><a class="page-link"
+				href="index.jsp">1</a></li>
+			<li class="page-item"><a class="page-link" href="#">2</a></li>
+			<li class="page-item"><a class="page-link" href="#">3</a></li>
+			<li class="page-item"><a class="page-link" href="#"
+				aria-label="Next"> <span aria-hidden="true">&raquo;</span> <span
+					class="sr-only">Next</span>
+			</a></li>
+		</ul>
+	</nav>
+	<br>
 	<footer class="page-footer font-small unique-color-dark"
 		style="background-color: #555;">
 		<div style="background-color: #f0ad4e;">
