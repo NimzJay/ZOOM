@@ -24,11 +24,12 @@
 
 <script type="text/javascript"
 	src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-	
+
 <script type="text/javascript">
 	function googleTranslateElementInit() {
 		new google.translate.TranslateElement({
-			pageLanguage : 'en', includedLanguages: 'en,si,ta',
+			pageLanguage : 'en',
+			includedLanguages : 'en,si,ta',
 			layout : google.translate.TranslateElement.InlineLayout.SIMPLE
 		}, 'google_translate_element');
 	}
@@ -37,11 +38,10 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-xl bg-dark navbar-dark sticky-top"
-		style="border-bottom: 1px; border-color: white;">
-		<a class="navbar-brand" href="index.jsp"> <img
-			src="pix/logo.png" width="100" height="35"
-			class="d-inline-block align-top" alt=""> &nbsp | <span>Subtitle
-				Portal</span>
+		style="border-bottom: 1px border-color: white">
+		<a class="navbar-brand" href="index.jsp"> <img src="pix/logo.png"
+			width="100" height="35" class="d-inline-block align-top" alt="">
+			&nbsp; | <span>Subtitle Portal</span>
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#collapsibleNavbar">
@@ -49,22 +49,26 @@
 		</button>
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a class="nav-link" href="#">Summary &nbsp</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Summary
+						&nbsp;</a></li>
 				<li class="nav-item dropdown"><a
 					class="nav-link dropdown-toggle" href="#"
 					id="navbarDropdownMenuLink" data-toggle="dropdown"
-					aria-haspopup="true" aria-expanded="false"> Download &nbsp</a>
+					aria-haspopup="true" aria-expanded="false"> Downloads &nbsp;</a>
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 						<li><a class="dropdown-item" href="#">All Subtitles</a></li>
-						<li><a class="dropdown-item" href="NewReleaseSub.jsp">New Subtitles</a></li>
-						<li><a class="dropdown-item" href="#">Upcoming Subtitles</a>		
-					</ul>
-				</li>
-				<li class="nav-item"><a class="nav-link" href="#">About Us
-						&nbsp</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">FAQ &nbsp</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Help &nbsp </a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Settings &nbsp &nbsp &nbsp</a></li>
+						<li><a class="dropdown-item" href="NewReleases.jsp">New
+								Subtitles</a></li>
+						<li><a class="dropdown-item" href="#">Upcoming Movies</a>
+					</ul></li>
+				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About Us
+						&nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">FAQ
+						&nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Help
+						&nbsp; </a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Settings
+						&nbsp; &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
 						<input class="form-control" type="text" placeholder="Search"
@@ -72,8 +76,9 @@
 							class="fas fa-search text-white ml-2" aria-hidden="true"></i>
 					</form>
 				</li>
-				<li class="nav-item">&nbsp &nbsp &nbsp<a class="btn btn-primary"
-					href="Login.jsp"> Log in </a>&nbsp &nbsp</li>
+				<li class="nav-item">&nbsp; &nbsp; &nbsp;<a
+					class="btn btn-primary" href="Login.jsp"> Log in </a>&nbsp; &nbsp;
+				</li>
 				<li class="nav-item"><a class="btn btn-primary"
 					href="Register.jsp"> Register </a></li>
 			</ul>
@@ -86,7 +91,8 @@
 				<li class="breadcrumb-item active" aria-current="page">Register</li>
 			</ol>
 		</nav>
-		<a class="float-right" id="google_translate_element"></a><br><br>
+		<a class="float-right" id="google_translate_element"></a><br>
+		<br>
 		<div class="wrapper register">
 			<div class="row">
 				<div class="col-5" style="padding-left: 110px;">
@@ -153,9 +159,11 @@
 							</div>
 							<br>
 							<p>
-								Already Registered? &nbsp<a href="Login.jsp">Log in</a>
+								Already Registered? &nbsp;<a href="Login.jsp">Log in</a>
 							</p>
-							<br><br><br>
+							<br>
+							<br>
+							<br>
 						</div>
 					</form>
 				</div>
@@ -207,7 +215,7 @@
 			<br> <a href="index.jsp"
 				style="color: #eee; text-decoration: none;"> <img
 				src="pix/logo.png" width="120px" height="45px">
-			</a><br> Copyright © 2019 &nbsp - &nbsp All rights reserved. <br>
+			</a><br> Copyright © 2019 &nbsp; - &nbsp; All rights reserved. <br>
 			<br>
 		</div>
 	</footer>

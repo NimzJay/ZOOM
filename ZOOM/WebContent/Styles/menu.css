@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";
+.menu{
+	background-color: white;
+}
+.menu nav-link{
+	color: black;
+}
+
+.menu nav-link :hover{
+	color: #404040;
+}
