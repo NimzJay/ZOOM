@@ -61,7 +61,7 @@
 								Subtitles</a></li>
 						<li><a class="dropdown-item" href="#">Upcoming Movies</a>
 					</ul></li>
-				<li class="nav-item"><a class="nav-link" href="#">About Us
+				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About Us
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">FAQ
 						&nbsp;</a></li>

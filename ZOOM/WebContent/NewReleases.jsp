@@ -61,7 +61,7 @@
 								Subtitles</a></li>
 						<li><a class="dropdown-item" href="#">Upcoming Movies</a>
 					</ul></li>
-				<li class="nav-item"><a class="nav-link" href="#">About Us
+				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About Us
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">FAQ
 						&nbsp;</a></li>
@@ -95,7 +95,7 @@
 					<ul class="nav flex-column">
 						<li class="nav-item"><a class="nav-link" href="#">All Subtitles</a></li>
 						<li class="nav-item "><a class="nav-link" href="#">Upcoming Subtitles</a></li>
-						<li class="nav-item"><a class="nav-link active" href="NewReleases.jsp">New Releases</a></li>
+						<li class="nav-item active"><a class="nav-link" href="NewReleases.jsp">Newly Released Subtitles</a></li>
 
 					</ul><hr>
 					<p>Category by Genre</p>
