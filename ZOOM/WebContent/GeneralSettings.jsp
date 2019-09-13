@@ -27,7 +27,8 @@
 <script type="text/javascript">
 	function googleTranslateElementInit() {
 		new google.translate.TranslateElement({
-			pageLanguage : 'en', includedLanguages: 'en,si,ta',
+			pageLanguage : 'en',
+			includedLanguages : 'en,si,ta',
 			layout : google.translate.TranslateElement.InlineLayout.SIMPLE
 		}, 'google_translate_element');
 	}
@@ -36,7 +37,8 @@
 </head>
 <body>
 	<!-- Navigation Bar -->
-	<nav class="navbar navbar-expand-xl bg-dark navbar-dark sticky-top" style="border-bottom: 1px; border-color: white;">
+	<nav class="navbar navbar-expand-xl bg-dark navbar-dark sticky-top"
+		style="border-bottom: 1px; border-color: white;">
 		<a class="navbar-brand" href="index.jsp"> <img src="pix/logo.png"
 			width="100" height="35" class="d-inline-block align-top" alt="">
 			&nbsp | <span>Subtitle Portal</span>
@@ -55,16 +57,18 @@
 					aria-haspopup="true" aria-expanded="false"> Download &nbsp</a>
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 						<li><a class="dropdown-item" href="#">All Subtitles</a></li>
-						<li><a class="dropdown-item" href="NewReleaseSub.jsp">New Subtitles</a></li>
+						<li><a class="dropdown-item" href="NewReleaseSub.jsp">New
+								Subtitles</a></li>
 						<li><a class="dropdown-item" href="#">Upcoming Subtitles</a>
 					</ul></li>
-				<li class="nav-item"><a class="nav-link" href="#">About Us
+				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About
+						Us &nbsp</a></li>
+				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
 						&nbsp</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">FAQ &nbsp</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Help
 						&nbsp </a></li>
-				<li class="nav-item"><a class="nav-link" href="GeneralSettings.jsp">Settings
-						&nbsp &nbsp &nbsp</a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="GeneralSettings.jsp">Settings &nbsp &nbsp &nbsp</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
 						<input class="form-control" type="text" placeholder="Search"
@@ -73,30 +77,31 @@
 					</form>
 				</li>
 				<li class="nav-item">&nbsp &nbsp &nbsp<a
-					class="btn btn-primary" href="ProfileView.jsp"> Kaviya </a>&nbsp &nbsp
+					class="btn btn-primary" href="ProfileView.jsp"> Kaviya </a>&nbsp
+					&nbsp
 				</li>
 				<li class="nav-item"><a class="btn btn-primary"
 					href="index.jsp"> Log out </a></li>
 			</ul>
 		</div>
 	</nav>
-	
-<!-- Google Translator -->
+
+	<!-- Google Translator -->
 	<a class="float-right" id="google_translate_element"></a>
-	
+
 	<div class="container-fluid" style="margin: 20px; padding: 0px">
 		<div class="row">
-<!--Left Navigation Bar-->
+			<!--Left Navigation Bar-->
 			<div class="col-md-3 card align-items-center">
-				<br> <img src="pix/profile.jpg" class="rounded-circle" width="200px" height="200px">
-					 
-				<h2 style="font-size: 30px">Kavindu Mihiranga</h2><br> 
-				
-				<a class="btn btn-outline-primary active" href="#"
+				<br> <img src="pix/profile.jpg" class="rounded-circle"
+					width="200px" height="200px">
+
+				<h2 style="font-size: 30px">Kavindu Mihiranga</h2>
+				<br> <a class="btn btn-outline-primary active" href="#"
 					style="width: 250px;">General Settings</a><br>
 				<h3 style="font-size: 25px">Account Management</h3>
 
-				<a class="btn btn-outline-primary" href="#" style="width: 250px;">Edit
+				<a class="btn btn-outline-primary" href="EditEmailandPassword.jsp" style="width: 250px;">Edit
 					Password and Email</a><br> <a class="btn btn-outline-primary"
 					href="#" style="width: 250px;">Privacy Settings</a><br>
 
@@ -105,9 +110,9 @@
 				<a class="btn btn-outline-primary" href="#" style="width: 250px;">Terms
 					of Services</a><br> <a class="btn btn-outline-primary" href="#"
 					style="width: 250px;">Data Policy</a><br> <br>
-					
+
 			</div>
-			
+
 			<div class="col-md-8">
 				<div class="row">
 					<div class="col-md-12">
@@ -193,48 +198,51 @@
 							</div>
 						</form>
 					</div>
-					
+
 				</div>
 				<div class="row">
-						<div class="card col-md-6">
-							<h2>Favourites</h2>
-							<form">
-								<input type="checkbox" name="MOV1" value="MV">Movies<br>
-								<input type="checkbox" name="MOV2" value="TV">TV Series<br>
-								<input type="checkbox" name="MOV3" value="CM">Comedies<br>
-								<input type="checkbox" name="MOV4" value="TR">Tragedies<br>
-								<input type="checkbox" name="MOV5" value="CC" checked>Comic
-								Cons<br> <input class="btn btn-primary"
-									type="submit" value="Submit">
-							</form><br>
-						</div>
-						<div class="card col-md-6">
-							<h2>Languages</h2>
-							<form>
-								<input type="checkbox" name="LANG1" value="EN">English<br>
-								<input type="checkbox" name="LANG2" value="SIN">Sinhala<br>
-								<input type="checkbox" name="LANG3" value="TA">Tamil<br>
-								<input type="checkbox" name="LANG4" value="HIN">Hindi<br><br>
-								<input class="btn btn-primary" type="submit"
-									value="Submit">
-							</form><br>
-						</div>
-
+					<div class="card col-md-6">
+						<h2>Favourites</h2>
+						<form">
+							<input type="checkbox" name="MOV1" value="MV">Movies<br>
+							<input type="checkbox" name="MOV2" value="TV">TV Series<br>
+							<input type="checkbox" name="MOV3" value="CM">Comedies<br>
+							<input type="checkbox" name="MOV4" value="TR">Tragedies<br>
+							<input type="checkbox" name="MOV5" value="CC" checked>Comic
+							Cons<br> <input class="btn btn-primary" type="submit"
+								value="Submit">
+						</form>
+						<br>
 					</div>
+					<div class="card col-md-6">
+						<h2>Languages</h2>
+						<form>
+							<input type="checkbox" name="LANG1" value="EN">English<br>
+							<input type="checkbox" name="LANG2" value="SIN">Sinhala<br>
+							<input type="checkbox" name="LANG3" value="TA">Tamil<br>
+							<input type="checkbox" name="LANG4" value="HIN">Hindi<br>
+							<br> <input class="btn btn-primary" type="submit"
+								value="Submit">
+						</form>
+						<br>
+					</div>
+
+				</div>
 			</div>
 		</div>
 	</div>
 	<br>
 	<br>
 	<br>
-	
+
 	<!-- web site footer -->
 	<footer class="page-footer font-small unique-color-dark"
 		style="background-color: #555;">
 		<div style="background-color: #f0ad4e;">
 			<div class="container">
 				<div class="row py-3 d-flex align-items-center">
-					<div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+					<div
+						class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
 						<h6 class="mb-0">Get Connected with Us on Social Networks!</h6>
 					</div>
 					<div class="col-md-6 col-lg-7 text-center text-md-right">
@@ -247,10 +255,12 @@
 						</i>
 						</a>
 						<!-- Google +-->
-						<a class="gplus-ic"> <i class="fab fa-google-plus-g white-text mr-4"> </i>
+						<a class="gplus-ic"> <i
+							class="fab fa-google-plus-g white-text mr-4"> </i>
 						</a>
 						<!--Linkedin -->
-						<a class="li-ic"> <i class="fab fa-linkedin-in white-text mr-4"> </i>
+						<a class="li-ic"> <i
+							class="fab fa-linkedin-in white-text mr-4"> </i>
 						</a>
 						<!--Instagram-->
 						<a class="ins-ic"> <i class="fab fa-instagram white-text">
