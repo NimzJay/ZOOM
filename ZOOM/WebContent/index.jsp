@@ -116,11 +116,11 @@
 						<li><a class="dropdown-item" href="AllSubtitles.jsp">All Subtitles</a></li>
 						<li><a class="dropdown-item" href="NewReleases.jsp">New
 								Subtitles</a></li>
-						<li><a class="dropdown-item" href="#">Upcoming Movies</a>
+						<li><a class="dropdown-item" href="UpcomingMovies.jsp">Upcoming Movies</a>
 					</ul></li>
 				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About
 						Us &nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">FAQ
+				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Help
 						&nbsp; </a></li>
@@ -517,7 +517,7 @@
 			<br> <a href="index.jsp"
 				style="color: #eee; text-decoration: none;"> <img
 				src="pix/logo.png" width="120px" height="45px">
-			</a><br> Copyright © 2019 &nbsp; - &nbsp; All rights reserved. <br>
+			</a><br> Copyright Â© 2019 &nbsp; - &nbsp; All rights reserved. <br>
 			<br>
 		</div>
 	</footer>
