@@ -92,7 +92,7 @@
 					 
 				<h2 style="font-size: 30px">FirstName LastName</h2><br> 
 				
-				<a class="btn btn-outline-primary" href="#"
+				<a class="btn btn-outline-primary" href="GeneralSettings.jsp"
 					style="width: 250px;">General Settings</a><br>
 				<h3 style="font-size: 25px">Account Management</h3>
 
