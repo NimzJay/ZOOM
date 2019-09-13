@@ -63,7 +63,7 @@
 				<li class="nav-item"><a class="nav-link" href="#">FAQ &nbsp</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Help
 						&nbsp </a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Settings
+				<li class="nav-item"><a class="nav-link" href="GeneralSettings.jsp">Settings
 						&nbsp &nbsp &nbsp</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
