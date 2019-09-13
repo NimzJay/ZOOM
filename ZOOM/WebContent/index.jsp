@@ -126,8 +126,8 @@
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="GeneralSettings.jsp">Settings
-						&nbsp; &nbsp; &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="GeneralSettings.jsp">Settings &nbsp; &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
 						<input class="form-control" type="text" placeholder="Search"
@@ -204,18 +204,17 @@
 				</div>
 				<div class="col-sm-3">
 					<div class="card" style="width: 16rem;">
-						<img class="card-img-top" src="pix/dark2.jpg" alt="Movie Poster">
+						<img class="card-img-top" src="pix/dora.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
-								<b>Dark Phoenix</b>
+								<b>Dora and the Lost City of Gold</b>
 							</h5>
-							<p class="card-text">Jean Grey begins to develop incredible
-								powers that corrupt and turn her into a Dark Phoenix. Now the
-								X-Men will have to decide if the life of a team member is worth
-								more than all of humanity.</p>
+							<p class="card-text">Dora, a teenage explorer, leads her
+								friends on an adventure to save her parents and solve the
+								mystery behind a lost city of gold.</p>
 							<a href="Mov_DarkPhoenix.jsp" class="btn btn-primary">Download</a>
 							&nbsp; &nbsp; &nbsp; <a
-								href="https://www.imdb.com/title/tt6565702/?ref_=nv_sr_1?ref_=nv_sr_1"
+								href="https://www.imdb.com/title/tt7547410/?ref_=inth_ov_tt"
 								class="btn btn-warning">IMDB link</a>
 						</div>
 					</div>
@@ -275,17 +274,17 @@
 				</div>
 				<div class="col-sm-3">
 					<div class="card" style="width: 16rem;">
-						<img class="card-img-top" src="pix/z.jpg" alt="Movie Poster">
+						<img class="card-img-top" src="pix/spider.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
-								<b>Wonder Woman</b>
+								<b> Spider-Man: Far from Home </b>
 							</h5>
-							<p class="card-text">When a pilot crashes and tells of
-								conflict in the outside world, Diana, an Amazonian warrior in
-								training, leaves home to fight a war, discovering her full
-								powers and true destiny.</p>
+							<p class="card-text">Following the events of Avengers:
+								Endgame (2019), Spider-Man must step up to take on new threats
+								in a world that has changed forever.</p>
 							<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-							&nbsp; <a href="https://www.imdb.com/title/tt0451279/"
+							&nbsp; <a
+								href="https://www.imdb.com/title/tt6320628/?ref_=inth_ov_tt"
 								class="btn btn-warning">IMDB link</a>
 						</div>
 					</div>
@@ -295,67 +294,69 @@
 			<div class="row">
 				<div class="col-sm-3">
 					<div class="card" style="width: 16rem;">
-						<img class="card-img-top" src="pix/w.jpg" alt="Movie Poster">
+						<img class="card-img-top" src="pix/alita.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
-								<b>Deadpool 2</b>
+								<b>Alita: Battle Angel</b>
 							</h5>
-							<p class="card-text">Foul-mouthed mutant mercenary Wade
-								Wilson (AKA. Deadpool), brings together a team of fellow mutant
-								rogues to protect a young boy with supernatural abilities from
-								the brutal, time-traveling cyborg, Cable.</p>
+							<p class="card-text">A deactivated cyborg is revived, but
+								cannot remember anything of her past life and goes on a quest to
+								find out who she is.</p>
 							<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-							&nbsp; <a href="https://www.imdb.com/title/tt5463162/"
+							&nbsp; <a
+								href="https://www.imdb.com/title/tt0437086/?ref_=rvi_tt"
 								class="btn btn-warning">IMDB link</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-3">
 					<div class="card" style="width: 16rem;">
-						<img class="card-img-top" src="pix/hellboy.jpg" alt="Movie Poster">
+						<img class="card-img-top" src="pix/abo.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
-								<b>Hellboy</b>
+								<b>Abominable</b>
 							</h5>
-							<p class="card-text">Based on the graphic novels by Mike
-								Mignola, Hellboy, caught between the worlds of the supernatural
-								and human, battles an ancient sorceress bent on revenge.</p>
+							<p class="card-text">A magical Yeti must return to his
+								family.</p>
 							<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-							&nbsp; <a href="https://www.imdb.com/title/tt2274648/"
+							&nbsp; <a
+								href="https://www.imdb.com/title/tt6324278/?ref_=cs_ov_tt"
 								class="btn btn-warning">IMDB link</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-3">
 					<div class="card" style="width: 16rem;">
-						<img class="card-img-top" src="pix/z.jpg" alt="Movie Poster">
+						<img class="card-img-top" src="pix/joker.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
-								<b>Wonder Woman</b>
+								<b>Joker</b>
 							</h5>
-							<p class="card-text">When a pilot crashes and tells of
-								conflict in the outside world, Diana, an Amazonian warrior in
-								training, leaves home to fight a war, discovering her full
-								powers and true destiny.</p>
+							<p class="card-text">An original standalone origin story of
+								the iconic villain not seen before on the big screen, it's a
+								gritty character study of Arthur Fleck, a man disregarded by
+								society, and a broader cautionary tale.</p>
 							<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-							&nbsp; <a href="https://www.imdb.com/title/tt0451279/"
+							&nbsp; <a
+								href="https://www.imdb.com/title/tt7286456/?ref_=cs_ov_tt"
 								class="btn btn-warning">IMDB link</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-3">
 					<div class="card" style="width: 16rem;">
-						<img class="card-img-top" src="pix/z.jpg" alt="Movie Poster">
+						<img class="card-img-top" src="pix/mal.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
-								<b>Wonder Woman</b>
+								<b>Maleficent: Mistress of Evil</b>
 							</h5>
-							<p class="card-text">When a pilot crashes and tells of
-								conflict in the outside world, Diana, an Amazonian warrior in
-								training, leaves home to fight a war, discovering her full
-								powers and true destiny.</p>
+							<p class="card-text">Maleficent and her goddaughter Aurora
+								begin to question the complex family ties that bind them as they
+								are pulled in different directions by impending nuptials,
+								unexpected allies, and dark new forces at play.</p>
 							<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-							&nbsp; <a href="https://www.imdb.com/title/tt0451279/"
+							&nbsp; <a
+								href="https://www.imdb.com/title/tt4777008/?ref_=cs_ov_tt"
 								class="btn btn-warning">IMDB link</a>
 						</div>
 					</div>
