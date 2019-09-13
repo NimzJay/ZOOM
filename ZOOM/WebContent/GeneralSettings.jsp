@@ -267,7 +267,7 @@
 			<br> <a href="index.jsp"
 				style="color: #eee; text-decoration: none;"> <img
 				src="pix/logo.png" width="120px" height="45px">
-			</a><br> Copyright © 2019 &nbsp - &nbsp All rights reserved. <br>
+			</a><br> Copyright Â© 2019 &nbsp - &nbsp All rights reserved. <br>
 			<br>
 		</div>
 	</footer>

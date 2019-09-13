@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -59,15 +59,15 @@
 						<li><a class="dropdown-item" href="NewReleases.jsp">New
 								Subtitles</a></li>
 					</ul></li>
-				<li class="nav-item"><a class="nav-link" href="UpcomingMovies.jsp">Upcoming
-						Movies &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="UpcomingMovies.jsp">Upcoming Movies &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About
 						Us &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Settings
+				<li class="nav-item"><a class="nav-link" href="GeneralSettings.jsp">Settings
 						&nbsp; &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
@@ -84,5 +84,53 @@
 			</ul>
 		</div>
 	</nav>
+	
+	
+	
+	<footer class="page-footer font-small unique-color-dark"
+		style="background-color: #555;">
+		<div style="background-color: #f0ad4e;">
+			<div class="container">
+				<div class="row py-3 d-flex align-items-center">
+					<div
+						class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+						<h6 class="mb-0">Get Connected with Us on Social Networks!</h6>
+					</div>
+					<div class="col-md-6 col-lg-7 text-center text-md-right">
+						<!-- Facebook -->
+						<a class="fb-ic"> <i class="fab fa-facebook-f white-text mr-4">
+						</i>
+						</a>
+						<!-- Twitter -->
+						<a class="tw-ic"> <i class="fab fa-twitter white-text mr-4">
+						</i>
+						</a>
+						<!-- Google +-->
+						<a class="gplus-ic"> <i
+							class="fab fa-google-plus-g white-text mr-4"> </i>
+						</a>
+						<!--Linkedin -->
+						<a class="li-ic"> <i
+							class="fab fa-linkedin-in white-text mr-4"> </i>
+						</a>
+						<!--Instagram-->
+						<a class="ins-ic"> <i class="fab fa-instagram white-text">
+						</i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Copyright -->
+		<div class="footer-copyright text-center py-0.5"
+			style="color: #eee; background-color: #333;">
+			<br> <a href="index.jsp"
+				style="color: #eee; text-decoration: none;"> <img
+				src="pix/logo.png" width="120px" height="45px">
+			</a><br> Copyright © 2019 &nbsp; - &nbsp; All rights reserved. <br>
+			<br>
+		</div>
+	</footer>
 </body>
 </html>

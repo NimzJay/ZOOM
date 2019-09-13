@@ -126,7 +126,7 @@
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Settings
+				<li class="nav-item"><a class="nav-link" href="GeneralSettings.jsp">Settings
 						&nbsp; &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
@@ -275,7 +275,7 @@
 		</nav>
 	</div>
 
-	<footer class="page-footer font-small unique-color-dark"
+<footer class="page-footer font-small unique-color-dark"
 		style="background-color: #555;">
 		<div style="background-color: #f0ad4e;">
 			<div class="container">
@@ -340,17 +340,18 @@
 					<hr class="deep-purple accent-2 mb-4 mt-2 d-inline-block mx-auto"
 						style="width: 60px; border-color: #777;">
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">IMdB</a>
+						<a class="btn btn-outline-light btn-block"
+							href="https://www.imdb.com/">IMdB</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Downloads</a>
+						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Downloads</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Upcoming
+						<a class="btn btn-outline-light btn-block" href="UpcomingMovies.jsp">Upcoming
 							Subtitles</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Latest
+						<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">New
 							Subtitles</a>
 					</p>
 				</div>
@@ -369,11 +370,11 @@
 							Account</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Latest
+						<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">Latest
 							Subtitles</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Movie
+						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Movie
 							details</a>
 					</p>
 					<p>
@@ -413,7 +414,7 @@
 			<br> <a href="index.jsp"
 				style="color: #eee; text-decoration: none;"> <img
 				src="pix/logo.png" width="120px" height="45px">
-			</a><br> Copyright © 2019 &nbsp - &nbsp All rights reserved. <br>
+			</a><br> Copyright Â© 2019 &nbsp; - &nbsp; All rights reserved. <br>
 			<br>
 		</div>
 	</footer>
