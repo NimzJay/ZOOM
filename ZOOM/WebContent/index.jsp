@@ -113,13 +113,13 @@
 					id="navbarDropdownMenuLink" data-toggle="dropdown"
 					aria-haspopup="true" aria-expanded="false"> Downloads &nbsp;</a>
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<li><a class="dropdown-item" href="#">All Subtitles</a></li>
+						<li><a class="dropdown-item" href="AllSubtitles.jsp">All Subtitles</a></li>
 						<li><a class="dropdown-item" href="NewReleases.jsp">New
 								Subtitles</a></li>
 						<li><a class="dropdown-item" href="#">Upcoming Movies</a>
 					</ul></li>
-				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About Us
-						&nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About
+						Us &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">FAQ
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Help
@@ -148,11 +148,13 @@
 			<h1 class="display-4">Featured Subtitle</h1>
 			<br>
 			<div class="row">
-				<div class="col-sm-4">
-					<div class="card" style="width: 18rem;">
+				<div class="col-sm-3">
+					<div class="card" style="width: 16rem;">
 						<img class="card-img-top" src="pix/x.jpg" alt="Movie Poster">
 						<div class="card-body">
-							<h5 class="card-title"><b>Aladdin</b></h5>
+							<h5 class="card-title">
+								<b>Aladdin</b>
+							</h5>
 							<p class="card-text">A kind-hearted street urchin and a
 								power-hungry Grand Vizier vie for a magic lamp that has the
 								power to make their deepest wishes come true.</p>
@@ -163,11 +165,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-4">
-					<div class="card" style="width: 18rem;">
+				<div class="col-sm-3">
+					<div class="card" style="width: 16rem;">
 						<img class="card-img-top" src="pix/y.jpg" alt="Movie Poster">
 						<div class="card-body">
-							<h5 class="card-title"><b>The Lion King</b></h5>
+							<h5 class="card-title">
+								<b>The Lion King</b>
+							</h5>
 							<p class="card-text">After the murder of his father, a young
 								lion prince flees his kingdom only to learn the true meaning of
 								responsibility and bravery.</p>
@@ -178,11 +182,31 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-4">
-					<div class="card" style="width: 18rem;">
+				<div class="col-sm-3">
+					<div class="card" style="width: 16rem;">
 						<img class="card-img-top" src="pix/dark2.jpg" alt="Movie Poster">
 						<div class="card-body">
-							<h5 class="card-title"><b>Dark Phoenix</b></h5>
+							<h5 class="card-title">
+								<b>Dark Phoenix</b>
+							</h5>
+							<p class="card-text">Jean Grey begins to develop incredible
+								powers that corrupt and turn her into a Dark Phoenix. Now the
+								X-Men will have to decide if the life of a team member is worth
+								more than all of humanity.</p>
+							<a href="Mov_DarkPhoenix.jsp" class="btn btn-primary">Download</a>
+							&nbsp; &nbsp; &nbsp; <a
+								href="https://www.imdb.com/title/tt6565702/?ref_=nv_sr_1?ref_=nv_sr_1"
+								class="btn btn-warning">IMDB link</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card" style="width: 16rem;">
+						<img class="card-img-top" src="pix/dark2.jpg" alt="Movie Poster">
+						<div class="card-body">
+							<h5 class="card-title">
+								<b>Dark Phoenix</b>
+							</h5>
 							<p class="card-text">Jean Grey begins to develop incredible
 								powers that corrupt and turn her into a Dark Phoenix. Now the
 								X-Men will have to decide if the life of a team member is worth
@@ -197,11 +221,13 @@
 			</div>
 			<br>
 			<div class="row">
-				<div class="col-sm-4">
-					<div class="card" style="width: 18rem;">
+				<div class="col-sm-3">
+					<div class="card" style="width: 16rem;">
 						<img class="card-img-top" src="pix/w.jpg" alt="Movie Poster">
 						<div class="card-body">
-							<h5 class="card-title"><b>Deadpool 2</b></h5>
+							<h5 class="card-title">
+								<b>Deadpool 2</b>
+							</h5>
 							<p class="card-text">Foul-mouthed mutant mercenary Wade
 								Wilson (AKA. Deadpool), brings together a team of fellow mutant
 								rogues to protect a young boy with supernatural abilities from
@@ -212,11 +238,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-4">
-					<div class="card" style="width: 18rem;">
+				<div class="col-sm-3">
+					<div class="card" style="width: 16rem;">
 						<img class="card-img-top" src="pix/hellboy.jpg" alt="Movie Poster">
 						<div class="card-body">
-							<h5 class="card-title"><b>Hellboy</b></h5>
+							<h5 class="card-title">
+								<b>Hellboy</b>
+							</h5>
 							<p class="card-text">Based on the graphic novels by Mike
 								Mignola, Hellboy, caught between the worlds of the supernatural
 								and human, battles an ancient sorceress bent on revenge.</p>
@@ -226,11 +254,100 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-4">
-					<div class="card" style="width: 18rem;">
+				<div class="col-sm-3">
+					<div class="card" style="width: 16rem;">
 						<img class="card-img-top" src="pix/z.jpg" alt="Movie Poster">
 						<div class="card-body">
-							<h5 class="card-title"><b>Wonder Woman</b></h5>
+							<h5 class="card-title">
+								<b>Wonder Woman</b>
+							</h5>
+							<p class="card-text">When a pilot crashes and tells of
+								conflict in the outside world, Diana, an Amazonian warrior in
+								training, leaves home to fight a war, discovering her full
+								powers and true destiny.</p>
+							<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+							&nbsp; <a href="https://www.imdb.com/title/tt0451279/"
+								class="btn btn-warning">IMDB link</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card" style="width: 16rem;">
+						<img class="card-img-top" src="pix/z.jpg" alt="Movie Poster">
+						<div class="card-body">
+							<h5 class="card-title">
+								<b>Wonder Woman</b>
+							</h5>
+							<p class="card-text">When a pilot crashes and tells of
+								conflict in the outside world, Diana, an Amazonian warrior in
+								training, leaves home to fight a war, discovering her full
+								powers and true destiny.</p>
+							<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+							&nbsp; <a href="https://www.imdb.com/title/tt0451279/"
+								class="btn btn-warning">IMDB link</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="card" style="width: 16rem;">
+						<img class="card-img-top" src="pix/w.jpg" alt="Movie Poster">
+						<div class="card-body">
+							<h5 class="card-title">
+								<b>Deadpool 2</b>
+							</h5>
+							<p class="card-text">Foul-mouthed mutant mercenary Wade
+								Wilson (AKA. Deadpool), brings together a team of fellow mutant
+								rogues to protect a young boy with supernatural abilities from
+								the brutal, time-traveling cyborg, Cable.</p>
+							<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+							&nbsp; <a href="https://www.imdb.com/title/tt5463162/"
+								class="btn btn-warning">IMDB link</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card" style="width: 16rem;">
+						<img class="card-img-top" src="pix/hellboy.jpg" alt="Movie Poster">
+						<div class="card-body">
+							<h5 class="card-title">
+								<b>Hellboy</b>
+							</h5>
+							<p class="card-text">Based on the graphic novels by Mike
+								Mignola, Hellboy, caught between the worlds of the supernatural
+								and human, battles an ancient sorceress bent on revenge.</p>
+							<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+							&nbsp; <a href="https://www.imdb.com/title/tt2274648/"
+								class="btn btn-warning">IMDB link</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card" style="width: 16rem;">
+						<img class="card-img-top" src="pix/z.jpg" alt="Movie Poster">
+						<div class="card-body">
+							<h5 class="card-title">
+								<b>Wonder Woman</b>
+							</h5>
+							<p class="card-text">When a pilot crashes and tells of
+								conflict in the outside world, Diana, an Amazonian warrior in
+								training, leaves home to fight a war, discovering her full
+								powers and true destiny.</p>
+							<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+							&nbsp; <a href="https://www.imdb.com/title/tt0451279/"
+								class="btn btn-warning">IMDB link</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card" style="width: 16rem;">
+						<img class="card-img-top" src="pix/z.jpg" alt="Movie Poster">
+						<div class="card-body">
+							<h5 class="card-title">
+								<b>Wonder Woman</b>
+							</h5>
 							<p class="card-text">When a pilot crashes and tells of
 								conflict in the outside world, Diana, an Amazonian warrior in
 								training, leaves home to fight a war, discovering her full
@@ -330,7 +447,7 @@
 							href="https://www.imdb.com/">IMdB</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Downloads</a>
+						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Downloads</a>
 					</p>
 					<p>
 						<a class="btn btn-outline-light btn-block" href="#!">Upcoming
@@ -356,11 +473,11 @@
 							Account</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Latest
+						<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">Latest
 							Subtitles</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Movie
+						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Movie
 							details</a>
 					</p>
 					<p>

@@ -1,11 +1,18 @@
 @charset "ISO-8859-1";
-.menu{
-	background-color: white;
+
+.content{
+	padding-left: 100px;
 }
-.menu nav-link{
+.menu{
+	background-color: #FFFACD;
+	padding-left: 250px;
+}
+.menu-link{
 	color: black;
+	text-decoration: none;
 }
 
-.menu nav-link :hover{
+.menu-link :hover{
 	color: #404040;
+	text-decoration: none;
 }
