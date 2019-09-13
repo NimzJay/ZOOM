@@ -118,8 +118,8 @@
 						<li><a class="dropdown-item" href="NewReleases.jsp">New
 								Subtitles</a></li>
 					</ul></li>
-				<li class="nav-item"><a class="nav-link" href="UpcomingMovies.jsp">Upcoming
-						Movies &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="UpcomingMovies.jsp">Upcoming Movies &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About
 						Us &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
@@ -452,8 +452,8 @@
 						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Downloads</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Upcoming
-							Subtitles</a>
+						<a class="btn btn-outline-light btn-block"
+							href="UpcomingMovies.jsp">Upcoming Subtitles</a>
 					</p>
 					<p>
 						<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">New
