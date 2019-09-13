@@ -125,6 +125,9 @@
 				<li class="nav-item"><a class="nav-link" href="#">About Us
 						&nbsp</a></li>
 
+				<li class="nav-item"><a class="nav-link"
+					href="http://localhost:8082/ZOOM/FAQ.jsp">FAQ &nbsp</a></li>
+
 				<li class="nav-item"><a class="nav-link" href="#">Help
 						&nbsp </a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Settings
