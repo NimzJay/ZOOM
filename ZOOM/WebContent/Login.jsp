@@ -56,7 +56,7 @@
 					id="navbarDropdownMenuLink" data-toggle="dropdown"
 					aria-haspopup="true" aria-expanded="false"> Downloads &nbsp;</a>
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<li><a class="dropdown-item" href="#">All Subtitles</a></li>
+						<li><a class="dropdown-item" href="AllSubtitles.jsp">All Subtitles</a></li>
 						<li><a class="dropdown-item" href="NewReleases.jsp">New
 								Subtitles</a></li>
 						<li><a class="dropdown-item" href="#">Upcoming Movies</a>

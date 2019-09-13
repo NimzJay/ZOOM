@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>New Releases | Zoom.lk</title>
+<title>All Subtitles | Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
 <link rel="stylesheet" type="text/css" href="Styles/menu.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">
@@ -56,8 +56,7 @@
 					id="navbarDropdownMenuLink" data-toggle="dropdown"
 					aria-haspopup="true" aria-expanded="false"> Downloads &nbsp;</a>
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<li><a class="dropdown-item" href="AllSubtitles.jsp">All
-								Subtitles</a></li>
+						<li><a class="dropdown-item" href="AllSubtitles.jsp">All Subtitles</a></li>
 						<li><a class="dropdown-item" href="NewReleases.jsp">New
 								Subtitles</a></li>
 						<li><a class="dropdown-item" href="#">Upcoming Movies</a>
@@ -88,48 +87,46 @@
 	</nav>
 	<a class="float-right" id="google_translate_element"></a>
 
-	<div class="content">
+	<div>
 		<div class="row">
 			<div class="col-md-3">
-				<div class="menu">
+				<div class="menu container">
 					<br>
 					<h2>Categories</h2>
 					<hr>
 					<p>Filter by Type</p>
 					<ul class="nav flex-column">
-						<li><a class="menu-link" href="AllSubtitles.jsp">All Subtitles</a></li>
-						<li><a class="menu-link" href="#">Upcoming Subtitles</a></li>
-						<li><a class="menu-link" href="NewReleases.jsp">Newly
-								Released Subtitles</a></li>
-
+						<li class="nav-item active"><a class="nav-link" href="AllSubtitles.jsp">All Subtitles</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Upcoming Subtitles</a></li>
+						<li class="nav-item"><a class="nav-link" href="NewReleases.jsp">Newly Released Subtitles</a></li>
 					</ul>
 					<hr>
 					<p>Filter by Genre</p>
 					<ul class="nav flex-column">
-						<li><a class="menu-link" href="#">Adventure</a></li>
-						<li><a class="menu-link" href="#">Detective</a></li>
-						<li><a class="menu-link" href="#">Horror</a></li>
-						<li><a class="menu-link" href="#">Romance</a></li>
-						<li><a class="menu-link" href="#">TV Series</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Adventure</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Detective</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Horror</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Romance</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">TV
+								Series</a></li>
 					</ul>
 					<hr>
 					<p>Filter by Year</p>
 					<ul class="nav flex-column">
-						<li><a class="menu-link" href="#">2019</a></li>
-						<li><a class="menu-link" href="#">2018</a></li>
-						<li><a class="menu-link" href="#">2017</a></li>
-						<li><a class="menu-link" href="#">2016</a></li>
-						<li><a class="menu-link" href="#">2015</a></li>
-
+						<li class="nav-item"><a class="nav-link" href="#">2019</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">2018</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">2017</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">2016</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">2015</a></li>
 					</ul>
 					<hr>
 					<p>Filter by Language</p>
 					<ul class="nav flex-column">
-						<li><a class="menu-link" href="#">English</a></li>
-						<li><a class="menu-link" href="#">Sinhala</a></li>
-						<li><a class="menu-link" href="#">Tamil</a></li>
-						<li><a class="menu-link" href="#">French</a></li>
-						<li><a class="menu-link" href="#">Spanish</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">English</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Sinhala</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Tamil</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">French</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Spanish</a></li>
 					</ul>
 					<br>
 				</div>
@@ -137,7 +134,7 @@
 			<div class="col-md-9">
 				<div class="container">
 					<br>
-					<h1 class="display-4">Newly Released Subtitles</h1>
+					<h1 class="display-4">All Subtitles</h1>
 					<br>
 					<div class="row">
 						<div class="col-sm-4">
