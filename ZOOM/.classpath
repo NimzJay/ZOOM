@@ -37,7 +37,7 @@
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jasper-el.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jasper.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jaspic-api.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/servlet-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/servlet-api.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat-api.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat-coyote.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat-dbcp.jar"/>
