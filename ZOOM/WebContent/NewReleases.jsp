@@ -51,7 +51,7 @@
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item"><a class="nav-link" href="#">Summary
 						&nbsp;</a></li>
-				<li class="nav-item dropdown active"><a
+				<li class="nav-item dropdown"><a
 					class="nav-link dropdown-toggle" href="#"
 					id="navbarDropdownMenuLink" data-toggle="dropdown"
 					aria-haspopup="true" aria-expanded="false"> Downloads &nbsp;</a>
@@ -60,11 +60,12 @@
 								Subtitles</a></li>
 						<li><a class="dropdown-item" href="NewReleases.jsp">New
 								Subtitles</a></li>
-						<li><a class="dropdown-item" href="#">Upcoming Movies</a>
 					</ul></li>
+				<li class="nav-item"><a class="nav-link" href="UpcomingMovies.jsp">Upcoming
+						Movies &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About
 						Us &nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">FAQ
+				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Help
 						&nbsp; </a></li>
@@ -74,8 +75,7 @@
 					<form class="form-inline mr-auto">
 						<input class="form-control" type="text" placeholder="Search"
 							aria-label="Search"> <i
-							class="fas fa-search text-white ml-2 form-inline"
-							aria-hidden="true"></i>
+							class="fas fa-search text-white ml-2" aria-hidden="true"></i>
 					</form>
 				</li>
 				<li class="nav-item">&nbsp; &nbsp; &nbsp;<a
