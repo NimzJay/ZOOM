@@ -94,7 +94,7 @@
 		<div class="row">
 			<!--Left Navigation Bar-->
 			<div class="col-md-3 card align-items-center">
-				<br> <img src="pix/profile.jpg" class="rounded-circle"
+				<br> <img src="pix/avatar2.jpg" class="rounded-circle"
 					width="200px" height="200px">
 
 				<h2 style="font-size: 30px">Kavindu Mihiranga</h2>
@@ -102,9 +102,10 @@
 					style="width: 250px;">General Settings</a><br>
 				<h3 style="font-size: 25px">Account Management</h3>
 
-				<a class="btn btn-outline-primary" href="EditEmailandPassword.jsp" style="width: 250px;">Edit
-					Password and Email</a><br> <a class="btn btn-outline-primary"
-					href="#" style="width: 250px;">Privacy Settings</a><br>
+				<a class="btn btn-outline-primary" href="EditEmailandPassword.jsp"
+					style="width: 250px;">Edit Password and Email</a><br> <a
+					class="btn btn-outline-primary" href="#" style="width: 250px;">Privacy
+					Settings</a><br>
 
 				<h3 style="font-size: 25px">Legal Policies</h3>
 
@@ -116,37 +117,37 @@
 
 			<div class="col-md-8">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-5">
 						<form class="form-horizontal" role="form" style="color: #010101">
 							<h2>Personal Information</h2>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="firstName"
-									class="col-md-2 col-form-label">First Name</label>
-								<div class="col-md-4">
+									class="col-md-3 col-form-label">First Name</label>
+								<div class="col-md-8">
 									<input type="text" class="form-control" id="firstName"
 										placeholder="First Name">
 								</div>
 							</div>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="lastname"
-									class="col-md-2 col-form-label">Last Name</label>
-								<div class="col-sm-4">
+									class="col-md-3 col-form-label">Last Name</label>
+								<div class="col-sm-8">
 									<input type="text" class="form-control" id="lastname"
 										placeholder="Last Name">
 								</div>
 							</div>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="username"
-									class="col-md-2 col-form-label">User Name*</label>
-								<div class="col-sm-4">
+									class="col-md-3 col-form-label">Username*</label>
+								<div class="col-sm-8">
 									<input type="text" class="form-control" id="username"
 										placeholder="username">
 								</div>
 							</div>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="displayname"
-									class="col-md-2 col-form-label">Display Name*</label>
-								<div class="col-md-4">
+									class="col-md-3 col-form-label">Display Name*</label>
+								<div class="col-md-8">
 									<input type="text" class="form-control" id="displayname"
 										placeholder="Password">
 								</div>
@@ -166,24 +167,24 @@
 							<h2>Contact Information</h2>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="email"
-									class="col-sm-2 col-form-label">Email</label>
-								<div class="col-sm-4">
+									class="col-sm-3 col-form-label">Email</label>
+								<div class="col-sm-8">
 									<input type="text" class="form-control" id="email"
 										placeholder="Email">
 								</div>
 							</div>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="website"
-									class="col-sm-2 col-form-label">Web Site</label>
-								<div class="col-sm-4">
+									class="col-sm-3 col-form-label">Web Site</label>
+								<div class="col-sm-8">
 									<input type="text" class="form-control" id="website"
 										placeholder="Web site">
 								</div>
 							</div>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="Aboutyourself"
-									class="col-sm-2 col-form-label">About yourself</label>
-								<div class="col-sm-4">
+									class="col-sm-3 col-form-label">About yourself</label>
+								<div class="col-sm-8">
 									<textarea class="form-control rounded-0" id="Aboutyourself"
 										rows="3" placeholder="discribe yourself"></textarea>
 								</div>
@@ -199,7 +200,10 @@
 							</div>
 						</form>
 					</div>
-
+					<div class="col-md-7">
+						<img class="img-fluid" src="pix/m5.png" height="600px"
+							align="right">
+					</div>
 				</div>
 				<div class="row">
 					<div class="card col-md-6">
