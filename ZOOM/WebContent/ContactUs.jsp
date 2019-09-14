@@ -56,19 +56,21 @@
 					id="navbarDropdownMenuLink" data-toggle="dropdown"
 					aria-haspopup="true" aria-expanded="false"> Downloads &nbsp;</a>
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<li><a class="dropdown-item" href="AllSubtitles.jsp">All Subtitles</a></li>
+						<li><a class="dropdown-item" href="AllSubtitles.jsp">All
+								Subtitles</a></li>
 						<li><a class="dropdown-item" href="NewReleases.jsp">New
 								Subtitles</a></li>
-						<li><a class="dropdown-item" href="#">Upcoming Movies</a>
 					</ul></li>
-				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About Us
+				<li class="nav-item"><a class="nav-link"
+					href="UpcomingMovies.jsp">Upcoming Movies &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About
+						Us &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
 						&nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">FAQ
-						&nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Help
+				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Settings
-						&nbsp; &nbsp; &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="GeneralSettings.jsp">Settings &nbsp; &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
 						<input class="form-control" type="text" placeholder="Search"
@@ -76,7 +78,7 @@
 							class="fas fa-search text-white ml-2" aria-hidden="true"></i>
 					</form>
 				</li>
-				<li class="nav-item">&nbsp; &nbsp;&nbsp;<a
+				<li class="nav-item">&nbsp; &nbsp; &nbsp;<a
 					class="btn btn-primary" href="Login.jsp"> Log in </a>&nbsp; &nbsp;
 				</li>
 				<li class="nav-item"><a class="btn btn-primary"
@@ -87,16 +89,15 @@
 	<div class="main">
 		<nav aria-label="breadcrumb">
 			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
 				<li class="breadcrumb-item"><a href="AboutUs.jsp">AboutUs</a></li>
 				<li class="breadcrumb-item active" aria-current="page">Contact Us</li>
 			</ol>
 		</nav>
-		<a class="float-right" id="google_translate_element"></a><br>
-		<br>
 		<div class="wrapper cont">
+		<a class="float-right" id="google_translate_element"></a><br>
 			<div class="row">
 				<div class="col-5" style="padding-left: 110px;">
-					<br>
 					<h1 class="display-4">Contact Us</h1>
 					<h2>Your Details</h2>
 					<form>
@@ -123,8 +124,8 @@
 						<div class="form-row">
 							<div class="form-group col-md-12">
 								<label for="Message">Your Message</label>
-								<div class="col-sm-12">
-									<textarea class="form-control rounded-0" id="message"
+								<div class="col-md-12">
+									<textarea class="form-control rounded-0 col-md-12" id="message"
 										rows="3" placeholder="write message"></textarea>
 								</div>
 							</div>

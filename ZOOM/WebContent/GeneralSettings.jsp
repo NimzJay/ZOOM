@@ -41,7 +41,7 @@
 		style="border-bottom: 1px; border-color: white;">
 		<a class="navbar-brand" href="index.jsp"> <img src="pix/logo.png"
 			width="100" height="35" class="d-inline-block align-top" alt="">
-			&nbsp | <span>Subtitle Portal</span>
+			&nbsp; | <span>Subtitle Portal</span>
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#collapsibleNavbar">
@@ -50,25 +50,27 @@
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item"><a class="nav-link" href="#">Summary
-						&nbsp</a></li>
+						&nbsp;</a></li>
 				<li class="nav-item dropdown"><a
 					class="nav-link dropdown-toggle" href="#"
 					id="navbarDropdownMenuLink" data-toggle="dropdown"
-					aria-haspopup="true" aria-expanded="false"> Download &nbsp</a>
+					aria-haspopup="true" aria-expanded="false"> Downloads &nbsp;</a>
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<li><a class="dropdown-item" href="#">All Subtitles</a></li>
-						<li><a class="dropdown-item" href="NewReleaseSub.jsp">New
+						<li><a class="dropdown-item" href="AllSubtitles.jsp">All
 								Subtitles</a></li>
-						<li><a class="dropdown-item" href="#">Upcoming Subtitles</a>
+						<li><a class="dropdown-item" href="NewReleases.jsp">New
+								Subtitles</a></li>
 					</ul></li>
-				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About
-						Us &nbsp</a></li>
-				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
-						&nbsp</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Help
-						&nbsp </a></li>
 				<li class="nav-item"><a class="nav-link"
-					href="GeneralSettings.jsp">Settings &nbsp &nbsp &nbsp</a></li>
+					href="UpcomingMovies.jsp">Upcoming Movies &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About
+						Us &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
+						&nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
+						&nbsp; </a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="GeneralSettings.jsp">Settings &nbsp; &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
 						<input class="form-control" type="text" placeholder="Search"
@@ -76,12 +78,11 @@
 							class="fas fa-search text-white ml-2" aria-hidden="true"></i>
 					</form>
 				</li>
-				<li class="nav-item">&nbsp &nbsp &nbsp<a
-					class="btn btn-primary" href="ProfileView.jsp"> Kaviya </a>&nbsp
-					&nbsp
+				<li class="nav-item">&nbsp; &nbsp; &nbsp;<a
+					class="btn btn-primary" href="Login.jsp"> Log in </a>&nbsp; &nbsp;
 				</li>
 				<li class="nav-item"><a class="btn btn-primary"
-					href="index.jsp"> Log out </a></li>
+					href="Register.jsp"> Register </a></li>
 			</ul>
 		</div>
 	</nav>
@@ -115,7 +116,7 @@
 
 			<div class="col-md-8">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-6">
 						<form class="form-horizontal" role="form" style="color: #010101">
 							<h2>Personal Information</h2>
 							<div class="form-group row">

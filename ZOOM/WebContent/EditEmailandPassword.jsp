@@ -54,14 +54,13 @@
 					id="navbarDropdownMenuLink" data-toggle="dropdown"
 					aria-haspopup="true" aria-expanded="false"> Download &nbsp</a>
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<li><a class="dropdown-item" href="#">All Subtitles</a></li>
+						<li><a class="dropdown-item" href="AllSubtitles.jsp">All Subtitles</a></li>
 						<li><a class="dropdown-item" href="NewReleaseSub.jsp">New Subtitles</a></li>
-						<li><a class="dropdown-item" href="#">Upcoming Subtitles</a>
 					</ul></li>
 				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About Us
 						&nbsp</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">FAQ &nbsp</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Help
+				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ &nbsp</a></li>
+				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp </a></li>
 				<li class="nav-item"><a class="nav-link" href="GeneralSettings.jsp">Settings
 						&nbsp &nbsp &nbsp</a></li>

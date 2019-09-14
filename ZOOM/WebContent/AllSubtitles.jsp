@@ -67,7 +67,7 @@
 						Us &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
 						&nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Help
+				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
 				<li class="nav-item"><a class="nav-link" href="GeneralSettings.jsp">Settings
 						&nbsp; &nbsp; &nbsp;</a></li>
@@ -359,7 +359,7 @@
 					<hr class="deep-purple accent-2 mb-4 mt-2 d-inline-block mx-auto"
 						style="width: 80px; border-color: #777;">
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Your
+						<a class="btn btn-outline-light btn-block" href="ProfileView.jsp">Your
 							Account</a>
 					</p>
 					<p>
@@ -371,7 +371,7 @@
 							details</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Help</a>
+						<a class="btn btn-outline-light btn-block" href="Help.jsp">Help</a>
 					</p>
 				</div>
 
