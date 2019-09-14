@@ -67,7 +67,7 @@
 						Us &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
 						&nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Help
+				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
 				<li class="nav-item"><a class="nav-link" href="GeneralSettings.jsp">Settings
 						&nbsp; &nbsp; &nbsp;</a></li>
