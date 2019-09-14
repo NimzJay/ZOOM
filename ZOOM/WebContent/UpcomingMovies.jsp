@@ -118,6 +118,7 @@
 						<li><a class="dropdown-item" href="NewReleases.jsp">New
 								Subtitles</a></li>
 					</ul></li>
+
 				<li class="nav-item"><a class="nav-link" href="UpcomingMovies.jsp">Upcoming
 						Movies &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About
