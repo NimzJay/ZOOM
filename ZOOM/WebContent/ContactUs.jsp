@@ -4,8 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Dark Phoenix | Zoom.lk</title>
+<title>Contact Us | Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
+<link rel="stylesheet" type="text/css" href="Styles/loginRegister.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
@@ -33,6 +34,7 @@
 		}, 'google_translate_element');
 	}
 </script>
+
 </head>
 <body>
 	<nav class="navbar navbar-expand-xl bg-dark navbar-dark sticky-top"
@@ -84,126 +86,75 @@
 			</ul>
 		</div>
 	</nav>
-
-	<!-- Google Translater -->
-	<a class="float-right" id="google_translate_element"></a>
-
-	<div class="container-fluid" style="margin: 20px; padding: 0px">
-		<div class="row">
-			<!--Left Navigaion Bar-->
-			<div class="col-md-3 card justify-content-center align-items-center">
-				<br> <img src="pix/dark.png" class="rounded-circle"
-					width="200px" height="200px">
-
-				<h2 style="font-size: 30px">Movie Subtitles</h2>
-				<br> <br> <a class="btn btn-outline-primary" href="#"
-					style="width: 250px;"></a><br> <br>
-
-			</div>
-
-			<div class="col-md-8">
-				<div class="row">
-					<div class="col-md-12">
-						<form class="form-horizontal" role="form" style="color: #010101">
+	<div class="main">
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
+				<li class="breadcrumb-item"><a href="AboutUs.jsp">AboutUs</a></li>
+				<li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+			</ol>
+		</nav>
+		<div class="wrapper cont">
+		<a class="float-right" id="google_translate_element"></a><br>
+			<div class="row">
+				<div class="col-5" style="padding-left: 110px;">
+					<h1 class="display-4">Contact Us</h1>
+					<h2>Your Details</h2>
+					<form>
+						<div class="form-row">
+							<div class="form-group col-md-12">
+								<label for="inputname">Your Name</label> <input type="text"
+									class="form-control" placeholder="Your Name"required>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-12">
+								<label for="inputemail">Email</label> <input
+									type="email" class="form-control" id="inputemail"
+									placeholder="email" required>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-12">
+								<label for="inputsubject">Subject</label> <input
+									type="subject" class="form-control" id="inputsubject"
+									placeholder="Subject of the message" required>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-12">
+								<label for="Message">Your Message</label>
+								<div class="col-md-12">
+									<textarea class="form-control rounded-0 col-md-12" id="message"
+										rows="3" placeholder="write message"></textarea>
+								</div>
+							</div>
+						</div>
+						<br>
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<input type="reset" value="Reset"
+									class="btn btn-primary btn-block">
+							</div>
+							<div class="form-group col-md-6">
+								<input type="submit" class="btn btn-primary btn-block"
+									value="Send">
+							</div>
+							<br>
+							
 							<br>
 							<br>
 							<br>
-							<!--Edit Email and password settings-->
-							<iframe width="560" height="315"
-								src="https://www.youtube.com/embed/ZwKhufmMxko" frameborder="0"
-								allowfullscreen></iframe>
-							&nbsp &nbsp &nbsp &nbsp
-							<h2></h2>
-
-							<div class="form-group row">
-								&nbsp &nbsp &nbsp &nbsp <label for="Cpassword"
-									class="col-md-2 col-form-label">Released Date</label>
-								<div class="col-md-4">
-									<input type="text" class="form-control" id="Cpassword"
-										placeholder="Current Password">
-
-								</div>
-
-							</div>
-
-
-
-						</form>
-						<form class="form-horizontal" role="form" style="color: #010101">
-							<!--Edit Passwords-->
-							&nbsp &nbsp &nbsp &nbsp
-							<h2>Main Actor</h2>
-							<div class="form-group row">
-								&nbsp &nbsp &nbsp &nbsp <label for="Password"
-									class="col-sm-2 col-form-label">Main</label>
-
-								<div class="col-md-4">
-									<input type="text" class="form-control" id="pass"
-										placeholder="New Password">
-								</div>
-							</div>
-							<div class="form-group row">
-								&nbsp &nbsp &nbsp &nbsp <label for="confPassword"
-									class="col-sm-2 col-form-label">Confirm Password</label>
-								<div class="col-md-4">
-									<input type="text" class="form-control" id="website"
-										placeholder="Confirm Password">
-								</div>
-							</div>
-
-							<div class="form-group">
-								&nbsp &nbsp &nbsp &nbsp &nbsp
-								<button type="submit" class="btn btn-primary align-items-left">Cancel</button>
-								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-								<button type="button" class="btn btn-primary btn-md">
-									<b>Submit</b>
-
-								</button>
-							</div>
-						</form>
-						<form class="form-horizontal" role="form" style="color: #010101">
-							<!--Edit email-->
-							&nbsp &nbsp &nbsp &nbsp
-							<h2>Change email</h2>
-							<div class="form-group row">
-								&nbsp &nbsp &nbsp &nbsp <label for="Nemail"
-									class="col-sm-2 col-form-label">New email</label>
-								<div class="col-md-4">
-									<input type="text" class="form-control" id="Nemail"
-										placeholder="New Email">
-								</div>
-							</div>
-							<div class="form-group row">
-								&nbsp &nbsp &nbsp &nbsp <label for="confirmEmail"
-									class="col-sm-2 col-form-label">Confirm Email </label>
-								<div class="col-md-4">
-									<input type="text" class="form-control" id="confirmEmail"
-										placeholder="Confirm email">
-								</div>
-							</div>
-
-							<div class="form-group">
-								&nbsp &nbsp &nbsp &nbsp &nbsp
-								<button type="submit" class="btn btn-primary align-items-left">Cancel</button>
-								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-								<button type="button" class="btn btn-primary btn-md">
-									<b>Submit</b>
-								</button>
-							</div>
-						</form>
-					</div>
+						</div>
+					</form>
 				</div>
-
+				<div class="col-7">
+					<br> <img class="img-fluid" src="pix/m5.png" height="625px"
+						align="right">
+				</div>
 			</div>
 		</div>
 	</div>
-	<br>
-	<br>
-	<br>
-
-
 	<footer class="page-footer font-small unique-color-dark"
 		style="background-color: #555;">
 		<div style="background-color: #f0ad4e;">

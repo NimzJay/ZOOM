@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>All Subtitles | Zoom.lk</title>
+<title>Log in | Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
-<link rel="stylesheet" type="text/css" href="Styles/menu.css">
+<link rel="stylesheet" type="text/css" href="Styles/loginRegister.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
@@ -61,16 +61,16 @@
 						<li><a class="dropdown-item" href="NewReleases.jsp">New
 								Subtitles</a></li>
 					</ul></li>
-				<li class="nav-item"><a class="nav-link" href="UpcomingMovies.jsp">Upcoming
-						Movies &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="UpcomingMovies.jsp">Upcoming Movies &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About
 						Us &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="GeneralSettings.jsp">Settings
-						&nbsp; &nbsp; &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="GeneralSettings.jsp">Settings &nbsp; &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
 						<input class="form-control" type="text" placeholder="Search"
@@ -86,188 +86,262 @@
 			</ul>
 		</div>
 	</nav>
+	<nav aria-label="breadcrumb">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
+			<li class="breadcrumb-item active" aria-current="page">Help</li>
+		</ol>
+	</nav>
 	<a class="float-right" id="google_translate_element"></a>
 
-	<div class="content">
-		<div class="row">
-			<div class="col-md-3">
-				<div class="menu">
-					<br>
-					<h2><span>&nbsp; &nbsp; CATEGORY</span></h2><hr>
-					<p class="menuLabel"><b>&nbsp; &nbsp; Filter by Type</b></p>
-					<ul class="nav flex-column">
-						<li><a class="menu-link" href="AllSubtitles.jsp">All
-								Subtitles</a></li>
-						<li><a class="menu-link" href="UpcomingMovies.jsp">Upcoming
-								Movies</a></li>
-						<li><a class="menu-link" href="NewReleases.jsp">Newly
-								Released Subtitles</a></li>
 
-					</ul><br>
-					<p class="menuLabel"><b>&nbsp; &nbsp; Filter by Genre</b></p>
-					<ul class="nav flex-column">
-						<li><a class="menu-link" href="#">Adventure</a></li>
-						<li><a class="menu-link" href="#">Detective</a></li>
-						<li><a class="menu-link" href="#">Horror</a></li>
-						<li><a class="menu-link" href="#">Romance</a></li>
-						<li><a class="menu-link" href="#">TV Series</a></li>
-					</ul><br>
-					<p class="menuLabel"><b>&nbsp; &nbsp; Filter by Year</b></p>
-					<ul class="nav flex-column">
-						<li><a class="menu-link" href="#">2019</a></li>
-						<li><a class="menu-link" href="#">2018</a></li>
-						<li><a class="menu-link" href="#">2017</a></li>
-						<li><a class="menu-link" href="#">2016</a></li>
-						<li><a class="menu-link" href="#">2015</a></li>
+	<div class="text-center">
+		<h1 class="display-4">How Can We Help?</h1>
+	</div>
 
-					</ul><br>
-					<p class="menuLabel"><b>&nbsp; &nbsp; Filter by Language</b></p>
-					<ul class="nav flex-column">
-						<li><a class="menu-link" href="#">English</a></li>
-						<li><a class="menu-link" href="#">Sinhala</a></li>
-						<li><a class="menu-link" href="#">Tamil</a></li>
-						<li><a class="menu-link" href="#">French</a></li>
-						<li><a class="menu-link" href="#">Spanish</a></li>
-					</ul>
-					<br>
+
+	<!-- Bootstrap seach bar start-->
+
+	<div class="container">
+		<div class="by-warning m-5">
+
+
+			<div class="input-group md-form form-sm form-2 pl-0">
+				<input class="form-control my-0 py-1 red-border" type="text"
+					placeholder="Search" aria-label="Search">
+				<div class="input-group-append">
+					<span class="input-group-text red lighten-3" id="basic-text1"><i
+						class="fas fa-search text-grey" aria-hidden="true"></i></span>
 				</div>
 			</div>
-			<div class="col-md-9">
+
+			<!-- ---search bar end -->
+
+			<a class="float-right" id="google_translate_element"></a>
+			<div class="jumbotron jumbotron-fluid">
 				<div class="container">
-					<br>
-					<h1 class="display-4">Newly Released Subtitles</h1>
-					<br>
+					<h5 align="center" style="color: dimgray">
+						Customers who are looking for help are often stressed and
+						frustrated, and when they can only communicate with you through
+						text chats or emails. It's easy for them to feel unimportant or
+						ignored. In my career, I've heard versions of "I want to talk to a
+						real person, not a robot!" from customers many times. <br>
+					</h5>
+				</div>
+				<br>
+
+				<div class="container">
 					<div class="row">
-						<div class="col-sm-4">
-							<div class="card" style="width: 16rem;">
-								<img class="card-img-top" src="pix/x.jpg" alt="Movie Poster">
-								<div class="card-body">
-									<h5 class="card-title">
-										<b>Aladdin</b>
-									</h5>
-									<p class="card-text">A kind-hearted street urchin and a
-										power-hungry Grand Vizier vie for a magic lamp that has the
-										power to make their deepest wishes come true.</p>
-									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-									&nbsp; <a
-										href="https://www.imdb.com/title/tt6139732/?ref_=tt_sims_tti"
-										class="btn btn-warning">IMDB link</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="card" style="width: 16rem;">
-								<img class="card-img-top" src="pix/y.jpg" alt="Movie Poster">
-								<div class="card-body">
-									<h5 class="card-title">
-										<b>The Lion King</b>
-									</h5>
-									<p class="card-text">After the murder of his father, a
-										young lion prince flees his kingdom only to learn the true
-										meaning of responsibility and bravery.</p>
-									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-									&nbsp; <a
-										href="https://www.imdb.com/title/tt6105098/?ref_=nv_sr_1?ref_=nv_sr_1"
-										class="btn btn-warning">IMDB link</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="card" style="width: 16rem;">
-								<img class="card-img-top" src="pix/dark2.jpg" alt="Movie Poster">
-								<div class="card-body">
-									<h5 class="card-title">
-										<b>Dark Phoenix</b>
-									</h5>
-									<p class="card-text">Jean Grey begins to develop incredible
-										powers that corrupt and turn her into a Dark Phoenix. Now the
-										X-Men will have to decide if the life of a team member is
-										worth more than all of humanity.</p>
-									<a href="Mov_DarkPhoenix.jsp" class="btn btn-primary">Download</a>
-									&nbsp; &nbsp; &nbsp; <a
-										href="https://www.imdb.com/title/tt6565702/?ref_=nv_sr_1?ref_=nv_sr_1"
-										class="btn btn-warning">IMDB link</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<br>
-					<div class="row">
-						<div class="col-sm-4">
-							<div class="card" style="width: 16rem;">
-								<img class="card-img-top" src="pix/w.jpg" alt="Movie Poster">
-								<div class="card-body">
-									<h5 class="card-title">
-										<b>Deadpool 2</b>
-									</h5>
-									<p class="card-text">Foul-mouthed mutant mercenary Wade
-										Wilson (AKA. Deadpool), brings together a team of fellow
-										mutant rogues to protect a young boy with supernatural
-										abilities from the brutal, time-traveling cyborg, Cable.</p>
-									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-									&nbsp; <a href="https://www.imdb.com/title/tt5463162/"
-										class="btn btn-warning">IMDB link</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="card" style="width: 16rem;">
-								<img class="card-img-top" src="pix/hellboy.jpg"
-									alt="Movie Poster">
-								<div class="card-body">
-									<h5 class="card-title">
-										<b>Hellboy</b>
-									</h5>
-									<p class="card-text">Based on the graphic novels by Mike
-										Mignola, Hellboy, caught between the worlds of the
-										supernatural and human, battles an ancient sorceress bent on
-										revenge.</p>
-									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-									&nbsp; <a href="https://www.imdb.com/title/tt2274648/"
-										class="btn btn-warning">IMDB link</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="card" style="width: 16rem;">
-								<img class="card-img-top" src="pix/z.jpg" alt="Movie Poster">
-								<div class="card-body">
-									<h5 class="card-title">
-										<b>Wonder Woman</b>
-									</h5>
-									<p class="card-text">When a pilot crashes and tells of
-										conflict in the outside world, Diana, an Amazonian warrior in
-										training, leaves home to fight a war, discovering her full
-										powers and true destiny.</p>
-									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-									&nbsp; <a href="https://www.imdb.com/title/tt0451279/"
-										class="btn btn-warning">IMDB link</a>
-								</div>
+						<div class="row">
+							<div class="text-center">
+								<h2 class="display-5">Featured Questions</h2>
 							</div>
 						</div>
 					</div>
 				</div>
+
+
+
+
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="card" style="width: 18rem;">
+							<img class="card-img-top" src="pix/q1.jpg" alt="Movie Poster">
+							<div class="card-body">
+								<h5 class="card-title">How to download subtitles?</h5>
+								<p class="card-text">Some quick example text to build on the
+									card title and make up the bulk of the card's content.</p>
+
+								<div class="text-center">
+									<a href="#" class="btn btn-primary">View More</a> &nbsp &nbsp
+									&nbsp
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="card" style="width: 18rem;">
+							<img class="card-img-top" src="pix/q2.jpg" alt="Movie Poster">
+							<div class="card-body">
+								<h5 class="card-title">How to add subtitle to a film?</h5>
+								<p class="card-text">Some quick example text to build on the
+									card title and make up the bulk of the card's content.</p>
+
+
+								<div class="text-center">
+									<a href="#" class="btn btn-primary">View More</a> &nbsp &nbsp
+									&nbsp
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="card" style="width: 18rem;">
+							<img class="card-img-top" src="pix/q3.jpg" alt="Movie Poster">
+							<div class="card-body">
+								<h5 class="card-title">How to register this site?</h5>
+								<p class="card-text">Some quick example text to build on the
+									card title and make up the bulk of the card's content.</p>
+
+								<div class="text-center">
+									<a href="#" class="btn btn-primary">View More</a>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<br> <br>
+
+				<div class="container">
+					<div class="text-center">
+						<h2 class="display-4">Popular Articles</h2>
+					</div>
+				</div>
+				<br>
+
+				<!-- popular article section starts -->
+
+
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="card" style="width: 18rem;">
+
+							<div class="card-body">
+								<article>
+									<div class="text-center">
+										<h2>Article 1</h2>
+										<p>The title attribute specifies extra information about
+											an element. The information is most often shown as a tooltip
+											text when the mouse moves over the element.</p>
+										<a href="#" title="Go to W3Schools HTML section">Click
+											here for more on this article</a>
+									</div>
+								</article>
+								<br>
+
+
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="card" style="width: 18rem;">
+
+							<div class="card-body">
+								<article>
+									<div class="text-center">
+										<h2>Article 2</h2>
+										<p>The title attribute specifies extra information about
+											an element. The information is most often shown as a tooltip
+											text when the mouse moves over the element.</p>
+										<a href="#" title="Go to W3Schools HTML section">Click
+											here for more on this article</a>
+									</div>
+								</article>
+								<br>
+
+
+
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="card" style="width: 18rem;">
+
+							<div class="card-body">
+								<article>
+									<div class="text-center">
+										<h2>Article 3</h2>
+										<p>The title attribute specifies extra information about
+											an element. The information is most often shown as a tooltip
+											text when the mouse moves over the element.</p>
+										<a href="#" title="Go to W3Schools HTML section">Click
+											here for more on this article</a>
+									</div>
+								</article>
+								<br>
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
+
+
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="card" style="width: 18rem;">
+
+							<div class="card-body">
+								<article>
+									<div class="text-center">
+										<h2>Article 4</h2>
+										<p>The title attribute specifies extra information about
+											an element. The information is most often shown as a tooltip
+											text when the mouse moves over the element.</p>
+										<a href="#" title="Go to W3Schools HTML section">Click
+											here for more on this article</a>
+									</div>
+								</article>
+								<br>
+
+
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="card" style="width: 18rem;">
+
+							<div class="card-body">
+								<article>
+									<div class="text-center">
+										<h2>Article 5</h2>
+										<p>The title attribute specifies extra information about
+											an element. The information is most often shown as a tooltip
+											text when the mouse moves over the element.</p>
+										<a href="#" title="Go to W3Schools HTML section">Click
+											here for more on this article</a>
+									</div>
+								</article>
+								<br>
+
+
+
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="card" style="width: 18rem;">
+
+							<div class="card-body">
+								<article>
+									<div class="text-center">
+										<h2>Article 6</h2>
+										<p>The title attribute specifies extra information about
+											an element. The information is most often shown as a tooltip
+											text when the mouse moves over the element.</p>
+										<a href="#" title="Go to W3Schools HTML section">Click
+											here for more on this article</a>
+									</div>
+								</article>
+								<br>
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
+
 			</div>
 		</div>
 	</div>
-	<br>
-	<br>
-	<nav aria-label="Page navigation example">
-		<ul class="pagination justify-content-center">
-			<li class="page-item"><a class="page-link" href="#"
-				aria-label="Previous" tabindex="-1"> <span aria-hidden="true">&laquo;</span>
-					<span class="sr-only">Previous</span></a></li>
-			<li class="page-item active"><a class="page-link"
-				href="index.jsp">1</a></li>
-			<li class="page-item"><a class="page-link" href="#">2</a></li>
-			<li class="page-item"><a class="page-link" href="#">3</a></li>
-			<li class="page-item"><a class="page-link" href="#"
-				aria-label="Next"> <span aria-hidden="true">&raquo;</span> <span
-					class="sr-only">Next</span>
-			</a></li>
-		</ul>
-	</nav>
-	<br>
+
+	<!-- popular articles section ends -->
+
 	<footer class="page-footer font-small unique-color-dark"
 		style="background-color: #555;">
 		<div style="background-color: #f0ad4e;">
@@ -340,8 +414,8 @@
 						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Downloads</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="UpcomingMovies.jsp">Upcoming
-							Subtitles</a>
+						<a class="btn btn-outline-light btn-block"
+							href="UpcomingMovies.jsp">Upcoming Subtitles</a>
 					</p>
 					<p>
 						<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">New

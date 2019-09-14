@@ -1,10 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Dark Phoenix | Zoom.lk</title>
+<title>Profile | Zoom.lk</title>
+
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,15 +28,16 @@
 <script type="text/javascript">
 	function googleTranslateElementInit() {
 		new google.translate.TranslateElement({
-			pageLanguage : 'en',
-			includedLanguages : 'en,si,ta',
+			pageLanguage : 'en', includedLanguages: 'en,si,ta',
 			layout : google.translate.TranslateElement.InlineLayout.SIMPLE
 		}, 'google_translate_element');
 	}
 </script>
+
 </head>
 <body>
-	<nav class="navbar navbar-expand-xl bg-dark navbar-dark sticky-top"
+	<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-xl bg-dark navbar-dark sticky-top"
 		style="border-bottom: 1px; border-color: white;">
 		<a class="navbar-brand" href="index.jsp"> <img src="pix/logo.png"
 			width="100" height="35" class="d-inline-block align-top" alt="">
@@ -84,133 +86,105 @@
 			</ul>
 		</div>
 	</nav>
-
-	<!-- Google Translater -->
+	
+<!-- Google Translater -->
 	<a class="float-right" id="google_translate_element"></a>
-
 	<div class="container-fluid" style="margin: 20px; padding: 0px">
+	
 		<div class="row">
-			<!--Left Navigaion Bar-->
+<!--Left Navigaion Bar-->
 			<div class="col-md-3 card justify-content-center align-items-center">
-				<br> <img src="pix/dark.png" class="rounded-circle"
-					width="200px" height="200px">
+			
+				<br> <img src="pix/profile.jpg" class="rounded-circle" width="200px" height="200px">
+					 
+				<h2 style="font-size: 30px">Kavindu Mihiranga</h2><br> 
+				
+				<a class="btn btn-outline-primary"  style="width: 250px;"href="">General Settings</a><br>
+				<h3 style="font-size: 25px">Account Management</h3>
 
-				<h2 style="font-size: 30px">Movie Subtitles</h2>
-				<br> <br> <a class="btn btn-outline-primary" href="#"
-					style="width: 250px;"></a><br> <br>
+				<a class="btn btn-outline-primary"  style="width: 250px;" href="#">Edit
+					Password and Email</a><br> <a class="btn btn-outline-primary"
+					href="#" style="width: 250px;">Privacy Settings</a><br>
 
+				<h3 style="font-size: 25px">Legal Policies</h3>
+
+				<a class="btn btn-outline-primary" href="#" style="width: 250px;">Terms
+					of Services</a><br> <a class="btn btn-outline-primary" href="#"
+					style="width: 250px;">Data Policy</a><br> <br>
+					
 			</div>
-
+			
 			<div class="col-md-8">
 				<div class="row">
 					<div class="col-md-12">
 						<form class="form-horizontal" role="form" style="color: #010101">
-							<br>
-							<br>
-							<br>
-							<!--Edit Email and password settings-->
-							<iframe width="560" height="315"
-								src="https://www.youtube.com/embed/ZwKhufmMxko" frameborder="0"
-								allowfullscreen></iframe>
-							&nbsp &nbsp &nbsp &nbsp
-							<h2></h2>
-
+							<h2>Personal Information</h2>
 							<div class="form-group row">
-								&nbsp &nbsp &nbsp &nbsp <label for="Cpassword"
-									class="col-md-2 col-form-label">Released Date</label>
-								<div class="col-md-4">
-									<input type="text" class="form-control" id="Cpassword"
-										placeholder="Current Password">
-
-								</div>
-
+								&nbsp &nbsp &nbsp &nbsp <label for="firstName"
+									class="col-md-2 col-form-label">Name</label>
+									<label for="firstName"
+									class="col-md-5 col-form-label" style="color:blue; font-size:22px;"><b>Kavindu Mihiranga</b></label>
 							</div>
-
-
-
-						</form>
-						<form class="form-horizontal" role="form" style="color: #010101">
-							<!--Edit Passwords-->
-							&nbsp &nbsp &nbsp &nbsp
-							<h2>Main Actor</h2>
+							
+							
 							<div class="form-group row">
-								&nbsp &nbsp &nbsp &nbsp <label for="Password"
-									class="col-sm-2 col-form-label">Main</label>
-
-								<div class="col-md-4">
-									<input type="text" class="form-control" id="pass"
-										placeholder="New Password">
-								</div>
+								&nbsp &nbsp &nbsp &nbsp <label for="username"
+									class="col-md-2 col-form-label">User Name*</label>
+									<label for="firstName"
+									class="col-md-5 col-form-label" style="color:blue; font-size:22px;"><b>kavindumihiranga</b></label>
+									
+								
 							</div>
 							<div class="form-group row">
-								&nbsp &nbsp &nbsp &nbsp <label for="confPassword"
-									class="col-sm-2 col-form-label">Confirm Password</label>
-								<div class="col-md-4">
-									<input type="text" class="form-control" id="website"
-										placeholder="Confirm Password">
-								</div>
-							</div>
-
-							<div class="form-group">
-								&nbsp &nbsp &nbsp &nbsp &nbsp
-								<button type="submit" class="btn btn-primary align-items-left">Cancel</button>
-								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-								<button type="button" class="btn btn-primary btn-md">
-									<b>Submit</b>
-
-								</button>
+								&nbsp &nbsp &nbsp &nbsp <label for="displayname"
+									class="col-md-2 col-form-label">Display Name*</label>
+									<label for="firstName"
+									class="col-md-5 col-form-label" style="color:blue; font-size:22px;"><b>kaviya</b></label>
+								
 							</div>
 						</form>
+						<br> <br>
 						<form class="form-horizontal" role="form" style="color: #010101">
-							<!--Edit email-->
-							&nbsp &nbsp &nbsp &nbsp
-							<h2>Change email</h2>
+							<h2>Contact Information</h2>
 							<div class="form-group row">
-								&nbsp &nbsp &nbsp &nbsp <label for="Nemail"
-									class="col-sm-2 col-form-label">New email</label>
-								<div class="col-md-4">
-									<input type="text" class="form-control" id="Nemail"
-										placeholder="New Email">
-								</div>
+								&nbsp &nbsp &nbsp &nbsp <label for="email"
+									class="col-sm-2 col-form-label">Email</label>
+									<label for="firstName"
+									class="col-md-5 col-form-label" style="color:#808080; font-size:22px;"><b>kavindumihiranga@gmail.com</b></label>
+								
 							</div>
 							<div class="form-group row">
-								&nbsp &nbsp &nbsp &nbsp <label for="confirmEmail"
-									class="col-sm-2 col-form-label">Confirm Email </label>
-								<div class="col-md-4">
-									<input type="text" class="form-control" id="confirmEmail"
-										placeholder="Confirm email">
-								</div>
+								&nbsp &nbsp &nbsp &nbsp <label for="website"
+									class="col-sm-2 col-form-label">Web Site</label>
+									<label for="firstName"
+									class="col-md-5 col-form-label" style="color:#808080; font-size:22px;"><b>www.kawiya.com</b></label>
+								
+							</div>
+							<div class="form-group row">
+								&nbsp &nbsp &nbsp &nbsp <label for="Aboutyourself"
+									class="col-sm-2 col-form-label">About yourself</label>
+									<label for="firstName"
+									class="col-md-5 col-form-label" style="color:#808080; font-size:20px;"><b>Film Lover</b></label>
+								
 							</div>
 
-							<div class="form-group">
-								&nbsp &nbsp &nbsp &nbsp &nbsp
-								<button type="submit" class="btn btn-primary align-items-left">Cancel</button>
-								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-								<button type="button" class="btn btn-primary btn-md">
-									<b>Submit</b>
-								</button>
-							</div>
 						</form>
 					</div>
 				</div>
-
 			</div>
 		</div>
 	</div>
 	<br>
 	<br>
 	<br>
-
-
+	
+	<!-- web site footer -->
 	<footer class="page-footer font-small unique-color-dark"
 		style="background-color: #555;">
 		<div style="background-color: #f0ad4e;">
 			<div class="container">
 				<div class="row py-3 d-flex align-items-center">
-					<div
-						class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+					<div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
 						<h6 class="mb-0">Get Connected with Us on Social Networks!</h6>
 					</div>
 					<div class="col-md-6 col-lg-7 text-center text-md-right">
@@ -223,12 +197,10 @@
 						</i>
 						</a>
 						<!-- Google +-->
-						<a class="gplus-ic"> <i
-							class="fab fa-google-plus-g white-text mr-4"> </i>
+						<a class="gplus-ic"> <i class="fab fa-google-plus-g white-text mr-4"> </i>
 						</a>
 						<!--Linkedin -->
-						<a class="li-ic"> <i
-							class="fab fa-linkedin-in white-text mr-4"> </i>
+						<a class="li-ic"> <i class="fab fa-linkedin-in white-text mr-4"> </i>
 						</a>
 						<!--Instagram-->
 						<a class="ins-ic"> <i class="fab fa-instagram white-text">
@@ -245,7 +217,7 @@
 			<br> <a href="index.jsp"
 				style="color: #eee; text-decoration: none;"> <img
 				src="pix/logo.png" width="120px" height="45px">
-			</a><br> Copyright © 2019 &nbsp; - &nbsp; All rights reserved. <br>
+			</a><br> Copyright © 2019 &nbsp - &nbsp All rights reserved. <br>
 			<br>
 		</div>
 	</footer>

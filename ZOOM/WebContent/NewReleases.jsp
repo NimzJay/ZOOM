@@ -51,7 +51,7 @@
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item"><a class="nav-link" href="#">Summary
 						&nbsp;</a></li>
-				<li class="nav-item dropdown active"><a
+				<li class="nav-item dropdown"><a
 					class="nav-link dropdown-toggle" href="#"
 					id="navbarDropdownMenuLink" data-toggle="dropdown"
 					aria-haspopup="true" aria-expanded="false"> Downloads &nbsp;</a>
@@ -60,22 +60,22 @@
 								Subtitles</a></li>
 						<li><a class="dropdown-item" href="NewReleases.jsp">New
 								Subtitles</a></li>
-						<li><a class="dropdown-item" href="#">Upcoming Movies</a>
 					</ul></li>
+				<li class="nav-item"><a class="nav-link"
+					href="UpcomingMovies.jsp">Upcoming Movies &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About
 						Us &nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">FAQ
+				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
 						&nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Help
+				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Settings
+				<li class="nav-item"><a class="nav-link" href="GeneralSettings.jsp">Settings
 						&nbsp; &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
 						<input class="form-control" type="text" placeholder="Search"
 							aria-label="Search"> <i
-							class="fas fa-search text-white ml-2 form-inline"
-							aria-hidden="true"></i>
+							class="fas fa-search text-white ml-2" aria-hidden="true"></i>
 					</form>
 				</li>
 				<li class="nav-item">&nbsp; &nbsp; &nbsp;<a
@@ -93,18 +93,26 @@
 			<div class="col-md-3">
 				<div class="menu">
 					<br>
-					<h2>Categories</h2>
+					<h2>
+						<span>&nbsp; &nbsp; CATEGORY</span>
+					</h2>
 					<hr>
-					<p>Filter by Type</p>
+					<p class="menuLabel">
+						<b>&nbsp; &nbsp; Filter by Type</b>
+					</p>
 					<ul class="nav flex-column">
-						<li><a class="menu-link" href="AllSubtitles.jsp">All Subtitles</a></li>
-						<li><a class="menu-link" href="#">Upcoming Subtitles</a></li>
+						<li><a class="menu-link" href="AllSubtitles.jsp">All
+								Subtitles</a></li>
+						<li><a class="menu-link" href="UpcomingMovies.jsp">Upcoming
+								Movies</a></li>
 						<li><a class="menu-link" href="NewReleases.jsp">Newly
 								Released Subtitles</a></li>
 
 					</ul>
-					<hr>
-					<p>Filter by Genre</p>
+					<br>
+					<p class="menuLabel">
+						<b>&nbsp; &nbsp; Filter by Genre</b>
+					</p>
 					<ul class="nav flex-column">
 						<li><a class="menu-link" href="#">Adventure</a></li>
 						<li><a class="menu-link" href="#">Detective</a></li>
@@ -112,8 +120,10 @@
 						<li><a class="menu-link" href="#">Romance</a></li>
 						<li><a class="menu-link" href="#">TV Series</a></li>
 					</ul>
-					<hr>
-					<p>Filter by Year</p>
+					<br>
+					<p class="menuLabel">
+						<b>&nbsp; &nbsp; Filter by Year</b>
+					</p>
 					<ul class="nav flex-column">
 						<li><a class="menu-link" href="#">2019</a></li>
 						<li><a class="menu-link" href="#">2018</a></li>
@@ -122,8 +132,10 @@
 						<li><a class="menu-link" href="#">2015</a></li>
 
 					</ul>
-					<hr>
-					<p>Filter by Language</p>
+					<br>
+					<p class="menuLabel">
+						<b>&nbsp; &nbsp; Filter by Language</b>
+					</p>
 					<ul class="nav flex-column">
 						<li><a class="menu-link" href="#">English</a></li>
 						<li><a class="menu-link" href="#">Sinhala</a></li>
@@ -141,7 +153,7 @@
 					<br>
 					<div class="row">
 						<div class="col-sm-4">
-							<div class="card" style="width: 18rem;">
+							<div class="card" style="width: 16rem;">
 								<img class="card-img-top" src="pix/x.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
@@ -158,7 +170,7 @@
 							</div>
 						</div>
 						<div class="col-sm-4">
-							<div class="card" style="width: 18rem;">
+							<div class="card" style="width: 16rem;">
 								<img class="card-img-top" src="pix/y.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
@@ -175,7 +187,7 @@
 							</div>
 						</div>
 						<div class="col-sm-4">
-							<div class="card" style="width: 18rem;">
+							<div class="card" style="width: 16rem;">
 								<img class="card-img-top" src="pix/dark2.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
@@ -196,7 +208,7 @@
 					<br>
 					<div class="row">
 						<div class="col-sm-4">
-							<div class="card" style="width: 18rem;">
+							<div class="card" style="width: 16rem;">
 								<img class="card-img-top" src="pix/w.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
@@ -213,7 +225,7 @@
 							</div>
 						</div>
 						<div class="col-sm-4">
-							<div class="card" style="width: 18rem;">
+							<div class="card" style="width: 16rem;">
 								<img class="card-img-top" src="pix/hellboy.jpg"
 									alt="Movie Poster">
 								<div class="card-body">
@@ -231,7 +243,7 @@
 							</div>
 						</div>
 						<div class="col-sm-4">
-							<div class="card" style="width: 18rem;">
+							<div class="card" style="width: 16rem;">
 								<img class="card-img-top" src="pix/z.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
@@ -342,8 +354,8 @@
 						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Downloads</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Upcoming
-							Subtitles</a>
+						<a class="btn btn-outline-light btn-block"
+							href="UpcomingMovies.jsp">Upcoming Subtitles</a>
 					</p>
 					<p>
 						<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">New
@@ -361,7 +373,7 @@
 					<hr class="deep-purple accent-2 mb-4 mt-2 d-inline-block mx-auto"
 						style="width: 80px; border-color: #777;">
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Your
+						<a class="btn btn-outline-light btn-block" href="ProfileView.jsp">Your
 							Account</a>
 					</p>
 					<p>
@@ -373,7 +385,7 @@
 							details</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Help</a>
+						<a class="btn btn-outline-light btn-block" href="Help.jsp">Help</a>
 					</p>
 				</div>
 
@@ -409,7 +421,7 @@
 			<br> <a href="index.jsp"
 				style="color: #eee; text-decoration: none;"> <img
 				src="pix/logo.png" width="120px" height="45px">
-			</a><br> Copyright © 2019 &nbsp; - &nbsp; All rights reserved. <br>
+			</a><br> Copyright Â© 2019 &nbsp; - &nbsp; All rights reserved. <br>
 			<br>
 		</div>
 	</footer>

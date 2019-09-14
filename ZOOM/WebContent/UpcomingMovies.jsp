@@ -98,7 +98,7 @@
 		style="border-bottom: 1px; border-color: white;">
 		<a class="navbar-brand" href="index.jsp"> <img src="pix/logo.png"
 			width="100" height="35" class="d-inline-block align-top" alt="">
-			&nbsp | <span>Subtitle Portal</span>
+			&nbsp; | <span>Subtitle Portal</span>
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#collapsibleNavbar">
@@ -107,30 +107,28 @@
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item"><a class="nav-link" href="#">Summary
-						&nbsp</a></li>
+						&nbsp;</a></li>
 				<li class="nav-item dropdown"><a
 					class="nav-link dropdown-toggle" href="#"
 					id="navbarDropdownMenuLink" data-toggle="dropdown"
-					aria-haspopup="true" aria-expanded="false"> Download &nbsp</a>
+					aria-haspopup="true" aria-expanded="false"> Downloads &nbsp;</a>
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<li><a class="dropdown-item" href="#">All Subtitles</a></li>
-						<li><a class="dropdown-item" href="NewReleaseSub.jsp">New
+						<li><a class="dropdown-item" href="AllSubtitles.jsp">All
 								Subtitles</a></li>
-
+						<li><a class="dropdown-item" href="NewReleases.jsp">New
+								Subtitles</a></li>
 					</ul></li>
 
-				<li class="nav-item"><a class="nav-link"
-					href="http://localhost:8082/ZOOM/UpcomingMovies.jsp">Upcoming
-						Movies &nbsp</a></li>
-
-				<li class="nav-item"><a class="nav-link" href="#">About Us
-						&nbsp</a></li>
-				<li class="nav-item"><a class="nav-link"
-					href="http://localhost:8082/ZOOM/FAQ.jsp">FAQ &nbsp</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Help
-						&nbsp </a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Settings
-						&nbsp &nbsp &nbsp</a></li>
+				<li class="nav-item"><a class="nav-link" href="UpcomingMovies.jsp">Upcoming
+						Movies &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About
+						Us &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
+						&nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
+						&nbsp; </a></li>
+				<li class="nav-item"><a class="nav-link" href="GeneralSettings.jsp">Settings
+						&nbsp; &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
 						<input class="form-control" type="text" placeholder="Search"
@@ -138,8 +136,8 @@
 							class="fas fa-search text-white ml-2" aria-hidden="true"></i>
 					</form>
 				</li>
-				<li class="nav-item">&nbsp &nbsp &nbsp<a
-					class="btn btn-primary" href="Login.jsp"> Log in </a>&nbsp &nbsp
+				<li class="nav-item">&nbsp; &nbsp; &nbsp;<a
+					class="btn btn-primary" href="Login.jsp"> Log in </a>&nbsp; &nbsp;
 				</li>
 				<li class="nav-item"><a class="btn btn-primary"
 					href="Register.jsp"> Register </a></li>
@@ -278,7 +276,7 @@
 		</nav>
 	</div>
 
-	<footer class="page-footer font-small unique-color-dark"
+<footer class="page-footer font-small unique-color-dark"
 		style="background-color: #555;">
 		<div style="background-color: #f0ad4e;">
 			<div class="container">
@@ -343,17 +341,18 @@
 					<hr class="deep-purple accent-2 mb-4 mt-2 d-inline-block mx-auto"
 						style="width: 60px; border-color: #777;">
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">IMdB</a>
+						<a class="btn btn-outline-light btn-block"
+							href="https://www.imdb.com/">IMdB</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Downloads</a>
+						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Downloads</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Upcoming
+						<a class="btn btn-outline-light btn-block" href="UpcomingMovies.jsp">Upcoming
 							Subtitles</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Latest
+						<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">New
 							Subtitles</a>
 					</p>
 				</div>
@@ -368,19 +367,19 @@
 					<hr class="deep-purple accent-2 mb-4 mt-2 d-inline-block mx-auto"
 						style="width: 80px; border-color: #777;">
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Your
+						<a class="btn btn-outline-light btn-block" href="ProfileView.jsp">Your
 							Account</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Latest
+						<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">Latest
 							Subtitles</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Movie
+						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Movie
 							details</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Help</a>
+						<a class="btn btn-outline-light btn-block" href="Help.jsp">Help</a>
 					</p>
 				</div>
 
@@ -416,7 +415,7 @@
 			<br> <a href="index.jsp"
 				style="color: #eee; text-decoration: none;"> <img
 				src="pix/logo.png" width="120px" height="45px">
-			</a><br> Copyright © 2019 &nbsp - &nbsp All rights reserved. <br>
+			</a><br> Copyright Â© 2019 &nbsp; - &nbsp; All rights reserved. <br>
 			<br>
 		</div>
 	</footer>

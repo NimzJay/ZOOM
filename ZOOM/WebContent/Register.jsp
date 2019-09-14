@@ -38,7 +38,7 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-xl bg-dark navbar-dark sticky-top"
-		style="border-bottom: 1px border-color: white">
+		style="border-bottom: 1px; border-color: white;">
 		<a class="navbar-brand" href="index.jsp"> <img src="pix/logo.png"
 			width="100" height="35" class="d-inline-block align-top" alt="">
 			&nbsp; | <span>Subtitle Portal</span>
@@ -56,18 +56,20 @@
 					id="navbarDropdownMenuLink" data-toggle="dropdown"
 					aria-haspopup="true" aria-expanded="false"> Downloads &nbsp;</a>
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<li><a class="dropdown-item" href="AllSubtitles.jsp">All Subtitles</a></li>
+						<li><a class="dropdown-item" href="AllSubtitles.jsp">All
+								Subtitles</a></li>
 						<li><a class="dropdown-item" href="NewReleases.jsp">New
 								Subtitles</a></li>
-						<li><a class="dropdown-item" href="#">Upcoming Movies</a>
 					</ul></li>
-				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About Us
+				<li class="nav-item"><a class="nav-link" href="UpcomingMovies.jsp">Upcoming
+						Movies &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About
+						Us &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
 						&nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">FAQ
-						&nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Help
+				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Settings
+				<li class="nav-item"><a class="nav-link" href="GeneralSettings.jsp">Settings
 						&nbsp; &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
@@ -150,12 +152,12 @@
 						<br>
 						<div class="form-row">
 							<div class="form-group col-md-6">
-								<input type="reset" value="Reset"
-									class="btn btn-primary btn-block">
-							</div>
-							<div class="form-group col-md-6">
 								<input type="submit" class="btn btn-primary btn-block"
 									value="Sign in">
+							</div>
+							<div class="form-group col-md-6">
+								<input type="reset" value="Reset"
+									class="btn btn-primary btn-block">
 							</div>
 							<br>
 							<p>
