@@ -35,7 +35,7 @@
 </script>
 
 </head>
-<body>
+<body style="background-color: #E9ECEF;">
 	<div id="carouselExampleControls" class="carousel slide"
 		data-ride="carousel">
 		<ol class="carousel-indicators">
