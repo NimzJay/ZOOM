@@ -152,12 +152,12 @@
 						<br>
 						<div class="form-row">
 							<div class="form-group col-md-6">
-								<input type="reset" value="Reset"
-									class="btn btn-primary btn-block">
-							</div>
-							<div class="form-group col-md-6">
 								<input type="submit" class="btn btn-primary btn-block"
 									value="Sign in">
+							</div>
+							<div class="form-group col-md-6">
+								<input type="reset" value="Reset"
+									class="btn btn-primary btn-block">
 							</div>
 							<br>
 							<p>

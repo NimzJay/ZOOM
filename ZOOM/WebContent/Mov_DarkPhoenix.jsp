@@ -67,8 +67,8 @@
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="GeneralSettings.jsp">Settings
-						&nbsp; &nbsp; &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="GeneralSettings.jsp">Settings &nbsp; &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
 						<input class="form-control" type="text" placeholder="Search"
@@ -84,9 +84,126 @@
 			</ul>
 		</div>
 	</nav>
-	
-	
-	
+
+	<!-- Google Translater -->
+	<a class="float-right" id="google_translate_element"></a>
+
+	<div class="container-fluid" style="margin: 20px; padding: 0px">
+		<div class="row">
+			<!--Left Navigaion Bar-->
+			<div class="col-md-3 card justify-content-center align-items-center">
+				<br> <img src="pix/dark.png" class="rounded-circle"
+					width="200px" height="200px">
+
+				<h2 style="font-size: 30px">Movie Subtitles</h2>
+				<br> <br> <a class="btn btn-outline-primary" href="#"
+					style="width: 250px;"></a><br> <br>
+
+			</div>
+
+			<div class="col-md-8">
+				<div class="row">
+					<div class="col-md-12">
+						<form class="form-horizontal" role="form" style="color: #010101">
+							<br>
+							<br>
+							<br>
+							<!--Edit Email and password settings-->
+							<iframe width="560" height="315"
+								src="https://www.youtube.com/embed/ZwKhufmMxko" frameborder="0"
+								allowfullscreen></iframe>
+							&nbsp &nbsp &nbsp &nbsp
+							<h2></h2>
+
+							<div class="form-group row">
+								&nbsp &nbsp &nbsp &nbsp <label for="Cpassword"
+									class="col-md-2 col-form-label">Released Date</label>
+								<div class="col-md-4">
+									<input type="text" class="form-control" id="Cpassword"
+										placeholder="Current Password">
+
+								</div>
+
+							</div>
+
+
+
+						</form>
+						<form class="form-horizontal" role="form" style="color: #010101">
+							<!--Edit Passwords-->
+							&nbsp &nbsp &nbsp &nbsp
+							<h2>Main Actor</h2>
+							<div class="form-group row">
+								&nbsp &nbsp &nbsp &nbsp <label for="Password"
+									class="col-sm-2 col-form-label">Main</label>
+
+								<div class="col-md-4">
+									<input type="text" class="form-control" id="pass"
+										placeholder="New Password">
+								</div>
+							</div>
+							<div class="form-group row">
+								&nbsp &nbsp &nbsp &nbsp <label for="confPassword"
+									class="col-sm-2 col-form-label">Confirm Password</label>
+								<div class="col-md-4">
+									<input type="text" class="form-control" id="website"
+										placeholder="Confirm Password">
+								</div>
+							</div>
+
+							<div class="form-group">
+								&nbsp &nbsp &nbsp &nbsp &nbsp
+								<button type="submit" class="btn btn-primary align-items-left">Cancel</button>
+								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+								<button type="button" class="btn btn-primary btn-md">
+									<b>Submit</b>
+
+								</button>
+							</div>
+						</form>
+						<form class="form-horizontal" role="form" style="color: #010101">
+							<!--Edit email-->
+							&nbsp &nbsp &nbsp &nbsp
+							<h2>Change email</h2>
+							<div class="form-group row">
+								&nbsp &nbsp &nbsp &nbsp <label for="Nemail"
+									class="col-sm-2 col-form-label">New email</label>
+								<div class="col-md-4">
+									<input type="text" class="form-control" id="Nemail"
+										placeholder="New Email">
+								</div>
+							</div>
+							<div class="form-group row">
+								&nbsp &nbsp &nbsp &nbsp <label for="confirmEmail"
+									class="col-sm-2 col-form-label">Confirm Email </label>
+								<div class="col-md-4">
+									<input type="text" class="form-control" id="confirmEmail"
+										placeholder="Confirm email">
+								</div>
+							</div>
+
+							<div class="form-group">
+								&nbsp &nbsp &nbsp &nbsp &nbsp
+								<button type="submit" class="btn btn-primary align-items-left">Cancel</button>
+								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+								<button type="button" class="btn btn-primary btn-md">
+									<b>Submit</b>
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+
+
 	<footer class="page-footer font-small unique-color-dark"
 		style="background-color: #555;">
 		<div style="background-color: #f0ad4e;">
