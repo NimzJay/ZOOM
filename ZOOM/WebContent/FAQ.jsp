@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Home | Zoom.lk</title>
+<title>Upcoming Movies | Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,7 +35,7 @@
 </script>
 
 </head>
-<body>
+<body style="background-color: #E9ECEF;">
 	<div id="carouselExampleControls" class="carousel slide"
 		data-ride="carousel">
 		<ol class="carousel-indicators">
@@ -118,16 +118,17 @@
 						<li><a class="dropdown-item" href="NewReleases.jsp">New
 								Subtitles</a></li>
 					</ul></li>
-				<li class="nav-item"><a class="nav-link" href="UpcomingMovies.jsp">Upcoming
-						Movies &nbsp;</a></li>
+
+				<li class="nav-item"><a class="nav-link"
+					href="UpcomingMovies.jsp">Upcoming Movies &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About
 						Us &nbsp;</a></li>
-				<li class="nav-item active"><a class="nav-link" href="FAQ.jsp">FAQ
+				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="GeneralSettings.jsp">Settings
-						&nbsp; &nbsp; &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="GeneralSettings.jsp">Settings &nbsp; &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
 						<input class="form-control" type="text" placeholder="Search"
@@ -144,34 +145,186 @@
 		</div>
 	</nav>
 	<a class="float-right" id="google_translate_element"></a>
+
 	<div class="jumbotron jumbotron-fluid">
 		<div class="container">
-
-
-
-
-
-
 			<div id="pagetitle">
 				<h1>Zoom Community FAQ</h1>
 				<p class="description">Here you can find answers to questions
 					about how the board works. Use the links or search box below to
 					find your way around.</p>
 			</div>
-
-
-
-
-
-
-
 			<a name="faq_vb3_contact_members"></a>
-
-			<div class="card">
+			<br>
+			<div>
 				<h2 class="blockhead">Contacting other Members</h2>
 				<div class="blockbody">
-
 					<div class="blockrow restore faqtext">
+						<div class="card">
+							<div class="card-header">Can I email other members?</div>
+							<div class="card-body">
+								<blockquote class="blockquote mb-0">
+									<p>Yes. To send an email to another member, you can either
+										find them on the member list, or choose the Send Email option
+										from the username menu in any post they have written.</p>
+
+									<p>This will usually open a page that contains a form where
+										you can enter your message. When you have finished typing your
+										message, press the 'send email' button and your message will
+										be sent instantly.</p>
+									<footer class="blockquote-footer">
+										Chamika Ravindra </cite>
+									</footer>
+								</blockquote>
+							</div>
+						</div><br>
+						<div class="card">
+							<div class="card-header">Can I see email addresses?</div>
+							<div class="card-body">
+								<blockquote class="blockquote mb-0">
+									<p>For privacy reasons, the recipient's email address is
+										not revealed to you during this process.</p>
+
+									<p>
+										<b><span class="highlight">Why</span> can't I send an
+											email to someone?</b>
+									</p>
+
+									<p>If you cannot find an email button or link for a member,
+										it means either that the administrator has disabled email
+										functions for this forum, or that the member has said that
+										they do not wish to receive email from other members.</p>
+									<footer class="blockquote-footer">
+										Kalana Elapatha </cite>
+									</footer>
+								</blockquote>
+							</div>
+						</div><br>
+						<div class="card">
+							<div class="card-header">Can I email a link to a friend?</div>
+							<div class="card-body">
+								<blockquote class="blockquote mb-0">
+									<p>Another useful email function is the ability to send a
+										friend a link to a thread you think they may find interesting.
+										Whenever you view a thread, you will find a link somewhere on
+										the page which will allow you to send a brief message to
+										anyone you like. Your referrer ID is added to the link you
+										send, so if your friend registers on this forum as a result of
+										viewing the link you sent to them, your referrals total will
+										automatically be credited.</p>
+
+									<footer class="blockquote-footer">
+										Haritha Chanuka </cite>
+									</footer>
+								</blockquote>
+							</div>
+						</div><br>
+						<div class="card">
+							<div class="card-header">What is private messaging?</div>
+							<div class="card-body">
+								<blockquote class="blockquote mb-0">
+									<p>
+										Registered members may also be able to send messages to other
+										members of this forum using the private messaging</a> system. For
+										more information about private messaging,
+									</p>
+
+									<footer class="blockquote-footer">
+										Navindu Eshan </cite>
+									</footer>
+								</blockquote>
+							</div>
+						</div><br>
+						<div class="card">
+							<div class="card-header">What are visitor messages?</div>
+							<div class="card-body">
+								<blockquote class="blockquote mb-0">
+									<p>Registered members may leave messages for other members
+										on their profile page. These messages can generally be viewed
+										by all visitors, including members, guests and search engine
+										spiders. For more information on visitor messages,</p>
+
+									<footer class="blockquote-footer">
+										Sachintha Liyanage </cite>
+									</footer>
+								</blockquote>
+							</div>
+						</div><br>
+					</div>
+					<br> <br>
+					<nav aria-label="Page navigation example">
+						<ul class="pagination justify-content-center">
+							<li class="page-item"><a class="page-link" href="#"
+								aria-label="Previous" tabindex="-1"> <span
+									aria-hidden="true">&laquo;</span> <span class="sr-only">Previous</span></a></li>
+							<li class="page-item active"><a class="page-link"
+								href="index.jsp">1</a></li>
+							<li class="page-item"><a class="page-link" href="#">2</a></li>
+							<li class="page-item"><a class="page-link" href="#">3</a></li>
+							<li class="page-item"><a class="page-link" href="#"
+								aria-label="Next"> <span aria-hidden="true">&raquo;</span> <span
+									class="sr-only">Next</span>
+							</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="page-footer font-small unique-color-dark"
+		style="background-color: #555;">
+		<div style="background-color: #f0ad4e;">
+			<div class="container">
+				<div class="row py-3 d-flex align-items-center">
+					<div
+						class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+						<h6 class="mb-0">Get Connected with Us on Social Networks!</h6>
+					</div>
+					<div class="col-md-6 col-lg-7 text-center text-md-right">
+						<!-- Facebook -->
+						<a class="fb-ic"> <i class="fab fa-facebook-f white-text mr-4">
+						</i>
+						</a>
+						<!-- Twitter -->
+						<a class="tw-ic"> <i class="fab fa-twitter white-text mr-4">
+						</i>
+						</a>
+						<!-- Google +-->
+						<a class="gplus-ic"> <i
+							class="fab fa-google-plus-g white-text mr-4"> </i>
+						</a>
+						<!--Linkedin -->
+						<a class="li-ic"> <i
+							class="fab fa-linkedin-in white-text mr-4"> </i>
+						</a>
+						<!--Instagram-->
+						<a class="ins-ic"> <i class="fab fa-instagram white-text">
+						</i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a class="float-right" id="google_translate_element"></a> <br>
+		<!-- Footer Links -->
+		<div class="container text-center text-md-left mt-2">
+
+			<!-- Grid row -->
+			<div class="row mt-3">
+
+				<!-- Grid column -->
+				<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4"
+					style="color: white;">
+					<!-- Content -->
+					<h6 class="text-uppercase font-weight-bold"
+						style="letter-spacing: 3px;">Zoom Community</h6>
+					<hr class="deep-purple accent-2 mb-4 mt-2 d-inline-block mx-auto"
+						style="width: 100px; border-color: #777;">
+					<p style="color: #eee;">Here you can use rows and columns to
+						organize your footer content. Lorem ipsum dolor sit amet,
+						consectetur adipisicing elit.</p>
+
+				</div>
 
 				<!-- Grid column -->
 				<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4"
@@ -190,8 +343,8 @@
 						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Downloads</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="UpcomingMovies.jsp">Upcoming
-							Subtitles</a>
+						<a class="btn btn-outline-light btn-block"
+							href="UpcomingMovies.jsp">Upcoming Subtitles</a>
 					</p>
 					<p>
 						<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">New
@@ -225,275 +378,41 @@
 					</p>
 				</div>
 
-						<div class="card">
-							<div class="card-header">Can I email other members?</div>
-							<div class="card-body">
-								<blockquote class="blockquote mb-0">
-									<p>Yes. To send an email to another member, you can either
-										find them on the member list, or choose the Send Email option
-										from the username menu in any post they have written.</p>
+				<!-- Grid column -->
+				<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4"
+					style="color: white;">
 
-									<p>This will usually open a page that contains a form where
-										you can enter your message. When you have finished typing your
-										message, press the 'send email' button and your message will
-										be sent instantly.</p>
-									<footer class="blockquote-footer">
-										Chamika Ravindra </cite>
-									</footer>
-								</blockquote>
-							</div>
-						</div>
-
-
-
-						<div class="card">
-							<div class="card-header">Can I see email addresses?</div>
-							<div class="card-body">
-								<blockquote class="blockquote mb-0">
-									<p>For privacy reasons, the recipient's email address is
-										not revealed to you during this process.</p>
-
-									<p>
-										<b><span class="highlight">Why</span> can't I send an
-											email to someone?</b>
-									</p>
-
-									<p>If you cannot find an email button or link for a member,
-										it means either that the administrator has disabled email
-										functions for this forum, or that the member has said that
-										they do not wish to receive email from other members.</p>
-									<footer class="blockquote-footer">
-										Kalana Elapatha </cite>
-									</footer>
-								</blockquote>
-							</div>
-						</div>
-
-
-
-						<div class="card">
-							<div class="card-header">Can I email a link to a friend?</div>
-							<div class="card-body">
-								<blockquote class="blockquote mb-0">
-									<p>Another useful email function is the ability to send a
-										friend a link to a thread you think they may find interesting.
-										Whenever you view a thread, you will find a link somewhere on
-										the page which will allow you to send a brief message to
-										anyone you like. Your referrer ID is added to the link you
-										send, so if your friend registers on this forum as a result of
-										viewing the link you sent to them, your referrals total will
-										automatically be credited.</p>
-
-									<footer class="blockquote-footer">
-										Haritha Chanuka </cite>
-									</footer>
-								</blockquote>
-							</div>
-						</div>
-
-
-
-						<div class="card">
-							<div class="card-header">What is private messaging?</div>
-							<div class="card-body">
-								<blockquote class="blockquote mb-0">
-									<p>
-										Registered members may also be able to send messages to other
-										members of this forum using the private messaging</a> system. For
-										more information about private messaging,
-									</p>
-
-									<footer class="blockquote-footer">
-										Navindu Eshan </cite>
-									</footer>
-								</blockquote>
-							</div>
-						</div>
-
-
-
-						<div class="card">
-							<div class="card-header">What are visitor messages?</div>
-							<div class="card-body">
-								<blockquote class="blockquote mb-0">
-									<p>Registered members may leave messages for other members
-										on their profile page. These messages can generally be viewed
-										by all visitors, including members, guests and search engine
-										spiders. For more information on visitor messages,</p>
-
-									<footer class="blockquote-footer">
-										Sachintha Liyanage </cite>
-									</footer>
-								</blockquote>
-							</div>
-						</div>
-
-					</div>
-
-					<br> <br>
-
-					<nav aria-label="Page navigation example">
-						<ul class="pagination justify-content-center">
-							<li class="page-item"><a class="page-link" href="#"
-								aria-label="Previous" tabindex="-1"> <span
-									aria-hidden="true">&laquo;</span> <span class="sr-only">Previous</span></a></li>
-							<li class="page-item active"><a class="page-link"
-								href="index.jsp">1</a></li>
-							<li class="page-item"><a class="page-link" href="#">2</a></li>
-							<li class="page-item"><a class="page-link" href="#">3</a></li>
-							<li class="page-item"><a class="page-link" href="#"
-								aria-label="Next"> <span aria-hidden="true">&raquo;</span> <span
-									class="sr-only">Next</span>
-							</a></li>
-						</ul>
-					</nav>
+					<!-- Links -->
+					<h6 class="text-uppercase font-weight-bold"
+						style="letter-spacing: 3px;">Contact</h6>
+					<hr class="deep-purple accent-2 mb-4 mt-2 d-inline-block mx-auto"
+						style="width: 60px; border-color: #777;">
+					<p style="color: #eee;">
+						<i class="fas fa-home mr-3"></i> Torn Ave,Colombo 7,Sri Lanka
+					</p>
+					<p style="color: #eee;">
+						<i class="fas fa-envelope mr-3"></i> info@zoom.lk
+					</p>
+					<p style="color: #eee;">
+						<i class="fas fa-phone mr-3"></i> + 01 123 456 78
+					</p>
+					<p style="color: #eee;">
+						<i class="fas fa-print mr-3"></i> + 01 123 456 78
+					</p>
 
 				</div>
-				<footer class="page-footer font-small unique-color-dark"
-					style="background-color: #555;">
-					<div style="background-color: #f0ad4e;">
-						<div class="container">
-							<div class="row py-3 d-flex align-items-center">
-								<div
-									class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-									<h6 class="mb-0">Get Connected with Us on Social Networks!</h6>
-								</div>
-								<div class="col-md-6 col-lg-7 text-center text-md-right">
-									<!-- Facebook -->
-									<a class="fb-ic"> <i
-										class="fab fa-facebook-f white-text mr-4"> </i>
-									</a>
-									<!-- Twitter -->
-									<a class="tw-ic"> <i class="fab fa-twitter white-text mr-4">
-									</i>
-									</a>
-									<!-- Google +-->
-									<a class="gplus-ic"> <i
-										class="fab fa-google-plus-g white-text mr-4"> </i>
-									</a>
-									<!--Linkedin -->
-									<a class="li-ic"> <i
-										class="fab fa-linkedin-in white-text mr-4"> </i>
-									</a>
-									<!--Instagram-->
-									<a class="ins-ic"> <i class="fab fa-instagram white-text">
-									</i>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<a class="float-right" id="google_translate_element"></a> <br>
-					<!-- Footer Links -->
-					<div class="container text-center text-md-left mt-2">
+			</div>
+		</div>
 
-						<!-- Grid row -->
-						<div class="row mt-3">
-
-							<!-- Grid column -->
-							<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4"
-								style="color: white;">
-								<!-- Content -->
-								<h6 class="text-uppercase font-weight-bold"
-									style="letter-spacing: 3px;">Zoom Community</h6>
-								<hr
-									class="deep-purple accent-2 mb-4 mt-2 d-inline-block mx-auto"
-									style="width: 100px; border-color: #777;">
-								<p style="color: #eee;">Here you can use rows and columns to
-									organize your footer content. Lorem ipsum dolor sit amet,
-									consectetur adipisicing elit.</p>
-
-							</div>
-
-							<!-- Grid column -->
-							<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4"
-								style="color: white;">
-
-								<!-- Links -->
-								<h6 class="text-uppercase font-weight-bold"
-									style="letter-spacing: 3px;">Community</h6>
-								<hr
-									class="deep-purple accent-2 mb-4 mt-2 d-inline-block mx-auto"
-									style="width: 60px; border-color: #777;">
-								<p>
-									<a class="btn btn-outline-light btn-block" href="#!">IMdB</a>
-								</p>
-								<p>
-									<a class="btn btn-outline-light btn-block" href="#!">Downloads</a>
-								</p>
-								<p>
-									<a class="btn btn-outline-light btn-block" href="#!">Upcoming
-										Subtitles</a>
-								</p>
-								<p>
-									<a class="btn btn-outline-light btn-block" href="#!">Latest
-										Subtitles</a>
-								</p>
-							</div>
-
-							<!-- Grid column -->
-							<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4"
-								style="color: white;">
-
-								<!-- Links -->
-								<h6 class="text-uppercase font-weight-bold"
-									style="letter-spacing: 3px;">Useful links</h6>
-								<hr
-									class="deep-purple accent-2 mb-4 mt-2 d-inline-block mx-auto"
-									style="width: 80px; border-color: #777;">
-								<p>
-									<a class="btn btn-outline-light btn-block" href="#!">Your
-										Account</a>
-								</p>
-								<p>
-									<a class="btn btn-outline-light btn-block" href="#!">Latest
-										Subtitles</a>
-								</p>
-								<p>
-									<a class="btn btn-outline-light btn-block" href="#!">Movie
-										details</a>
-								</p>
-								<p>
-									<a class="btn btn-outline-light btn-block" href="#!">Help</a>
-								</p>
-							</div>
-
-							<!-- Grid column -->
-							<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4"
-								style="color: white;">
-
-								<!-- Links -->
-								<h6 class="text-uppercase font-weight-bold"
-									style="letter-spacing: 3px;">Contact</h6>
-								<hr
-									class="deep-purple accent-2 mb-4 mt-2 d-inline-block mx-auto"
-									style="width: 60px; border-color: #777;">
-								<p style="color: #eee;">
-									<i class="fas fa-home mr-3"></i> Torn Ave,Colombo 7,Sri Lanka
-								</p>
-								<p style="color: #eee;">
-									<i class="fas fa-envelope mr-3"></i> info@zoom.lk
-								</p>
-								<p style="color: #eee;">
-									<i class="fas fa-phone mr-3"></i> + 01 123 456 78
-								</p>
-								<p style="color: #eee;">
-									<i class="fas fa-print mr-3"></i> + 01 123 456 78
-								</p>
-
-							</div>
-						</div>
-					</div>
-
-					<!-- Copyright -->
-					<div class="footer-copyright text-center py-0.5"
-						style="color: #eee; background-color: #333;">
-						<br> <a href="index.jsp"
-							style="color: #eee; text-decoration: none;"> <img
-							src="pix/logo.png" width="120px" height="45px">
-						</a><br> Copyright � 2019 &nbsp - &nbsp All rights reserved. <br>
-						<br>
-					</div>
-				</footer>
+		<!-- Copyright -->
+		<div class="footer-copyright text-center py-0.5"
+			style="color: #eee; background-color: #333;">
+			<br> <a href="index.jsp"
+				style="color: #eee; text-decoration: none;"> <img
+				src="pix/logo.png" width="120px" height="45px">
+			</a><br> Copyright Â© 2019 &nbsp; - &nbsp; All rights reserved. <br>
+			<br>
+		</div>
+	</footer>
 </body>
 </html>
