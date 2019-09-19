@@ -49,8 +49,8 @@
 		</button>
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a class="nav-link"
-					href="index.jsp">Home &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="index.jsp">Home
+						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Calendar
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Summary
@@ -103,14 +103,14 @@
 						</ul>
 					</div>
 				</li>
-				<li class="nav-item active"><a class="nav-link" href="AboutUs.jsp">About
-						Us &nbsp;</a></li>
+				<li class="nav-item active"><a class="nav-link"
+					href="AboutUs.jsp">About Us &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact Us
-						&nbsp; </a></li>
+				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact
+						Us &nbsp; </a></li>
 				<li class="nav-item"><a class="nav-link"
 					href="GeneralSettings.jsp">Settings &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
@@ -142,10 +142,7 @@
 	</nav>
 	<a class="float-right" id="google_translate_element"></a>
 	<div>
-		<br>
-		<br>
-
-
+		<br> <br>
 		<div align="center">
 			<div class="card-body">
 				<div id="carouselExampleControls" class="carousel slide"
@@ -185,30 +182,40 @@
 			</div>
 		</div>
 		<div style="background-color: #E9ECEF;">
-			<br> <br> <br>
-			<h1>
-				<center>About Us</center>
-			</h1>
-			<br>
-			<p align="center" style="color: dim-grey" style=style="font-size:30px">
-				When most people think of downloading movie subtitles, you have to
-				make visit to our website and have a view. <br>I am sure once
-				you visit us, You will never ever leave Us. Because We have a bank
-				of Subtitles. <br>If you prefer to get one, You can download it
-				without any trouble because all these are open to you at your finger
-				tips. <br> If you don't understand English, you can change the
-				language as you prefer. <br> This website ensure that the right
-				subtitle is available at the right time and <br> of the right
-				quality.<br> <br>
-			</p>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<br><br><br><img class="img-fluid" src="pix/ppl2.png" align="right">
+					</div>
+					<div class="col-md-5">
+						<br>
+						<br>
+						<h1>
+							<center>About Us</center>
+						</h1>
+						<br>
+						<p align="center" style="color: dim-grey" style=style="font-size:30px">
+							When most people think of downloading movie subtitles, you have
+							to make visit to our web site and have a view. I am sure
+							once you visit us, You will never ever leave Us. Because We have
+							a bank of Subtitles. If you prefer to get one, You can
+							download it without any trouble because all these are open to you
+							at your finger tips. If you don't understand English,
+							you can change the language as you prefer. This web site
+							ensure that the right subtitle is available at the right time and
+							of the right quality.<br> <br>
+						</p>
 
-			<br>
-			<center>
-				<a class="btn btn-primary text-center" align="center"
-					href="ContactUs.jsp">Contact Us</a>
-			</center>
-			<br>
-			<br>
+						<br>
+						<center>
+							<a class="btn btn-primary text-center" align="center"
+								href="ContactUs.jsp">Contact Us</a>
+						</center>
+						<br> <br>
+					</div>
+				</div>
+
+			</div>
 		</div>
 
 		<br>
