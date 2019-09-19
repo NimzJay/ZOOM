@@ -256,9 +256,9 @@
 					</div>
 					<div class="col-md-7">
 						<!-- Google Translater -->
-						<a class="float-right" id="google_translate_element"></a> <br>
+						<a class="float-right" id="google_translate_element"></a>
 						<br><br>
-						<br> <img class="img-fluid" src="pix/m5.png" align="right">
+						<br> <img class="img-fluid" src="pix/set.png" align="right">
 					</div>
 				</div>
 				
