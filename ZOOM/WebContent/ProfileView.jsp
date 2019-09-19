@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -49,8 +49,8 @@
 		</button>
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a class="nav-link"
-					href="index.jsp">Home &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="index.jsp">Home
+						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Calendar
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Summary
@@ -109,8 +109,8 @@
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact Us
-						&nbsp; </a></li>
+				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact
+						Us &nbsp; </a></li>
 				<li class="nav-item active"><a class="nav-link"
 					href="GeneralSettings.jsp">Settings &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
@@ -140,61 +140,67 @@
 		</script>
 
 	</nav>
-	
-<!-- Google Translater -->
-	<a class="float-right" id="google_translate_element"></a>
+
+
 	<div class="container-fluid" style="margin: 20px; padding: 0px">
-	
+
 		<div class="row">
-<!--Left Navigaion Bar-->
-			<div class="col-md-3 card justify-content-center align-items-center">
-			
-				<br> <img src="pix/profile.jpg" class="rounded-circle" width="200px" height="200px">
-					 
-				<h2 style="font-size: 30px">Kavindu Mihiranga</h2><br> 
-				
-				<a class="btn btn-outline-primary"  style="width: 250px;"href="">General Settings</a><br>
+			<!--Left Navigaion Bar-->
+			<div class="col-md-3 card align-items-center">
+				<br> <img src="pix/avatar2.jpg" class="rounded-circle"
+					width="200px" height="200px">
+
+				<h2 style="font-size: 30px">Kavindu Mihiranga</h2>
+				<br>
+				<a class="btn btn-outline-primary active" href="ProfileView.jsp"
+					style="width: 250px;">My Profile</a>
+				<br> 
+				<a class="btn btn-outline-primary" href="GeneralSettings.jsp"
+					style="width: 250px;">General Settings</a>
+				<br> 	
 				<h3 style="font-size: 25px">Account Management</h3>
 
-				<a class="btn btn-outline-primary"  style="width: 250px;" href="#">Edit
-					Password and Email</a><br> <a class="btn btn-outline-primary"
-					href="#" style="width: 250px;">Privacy Settings</a><br>
+				<a class="btn btn-outline-primary" href="EditEmailandPassword.jsp"
+					style="width: 250px;">Edit Password and Email</a><br> <a
+					class="btn btn-outline-primary" href="#" style="width: 250px;">Privacy
+					Settings</a><br>
 
 				<h3 style="font-size: 25px">Legal Policies</h3>
 
 				<a class="btn btn-outline-primary" href="#" style="width: 250px;">Terms
 					of Services</a><br> <a class="btn btn-outline-primary" href="#"
 					style="width: 250px;">Data Policy</a><br> <br>
-					
+
 			</div>
-			
+
 			<div class="col-md-8">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-5">
 						<form class="form-horizontal" role="form" style="color: #010101">
 							<h2>Personal Information</h2>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="firstName"
-									class="col-md-2 col-form-label">Name</label>
-									<label for="firstName"
-									class="col-md-5 col-form-label" style="color:blue; font-size:22px;"><b>Kavindu Mihiranga</b></label>
+									class="col-md-3 col-form-label">Name</label> <label
+									for="firstName" class="col-md-8 col-form-label"
+									style="color: blue; font-size: 22px;"><b>Kavindu
+										Mihiranga</b></label>
 							</div>
-							
-							
+
+
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="username"
-									class="col-md-2 col-form-label">User Name*</label>
-									<label for="firstName"
-									class="col-md-5 col-form-label" style="color:blue; font-size:22px;"><b>kavindumihiranga</b></label>
-									
-								
+									class="col-md-3 col-form-label">User Name*</label> <label
+									for="firstName" class="col-md-8 col-form-label"
+									style="color: blue; font-size: 22px;"><b>kavindumihiranga</b></label>
+
+
 							</div>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="displayname"
-									class="col-md-2 col-form-label">Display Name*</label>
-									<label for="firstName"
-									class="col-md-5 col-form-label" style="color:blue; font-size:22px;"><b>kaviya</b></label>
-								
+									class="col-md-3 col-form-label">Display Name*</label> <label
+									for="firstName" class="col-md-8 col-form-label"
+									style="color: blue; font-size: 22px;"><b>kaviya</b></label>
+
 							</div>
 						</form>
 						<br> <br>
@@ -202,27 +208,34 @@
 							<h2>Contact Information</h2>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="email"
-									class="col-sm-2 col-form-label">Email</label>
-									<label for="firstName"
-									class="col-md-5 col-form-label" style="color:#808080; font-size:22px;"><b>kavindumihiranga@gmail.com</b></label>
-								
+									class="col-sm-3 col-form-label">Email</label> <label
+									for="firstName" class="col-md-8 col-form-label"
+									style="color: #808080; font-size: 22px;"><b>kavindumihiranga@gmail.com</b></label>
+
 							</div>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="website"
-									class="col-sm-2 col-form-label">Web Site</label>
-									<label for="firstName"
-									class="col-md-5 col-form-label" style="color:#808080; font-size:22px;"><b>www.kawiya.com</b></label>
-								
+									class="col-sm-3 col-form-label">Web Site</label> <label
+									for="firstName" class="col-md-8 col-form-label"
+									style="color: #808080; font-size: 22px;"><b>www.kawiya.com</b></label>
+
 							</div>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="Aboutyourself"
-									class="col-sm-2 col-form-label">About yourself</label>
-									<label for="firstName"
-									class="col-md-5 col-form-label" style="color:#808080; font-size:20px;"><b>Film Lover</b></label>
-								
+									class="col-sm-3 col-form-label">About yourself</label> <label
+									for="firstName" class="col-md-8 col-form-label"
+									style="color: #808080; font-size: 20px;"><b>Film
+										Lover</b></label>
+
 							</div>
 
 						</form>
+					</div>
+					<div class="col-md-7">
+						<!-- Google Translater -->
+						<a class="float-right" id="google_translate_element"></a><br>
+						<br>
+						<br> <img class="img-fluid" src="pix/prof2.jpg" align="right">
 					</div>
 				</div>
 			</div>
@@ -231,14 +244,15 @@
 	<br>
 	<br>
 	<br>
-	
+
 	<!-- web site footer -->
 	<footer class="page-footer font-small unique-color-dark"
 		style="background-color: #555;">
 		<div style="background-color: #f0ad4e;">
 			<div class="container">
 				<div class="row py-3 d-flex align-items-center">
-					<div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+					<div
+						class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
 						<h6 class="mb-0">Get Connected with Us on Social Networks!</h6>
 					</div>
 					<div class="col-md-6 col-lg-7 text-center text-md-right">
@@ -251,10 +265,12 @@
 						</i>
 						</a>
 						<!-- Google +-->
-						<a class="gplus-ic"> <i class="fab fa-google-plus-g white-text mr-4"> </i>
+						<a class="gplus-ic"> <i
+							class="fab fa-google-plus-g white-text mr-4"> </i>
 						</a>
 						<!--Linkedin -->
-						<a class="li-ic"> <i class="fab fa-linkedin-in white-text mr-4"> </i>
+						<a class="li-ic"> <i
+							class="fab fa-linkedin-in white-text mr-4"> </i>
 						</a>
 						<!--Instagram-->
 						<a class="ins-ic"> <i class="fab fa-instagram white-text">

@@ -49,8 +49,8 @@
 		</button>
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a class="nav-link"
-					href="index.jsp">Home &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="index.jsp">Home
+						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Calendar
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Summary
@@ -109,8 +109,8 @@
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact Us
-						&nbsp; </a></li>
+				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact
+						Us &nbsp; </a></li>
 				<li class="nav-item active"><a class="nav-link"
 					href="GeneralSettings.jsp">Settings &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
@@ -141,9 +141,6 @@
 
 	</nav>
 
-	<!-- Google Translator -->
-	<a class="float-right" id="google_translate_element"></a>
-
 	<div class="container-fluid" style="margin: 20px; padding: 0px">
 		<div class="row">
 			<!--Left Navigation Bar-->
@@ -152,8 +149,13 @@
 					width="200px" height="200px">
 
 				<h2 style="font-size: 30px">Kavindu Mihiranga</h2>
-				<br> <a class="btn btn-outline-primary active" href="#"
-					style="width: 250px;">General Settings</a><br>
+				<br>
+				<a class="btn btn-outline-primary" href="ProfileView.jsp"
+					style="width: 250px;">My Profile</a>
+				<br> 
+				<a class="btn btn-outline-primary active" href="GeneralSettings.jsp"
+					style="width: 250px;">General Settings</a>
+				<br> 	
 				<h3 style="font-size: 25px">Account Management</h3>
 
 				<a class="btn btn-outline-primary" href="EditEmailandPassword.jsp"
@@ -208,10 +210,10 @@
 							</div>
 							<div class="form-group">
 								&nbsp &nbsp &nbsp &nbsp &nbsp
-								<button type="submit" class="btn btn-primary">Cancel</button>
+								<button type="submit" class="btn btn-secondary">Cancel</button>
 								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
 								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-								<button type="button" class="btn btn-primary btn-md">
+								<button type="button" class="btn btn-success btn-md">
 									<b>Submit</b>
 								</button>
 							</div>
@@ -245,18 +247,21 @@
 							</div>
 							<div class="form-group">
 								&nbsp &nbsp &nbsp &nbsp &nbsp
-								<button type="submit" class="btn btn-primary align-items-left">Cancel</button>
+								<button type="submit" class="btn btn-secondary align-items-left">Cancel</button>
 								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
 								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-								<button type="button" class="btn btn-primary btn-md">
+								<button type="button" class="btn btn-success btn-md">
 									<b>Submit</b>
 								</button>
 							</div>
 						</form>
 					</div>
 					<div class="col-md-7">
-						<img class="img-fluid" src="pix/m5.png" height="600px"
-							align="right">
+						<!-- Google Translator Widget -->
+						<a class="float-right" id="google_translate_element"></a> <br>
+						<br>
+						<br>
+						<br> <img class="img-fluid" src="pix/mng2.jpg" align="right">
 					</div>
 				</div>
 				<div class="row">
@@ -268,7 +273,7 @@
 							<input type="checkbox" name="MOV3" value="CM">Comedies<br>
 							<input type="checkbox" name="MOV4" value="TR">Tragedies<br>
 							<input type="checkbox" name="MOV5" value="CC" checked>Comic
-							Cons<br> <input class="btn btn-primary" type="submit"
+							Cons<br> <input class="btn btn-success" type="submit"
 								value="Submit">
 						</form>
 						<br>
@@ -280,12 +285,11 @@
 							<input type="checkbox" name="LANG2" value="SIN">Sinhala<br>
 							<input type="checkbox" name="LANG3" value="TA">Tamil<br>
 							<input type="checkbox" name="LANG4" value="HIN">Hindi<br>
-							<br> <input class="btn btn-primary" type="submit"
+							<br> <input class="btn btn-success" type="submit"
 								value="Submit">
 						</form>
 						<br>
 					</div>
-
 				</div>
 			</div>
 		</div>
