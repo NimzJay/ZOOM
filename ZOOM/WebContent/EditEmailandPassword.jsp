@@ -140,50 +140,53 @@
 
 	</nav>
 	
-<!-- Google Translater -->
-	<a class="float-right" id="google_translate_element"></a>
-	
 	<div class="container-fluid" style="margin: 20px; padding: 0px">
 		<div class="row">
-<!--Left Navigaion Bar-->
-			<div class="col-md-3 card justify-content-center align-items-center">
-				<br> <img src="pix/avatar2.jpg" class="rounded-circle" width="200px" height="200px">
-					 
-				<h2 style="font-size: 30px">FirstName LastName</h2><br> 
-				
+			<!--Left Navigation Bar-->
+			<div class="col-md-3 card align-items-center">
+				<br> <img src="pix/avatar2.jpg" class="rounded-circle"
+					width="200px" height="200px">
+
+				<h2 style="font-size: 30px">Kavindu Mihiranga</h2>
+				<br>
+				<a class="btn btn-outline-primary" href="ProfileView.jsp"
+					style="width: 250px;">My Profile</a>
+				<br> 
 				<a class="btn btn-outline-primary" href="GeneralSettings.jsp"
-					style="width: 250px;">General Settings</a><br>
+					style="width: 250px;">General Settings</a>
+				<br> 	
 				<h3 style="font-size: 25px">Account Management</h3>
 
-				<a class="btn btn-outline-primary active" href="EditEmailandPassword.jsp" style="width: 250px;">Edit
-					Password and Email</a><br> <a class="btn btn-outline-primary"
-					href="#" style="width: 250px;">Privacy Settings</a><br>
+				<a class="btn btn-outline-primary active" href="EditEmailandPassword.jsp"
+					style="width: 250px;">Edit Password and Email</a><br> <a
+					class="btn btn-outline-primary" href="#" style="width: 250px;">Privacy
+					Settings</a><br>
 
 				<h3 style="font-size: 25px">Legal Policies</h3>
 
 				<a class="btn btn-outline-primary" href="#" style="width: 250px;">Terms
 					of Services</a><br> <a class="btn btn-outline-primary" href="#"
 					style="width: 250px;">Data Policy</a><br> <br>
-					
+
 			</div>
 			
 			<div class="col-md-8">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-5">
 						<form class="form-horizontal" role="form" style="color: #010101">
-						<br><br><br>
+						
 						<!--Edit Email and password settings-->
 						&nbsp &nbsp &nbsp &nbsp<h2>Edit Email and Password</h2>
 							
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="Cpassword"
-									class="col-md-2 col-form-label">Current Password</label>
-								<div class="col-md-4">
+									class="col-md-3 col-form-label">Current Password</label>
+								<div class="col-md-8">
 									<input type="text" class="form-control" id="Cpassword"
 										placeholder="Current Password">
 										
 							    </div>
-								<p style="margin-left: 2.5em;padding: 0 7em 2em 0;border-width: 2px;">  (You must enter your current password if you wish to change password or email)</p>
+								<p class="col-md-12" style="margin-left: 2.5em;padding: 0 7em 2em 0;border-width: 2px;">  (You must enter your current password if you wish to change password or email)</p>
 							</div>
 							
                 
@@ -194,17 +197,16 @@
 							&nbsp &nbsp &nbsp &nbsp<h2>Change Password</h2>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="Password"
-									class="col-sm-2 col-form-label">New Password</label>
-									
-								<div class="col-md-4">
+									class="col-sm-3 col-form-label">New Password</label>			
+								<div class="col-md-8">
 									<input type="text" class="form-control" id="pass"
 										placeholder="New Password">
 								</div>
 							</div>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="confPassword"
-									class="col-sm-2 col-form-label">Confirm Password</label>
-								<div class="col-md-4">
+									class="col-sm-3 col-form-label">Confirm Password</label>
+								<div class="col-md-8">
 									<input type="text" class="form-control" id="website"
 										placeholder="Confirm Password">
 								</div>
@@ -212,10 +214,10 @@
 							
 							<div class="form-group">
 								&nbsp &nbsp &nbsp &nbsp &nbsp
-								<button type="submit" class="btn btn-primary align-items-left">Cancel</button>
+								<button type="submit" class="btn btn-secondary align-items-left">Cancel</button>
 								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
 								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-								<button type="button" class="btn btn-primary btn-md">
+								<button type="button" class="btn btn-success btn-md">
 									<b>Submit</b>
 									
 								</button>
@@ -226,16 +228,16 @@
 							&nbsp &nbsp &nbsp &nbsp<h2>Change email</h2>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="Nemail"
-									class="col-sm-2 col-form-label">New email</label>
-								<div class="col-md-4">
+									class="col-sm-3 col-form-label">New email</label>
+								<div class="col-md-8">
 									<input type="text" class="form-control" id="Nemail"
 										placeholder="New Email">
 								</div>
 							</div>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="confirmEmail"
-									class="col-sm-2 col-form-label">Confirm Email </label>
-								<div class="col-md-4">
+									class="col-sm-3 col-form-label">Confirm Email </label>
+								<div class="col-md-8">
 									<input type="text" class="form-control" id="confirmEmail"
 										placeholder="Confirm email">
 								</div>
@@ -243,16 +245,21 @@
 							
 							<div class="form-group">
 								&nbsp &nbsp &nbsp &nbsp &nbsp
-								<button type="submit" class="btn btn-primary align-items-left">Cancel</button>
+								<button type="submit" class="btn btn-secondary align-items-left">Cancel</button>
 								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
 								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-								<button type="button" class="btn btn-primary btn-md">
+								<button type="button" class="btn btn-success btn-md">
 									<b>Submit</b>
 								</button>
 							</div>
 						</form>
 					</div>
-					
+					<div class="col-md-7">
+						<!-- Google Translater -->
+						<a class="float-right" id="google_translate_element"></a>
+						<br><br>
+						<br> <img class="img-fluid" src="pix/set.png" align="right">
+					</div>
 				</div>
 				
 			</div>
