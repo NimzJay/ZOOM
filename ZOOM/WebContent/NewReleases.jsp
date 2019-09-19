@@ -69,8 +69,8 @@
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="GeneralSettings.jsp">Settings
-						&nbsp; &nbsp; &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="GeneralSettings.jsp">Settings &nbsp; &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
 						<input class="form-control" type="text" placeholder="Search"
@@ -86,7 +86,6 @@
 			</ul>
 		</div>
 	</nav>
-	<a class="float-right" id="google_translate_element"></a>
 
 	<div class="content">
 		<div class="row">
@@ -147,13 +146,18 @@
 				</div>
 			</div>
 			<div class="col-md-9">
-				<div class="container">
+				<div class="container-fluid">
+
+					<!-- Google Translator -->
+					<div class="row justify-content-end">
+						<a class="float-right" id="google_translate_element"></a>
+					</div>
 					<br>
 					<h1 class="display-4">Newly Released Subtitles</h1>
 					<br>
-					<div class="row">
+					<div class="row justify-content-around">
 						<div class="col-sm-4">
-							<div class="card" style="width: 16rem;">
+							<div class="card h-100" style="width: 18rem;">
 								<img class="card-img-top" src="pix/x.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
@@ -170,7 +174,7 @@
 							</div>
 						</div>
 						<div class="col-sm-4">
-							<div class="card" style="width: 16rem;">
+							<div class="card h-100" style="width: 18rem;">
 								<img class="card-img-top" src="pix/y.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
@@ -187,7 +191,7 @@
 							</div>
 						</div>
 						<div class="col-sm-4">
-							<div class="card" style="width: 16rem;">
+							<div class="card h-100" style="width: 18rem;">
 								<img class="card-img-top" src="pix/dark2.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
@@ -206,9 +210,9 @@
 						</div>
 					</div>
 					<br>
-					<div class="row">
+					<div class="row justify-content-around">
 						<div class="col-sm-4">
-							<div class="card" style="width: 16rem;">
+							<div class="card h-100" style="width: 18rem;">
 								<img class="card-img-top" src="pix/w.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
@@ -225,7 +229,7 @@
 							</div>
 						</div>
 						<div class="col-sm-4">
-							<div class="card" style="width: 16rem;">
+							<div class="card h-100" style="width: 18rem;">
 								<img class="card-img-top" src="pix/hellboy.jpg"
 									alt="Movie Poster">
 								<div class="card-body">
@@ -243,7 +247,7 @@
 							</div>
 						</div>
 						<div class="col-sm-4">
-							<div class="card" style="width: 16rem;">
+							<div class="card h-100" style="width: 18rem;">
 								<img class="card-img-top" src="pix/z.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">

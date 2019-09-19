@@ -98,7 +98,7 @@
 		style="border-bottom: 1px; border-color: white;">
 		<a class="navbar-brand" href="index.jsp"> <img src="pix/logo.png"
 			width="100" height="35" class="d-inline-block align-top" alt="">
-			&nbsp; | <span>Subtitle Portal</span>
+			| <span>Subtitles</span>
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#collapsibleNavbar">
@@ -106,20 +106,60 @@
 		</button>
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active"><a class="nav-link"
+					href="index.jsp">Home &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Calendar
+						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Summary
 						&nbsp;</a></li>
-				<li class="nav-item dropdown"><a
-					class="nav-link dropdown-toggle" href="#"
-					id="navbarDropdownMenuLink" data-toggle="dropdown"
-					aria-haspopup="true" aria-expanded="false"> Downloads &nbsp;</a>
-					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<li><a class="dropdown-item" href="AllSubtitles.jsp">All
-								Subtitles</a></li>
-						<li><a class="dropdown-item" href="NewReleases.jsp">New
-								Subtitles</a></li>
-					</ul></li>
-				<li class="nav-item"><a class="nav-link"
-					href="UpcomingMovies.jsp">Upcoming Movies &nbsp;</a></li>
+				<!-- Drop down menu -->
+				<li class="nav-item dropdown">
+					<div class="dropdown">
+						<a class="nav-link dropdown-toggle" href="#"
+							id="navbarDropdownMenuLink" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false"> Subtitles <span
+							class="caret"></span> &nbsp;
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="btn" href="AllSubtitles.jsp">All Subtitles</a></li>
+							<li><a class="btn" href="NewReleases.jsp">New Subtitles</a></li>
+							<li><a class="btn" href="#">Featured Subtitles</a></li>
+							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming
+									Movies </a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li class="dropdown-submenu dropright"><a
+								class="btn test dropright" href="#">Filter by Categories<span
+									class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a class="btn" href="#">Adventure</a></li>
+									<li><a class="btn" href="#">Detective</a></li>
+									<li><a class="btn" href="#">Horror</a></li>
+									<li><a class="btn" href="#">Romance</a></li>
+									<li><a class="btn" href="#">TV Series</a></li>
+								</ul></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li class="dropdown-submenu dropright"><a class="btn test"
+								href="#">Filter by Language<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a class="btn" href="#">English</a></li>
+									<li><a class="btn" href="#">Sinhala</a></li>
+									<li><a class="btn" href="#">Tamil</a></li>
+									<li><a class="btn" href="#">French</a></li>
+									<li><a class="btn" href="#">Spanish</a></li>
+								</ul></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li class="dropdown-submenu dropright"><a class="btn test"
+								href="#">Filter by Year<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a class="btn" href="#">2019</a></li>
+									<li><a class="btn" href="#">2018</a></li>
+									<li><a class="btn" href="#">2017</a></li>
+									<li><a class="btn" href="#">2016</a></li>
+									<li><a class="btn" href="#">2015</a></li>
+								</ul></li>
+						</ul>
+					</div>
+				</li>
 				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About
 						Us &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
@@ -127,7 +167,7 @@
 				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
 				<li class="nav-item"><a class="nav-link"
-					href="GeneralSettings.jsp">Settings &nbsp; &nbsp; &nbsp;</a></li>
+					href="GeneralSettings.jsp">Settings &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
 						<input class="form-control" type="text" placeholder="Search"
@@ -135,23 +175,51 @@
 							class="fas fa-search text-white ml-2" aria-hidden="true"></i>
 					</form>
 				</li>
-				<li class="nav-item">&nbsp; &nbsp; &nbsp;<a
-					class="btn btn-primary" href="Login.jsp"> Log in </a>&nbsp; &nbsp;
+				<li class="nav-item">&nbsp; &nbsp;<a class="btn btn-primary"
+					href="Login.jsp"> Log in </a>&nbsp; &nbsp;
 				</li>
 				<li class="nav-item"><a class="btn btn-primary"
 					href="Register.jsp"> Register </a></li>
 			</ul>
 		</div>
+
+		<!-- Dropdown Multi level -->
+		<script>
+			$(document).ready(function() {
+				$('.dropdown-submenu a.test').on("click", function(e) {
+					$(this).next('ul').toggle();
+					e.stopPropagation();
+					e.preventDefault();
+				});
+			});
+		</script>
+
 	</nav>
 
+	<!-- Advances settings button -->
+	<a class="btn btn-light float-right btn-sm" href="#"> Advanced
+		Search</a>
+	<!-- Google Translator Widget -->
 	<a class="float-right" id="google_translate_element"></a>
+
 	<div class="jumbotron jumbotron-fluid">
 		<div class="container">
-			<h1 class="display-4">Featured Subtitle</h1>
+
+			<h1 class="display-4">Featured Subtitles</h1>
+
+			<!-- Search Featured subtitles -->
+			<div class="input-group md-form form-sm form-2 pl-0">
+				<input class="form-control my-0 py-1 red-border" type="text"
+					placeholder="Search Featured subtitles" aria-label="Search">
+				<div class="input-group-append">
+					<span class="input-group-text red lighten-3" id="basic-text1"><i
+						class="fas fa-search text-grey" aria-hidden="true"></i></span>
+				</div>
+			</div>
 			<br>
 			<div class="row">
 				<div class="col-sm-3">
-					<div class="card" style="width: 16rem;">
+					<div class="card h-100" style="width: 16rem;">
 						<img class="card-img-top" src="pix/x.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
@@ -168,7 +236,7 @@
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<div class="card" style="width: 16rem;">
+					<div class="card h-100" style="width: 16rem;">
 						<img class="card-img-top" src="pix/y.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
@@ -185,7 +253,7 @@
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<div class="card" style="width: 16rem;">
+					<div class="card h-100" style="width: 16rem;">
 						<img class="card-img-top" src="pix/dark2.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
@@ -203,7 +271,7 @@
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<div class="card" style="width: 16rem;">
+					<div class="card h-100" style="width: 16rem;">
 						<img class="card-img-top" src="pix/dora.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
@@ -223,7 +291,7 @@
 			<br>
 			<div class="row">
 				<div class="col-sm-3">
-					<div class="card" style="width: 16rem;">
+					<div class="card h-100" style="width: 16rem;">
 						<img class="card-img-top" src="pix/w.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
@@ -240,7 +308,7 @@
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<div class="card" style="width: 16rem;">
+					<div class="card h-100" style="width: 16rem;">
 						<img class="card-img-top" src="pix/hellboy.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
@@ -256,7 +324,7 @@
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<div class="card" style="width: 16rem;">
+					<div class="card h-100" style="width: 16rem;">
 						<img class="card-img-top" src="pix/z.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
@@ -273,7 +341,7 @@
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<div class="card" style="width: 16rem;">
+					<div class="card h-100" style="width: 16rem;">
 						<img class="card-img-top" src="pix/spider.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
@@ -293,7 +361,7 @@
 			<br>
 			<div class="row">
 				<div class="col-sm-3">
-					<div class="card" style="width: 16rem;">
+					<div class="card h-100" style="width: 16rem;">
 						<img class="card-img-top" src="pix/alita.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
@@ -310,7 +378,7 @@
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<div class="card" style="width: 16rem;">
+					<div class="card h-100" style="width: 16rem;">
 						<img class="card-img-top" src="pix/abo.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
@@ -326,7 +394,7 @@
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<div class="card" style="width: 16rem;">
+					<div class="card h-100" style="width: 16rem;">
 						<img class="card-img-top" src="pix/joker.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
@@ -344,7 +412,7 @@
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<div class="card" style="width: 16rem;">
+					<div class="card h-100" style="width: 16rem;">
 						<img class="card-img-top" src="pix/mal.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
