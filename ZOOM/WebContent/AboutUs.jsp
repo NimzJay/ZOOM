@@ -41,7 +41,7 @@
 		style="border-bottom: 1px; border-color: white;">
 		<a class="navbar-brand" href="index.jsp"> <img src="pix/logo.png"
 			width="100" height="35" class="d-inline-block align-top" alt="">
-			&nbsp; | <span>Subtitle Portal</span>
+			| <span>Subtitles</span>
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#collapsibleNavbar">
@@ -49,28 +49,70 @@
 		</button>
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav ml-auto">
+				<li class="nav-item"><a class="nav-link"
+					href="index.jsp">Home &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Calendar
+						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Summary
 						&nbsp;</a></li>
-				<li class="nav-item dropdown"><a
-					class="nav-link dropdown-toggle" href="#"
-					id="navbarDropdownMenuLink" data-toggle="dropdown"
-					aria-haspopup="true" aria-expanded="false"> Downloads &nbsp;</a>
-					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<li><a class="dropdown-item" href="AllSubtitles.jsp">All
-								Subtitles</a></li>
-						<li><a class="dropdown-item" href="NewReleases.jsp">New
-								Subtitles</a></li>
-					</ul></li>
-				<li class="nav-item"><a class="nav-link"
-					href="UpcomingMovies.jsp">Upcoming Movies &nbsp;</a></li>
-				<li class="nav-item active"><a class="nav-link"
-					href="AboutUs.jsp">About Us &nbsp;</a></li>
+				<!-- Drop down menu -->
+				<li class="nav-item dropdown">
+					<div class="dropdown">
+						<a class="nav-link dropdown-toggle" href="#"
+							id="navbarDropdownMenuLink" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false"> Subtitles <span
+							class="caret"></span> &nbsp;
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="btn" href="AllSubtitles.jsp">All Subtitles</a></li>
+							<li><a class="btn" href="NewReleases.jsp">New Subtitles</a></li>
+							<li><a class="btn" href="#">Featured Subtitles</a></li>
+							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming
+									Movies </a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li class="dropdown-submenu dropright"><a
+								class="btn test dropright" href="#">Filter by Categories<span
+									class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a class="btn" href="#">Adventure</a></li>
+									<li><a class="btn" href="#">Detective</a></li>
+									<li><a class="btn" href="#">Horror</a></li>
+									<li><a class="btn" href="#">Romance</a></li>
+									<li><a class="btn" href="#">TV Series</a></li>
+								</ul></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li class="dropdown-submenu dropright"><a class="btn test"
+								href="#">Filter by Language<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a class="btn" href="#">English</a></li>
+									<li><a class="btn" href="#">Sinhala</a></li>
+									<li><a class="btn" href="#">Tamil</a></li>
+									<li><a class="btn" href="#">French</a></li>
+									<li><a class="btn" href="#">Spanish</a></li>
+								</ul></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li class="dropdown-submenu dropright"><a class="btn test"
+								href="#">Filter by Year<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a class="btn" href="#">2019</a></li>
+									<li><a class="btn" href="#">2018</a></li>
+									<li><a class="btn" href="#">2017</a></li>
+									<li><a class="btn" href="#">2016</a></li>
+									<li><a class="btn" href="#">2015</a></li>
+								</ul></li>
+						</ul>
+					</div>
+				</li>
+				<li class="nav-item active"><a class="nav-link" href="AboutUs.jsp">About
+						Us &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="GeneralSettings.jsp">Settings
-						&nbsp; &nbsp; &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact Us
+						&nbsp; </a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="GeneralSettings.jsp">Settings &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
 						<input class="form-control" type="text" placeholder="Search"
@@ -78,19 +120,33 @@
 							class="fas fa-search text-white ml-2" aria-hidden="true"></i>
 					</form>
 				</li>
-				<li class="nav-item">&nbsp; &nbsp; &nbsp;<a
-					class="btn btn-primary" href="Login.jsp"> Log in </a>&nbsp; &nbsp;
+				<li class="nav-item">&nbsp; &nbsp;<a class="btn btn-primary"
+					href="Login.jsp"> Log in </a>&nbsp; &nbsp;
 				</li>
 				<li class="nav-item"><a class="btn btn-primary"
 					href="Register.jsp"> Register </a></li>
 			</ul>
 		</div>
+
+		<!-- Dropdown Multi level -->
+		<script>
+			$(document).ready(function() {
+				$('.dropdown-submenu a.test').on("click", function(e) {
+					$(this).next('ul').toggle();
+					e.stopPropagation();
+					e.preventDefault();
+				});
+			});
+		</script>
+
 	</nav>
 	<a class="float-right" id="google_translate_element"></a>
-	<div><br><br>
+	<div>
+		<br>
+		<br>
 
 
-		<div  align="center">
+		<div align="center">
 			<div class="card-body">
 				<div id="carouselExampleControls" class="carousel slide"
 					data-ride="carousel">
@@ -151,154 +207,156 @@
 				<a class="btn btn-primary text-center" align="center"
 					href="ContactUs.jsp">Contact Us</a>
 			</center>
-			<br><br>
+			<br>
+			<br>
 		</div>
 
 		<br>
-		 <footer class="page-footer font-small unique-color-dark"
-		style="background-color: #555;">
-		<div style="background-color: #f0ad4e;">
-			<div class="container">
-				<div class="row py-3 d-flex align-items-center">
-					<div
-						class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-						<h6 class="mb-0">Get Connected with Us on Social Networks!</h6>
-					</div>
-					<div class="col-md-6 col-lg-7 text-center text-md-right">
-						<!-- Facebook -->
-						<a class="fb-ic"> <i class="fab fa-facebook-f white-text mr-4">
-						</i>
-						</a>
-						<!-- Twitter -->
-						<a class="tw-ic"> <i class="fab fa-twitter white-text mr-4">
-						</i>
-						</a>
-						<!-- Google +-->
-						<a class="gplus-ic"> <i
-							class="fab fa-google-plus-g white-text mr-4"> </i>
-						</a>
-						<!--Linkedin -->
-						<a class="li-ic"> <i
-							class="fab fa-linkedin-in white-text mr-4"> </i>
-						</a>
-						<!--Instagram-->
-						<a class="ins-ic"> <i class="fab fa-instagram white-text">
-						</i>
-						</a>
+		<footer class="page-footer font-small unique-color-dark"
+			style="background-color: #555;">
+			<div style="background-color: #f0ad4e;">
+				<div class="container">
+					<div class="row py-3 d-flex align-items-center">
+						<div
+							class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+							<h6 class="mb-0">Get Connected with Us on Social Networks!</h6>
+						</div>
+						<div class="col-md-6 col-lg-7 text-center text-md-right">
+							<!-- Facebook -->
+							<a class="fb-ic"> <i
+								class="fab fa-facebook-f white-text mr-4"> </i>
+							</a>
+							<!-- Twitter -->
+							<a class="tw-ic"> <i class="fab fa-twitter white-text mr-4">
+							</i>
+							</a>
+							<!-- Google +-->
+							<a class="gplus-ic"> <i
+								class="fab fa-google-plus-g white-text mr-4"> </i>
+							</a>
+							<!--Linkedin -->
+							<a class="li-ic"> <i
+								class="fab fa-linkedin-in white-text mr-4"> </i>
+							</a>
+							<!--Instagram-->
+							<a class="ins-ic"> <i class="fab fa-instagram white-text">
+							</i>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<a class="float-right" id="google_translate_element"></a> <br>
-		<!-- Footer Links -->
-		<div class="container text-center text-md-left mt-2">
+			<a class="float-right" id="google_translate_element"></a> <br>
+			<!-- Footer Links -->
+			<div class="container text-center text-md-left mt-2">
 
-			<!-- Grid row -->
-			<div class="row mt-3">
+				<!-- Grid row -->
+				<div class="row mt-3">
 
-				<!-- Grid column -->
-				<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4"
-					style="color: white;">
-					<!-- Content -->
-					<h6 class="text-uppercase font-weight-bold"
-						style="letter-spacing: 3px;">Zoom Community</h6>
-					<hr class="deep-purple accent-2 mb-4 mt-2 d-inline-block mx-auto"
-						style="width: 100px; border-color: #777;">
-					<p style="color: #eee;">Here you can use rows and columns to
-						organize your footer content. Lorem ipsum dolor sit amet,
-						consectetur adipisicing elit.</p>
+					<!-- Grid column -->
+					<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4"
+						style="color: white;">
+						<!-- Content -->
+						<h6 class="text-uppercase font-weight-bold"
+							style="letter-spacing: 3px;">Zoom Community</h6>
+						<hr class="deep-purple accent-2 mb-4 mt-2 d-inline-block mx-auto"
+							style="width: 100px; border-color: #777;">
+						<p style="color: #eee;">Here you can use rows and columns to
+							organize your footer content. Lorem ipsum dolor sit amet,
+							consectetur adipisicing elit.</p>
 
-				</div>
+					</div>
 
-				<!-- Grid column -->
-				<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4"
-					style="color: white;">
+					<!-- Grid column -->
+					<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4"
+						style="color: white;">
 
-					<!-- Links -->
-					<h6 class="text-uppercase font-weight-bold"
-						style="letter-spacing: 3px;">Community</h6>
-					<hr class="deep-purple accent-2 mb-4 mt-2 d-inline-block mx-auto"
-						style="width: 60px; border-color: #777;">
-					<p>
-						<a class="btn btn-outline-light btn-block"
-							href="https://www.imdb.com/">IMdB</a>
-					</p>
-					<p>
-						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Downloads</a>
-					</p>
-					<p>
-						<a class="btn btn-outline-light btn-block"
-							href="UpcomingMovies.jsp">Upcoming Subtitles</a>
-					</p>
-					<p>
-						<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">New
-							Subtitles</a>
-					</p>
-				</div>
+						<!-- Links -->
+						<h6 class="text-uppercase font-weight-bold"
+							style="letter-spacing: 3px;">Community</h6>
+						<hr class="deep-purple accent-2 mb-4 mt-2 d-inline-block mx-auto"
+							style="width: 60px; border-color: #777;">
+						<p>
+							<a class="btn btn-outline-light btn-block"
+								href="https://www.imdb.com/">IMdB</a>
+						</p>
+						<p>
+							<a class="btn btn-outline-light btn-block"
+								href="AllSubtitles.jsp">Downloads</a>
+						</p>
+						<p>
+							<a class="btn btn-outline-light btn-block"
+								href="UpcomingMovies.jsp">Upcoming Subtitles</a>
+						</p>
+						<p>
+							<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">New
+								Subtitles</a>
+						</p>
+					</div>
 
-				<!-- Grid column -->
-				<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4"
-					style="color: white;">
+					<!-- Grid column -->
+					<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4"
+						style="color: white;">
 
-					<!-- Links -->
-					<h6 class="text-uppercase font-weight-bold"
-						style="letter-spacing: 3px;">Useful links</h6>
-					<hr class="deep-purple accent-2 mb-4 mt-2 d-inline-block mx-auto"
-						style="width: 80px; border-color: #777;">
-					<p>
-						<a class="btn btn-outline-light btn-block" href="ProfileView.jsp">Your
-							Account</a>
-					</p>
-					<p>
-						<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">Latest
-							Subtitles</a>
-					</p>
-					<p>
-						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Movie
-							details</a>
-					</p>
-					<p>
-						<a class="btn btn-outline-light btn-block" href="Help.jsp">Help</a>
-					</p>
-				</div>
+						<!-- Links -->
+						<h6 class="text-uppercase font-weight-bold"
+							style="letter-spacing: 3px;">Useful links</h6>
+						<hr class="deep-purple accent-2 mb-4 mt-2 d-inline-block mx-auto"
+							style="width: 80px; border-color: #777;">
+						<p>
+							<a class="btn btn-outline-light btn-block" href="ProfileView.jsp">Your
+								Account</a>
+						</p>
+						<p>
+							<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">Latest
+								Subtitles</a>
+						</p>
+						<p>
+							<a class="btn btn-outline-light btn-block"
+								href="AllSubtitles.jsp">Movie details</a>
+						</p>
+						<p>
+							<a class="btn btn-outline-light btn-block" href="Help.jsp">Help</a>
+						</p>
+					</div>
 
-				<!-- Grid column -->
-				<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4"
-					style="color: white;">
+					<!-- Grid column -->
+					<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4"
+						style="color: white;">
 
-					<!-- Links -->
-					<h6 class="text-uppercase font-weight-bold"
-						style="letter-spacing: 3px;">Contact</h6>
-					<hr class="deep-purple accent-2 mb-4 mt-2 d-inline-block mx-auto"
-						style="width: 60px; border-color: #777;">
-					<p style="color: #eee;">
-						<i class="fas fa-home mr-3"></i> Torn Ave,Colombo 7,Sri Lanka
-					</p>
-					<p style="color: #eee;">
-						<i class="fas fa-envelope mr-3"></i> info@zoom.lk
-					</p>
-					<p style="color: #eee;">
-						<i class="fas fa-phone mr-3"></i> + 01 123 456 78
-					</p>
-					<p style="color: #eee;">
-						<i class="fas fa-print mr-3"></i> + 01 123 456 78
-					</p>
+						<!-- Links -->
+						<h6 class="text-uppercase font-weight-bold"
+							style="letter-spacing: 3px;">Contact</h6>
+						<hr class="deep-purple accent-2 mb-4 mt-2 d-inline-block mx-auto"
+							style="width: 60px; border-color: #777;">
+						<p style="color: #eee;">
+							<i class="fas fa-home mr-3"></i> Torn Ave,Colombo 7,Sri Lanka
+						</p>
+						<p style="color: #eee;">
+							<i class="fas fa-envelope mr-3"></i> info@zoom.lk
+						</p>
+						<p style="color: #eee;">
+							<i class="fas fa-phone mr-3"></i> + 01 123 456 78
+						</p>
+						<p style="color: #eee;">
+							<i class="fas fa-print mr-3"></i> + 01 123 456 78
+						</p>
 
+					</div>
 				</div>
 			</div>
-		</div>
 
-		<!-- Copyright -->
-		<div class="footer-copyright text-center py-0.5"
-			style="color: #eee; background-color: #333;">
-			<br> <a href="index.jsp"
-				style="color: #eee; text-decoration: none;"> <img
-				src="pix/logo.png" width="120px" height="45px">
-			</a><br> Copyright © 2019 &nbsp; - &nbsp; All rights reserved. <br>
-			<br>
-		</div>
-	</footer>
+			<!-- Copyright -->
+			<div class="footer-copyright text-center py-0.5"
+				style="color: #eee; background-color: #333;">
+				<br> <a href="index.jsp"
+					style="color: #eee; text-decoration: none;"> <img
+					src="pix/logo.png" width="120px" height="45px">
+				</a><br> Copyright © 2019 &nbsp; - &nbsp; All rights reserved. <br>
+				<br>
+			</div>
+		</footer>
 	</div>
-	
+
 </body>
 </html>

@@ -36,6 +36,8 @@
 
 </head>
 <body style="background-color: #E9ECEF">
+
+	<!-- Image Slideshow -->
 	<div id="carouselExampleControls" class="carousel slide"
 		data-ride="carousel">
 		<ol class="carousel-indicators">
@@ -94,6 +96,7 @@
 		</a>
 	</div>
 
+	<!-- Navigation Bar -->
 	<nav class="navbar navbar-expand-xl bg-dark navbar-dark sticky-top"
 		style="border-bottom: 1px; border-color: white;">
 		<a class="navbar-brand" href="index.jsp"> <img src="pix/logo.png"
@@ -165,6 +168,8 @@
 				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
+						&nbsp; </a></li>
+				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact Us
 						&nbsp; </a></li>
 				<li class="nav-item"><a class="nav-link"
 					href="GeneralSettings.jsp">Settings &nbsp; &nbsp;</a></li>
