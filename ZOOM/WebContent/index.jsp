@@ -233,7 +233,7 @@
 							<p class="card-text">A kind-hearted street urchin and a
 								power-hungry Grand Vizier vie for a magic lamp that has the
 								power to make their deepest wishes come true.</p>
-							<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+							<a href="Mov_Aladdin.jsp" class="btn btn-primary">Download</a> &nbsp; &nbsp;
 							&nbsp; <a
 								href="https://www.imdb.com/title/tt6139732/?ref_=tt_sims_tti"
 								class="btn btn-warning">IMDB link</a>
