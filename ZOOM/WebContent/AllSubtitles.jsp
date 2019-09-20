@@ -67,10 +67,11 @@
 							<li><a class="btn" href="AllSubtitles.jsp"
 								style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">All
 									Subtitles</a></li>
+							<li><a class="btn" href="AllSubtitles.jsp" style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">All Subtitles</a></li>
 							<li><a class="btn" href="NewReleases.jsp">New Subtitles</a></li>
-							<li><a class="btn" href="#">Featured Subtitles</a></li>
-							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming
-									Movies </a></li>
+							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured Subtitles</a></li>
+							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming Subtitles</a></li>
+							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming Movies </a></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a
 								class="btn test dropright" href="#">Filter by Categories<span
