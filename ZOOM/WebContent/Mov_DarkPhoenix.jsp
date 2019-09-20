@@ -159,7 +159,7 @@
 					</p>
 				</div>
 				<div class="col-md-9">
-					<h1 class="display-4" style="color: orange;">Dark Phoenix
+					<h1 class="display-4" style="color: black;">Dark Phoenix
 						(2019) Sinhala Subtitles</h1>
 					<h4 class="display-8 text-primary">Action, Adventure, Sci-Fi</h4>
 					<div class="row ">
@@ -286,7 +286,7 @@
 			<br> <a href="index.jsp"
 				style="color: #eee; text-decoration: none;"> <img
 				src="pix/logo.png" width="120px" height="45px">
-			</a><br> Copyright © 2019 &nbsp; - &nbsp; All rights reserved. <br>
+			</a><br> Copyright Â© 2019 &nbsp; - &nbsp; All rights reserved. <br>
 			<br>
 		</div>
 	</footer>

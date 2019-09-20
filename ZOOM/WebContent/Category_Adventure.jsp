@@ -60,8 +60,8 @@
 					<div class="dropdown">
 						<a class="nav-link dropdown-toggle" href="#"
 							id="navbarDropdownMenuLink" data-toggle="dropdown"
-							aria-haspopup="true" aria-expanded="false" style="color: white;"> Subtitles <span
-							class="caret"></span> &nbsp;
+							aria-haspopup="true" aria-expanded="false" style="color: white;">
+							Subtitles <span class="caret"></span> &nbsp;
 						</a>
 						<ul class="dropdown-menu">
 							<li><a class="btn" href="AllSubtitles.jsp">All Subtitles</a></li>
@@ -71,8 +71,10 @@
 									Movies </a></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a
-								class="btn test dropright" href="#" style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">Filter by Categories<span
-									class="caret"></span></a>
+								class="btn test dropright" href="#"
+								style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">Filter
+									by Categories<span class="caret"></span>
+							</a>
 								<ul class="dropdown-menu">
 									<li><a class="btn" href="Category_Adventure.jsp" style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">Adventure</a></li>
 									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
@@ -140,71 +142,25 @@
 		</script>
 
 	</nav>
+	<!-- Google Translater -->
+	<a class="float-right" id="google_translate_element"></a>
+	<nav aria-label="breadcrumb">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
+			<li class="breadcrumb-item"><a href="#">Subtitles</a></li>
+			<li class="breadcrumb-item"><a href="#">Filter by Category</a></li>
+			<li class="breadcrumb-item active" aria-current="page">Adventure</li>
 
+		</ol>
+	</nav>
 	<div class="content">
 		<div class="row">
-			<div class="col-md-3">
-				<div class="menu" height="100%">
-					<br>
-					<h2>
-						<span>&nbsp; &nbsp; CATEGORY</span>
-					</h2>
-					<hr>
-					<p class="menuLabel">
-						<b>&nbsp; &nbsp; Filter by Type</b>
-					</p>
-					<ul class="nav flex-column">
-						<li><a class="menu-link active" href="AllSubtitles.jsp">All
-								Subtitles</a></li>
-						<li><a class="menu-link" href="UpcomingMovies.jsp">Upcoming
-								Movies</a></li>
-						<li><a class="menu-link" href="NewReleases.jsp">Newly
-								Released Subtitles</a></li>
 
-					</ul>
-					<br>
-					<p class="menuLabel">
-						<b>&nbsp; &nbsp; Filter by Genre</b>
-					</p>
-					<ul class="nav flex-column">
-						<li><a class="menu-link" href="Category_Adventure.jsp"
-							style="color: #05499c; background-color: #E9ECEF; border-radius: 20px;">Adventure</a></li>
-						<li><a class="menu-link" href="#">Detective</a></li>
-						<li><a class="menu-link" href="#">Horror</a></li>
-						<li><a class="menu-link" href="#">Romance</a></li>
-						<li><a class="menu-link" href="#">TV Series</a></li>
-					</ul>
-					<br>
-					<p class="menuLabel">
-						<b>&nbsp; &nbsp; Filter by Year</b>
-					</p>
-					<ul class="nav flex-column">
-						<li><a class="menu-link" href="#">2019</a></li>
-						<li><a class="menu-link" href="#">2018</a></li>
-						<li><a class="menu-link" href="#">2017</a></li>
-						<li><a class="menu-link" href="#">2016</a></li>
-						<li><a class="menu-link" href="#">2015</a></li>
-
-					</ul>
-					<br>
-					<p class="menuLabel">
-						<b>&nbsp; &nbsp; Filter by Language</b>
-					</p>
-					<ul class="nav flex-column">
-						<li><a class="menu-link" href="#">English</a></li>
-						<li><a class="menu-link" href="#">Sinhala</a></li>
-						<li><a class="menu-link" href="#">Tamil</a></li>
-						<li><a class="menu-link" href="#">French</a></li>
-						<li><a class="menu-link" href="#">Spanish</a></li>
-					</ul>
-					<br>
-				</div>
-			</div>
-			<div class="col-md-9">
-				<div class="container-fluid">
+			<div class="col-md-12">
+				<div class="container">
 
 					<!-- Google Translator -->
-					<div class="row justify-content-end">
+					<div class="row justify-content-around">
 						<a class="float-right" id="google_translate_element"></a>
 					</div>
 					<br>
@@ -222,8 +178,8 @@
 						</div>
 					</div>
 					<br>
-					<div class="row justify-content-around">
-						<div class="col-sm-4">
+					<div class="row">
+						<div class="col-sm-3">
 							<div class="card h-100" style="width: 16rem;">
 								<img class="card-img-top" src="pix/x.jpg" alt="Movie Poster">
 								<div class="card-body">
@@ -233,14 +189,14 @@
 									<p class="card-text">A kind-hearted street urchin and a
 										power-hungry Grand Vizier vie for a magic lamp that has the
 										power to make their deepest wishes come true.</p>
-									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-									&nbsp; <a
+									<a href="Mov_Aladdin.jsp" class="btn btn-primary">Download</a>
+									&nbsp; &nbsp; &nbsp; <a
 										href="https://www.imdb.com/title/tt6139732/?ref_=tt_sims_tti"
 										class="btn btn-warning">IMDB link</a>
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-4">
+						<div class="col-sm-3">
 							<div class="card h-100" style="width: 16rem;">
 								<img class="card-img-top" src="pix/y.jpg" alt="Movie Poster">
 								<div class="card-body">
@@ -257,7 +213,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-4">
+						<div class="col-sm-3">
 							<div class="card h-100" style="width: 16rem;">
 								<img class="card-img-top" src="pix/dark2.jpg" alt="Movie Poster">
 								<div class="card-body">
@@ -275,10 +231,7 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<br>
-					<div class="row justify-content-around">
-						<div class="col-sm-4">
+						<div class="col-sm-3">
 							<div class="card h-100" style="width: 16rem;">
 								<img class="card-img-top" src="pix/godzilla.jpg"
 									alt="Movie Poster">
@@ -297,7 +250,10 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-4">
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-sm-3">
 							<div class="card h-100" style="width: 16rem;">
 								<img class="card-img-top" src="pix/pet.jpg" alt="Movie Poster">
 								<div class="card-body">
@@ -314,7 +270,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-4">
+						<div class="col-sm-3">
 							<div class="card h-100" style="width: 16rem;">
 								<img class="card-img-top" src="pix/abo.jpg" alt="Movie Poster">
 								<div class="card-body">
@@ -323,11 +279,114 @@
 									</h5>
 									<p class="card-text">A magical Yeti must return to his
 										family.</p>
-									<br>
-									<br>
-									<br> <a href="#" class="btn btn-primary">Download</a>
-									&nbsp; &nbsp; &nbsp; <a
+									<br> <br> <br> <a href="#"
+										class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
 										href="https://www.imdb.com/title/tt6324278/?ref_=cs_ov_tt"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/joker.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>Joker</b>
+									</h5>
+									<p class="card-text">An original standalone origin story of
+										the iconic villain not seen before on the big screen, it's a
+										gritty character study of Arthur Fleck, a man...</p>
+									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+									&nbsp; <a
+										href="https://www.imdb.com/title/tt7286456/?ref_=cs_ov_tt"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/mal.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>Maleficent: Mistress of Evil</b>
+									</h5>
+									<p class="card-text">Maleficent and her goddaughter Aurora
+										begin to question the complex family ties that bind them as
+										they are pulled in...</p>
+									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+									&nbsp; <a
+										href="https://www.imdb.com/title/tt4777008/?ref_=cs_ov_tt"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/w.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>Deadpool 2</b>
+									</h5>
+									<p class="card-text">Foul-mouthed mutant mercenary Wade
+										Wilson (AKA. Deadpool), brings together a team of fellow
+										mutant rogues to protect a young boy with...</p>
+									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+									&nbsp; <a href="https://www.imdb.com/title/tt5463162/"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/hellboy.jpg"
+									alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>Hellboy</b>
+									</h5>
+									<p class="card-text">Based on the graphic novels by Mike
+										Mignola, Hellboy, caught between the worlds of the
+										supernatural and human, battles an ancient sorceress bent
+										on...</p>
+									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+									&nbsp; <a href="https://www.imdb.com/title/tt2274648/"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/z.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>Wonder Woman</b>
+									</h5>
+									<p class="card-text">When a pilot crashes and tells of
+										conflict in the outside world, Diana, an Amazonian warrior in
+										training, leaves home to fight a war, discovering her full...</p>
+									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+									&nbsp; <a href="https://www.imdb.com/title/tt0451279/"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/spider.jpg"
+									alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b> Spider-Man: Far from Home </b>
+									</h5>
+									<p class="card-text">Following the events of Avengers:
+										Endgame (2019), Spider-Man must step up to take on new threats
+										in a world...</p>
+									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+									&nbsp; <a
+										href="https://www.imdb.com/title/tt6320628/?ref_=inth_ov_tt"
 										class="btn btn-warning">IMDB link</a>
 								</div>
 							</div>
