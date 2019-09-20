@@ -100,7 +100,9 @@
 				<div class="col-5" style="padding-left: 110px;">
 					<br>
 					<h1 class="display-4">Register</h1>
-					<form>
+					
+					
+					<form name="register" method="post" action="register">
 						<div class="form-row">
 							<div class="col">
 								<label for="inputEmail4">Name</label>
@@ -108,44 +110,44 @@
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-6">
-								<input type="text" class="form-control" placeholder="First name"
+								<input type="text" class="form-control" placeholder="First name" id="fname" name="fname"
 									required>
 							</div>
 							<div class="form-group col-md-6">
-								<input type="text" class="form-control" placeholder="Last name"
+								<input type="text" class="form-control" placeholder="Last name" id="lname" name="lname"
 									required>
 							</div>
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-12">
 								<label for="inputEmail4">Username</label> <input type="text"
-									class="form-control" required>
+									class="form-control" id="username" name="username" required>
 							</div>
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-12">
 								<label for="inputPassword4">Password</label> <input
-									type="password" class="form-control" id="inputPassword4"
-									placeholder="Password" required>
+									type="password" class="form-control" id="Password"
+									placeholder="Password" name="Password" required>
 							</div>
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-12">
-								<input type="password" class="form-control" id="inputPassword4"
-									placeholder="Re-Enter Password" required>
+								<input type="password" class="form-control"
+									placeholder="Re-Enter Password" id="Password" name="Password" required>
 							</div>
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-12">
 								<label for="inputAddress">Email</label> <input type="email"
 									class="form-control" id="inputAddress"
-									placeholder="johndoe@example.com" required>
+									placeholder="johndoe@example.com" id="email" name="email" required>
 							</div>
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-12">
 								<label for="inputAddress">Phone</label> <input type="text"
-									class="form-control" id="inputAddress" placeholder="0777123456"
+									class="form-control" placeholder="0777123456" id="phone" name="phone"
 									required>
 							</div>
 						</div>

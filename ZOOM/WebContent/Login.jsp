@@ -61,8 +61,8 @@
 						<li><a class="dropdown-item" href="NewReleases.jsp">New
 								Subtitles</a></li>
 					</ul></li>
-				<li class="nav-item"><a class="nav-link" href="UpcomingMovies.jsp">Upcoming
-						Movies &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="UpcomingMovies.jsp">Upcoming Movies &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About
 						Us &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
@@ -93,24 +93,23 @@
 				<li class="breadcrumb-item active" aria-current="page">Log in</li>
 			</ol>
 		</nav>
-		<a class="float-right" id="google_translate_element"></a><br>
-		<br>
+		<a class="float-right" id="google_translate_element"></a><br> <br>
 		<div class="wrapper cont">
 			<div class="row">
 				<div class="col-5" style="padding-left: 110px;">
 					<br>
 					<h1 class="display-4">Sign in</h1>
-					<form>
+					<form name="login" method="post" action="login">
 						<div class="form-row">
 							<div class="form-group col-md-12">
-								<label for="inputEmail4">Username</label> <input type="text"
+								<label for="inputEmail4">Username</label> <input type="text" name="username" id="username"
 									class="form-control" required>
 							</div>
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-12">
 								<label for="inputPassword4">Password</label> <input
-									type="password" class="form-control" id="inputPassword4"
+									type="password" class="form-control" name="Password" id="Password"
 									placeholder="Password" required>
 							</div>
 						</div>
@@ -128,9 +127,7 @@
 							<p>
 								Not Registered? &nbsp;<a href="Register.jsp">Register</a>
 							</p>
-							<br>
-							<br>
-							<br>
+							<br> <br> <br>
 						</div>
 					</form>
 				</div>
