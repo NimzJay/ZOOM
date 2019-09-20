@@ -51,9 +51,9 @@
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item"><a class="nav-link" href="index.jsp">Home
 						&nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Calendar
+				<li class="nav-item"><a class="nav-link" href="Calendar.jsp">Calendar
 						&nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Summary
+				<li class="nav-item"><a class="nav-link" href="Summary.jsp">Summary
 						&nbsp;</a></li>
 				<!-- Drop down menu -->
 				<li class="nav-item dropdown">
@@ -66,19 +66,19 @@
 						<ul class="dropdown-menu">
 							<li><a class="btn" href="AllSubtitles.jsp">All Subtitles</a></li>
 							<li><a class="btn" href="NewReleases.jsp">New Subtitles</a></li>
-							<li><a class="btn" href="#">Featured Subtitles</a></li>
-							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming
-									Movies </a></li>
+							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured Subtitles</a></li>
+							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming Subtitles</a></li>
+							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming Movies </a></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a
 								class="btn test dropright" href="#">Filter by Categories<span
 									class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li><a class="btn" href="#">Adventure</a></li>
-									<li><a class="btn" href="#">Detective</a></li>
-									<li><a class="btn" href="#">Horror</a></li>
-									<li><a class="btn" href="#">Romance</a></li>
-									<li><a class="btn" href="#">TV Series</a></li>
+									<li><a class="btn" href="Category_Adventure.jsp">Adventure</a></li>
+									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
+									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
+									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
+									<li><a class="btn" href="Category_TvSeries.jsp">TV Series</a></li>
 								</ul></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a class="btn test"
@@ -289,11 +289,11 @@
 						</p>
 						<p>
 							<a class="btn btn-outline-light btn-block"
-								href="AllSubtitles.jsp">Downloads</a>
+								href="AllSubtitles.jsp">Subtitles</a>
 						</p>
 						<p>
 							<a class="btn btn-outline-light btn-block"
-								href="UpcomingMovies.jsp">Upcoming Subtitles</a>
+								href="UpcomingSubtitles.jsp">Upcoming Subtitles</a>
 						</p>
 						<p>
 							<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">New

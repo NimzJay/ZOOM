@@ -131,11 +131,11 @@
 								class="btn test dropright" href="#">Filter by Categories<span
 									class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li><a class="btn" href="#">Adventure</a></li>
-									<li><a class="btn" href="#">Detective</a></li>
-									<li><a class="btn" href="#">Horror</a></li>
-									<li><a class="btn" href="#">Romance</a></li>
-									<li><a class="btn" href="#">TV Series</a></li>
+									<li><a class="btn" href="Category_Adventure.jsp">Adventure</a></li>
+									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
+									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
+									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
+									<li><a class="btn" href="Category_TvSeries.jsp">TV Series</a></li>
 								</ul></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a class="btn test"
@@ -400,11 +400,11 @@
 							href="https://www.imdb.com/">IMdB</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Downloads</a>
+						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Subtitles</a>
 					</p>
 					<p>
 						<a class="btn btn-outline-light btn-block"
-							href="UpcomingMovies.jsp">Upcoming Subtitles</a>
+							href="UpcomingSubtitles.jsp">Upcoming Subtitles</a>
 					</p>
 					<p>
 						<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">New
