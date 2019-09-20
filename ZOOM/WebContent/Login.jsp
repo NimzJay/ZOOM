@@ -50,8 +50,8 @@
 		</button>
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a class="nav-link"
-					href="index.jsp">Home &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="index.jsp">Home
+						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Calendar
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Summary
@@ -67,9 +67,12 @@
 						<ul class="dropdown-menu">
 							<li><a class="btn" href="AllSubtitles.jsp">All Subtitles</a></li>
 							<li><a class="btn" href="NewReleases.jsp">New Subtitles</a></li>
-							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured Subtitles</a></li>
-							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming Subtitles</a></li>
-							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming Movies </a></li>
+							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured
+									Subtitles</a></li>
+							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming
+									Subtitles</a></li>
+							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming
+									Movies </a></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a
 								class="btn test dropright" href="#">Filter by Categories<span
@@ -79,7 +82,8 @@
 									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
 									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
 									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
-									<li><a class="btn" href="Category_TvSeries.jsp">TV Series</a></li>
+									<li><a class="btn" href="Category_TvSeries.jsp">TV
+											Series</a></li>
 								</ul></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a class="btn test"
@@ -110,8 +114,8 @@
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact Us
-						&nbsp; </a></li>
+				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact
+						Us &nbsp; </a></li>
 				<li class="nav-item"><a class="nav-link"
 					href="GeneralSettings.jsp">Settings &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
@@ -148,8 +152,12 @@
 				<li class="breadcrumb-item active" aria-current="page">Log in</li>
 			</ol>
 		</nav>
-		<a class="float-right" id="google_translate_element"></a><br>
-		<br>
+		<!-- Google Translator Widget -->
+		<a class="btn btn-light btn-sm float-right"
+			id="google_translate_element"></a>
+		<!-- Advances settings button -->
+		<a class="btn btn-light btn-sm float-right" href="#"> Advanced
+			Search</a> <br>
 		<div class="wrapper cont">
 			<div class="row">
 				<div class="col-5" style="padding-left: 110px;">
@@ -182,9 +190,7 @@
 							<p>
 								Not Registered? &nbsp;<a href="Register.jsp">Register</a>
 							</p>
-							<br>
-							<br>
-							<br>
+							<br> <br> <br>
 						</div>
 					</form>
 				</div>

@@ -139,8 +139,11 @@
 		</script>
 
 	</nav>
-	<!-- Google Translater -->
-	<a class="float-right" id="google_translate_element"></a>
+	<!-- Google Translator Widget -->
+	<a class="btn btn-light btn-sm float-right" id="google_translate_element"></a>
+	<!-- Advances settings button -->
+	<a class="btn btn-light btn-sm float-right" href="#"> Advanced
+		Search</a>
 	<nav aria-label="breadcrumb">
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>

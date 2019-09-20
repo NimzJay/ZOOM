@@ -28,7 +28,8 @@
 <script type="text/javascript">
 	function googleTranslateElementInit() {
 		new google.translate.TranslateElement({
-			pageLanguage : 'en', includedLanguages: 'en,si,ta',
+			pageLanguage : 'en',
+			includedLanguages : 'en,si,ta',
 			layout : google.translate.TranslateElement.InlineLayout.SIMPLE
 		}, 'google_translate_element');
 	}
@@ -66,9 +67,12 @@
 						<ul class="dropdown-menu">
 							<li><a class="btn" href="AllSubtitles.jsp">All Subtitles</a></li>
 							<li><a class="btn" href="NewReleases.jsp">New Subtitles</a></li>
-							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured Subtitles</a></li>
-							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming Subtitles</a></li>
-							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming Movies </a></li>
+							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured
+									Subtitles</a></li>
+							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming
+									Subtitles</a></li>
+							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming
+									Movies </a></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a
 								class="btn test dropright" href="#">Filter by Categories<span
@@ -78,7 +82,8 @@
 									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
 									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
 									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
-									<li><a class="btn" href="Category_TvSeries.jsp">TV Series</a></li>
+									<li><a class="btn" href="Category_TvSeries.jsp">TV
+											Series</a></li>
 								</ul></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a class="btn test"
@@ -151,13 +156,10 @@
 					width="200px" height="200px">
 
 				<h2 style="font-size: 30px">Kavindu Mihiranga</h2>
-				<br>
-				<a class="btn btn-outline-primary active" href="ProfileView.jsp"
-					style="width: 250px;">My Profile</a>
-				<br> 
+				<br> <a class="btn btn-outline-primary active"
+					href="ProfileView.jsp" style="width: 250px;">My Profile</a> <br>
 				<a class="btn btn-outline-primary" href="GeneralSettings.jsp"
-					style="width: 250px;">General Settings</a>
-				<br> 	
+					style="width: 250px;">General Settings</a> <br>
 				<h3 style="font-size: 25px">Account Management</h3>
 
 				<a class="btn btn-outline-primary" href="EditEmailandPassword.jsp"
@@ -232,9 +234,13 @@
 						</form>
 					</div>
 					<div class="col-md-7">
-						<!-- Google Translater -->
-						<a class="float-right" id="google_translate_element"></a><br>
-						<img class="img-fluid" src="pix/globe.png" align="right">
+						<!-- Google Translator Widget -->
+						<a class="btn btn-light btn-sm float-right"
+							id="google_translate_element"></a>
+						<!-- Advances settings button -->
+						<a class="btn btn-light btn-sm float-right" href="#"> Advanced
+							Search</a><br> <img class="img-fluid" src="pix/globe.png"
+							align="right">
 					</div>
 				</div>
 			</div>

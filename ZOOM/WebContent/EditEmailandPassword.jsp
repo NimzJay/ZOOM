@@ -27,7 +27,8 @@
 <script type="text/javascript">
 	function googleTranslateElementInit() {
 		new google.translate.TranslateElement({
-			pageLanguage : 'en', includedLanguages: 'en,si,ta',
+			pageLanguage : 'en',
+			includedLanguages : 'en,si,ta',
 			layout : google.translate.TranslateElement.InlineLayout.SIMPLE
 		}, 'google_translate_element');
 	}
@@ -48,8 +49,8 @@
 		</button>
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a class="nav-link"
-					href="index.jsp">Home &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="index.jsp">Home
+						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Calendar
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Summary
@@ -65,9 +66,12 @@
 						<ul class="dropdown-menu">
 							<li><a class="btn" href="AllSubtitles.jsp">All Subtitles</a></li>
 							<li><a class="btn" href="NewReleases.jsp">New Subtitles</a></li>
-							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured Subtitles</a></li>
-							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming Subtitles</a></li>
-							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming Movies </a></li>
+							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured
+									Subtitles</a></li>
+							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming
+									Subtitles</a></li>
+							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming
+									Movies </a></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a
 								class="btn test dropright" href="#">Filter by Categories<span
@@ -77,7 +81,8 @@
 									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
 									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
 									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
-									<li><a class="btn" href="Category_TvSeries.jsp">TV Series</a></li>
+									<li><a class="btn" href="Category_TvSeries.jsp">TV
+											Series</a></li>
 								</ul></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a class="btn test"
@@ -108,8 +113,8 @@
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact Us
-						&nbsp; </a></li>
+				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact
+						Us &nbsp; </a></li>
 				<li class="nav-item active"><a class="nav-link"
 					href="GeneralSettings.jsp">Settings &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
@@ -139,7 +144,7 @@
 		</script>
 
 	</nav>
-	
+
 	<div class="container-fluid" style="margin: 20px; padding: 0px">
 		<div class="row">
 			<!--Left Navigation Bar-->
@@ -148,19 +153,16 @@
 					width="200px" height="200px">
 
 				<h2 style="font-size: 30px">Kavindu Mihiranga</h2>
-				<br>
-				<a class="btn btn-outline-primary" href="ProfileView.jsp"
-					style="width: 250px;">My Profile</a>
-				<br> 
-				<a class="btn btn-outline-primary" href="GeneralSettings.jsp"
-					style="width: 250px;">General Settings</a>
-				<br> 	
+				<br> <a class="btn btn-outline-primary" href="ProfileView.jsp"
+					style="width: 250px;">My Profile</a> <br> <a
+					class="btn btn-outline-primary" href="GeneralSettings.jsp"
+					style="width: 250px;">General Settings</a> <br>
 				<h3 style="font-size: 25px">Account Management</h3>
 
-				<a class="btn btn-outline-primary active" href="EditEmailandPassword.jsp"
-					style="width: 250px;">Edit Password and Email</a><br> <a
-					class="btn btn-outline-primary" href="#" style="width: 250px;">Privacy
-					Settings</a><br>
+				<a class="btn btn-outline-primary active"
+					href="EditEmailandPassword.jsp" style="width: 250px;">Edit
+					Password and Email</a><br> <a class="btn btn-outline-primary"
+					href="#" style="width: 250px;">Privacy Settings</a><br>
 
 				<h3 style="font-size: 25px">Legal Policies</h3>
 
@@ -169,35 +171,40 @@
 					style="width: 250px;">Data Policy</a><br> <br>
 
 			</div>
-			
+
 			<div class="col-md-8">
 				<div class="row">
 					<div class="col-md-5">
 						<form class="form-horizontal" role="form" style="color: #010101">
-						
-						<!--Edit Email and password settings-->
-						&nbsp &nbsp &nbsp &nbsp<h2>Edit Email and Password</h2>
-							
+
+							<!--Edit Email and password settings-->
+							&nbsp &nbsp &nbsp &nbsp
+							<h2>Edit Email and Password</h2>
+
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="Cpassword"
 									class="col-md-3 col-form-label">Current Password</label>
 								<div class="col-md-8">
 									<input type="text" class="form-control" id="Cpassword"
 										placeholder="Current Password">
-										
-							    </div>
-								<p class="col-md-12" style="margin-left: 2.5em;padding: 0 7em 2em 0;border-width: 2px;">  (You must enter your current password if you wish to change password or email)</p>
+
+								</div>
+								<p class="col-md-12"
+									style="margin-left: 2.5em; padding: 0 7em 2em 0; border-width: 2px;">
+									(You must enter your current password if you wish to change
+									password or email)</p>
 							</div>
-							
-                
-                
+
+
+
 						</form>
 						<form class="form-horizontal" role="form" style="color: #010101">
-						<!--Edit Passwords-->
-							&nbsp &nbsp &nbsp &nbsp<h2>Change Password</h2>
+							<!--Edit Passwords-->
+							&nbsp &nbsp &nbsp &nbsp
+							<h2>Change Password</h2>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="Password"
-									class="col-sm-3 col-form-label">New Password</label>			
+									class="col-sm-3 col-form-label">New Password</label>
 								<div class="col-md-8">
 									<input type="text" class="form-control" id="pass"
 										placeholder="New Password">
@@ -211,7 +218,7 @@
 										placeholder="Confirm Password">
 								</div>
 							</div>
-							
+
 							<div class="form-group">
 								&nbsp &nbsp &nbsp &nbsp &nbsp
 								<button type="submit" class="btn btn-secondary align-items-left">Cancel</button>
@@ -219,13 +226,14 @@
 								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
 								<button type="button" class="btn btn-success btn-md">
 									<b>Submit</b>
-									
+
 								</button>
 							</div>
 						</form>
 						<form class="form-horizontal" role="form" style="color: #010101">
-						<!--Edit email-->
-							&nbsp &nbsp &nbsp &nbsp<h2>Change email</h2>
+							<!--Edit email-->
+							&nbsp &nbsp &nbsp &nbsp
+							<h2>Change email</h2>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="Nemail"
 									class="col-sm-3 col-form-label">New email</label>
@@ -242,7 +250,7 @@
 										placeholder="Confirm email">
 								</div>
 							</div>
-							
+
 							<div class="form-group">
 								&nbsp &nbsp &nbsp &nbsp &nbsp
 								<button type="submit" class="btn btn-secondary align-items-left">Cancel</button>
@@ -255,27 +263,32 @@
 						</form>
 					</div>
 					<div class="col-md-7">
-						<!-- Google Translater -->
-						<a class="float-right" id="google_translate_element"></a>
-						<br><br>
-						<br> <img class="img-fluid" src="pix/set.png" align="right">
+						<!-- Google Translator Widget -->
+						<a class="btn btn-light btn-sm float-right"
+							id="google_translate_element"></a>
+						<!-- Advances settings button -->
+						<a class="btn btn-light btn-sm float-right" href="#"> Advanced
+							Search</a> <br>
+						<br> <br> <img class="img-fluid" src="pix/set.png"
+							align="right">
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 	</div>
 	<br>
 	<br>
 	<br>
-	
+
 	<!-- web site footer -->
 	<footer class="page-footer font-small unique-color-dark"
 		style="background-color: #555;">
 		<div style="background-color: #f0ad4e;">
 			<div class="container">
 				<div class="row py-3 d-flex align-items-center">
-					<div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+					<div
+						class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
 						<h6 class="mb-0">Get Connected with Us on Social Networks!</h6>
 					</div>
 					<div class="col-md-6 col-lg-7 text-center text-md-right">
@@ -288,10 +301,12 @@
 						</i>
 						</a>
 						<!-- Google +-->
-						<a class="gplus-ic"> <i class="fab fa-google-plus-g white-text mr-4"> </i>
+						<a class="gplus-ic"> <i
+							class="fab fa-google-plus-g white-text mr-4"> </i>
 						</a>
 						<!--Linkedin -->
-						<a class="li-ic"> <i class="fab fa-linkedin-in white-text mr-4"> </i>
+						<a class="li-ic"> <i
+							class="fab fa-linkedin-in white-text mr-4"> </i>
 						</a>
 						<!--Instagram-->
 						<a class="ins-ic"> <i class="fab fa-instagram white-text">

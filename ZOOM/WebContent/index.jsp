@@ -201,11 +201,11 @@
 
 	</nav>
 
-	<!-- Advances settings button -->
-	<a class="btn btn-light float-right btn-sm" href="#"> Advanced
-		Search</a>
 	<!-- Google Translator Widget -->
-	<a class="float-right" id="google_translate_element"></a>
+	<a class="btn btn-light btn-sm float-right" id="google_translate_element"></a>
+	<!-- Advances settings button -->
+	<a class="btn btn-light btn-sm float-right" href="#"> Advanced
+		Search</a>
 
 	<div class="jumbotron jumbotron-fluid">
 		<div class="container">
