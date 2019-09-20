@@ -140,14 +140,17 @@
 		</script>
 
 	</nav>
+	<!-- Google Translater -->
+	<a class="float-right" id="google_translate_element"></a>
 	<nav aria-label="breadcrumb">
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
-			<li class="breadcrumb-item"><a href="AllSubtitles.jsp">Downloads</a></li>
+			<li class="breadcrumb-item"><a href="#">Subtitles</a></li>
+			<li class="breadcrumb-item"><a href="#">Filter by Category</a></li>
 			<li class="breadcrumb-item active" aria-current="page">Romance</li>
+
 		</ol>
 	</nav>
-	<a class="float-right" id="google_translate_element"></a>
 
 <div class="container">
   <h2>Downloads: Romance</h2>
