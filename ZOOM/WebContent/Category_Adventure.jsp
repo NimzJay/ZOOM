@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>All Subtitles | Zoom.lk</title>
+<title>Adventure Category | Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
 <link rel="stylesheet" type="text/css" href="Styles/menu.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">
@@ -64,17 +64,17 @@
 							class="caret"></span> &nbsp;
 						</a>
 						<ul class="dropdown-menu">
-							<li><a class="btn" href="AllSubtitles.jsp" style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">All Subtitles</a></li>
+							<li><a class="btn" href="AllSubtitles.jsp">All Subtitles</a></li>
 							<li><a class="btn" href="NewReleases.jsp">New Subtitles</a></li>
 							<li><a class="btn" href="#">Featured Subtitles</a></li>
 							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming
 									Movies </a></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a
-								class="btn test dropright" href="#">Filter by Categories<span
+								class="btn test dropright" href="#" style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">Filter by Categories<span
 									class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li><a class="btn" href="#">Adventure</a></li>
+									<li><a class="btn" href="#" style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">Adventure</a></li>
 									<li><a class="btn" href="#">Detective</a></li>
 									<li><a class="btn" href="#">Horror</a></li>
 									<li><a class="btn" href="#">Romance</a></li>
@@ -144,7 +144,7 @@
 	<div class="content">
 		<div class="row">
 			<div class="col-md-3">
-				<div class="menu">
+				<div class="menu" height="100%">
 					<br>
 					<h2>
 						<span>&nbsp; &nbsp; CATEGORY</span>
@@ -154,8 +154,7 @@
 						<b>&nbsp; &nbsp; Filter by Type</b>
 					</p>
 					<ul class="nav flex-column">
-						<li><a class="menu-link active" href="AllSubtitles.jsp"
-							style="color: #05499c; background-color: #E9ECEF; border-radius: 20px;">All
+						<li><a class="menu-link active" href="AllSubtitles.jsp">All
 								Subtitles</a></li>
 						<li><a class="menu-link" href="UpcomingMovies.jsp">Upcoming
 								Movies</a></li>
@@ -168,7 +167,8 @@
 						<b>&nbsp; &nbsp; Filter by Genre</b>
 					</p>
 					<ul class="nav flex-column">
-						<li><a class="menu-link" href="#">Adventure</a></li>
+						<li><a class="menu-link" href="Category_Adventure.jsp"
+							style="color: #05499c; background-color: #E9ECEF; border-radius: 20px;">Adventure</a></li>
 						<li><a class="menu-link" href="#">Detective</a></li>
 						<li><a class="menu-link" href="#">Horror</a></li>
 						<li><a class="menu-link" href="#">Romance</a></li>
@@ -208,7 +208,9 @@
 						<a class="float-right" id="google_translate_element"></a>
 					</div>
 					<br>
-					<h1 class="display-4">All Subtitles</h1>
+					<h1 class="display-4">
+						Category - <b>Adventure</b>
+					</h1>
 					<br>
 					<!-- Search Featured subtitles -->
 					<div class="input-group md-form form-sm form-2 pl-0">
@@ -278,52 +280,54 @@
 					<div class="row justify-content-around">
 						<div class="col-sm-4">
 							<div class="card h-100" style="width: 16rem;">
-								<img class="card-img-top" src="pix/w.jpg" alt="Movie Poster">
-								<div class="card-body">
-									<h5 class="card-title">
-										<b>Deadpool 2</b>
-									</h5>
-									<p class="card-text">Foul-mouthed mutant mercenary Wade
-										Wilson (AKA. Deadpool), brings together a team of fellow
-										mutant rogues to protect a young boy with supernatural
-										abilities from the brutal, time-traveling cyborg, Cable.</p>
-									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-									&nbsp; <a href="https://www.imdb.com/title/tt5463162/"
-										class="btn btn-warning">IMDB link</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="card h-100" style="width: 16rem;">
-								<img class="card-img-top" src="pix/hellboy.jpg"
+								<img class="card-img-top" src="pix/godzilla.jpg"
 									alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
-										<b>Hellboy</b>
+										<b>Godzilla: King of the Monsters</b>
 									</h5>
-									<p class="card-text">Based on the graphic novels by Mike
-										Mignola, Hellboy, caught between the worlds of the
-										supernatural and human, battles an ancient sorceress bent on
-										revenge.</p>
+									<p class="card-text">The crypto-zoological agency Monarch
+										faces off against a battery of god-sized monsters, including
+										the mighty Godzilla, who collides with Mothra, Rodan, and his
+										ultimate nemesis, the three-headed King Ghidorah.</p>
 									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-									&nbsp; <a href="https://www.imdb.com/title/tt2274648/"
+									&nbsp; <a
+										href=https://www.imdb.com/title/tt3741700/?ref_=adv_li_tt
 										class="btn btn-warning">IMDB link</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-sm-4">
 							<div class="card h-100" style="width: 16rem;">
-								<img class="card-img-top" src="pix/z.jpg" alt="Movie Poster">
+								<img class="card-img-top" src="pix/pet.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
-										<b>Wonder Woman</b>
+										<b>The Secret Life of Pets 2</b>
 									</h5>
-									<p class="card-text">When a pilot crashes and tells of
-										conflict in the outside world, Diana, an Amazonian warrior in
-										training, leaves home to fight a war, discovering her full
-										powers and true destiny.</p>
+									<p class="card-text">Continuing the story of Max and his
+										pet friends, following their secret lives after their owners
+										leave them for work or school each day.</p>
 									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-									&nbsp; <a href="https://www.imdb.com/title/tt0451279/"
+									&nbsp; <a
+										href="https://www.imdb.com/title/tt5113040/?ref_=adv_li_tt"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/abo.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>Abominable</b>
+									</h5>
+									<p class="card-text">A magical Yeti must return to his
+										family.</p>
+									<br>
+									<br>
+									<br> <a href="#" class="btn btn-primary">Download</a>
+									&nbsp; &nbsp; &nbsp; <a
+										href="https://www.imdb.com/title/tt6324278/?ref_=cs_ov_tt"
 										class="btn btn-warning">IMDB link</a>
 								</div>
 							</div>

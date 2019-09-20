@@ -134,7 +134,7 @@
 								class="btn test dropright" href="#">Filter by Categories<span
 									class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li><a class="btn" href="#">Adventure</a></li>
+									<li><a class="btn" href="Category_Adventure.jsp">Adventure</a></li>
 									<li><a class="btn" href="#">Detective</a></li>
 									<li><a class="btn" href="#">Horror</a></li>
 									<li><a class="btn" href="#">Romance</a></li>

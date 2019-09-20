@@ -118,14 +118,14 @@
 					<div class="dropdown">
 						<a class="nav-link dropdown-toggle" href="#"
 							id="navbarDropdownMenuLink" data-toggle="dropdown"
-							aria-haspopup="true" aria-expanded="false"> Subtitles <span
+							aria-haspopup="true" aria-expanded="false" style="color: white;"> Subtitles <span
 							class="caret"></span> &nbsp;
 						</a>
 						<ul class="dropdown-menu">
 							<li><a class="btn" href="AllSubtitles.jsp">All Subtitles</a></li>
 							<li><a class="btn" href="NewReleases.jsp">New Subtitles</a></li>
 							<li><a class="btn" href="#">Featured Subtitles</a></li>
-							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming
+							<li><a class="btn" href="UpcomingMovies.jsp" style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">Upcoming
 									Movies </a></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a
