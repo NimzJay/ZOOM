@@ -24,7 +24,7 @@
 
 <script type="text/javascript"
 	src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
+<script type="text/javascript" src="jQuery/RegisterValidation.js"></script>
 <script type="text/javascript">
 	function googleTranslateElementInit() {
 		new google.translate.TranslateElement({
@@ -153,9 +153,9 @@
 		<div class="wrapper register">
 			<div class="row">
 				<div class="col-5" style="padding-left: 110px;">
-					<br>
+
 					<h1 class="display-4">Register</h1>
-					<form>
+					<form id="register" >
 						<div class="form-row">
 							<div class="col">
 								<label for="inputEmail4">Name</label>
@@ -163,44 +163,44 @@
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-6">
-								<input type="text" class="form-control" placeholder="First name"
+								<input type="text" class="form-control" name="fname" placeholder="First name"
 									required>
 							</div>
 							<div class="form-group col-md-6">
-								<input type="text" class="form-control" placeholder="Last name"
+								<input type="text" class="form-control" name="lname" placeholder="Last name"
 									required>
 							</div>
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-12">
 								<label for="inputEmail4">Username</label> <input type="text"
-									class="form-control" required>
+									class="form-control" name="user" required>
 							</div>
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-12">
 								<label for="inputPassword4">Password</label> <input
 									type="password" class="form-control" id="inputPassword4"
-									placeholder="Password" required>
+									placeholder="Password" name="pass" required>
 							</div>
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-12">
 								<input type="password" class="form-control" id="inputPassword4"
-									placeholder="Re-Enter Password" required>
+									placeholder="Re-Enter Password" name="repass" required>
 							</div>
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-12">
 								<label for="inputAddress">Email</label> <input type="email"
 									class="form-control" id="inputAddress"
-									placeholder="johndoe@example.com" required>
+									placeholder="johndoe@example.com" name="email" required>
 							</div>
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-12">
 								<label for="inputAddress">Phone</label> <input type="text"
-									class="form-control" id="inputAddress" placeholder="0777123456"
+									class="form-control" id="inputAddress" name="phone" placeholder="0777123456"
 									required>
 							</div>
 						</div>
@@ -225,7 +225,7 @@
 					</form>
 				</div>
 				<div class="col-7">
-					<br> <img class="img-fluid" src="pix/regq.png" height="625px"
+					<img class="img-fluid" src="pix/regq.png" height="625px"
 						align="right">
 				</div>
 			</div>
