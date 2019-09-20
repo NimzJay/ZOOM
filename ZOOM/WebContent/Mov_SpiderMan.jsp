@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Aladdin | Zoom.lk</title>
+<title>Spider Man | Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -77,7 +77,8 @@
 									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
 									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
 									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
-									<li><a class="btn" href="Category_TvSeries.jsp">TV Series</a></li>
+									<li><a class="btn" href="Category_TvSeries.jsp">TV
+											Series</a></li>
 								</ul></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a class="btn test"
@@ -144,8 +145,8 @@
 	<nav aria-label="breadcrumb">
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
-			<li class="breadcrumb-item active" aria-current="page">Aladdin
-				Subtitles</li>
+			<li class="breadcrumb-item active" aria-current="page">Spider-man:
+				far from Home Subtitles</li>
 		</ol>
 	</nav>
 
@@ -154,31 +155,32 @@
 		<div class="row">
 			<div class="col-md-3 justify-content-center">
 				<p style="text-align: center;">
-					<img class="img-fluid" src="pix/al.jpg" width="250px"><br>
+					<img class="img-fluid" src="pix/spider.jpg" width="250px"><br>
 					<br> <a class="btn btn-primary w-75" href="#">Download</a>
 				</p>
 			</div>
 			<div class="col-md-9">
-				<h1 class="display-4" style="color: black;">Aladdin (2019)
-					Sinhala Subtitles</h1>
-				<h4 class="display-8 text-primary">Adventure, Family, Fantasy</h4>
+				<h1 class="display-4" style="color: black;">Spider-man: far
+					from Home (2019) Sinhala Subtitles</h1>
+				<h4 class="display-8 text-primary">Action, Adventure, Sci-Fi</h4>
 				<div class="row ">
 					<div class="col-md-5 ">
 						<p>
-							<br>Aladdin is a lovable street urchin who meets Princess
-							Jasmine, the beautiful daughter of the sultan of Agrabah. While
-							visiting her exotic palace, Aladdin stumbles upon a magic oil
-							lamp that unleashes a powerful, wisecracking, larger-than-life
-							genie. As Aladdin and the genie start to become friends, they
-							must soon embark on a dangerous mission to stop the evil sorcerer
-							Jafar from overthrowing young Jasmine's kingdom.
+							<br>Peter Parker's relaxing European vacation takes an
+							unexpected turn when Nick Fury shows up in his hotel room to
+							recruit him for a mission. The world is in danger as four massive
+							elemental creatures -- each representing Earth, air, water and
+							fire -- emerge from a hole torn in the universe. Parker soon
+							finds himself donning the Spider-Man suit to help Fury and fellow
+							superhero Mysterio stop the evil entities from wreaking havoc
+							across the continent.
 						</p>
 						<br> <br>
 					</div>
 					<div class="col-md-5 ">
 
 						<iframe width="560" height="315"
-							src="https://www.youtube.com/embed/foyufD52aog" frameborder="0"
+							src="https://www.youtube.com/embed/Nt9L1jCKGnE" frameborder="0"
 							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 							allowfullscreen></iframe>
 						<br> <br>

@@ -1,13 +1,12 @@
-
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Romance | Zoom.lk</title>
+<title>Horror Category | Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
-<link rel="stylesheet" type="text/css" href="Styles/loginRegister.css">
+<link rel="stylesheet" type="text/css" href="Styles/menu.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
@@ -79,9 +78,9 @@
 								<ul class="dropdown-menu">
 									<li><a class="btn" href="Category_Adventure.jsp">Adventure</a></li>
 									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
-									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
-									<li><a class="btn" href="Category_Romance.jsp"
-										style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">Romance</a></li>
+									<li><a class="btn" href="Category_Horror.jsp"
+										style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">Horror</a></li>
+									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
 									<li><a class="btn" href="Category_TvSeries.jsp">TV
 											Series</a></li>
 								</ul></li>
@@ -152,263 +151,243 @@
 			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
 			<li class="breadcrumb-item"><a href="#">Subtitles</a></li>
 			<li class="breadcrumb-item"><a href="#">Filter by Category</a></li>
-			<li class="breadcrumb-item active" aria-current="page">Romance</li>
+			<li class="breadcrumb-item active" aria-current="page">Horror</li>
 
 		</ol>
 	</nav>
-
-	<div class="container">
-		<h1 class="display-4">
-			Category - <b>Romance</b>
-		</h1>
-		<br>
-		<!-- Search Featured subtitles -->
-		<div class="input-group md-form form-sm form-2 pl-0">
-			<input class="form-control my-0 py-1 red-border" type="text"
-				placeholder="Search Featured subtitles" aria-label="Search">
-			<div class="input-group-append">
-				<span class="input-group-text red lighten-3" id="basic-text1"><i
-					class="fas fa-search text-grey" aria-hidden="true"></i></span>
-			</div>
-		</div>
-		<br>
+	<div class="content">
 		<div class="row">
-			<div class="col-sm-3">
-				<div class="card" style="width: 16rem;">
-					<img class="card-img-top" src="pix/m25.jpg" alt="Movie Poster">
-					<div class="card-body">
-						<h5 class="card-title">
-							<b>Passengers [2016]</b>
-						</h5>
-						<div class="text-justify">
-							<p class="card-text">On a routine journey through space to a
-								new home, two passengers, sleeping in suspended animation, are
-								awakened 90 years too early when their ship malfunctions. As Jim
-								and Aurora...</p>
+			<div class="col-md-12">
+				<div class="container">
+					<h1 class="display-4">
+						Category - <b>Horror</b>
+					</h1>
+					<br>
+					<!-- Search Featured subtitles -->
+					<div class="input-group md-form form-sm form-2 pl-0">
+						<input class="form-control my-0 py-1 red-border" type="text"
+							placeholder="Search Featured subtitles" aria-label="Search">
+						<div class="input-group-append">
+							<span class="input-group-text red lighten-3" id="basic-text1"><i
+								class="fas fa-search text-grey" aria-hidden="true"></i></span>
 						</div>
-						<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
-						&nbsp; &nbsp; <a
-							href="https://www.imdb.com/title/tt2070791/episodes"
-							class="btn btn-warning">IMDB link</a>
 					</div>
-				</div>
-			</div>
-			<div class="col-sm-3">
-				<div class="card" style="width: 16rem;">
-					<img class="card-img-top" src="pix/m26.jpg" alt="Movie Poster">
-					<div class="card-body">
-						<h5 class="card-title">
-							<b>After [2019]</b>
-						</h5>
-						<div class="text-justify">
-							<p class="card-text">Tessa Young is a dedicated student,
-								dutiful daughter and loyal girlfriend to her high school
-								sweetheart. Entering her first semester of college, Tessa's
-								guarded world opens up when she meets Hardin...</p>
+					<br>
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/it.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>IT</b>
+									</h5>
+									<p class="card-text">In the summer of 1989, a group of
+										bullied kids band together to destroy a shape-shifting
+										monster, which disguises itself as a clown and preys on the
+										children of Derry, their small Maine town.</p>
+									<a href="Mov_It.jsp" class="btn btn-primary">Download</a>
+									&nbsp; &nbsp; &nbsp; <a
+										href="https://www.imdb.com/title/tt1396484/?ref_=adv_li_tt"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
 						</div>
-						<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
-						&nbsp; &nbsp; <a href="https://www.imdb.com/title/tt4126476/"
-							class="btn btn-warning">IMDB link</a>
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/child.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>Child's Play</b>
+									</h5>
+									<p class="card-text">A mother gives her 13-year-old son a
+										toy doll for his birthday, unaware of its more sinister
+										nature, he also kills people who disobeyed Andy.</p>
+									<a href="Mov_ChildsPlay.jsp" class="btn btn-primary">Download</a>
+									&nbsp; &nbsp; &nbsp; <a
+										href="https://www.imdb.com/title/tt8663516/?ref_=adv_li_tt"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/us.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>Us</b>
+									</h5>
+									<p class="card-text">A family's serene beach vacation turns
+										to chaos when their doppelgängers appear and begin to
+										terrorize them.</p>
+									<a href="Mov_Us.jsp" class="btn btn-primary">Download</a>
+									&nbsp; &nbsp; &nbsp; <a
+										href="https://www.imdb.com/title/tt6857112/?ref_=adv_li_tt"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/hellboy.jpg"
+									alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>Hellboy</b>
+									</h5>
+									<p class="card-text">Based on the graphic novels by Mike
+										Mignola, Hellboy, caught between the worlds of the
+										supernatural and human, battles an ancient sorceress bent
+										on...</p>
+									<a href="Mov_Hellboy.jsp" class="btn btn-primary">Download</a>
+									&nbsp; &nbsp; &nbsp; <a
+										href="https://www.imdb.com/title/tt2274648/"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
 					</div>
-				</div>
-			</div>
-			<div class="col-sm-3">
-				<div class="card" style="width: 16rem;">
-					<img class="card-img-top" src="pix/m27.jpg" alt="Movie Poster">
-					<div class="card-body">
-						<h5 class="card-title">
-							<b>Under the Silver Lake</b>
-						</h5>
-						<div class="text-justify">
-							<p class="card-text">Sam is a disenchanted 33-year-old who
-								discovers a mysterious woman, Sarah, frolicking in his
-								apartment's swimming pool. When she vanishes, Sam embarks on a
-								surreal quest across Los Angeles to decode...</p>
+					<br>
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/mar.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>Marianne</b>
+									</h5>
+									<p class="card-text">Emma, a famous and successful French
+										horror writer, is forced to return to her hometown after the
+										women who haunted her dreams fifteen years ago begins to
+										re-appear. The work she writes is...</p>
+									<a href="Mov_Marianne.jsp" class="btn btn-primary">Download</a>
+									&nbsp; &nbsp; &nbsp; <a
+										href="https://www.imdb.com/title/tt10875696/?ref_=adv_li_tt"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
 						</div>
-						<br> <a href="Mov_DarkPhoenix.jsp" class="btn btn-primary">Download</a>
-						&nbsp; &nbsp; &nbsp; <a
-							href="https://www.imdb.com/title/tt5691670/"
-							class="btn btn-warning">IMDB link</a>
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/3.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>3 From Hell</b>
+									</h5>
+									<p class="card-text">Sequel to The Devil's Rejects.</p>
+									<br> <br> <br> <a href="Mov_3FromHell.jsp"
+										class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
+										href="https://www.imdb.com/title/tt8134742/?ref_=adv_li_tt"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/crawl.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>Crawl</b>
+									</h5>
+									<p class="card-text">A young woman, while attempting to
+										save her father during a category 5 hurricane, finds herself
+										trapped in a flooding house and must fight for her life
+										against alligators.</p>
+									<a href="Mov_Crawl.jsp" class="btn btn-primary">Download</a>
+									&nbsp; &nbsp; &nbsp; <a
+										href="https://www.imdb.com/title/tt8364368/?ref_=adv_li_tt"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/ann.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>Annabelle Comes Home</b>
+									</h5>
+									<p class="card-text">While babysitting the daughter of Ed
+										and Lorraine Warren, a teenager and her friend unknowingly
+										awaken an evil spirit trapped in a doll.</p>
+									<a href="Mov_Annabelle.jsp" class="btn btn-primary">Download</a>
+									&nbsp; &nbsp; &nbsp; <a
+										href="https://www.imdb.com/title/tt8350360/?ref_=adv_li_tt"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
 					</div>
-				</div>
-			</div>
-			<div class="col-sm-3">
-				<div class="card" style="width: 16rem;">
-					<img class="card-img-top" src="pix/m28.jpg" alt="Movie Poster">
-					<div class="card-body">
-						<h5 class="card-title">
-							<b>Aladdin [2019]</b>
-						</h5>
-						<div class="text-justify">
-							<p class="card-text">Aladdin is a lovable street urchin who
-								meets Princess Jasmine, the beautiful daughter of the sultan of
-								Agrabah. While visiting her exotic palace, Aladdin stumbles upon
-								a magic oil lamp that unleashes...</p>
+					<br>
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/nun.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>The Nun</b>
+									</h5>
+									<p class="card-text">A priest with a haunted past and a
+										novice on the threshold of her final vows are sent by the
+										Vatican to investigate the death of a young nun in Romania and
+										confront a malevolent force in the form of a demonic nun.</p>
+									<a href="Mov_Nun.jsp" class="btn btn-primary">Download</a>
+									&nbsp; &nbsp; &nbsp; <a
+										href="https://www.imdb.com/title/tt5814060/?ref_=rvi_tt"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
 						</div>
-						<br> <a href="Mov_DarkPhoenix.jsp" class="btn btn-primary">Download</a>
-						&nbsp; &nbsp; &nbsp; <a
-							href="https://www.imdb.com/title/tt6139732/"
-							class="btn btn-warning">IMDB link</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<br>
-		<div class="row">
-			<div class="col-sm-3">
-				<div class="card" style="width: 16rem;">
-					<img class="card-img-top" src="pix/m29.jpg" alt="Movie Poster">
-					<div class="card-body">
-						<h5 class="card-title">
-							<b>Always Be My Maybe</b>
-						</h5>
-						<div class="text-justify">
-							<p class="card-text">Childhood sweethearts have a falling out
-								and don't speak for 15 years, only reconnecting as adults when
-								Sasha runs into Marcus in San Francisco. Although the old sparks
-								are still there, the couple ...</p>
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/addam.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>The Addams Family</b>
+									</h5>
+									<p class="card-text">An animated version of Charles Addams'
+										series of cartoons about a peculiar, ghoulish family.</p>
+									<a href="Mov_AddamsFamily.jsp" class="btn btn-primary">Download</a>
+									&nbsp; &nbsp; &nbsp; <a
+										href="https://www.imdb.com/title/tt1620981/?ref_=adv_li_tt"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
 						</div>
-						<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
-						&nbsp; &nbsp; <a href="https://www.imdb.com/title/tt7374948/"
-							class="btn btn-warning">IMDB link</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-3">
-				<div class="card" style="width: 16rem;">
-					<img class="card-img-top" src="pix/m30.jpg" alt="Movie Poster">
-					<div class="card-body">
-						<h5 class="card-title">
-							<b>Last Christmas</b>
-						</h5>
-						<div class="text-justify">
-							<p class="card-text">A young woman, who has been continuously
-								unlucky, accepts a job as a department store elf during the
-								holidays. When Kate meets Tom on the job, her life takes a turn.
-								The lady thinks to be like .......</p>
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/sem.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>Pet Sematary</b>
+									</h5>
+									<p class="card-text">Dr. Louis Creed and his wife, Rachel,
+										relocate from Boston to rural Maine with their two young
+										children. The couple soon discover a mysterious burial ground
+										hidden deep in the woods near their new home.</p>
+									<a href="Mov_PetSemetary.jsp" class="btn btn-primary">Download</a>
+									&nbsp; &nbsp; &nbsp; <a
+										href="https://www.imdb.com/title/tt0837563/?ref_=adv_li_tt"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
 						</div>
-						<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
-						&nbsp; &nbsp; <a href="https://www.imdb.com/title/tt8623904/"
-							class="btn btn-warning">IMDB link</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-3">
-				<div class="card" style="width: 16rem;">
-					<img class="card-img-top" src="pix/m31.jpg" alt="Movie Poster">
-					<div class="card-body">
-						<h5 class="card-title">
-							<b>Falling Inn Love</b>
-						</h5>
-						<div class="text-justify">
-							<p class="card-text">When city girl Gabriela spontaneously
-								enters a contest and wins a rustic New Zealand inn, she teams up
-								with bighearted contractor Jake Taylor to fix and flip it
-								contest and wins a rustic New Zealand ..</p>
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/purge.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>The Purge</b>
+									</h5>
+									<p class="card-text">Set in an altered United States,
+										several unrelated people discover how far they will go to
+										survive a night where all crime is legal for 12 hours.</p>
+									<a href="Mov_Purge.jsp" class="btn btn-primary">Download</a>
+									&nbsp; &nbsp; &nbsp; <a
+										href="https://www.imdb.com/title/tt6110648/?ref_=adv_li_tt"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
 						</div>
-						<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
-						&nbsp; &nbsp; <a href="https://www.imdb.com/title/tt9860728/"
-							class="btn btn-warning">IMDB link</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-3">
-				<div class="card" style="width: 16rem;">
-					<img class="card-img-top" src="pix/m33.jpg" alt="Movie Poster">
-					<div class="card-body">
-						<h5 class="card-title">
-							<b>Someone Great</b>
-						</h5>
-						<div class="text-justify">
-							<p class="card-text">Dumped by her long-term boyfriend, a
-								music journalist recruits her two best friends for one last
-								outrageous adventure in New York City before she moves to San
-								Francisco. After having so many breakups..</p>
-						</div>
-						<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
-						&nbsp; &nbsp; <a href="https://www.imdb.com/title/tt2442560/"
-							class="btn btn-warning">IMDB link</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<br>
-		<div class="row">
-			<div class="col-sm-3">
-				<div class="card" style="width: 16rem;">
-					<img class="card-img-top" src="pix/m32.jpg" alt="Movie Poster">
-					<div class="card-body">
-						<h5 class="card-title">
-							<b>Yesterday [2019]</b>
-						</h5>
-						<div class="text-justify">
-							<p class="card-text">Jack Malik is a struggling singer or
-								songwriter in an English seaside town whose dreams of fame are
-								rapidly fading, despite the fierce devotion and support of his
-								childhood best A struggling musician realizes he's the only....</p>
-						</div>
-						<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
-						&nbsp; &nbsp; <a href="https://www.imdb.com/title/tt8079248/"
-							class="btn btn-warning">IMDB link</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-3">
-				<div class="card" style="width: 16rem;">
-					<img class="card-img-top" src="pix/m34.jpg" alt="Movie Poster">
-					<div class="card-body">
-						<h5 class="card-title">
-							<b>Long Shot</b>
-						</h5>
-						<div class="text-justify">
-							<p class="card-text">Journalist Fred Flarsky reunites with
-								his childhood crush, Charlotte Field, now one of the most
-								influential women in the world. As she prepares to make a run
-								for the Presidency, Charlotte hires Fred as her speechwriter and
-								sparks..</p>
-						</div>
-						<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
-						&nbsp; &nbsp; <a href="https://www.imdb.com/title/tt2139881/"
-							class="btn btn-warning">IMDB link</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-3">
-				<div class="card" style="width: 16rem;">
-					<img class="card-img-top" src="pix/m36.jpg" alt="Movie Poster">
-					<div class="card-body">
-						<h5 class="card-title">
-							<b>The Aftermath 2019</b>
-						</h5>
-						<div class="text-justify">
-							<p class="card-text">In 1946 Rachael Morgan arrives in the
-								ruins of Hamburg to be reunited with her husband, Lewis, who is
-								a British colonel charged with rebuilding the shattered city. As
-								they set off for their new home, Rachael is stunned to discover
-							</p>
-						</div>
-						<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
-						&nbsp; &nbsp; <a href="https://www.imdb.com/title/tt5977276/"
-							class="btn btn-warning">IMDB link</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-3">
-				<div class="card" style="width: 16rem;">
-					<img class="card-img-top" src="pix/m35.jpg" alt="Movie Poster">
-					<div class="card-body">
-						<h5 class="card-title">
-							<b>Isn't it Romantic</b>
-						</h5>
-						<div class="text-justify">
-							<p class="card-text">Natalie is a New York architect who
-								works hard to get noticed at her job, but is more likely to
-								deliver coffee and bagels than design the city's next
-								skyscraper. Things go from bad to weird when ...</p>
-						</div>
-						<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
-						&nbsp; &nbsp; <a href="https://www.imdb.com/title/tt2452244/"
-							class="btn btn-warning">IMDB link</a>
 					</div>
 				</div>
 			</div>
@@ -431,15 +410,7 @@
 			</a></li>
 		</ul>
 	</nav>
-	</div>
-
-
-
-
-
-
-	<!-- footer starts -->
-
+	<br>
 	<footer class="page-footer font-small unique-color-dark"
 		style="background-color: #555;">
 		<div style="background-color: #f0ad4e;">
@@ -509,11 +480,11 @@
 							href="https://www.imdb.com/">IMdB</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Downloads</a>
+						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Subtitles</a>
 					</p>
 					<p>
 						<a class="btn btn-outline-light btn-block"
-							href="UpcomingMovies.jsp">Upcoming Subtitles</a>
+							href="UpcomingSubtitles.jsp">Upcoming Subtitles</a>
 					</p>
 					<p>
 						<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">New
@@ -579,7 +550,7 @@
 			<br> <a href="index.jsp"
 				style="color: #eee; text-decoration: none;"> <img
 				src="pix/logo.png" width="120px" height="45px">
-			</a><br> Copyright © 2019 &nbsp; - &nbsp; All rights reserved. <br>
+			</a><br> Copyright Â© 2019 &nbsp; - &nbsp; All rights reserved. <br>
 			<br>
 		</div>
 	</footer>

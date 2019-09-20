@@ -250,7 +250,7 @@
 							<p class="card-text">After the murder of his father, a young
 								lion prince flees his kingdom only to learn the true meaning of
 								responsibility and bravery.</p>
-							<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+							<a href="Mov_LionKing.jsp" class="btn btn-primary">Download</a> &nbsp; &nbsp;
 							&nbsp; <a
 								href="https://www.imdb.com/title/tt6105098/?ref_=nv_sr_1?ref_=nv_sr_1"
 								class="btn btn-warning">IMDB link</a>
@@ -284,7 +284,7 @@
 							<p class="card-text">Dora, a teenage explorer, leads her
 								friends on an adventure to save her parents and solve the
 								mystery behind a lost city...</p>
-							<a href="Mov_DarkPhoenix.jsp" class="btn btn-primary">Download</a>
+							<a href="Mov_Dora.jsp" class="btn btn-primary">Download</a>
 							&nbsp; &nbsp; &nbsp; <a
 								href="https://www.imdb.com/title/tt7547410/?ref_=inth_ov_tt"
 								class="btn btn-warning">IMDB link</a>
@@ -352,7 +352,7 @@
 							<p class="card-text">Following the events of Avengers:
 								Endgame (2019), Spider-Man must step up to take on new threats
 								in a world...</p>
-							<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+							<a href="Mov_SpiderMan.jsp" class="btn btn-primary">Download</a> &nbsp; &nbsp;
 							&nbsp; <a
 								href="https://www.imdb.com/title/tt6320628/?ref_=inth_ov_tt"
 								class="btn btn-warning">IMDB link</a>

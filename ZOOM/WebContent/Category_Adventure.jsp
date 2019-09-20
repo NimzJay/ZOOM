@@ -155,15 +155,10 @@
 	</nav>
 	<div class="content">
 		<div class="row">
-
 			<div class="col-md-12">
-				<div class="container">
-
-					<!-- Google Translator -->
-					<div class="row justify-content-around">
+				<div class="container"><div class="row justify-content-around">
 						<a class="float-right" id="google_translate_element"></a>
 					</div>
-					<br>
 					<h1 class="display-4">
 						Category - <b>Adventure</b>
 					</h1>
