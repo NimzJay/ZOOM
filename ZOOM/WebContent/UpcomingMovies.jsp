@@ -107,8 +107,8 @@
 		</button>
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a class="nav-link"
-					href="index.jsp">Home &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="index.jsp">Home
+						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Calendar
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Summary
@@ -118,14 +118,15 @@
 					<div class="dropdown">
 						<a class="nav-link dropdown-toggle" href="#"
 							id="navbarDropdownMenuLink" data-toggle="dropdown"
-							aria-haspopup="true" aria-expanded="false" style="color: white;"> Subtitles <span
-							class="caret"></span> &nbsp;
+							aria-haspopup="true" aria-expanded="false" style="color: white;">
+							Subtitles <span class="caret"></span> &nbsp;
 						</a>
 						<ul class="dropdown-menu">
 							<li><a class="btn" href="AllSubtitles.jsp">All Subtitles</a></li>
 							<li><a class="btn" href="NewReleases.jsp">New Subtitles</a></li>
 							<li><a class="btn" href="#">Featured Subtitles</a></li>
-							<li><a class="btn" href="UpcomingMovies.jsp" style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">Upcoming
+							<li><a class="btn" href="UpcomingMovies.jsp"
+								style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">Upcoming
 									Movies </a></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a
@@ -167,8 +168,8 @@
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact Us
-						&nbsp; </a></li>
+				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact
+						Us &nbsp; </a></li>
 				<li class="nav-item"><a class="nav-link"
 					href="GeneralSettings.jsp">Settings &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
@@ -198,10 +199,29 @@
 		</script>
 
 	</nav>
+	<!-- Google Translater -->
 	<a class="float-right" id="google_translate_element"></a>
+	<nav aria-label="breadcrumb">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
+			<li class="breadcrumb-item"><a href="#">Subtitles</a></li>
+			<li class="breadcrumb-item active" aria-current="page">Upcoming Movies</li>
+
+		</ol>
+	</nav>
 	<div class="jumbotron jumbotron-fluid">
 		<div class="container">
 			<h1 class="display-4">Upcoming Movies....</h1>
+			<br>
+			<!-- Search Featured subtitles -->
+			<div class="input-group md-form form-sm form-2 pl-0">
+				<input class="form-control my-0 py-1 red-border" type="text"
+					placeholder="Search Featured subtitles" aria-label="Search">
+				<div class="input-group-append">
+					<span class="input-group-text red lighten-3" id="basic-text1"><i
+						class="fas fa-search text-grey" aria-hidden="true"></i></span>
+				</div>
+			</div>
 			<br>
 			<div class="row">
 				<div class="col-sm-4">
@@ -330,7 +350,7 @@
 		</nav>
 	</div>
 
-<footer class="page-footer font-small unique-color-dark"
+	<footer class="page-footer font-small unique-color-dark"
 		style="background-color: #555;">
 		<div style="background-color: #f0ad4e;">
 			<div class="container">
@@ -402,8 +422,8 @@
 						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Downloads</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="UpcomingMovies.jsp">Upcoming
-							Subtitles</a>
+						<a class="btn btn-outline-light btn-block"
+							href="UpcomingMovies.jsp">Upcoming Subtitles</a>
 					</p>
 					<p>
 						<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">New

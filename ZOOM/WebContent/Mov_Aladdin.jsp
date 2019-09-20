@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Dark Phoenix | Zoom.lk</title>
+<title>Aladdin | Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -59,8 +59,8 @@
 					<div class="dropdown">
 						<a class="nav-link dropdown-toggle" href="#"
 							id="navbarDropdownMenuLink" data-toggle="dropdown"
-							aria-haspopup="true" aria-expanded="false" style="color: white;"> Subtitles <span
-							class="caret"></span> &nbsp;
+							aria-haspopup="true" aria-expanded="false" style="color: white;">
+							Subtitles <span class="caret"></span> &nbsp;
 						</a>
 						<ul class="dropdown-menu">
 							<li><a class="btn" href="AllSubtitles.jsp">All Subtitles</a></li>
@@ -144,107 +144,102 @@
 	<nav aria-label="breadcrumb">
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
-			<li class="breadcrumb-item active" aria-current="page">Dark
-				Phoenix Subtitles</li>
+			<li class="breadcrumb-item active" aria-current="page">Aladdin
+				Subtitles</li>
 		</ol>
 	</nav>
 
-	
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-3 justify-content-center">
-					<p style="text-align: center;">
-						<img class="img-fluid" src="pix/dark.jpg" width="250px"><br>
-						<br> <a class="btn btn-primary w-75" href="#">Download</a>
-					</p>
-				</div>
-				<div class="col-md-9">
-					<h1 class="display-4" style="color: black;">Dark Phoenix
-						(2019) Sinhala Subtitles</h1>
-					<h4 class="display-8 text-primary">Action, Adventure, Sci-Fi</h4>
-					<div class="row ">
-						<div class="col-md-5 ">
-							<p>
-								<br>Jean Grey begins to develop incredible powers that
-								corrupt and turn her into a Dark Phoenix. Now the X-Men will
-								have to decide if the life of a team member is worth more than
-								all of humanity.The X-Men. Protectors of peace. Jean Grey is one
-								of the most beloved X-Men. But when a mission goes wrong, Jean
-								is exposed to a dark and ancient power. This power has destroyed
-								everything it comes in contact with, until her. Now that this
-								power is becoming unstable, she releases it with destruction and
-								anger. Now that this foreign power is consuming her, and the
-								world is threatened, the X-Men have to face an important truth:
-								they must save either the world, or their friend who threatens
-								it.
-							</p>
-							<br> <br>
-						</div>
-						<div class="col-md-5 ">
 
-							<iframe width="560" height="315"
-								src="https://www.youtube.com/embed/1-q8C_c-nlM" frameborder="0"
-								allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-								allowfullscreen></iframe>
-							<br> <br>
-						</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3 justify-content-center">
+				<p style="text-align: center;">
+					<img class="img-fluid" src="pix/al.jpg" width="250px"><br>
+					<br> <a class="btn btn-primary w-75" href="#">Download</a>
+				</p>
+			</div>
+			<div class="col-md-9">
+				<h1 class="display-4" style="color: black;">Aladdin (2019)
+					Sinhala Subtitles</h1>
+				<h4 class="display-8 text-primary">Adventure, Family, Fantasy</h4>
+				<div class="row ">
+					<div class="col-md-5 ">
+						<p>
+							<br>Aladdin is a lovable street urchin who meets Princess
+							Jasmine, the beautiful daughter of the sultan of Agrabah. While
+							visiting her exotic palace, Aladdin stumbles upon a magic oil
+							lamp that unleashes a powerful, wisecracking, larger-than-life
+							genie. As Aladdin and the genie start to become friends, they
+							must soon embark on a dangerous mission to stop the evil sorcerer
+							Jafar from overthrowing young Jasmine's kingdom.
+						</p>
+						<br> <br>
+					</div>
+					<div class="col-md-5 ">
+
+						<iframe width="560" height="315"
+							src="https://www.youtube.com/embed/foyufD52aog" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+						<br> <br>
 					</div>
 				</div>
 			</div>
-			<div class="row justify-content-around">
-				<div class="card col-md-5" style="width: 18rem; padding: 5px;">
-					<br> <br>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item">
-							<div class="row">
-								<div class="col-md-5 text-secondary">COMPANY</div>
-								<div class="col-md-7 text-right">20th Century Fox</div>
+		</div>
+		<div class="row justify-content-around">
+			<div class="card col-md-5" style="width: 18rem; padding: 5px;">
+				<br> <br>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-md-5 text-secondary">COMPANY</div>
+							<div class="col-md-7 text-right">20th Century Fox</div>
+						</div>
+					</li>
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-md-5 text-secondary">RATED</div>
+							<div class="col-md-7 text-right">PG-13</div>
+						</div>
+					</li>
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-md-5 text-secondary">RELEASED</div>
+							<div class="col-md-7 text-right">07 Jun 2019</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="card col-md-5" style="width: 18rem; padding: 5px;">
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-md-5 text-secondary">WRITER</div>
+							<div class="col-md-7 text-right">Simon Kinberg, Stan Lee, J</div>
+						</div>
+					</li>
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-md-5 text-secondary">DIRECTOR</div>
+							<div class="col-md-7 text-right">Simon Kinberg</div>
+						</div>
+					</li>
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-md-5 text-secondary">WEBSITE</div>
+							<div class="col-md-7 text-right">
+								<a href="https://movies.disney.com/dark-phoenix">https://movies.disney.com/dark-phoenix</a>
 							</div>
-						</li>
-						<li class="list-group-item">
-							<div class="row">
-								<div class="col-md-5 text-secondary">RATED</div>
-								<div class="col-md-7 text-right">PG-13</div>
-							</div>
-						</li>
-						<li class="list-group-item">
-							<div class="row">
-								<div class="col-md-5 text-secondary">RELEASED</div>
-								<div class="col-md-7 text-right">07 Jun 2019</div>
-							</div>
-						</li>
-					</ul>
-				</div>
-				<div class="card col-md-5" style="width: 18rem; padding: 5px;">
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item">
-							<div class="row">
-								<div class="col-md-5 text-secondary">WRITER</div>
-								<div class="col-md-7 text-right">Simon Kinberg, Stan Lee,
-									J</div>
-							</div>
-						</li>
-						<li class="list-group-item">
-							<div class="row">
-								<div class="col-md-5 text-secondary">DIRECTOR</div>
-								<div class="col-md-7 text-right">Simon Kinberg</div>
-							</div>
-						</li>
-						<li class="list-group-item">
-							<div class="row">
-								<div class="col-md-5 text-secondary">WEBSITE</div>
-								<div class="col-md-7 text-right">
-									<a href="https://movies.disney.com/dark-phoenix">https://movies.disney.com/dark-phoenix</a>
-								</div>
-							</div>
-						</li>
-					</ul>
-					
-				</div>
+						</div>
+					</li>
+				</ul>
+
 			</div>
 		</div>
+	</div>
 
-	<br><br>
+	<br>
+	<br>
 	<footer class="page-footer font-small unique-color-dark"
 		style="background-color: #555;">
 		<div style="background-color: #f0ad4e;">
