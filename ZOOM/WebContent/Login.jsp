@@ -153,7 +153,6 @@
 		<div class="wrapper cont">
 			<div class="row">
 				<div class="col-5" style="padding-left: 110px;">
-					<br>
 					<h1 class="display-4">Sign in</h1>
 					<form>
 						<div class="form-row">
@@ -190,7 +189,7 @@
 					</form>
 				</div>
 				<div class="col-7">
-					<br> <img class="img-fluid" src="pix/regq.png" height="625px"
+					<img class="img-fluid" src="pix/regq.png" height="625px"
 						align="right">
 				</div>
 			</div>

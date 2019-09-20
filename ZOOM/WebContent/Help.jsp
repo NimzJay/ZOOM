@@ -140,14 +140,13 @@
 		</script>
 
 	</nav>
+	<a class="float-right" id="google_translate_element"></a>
 	<nav aria-label="breadcrumb">
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
 			<li class="breadcrumb-item active" aria-current="page">Help</li>
 		</ol>
 	</nav>
-	<a class="float-right" id="google_translate_element"></a>
-
 
 	<div class="text-center">
 		<h1 class="display-4">How Can We Help?</h1>

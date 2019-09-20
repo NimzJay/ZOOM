@@ -50,8 +50,8 @@
 		</button>
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a class="nav-link"
-					href="index.jsp">Home &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="index.jsp">Home
+						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Calendar
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Summary
@@ -61,12 +61,12 @@
 					<div class="dropdown">
 						<a class="nav-link dropdown-toggle" href="#"
 							id="navbarDropdownMenuLink" data-toggle="dropdown"
-							aria-haspopup="true" aria-expanded="false"> Subtitles <span
+							aria-haspopup="true" aria-expanded="false" style="color: white;"> Subtitles <span
 							class="caret"></span> &nbsp;
 						</a>
 						<ul class="dropdown-menu">
 							<li><a class="btn" href="AllSubtitles.jsp">All Subtitles</a></li>
-							<li><a class="btn" href="NewReleases.jsp">New Subtitles</a></li>
+							<li><a class="btn" href="NewReleases.jsp" style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">New Subtitles</a></li>
 							<li><a class="btn" href="#">Featured Subtitles</a></li>
 							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming
 									Movies </a></li>
@@ -110,8 +110,8 @@
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact Us
-						&nbsp; </a></li>
+				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact
+						Us &nbsp; </a></li>
 				<li class="nav-item"><a class="nav-link"
 					href="GeneralSettings.jsp">Settings &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
@@ -159,7 +159,8 @@
 								Subtitles</a></li>
 						<li><a class="menu-link" href="UpcomingMovies.jsp">Upcoming
 								Movies</a></li>
-						<li><a class="menu-link" href="NewReleases.jsp">Newly
+						<li><a class="menu-link" href="NewReleases.jsp"
+							style="color: #05499c; background-color: #E9ECEF; border-radius: 20px;">Newly
 								Released Subtitles</a></li>
 
 					</ul>
@@ -168,7 +169,7 @@
 						<b>&nbsp; &nbsp; Filter by Genre</b>
 					</p>
 					<ul class="nav flex-column">
-						<li><a class="menu-link" href="#">Adventure</a></li>
+						<li><a class="menu-link" href="Category_Adventure.jsp">Adventure</a></li>
 						<li><a class="menu-link" href="#">Detective</a></li>
 						<li><a class="menu-link" href="#">Horror</a></li>
 						<li><a class="menu-link" href="#">Romance</a></li>
@@ -209,6 +210,16 @@
 					</div>
 					<br>
 					<h1 class="display-4">Newly Released Subtitles</h1>
+					<br>
+					<!-- Search Featured subtitles -->
+					<div class="input-group md-form form-sm form-2 pl-0">
+						<input class="form-control my-0 py-1 red-border" type="text"
+							placeholder="Search Featured subtitles" aria-label="Search">
+						<div class="input-group-append">
+							<span class="input-group-text red lighten-3" id="basic-text1"><i
+								class="fas fa-search text-grey" aria-hidden="true"></i></span>
+						</div>
+					</div>
 					<br>
 					<div class="row justify-content-around">
 						<div class="col-sm-4">
