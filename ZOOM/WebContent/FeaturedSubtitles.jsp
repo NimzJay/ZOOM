@@ -145,6 +145,11 @@
 		</script>
 
 	</nav>
+	<a class="btn btn-light btn-sm float-right"
+		id="google_translate_element"></a>
+	<!-- Advances settings button -->
+	<a class="btn btn-light btn-sm float-right" href="AdvancedSearch.jsp"> Advanced
+		Search</a>
 	<nav aria-label="breadcrumb">
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
@@ -467,7 +472,6 @@
 				</div>
 			</div>
 		</div>
-		<a class="float-right" id="google_translate_element"></a> <br>
 		<!-- Footer Links -->
 		<div class="container text-center text-md-left mt-2">
 

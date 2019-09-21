@@ -92,7 +92,7 @@
 	<!-- Google Translator -->
 	<a class="float-right" id="google_translate_element"></a>
 	<!-- Advances settings button -->
-	<a class="btn btn-light btn-sm float-right" href="#"> Advanced
+	<a class="btn btn-light btn-sm float-right" href="AdvancedSearch.jsp"> Advanced
 		Search</a>
 
 	<div class="container-fluid" style="margin: 20px; padding: 0px">

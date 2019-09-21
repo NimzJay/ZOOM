@@ -1,10 +1,11 @@
- <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Help | Zoom.lk</title>
+<title>Summary | Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
 <link rel="stylesheet" type="text/css" href="Styles/loginRegister.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">
@@ -50,12 +51,12 @@
 		</button>
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a class="nav-link"
-					href="index.jsp">Home &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="index.jsp">Home
+						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="Calender.jsp">Calendar
 						&nbsp;</a></li>
-				<li class="nav-item active"><a class="nav-link" href="Summary.jsp">Summary
-						&nbsp;</a></li>
+				<li class="nav-item active"><a class="nav-link"
+					href="Summary.jsp">Summary &nbsp;</a></li>
 
 				<!-- Drop down menu -->
 				<li class="nav-item dropdown">
@@ -68,9 +69,12 @@
 						<ul class="dropdown-menu">
 							<li><a class="btn" href="AllSubtitles.jsp">All Subtitles</a></li>
 							<li><a class="btn" href="NewReleases.jsp">New Subtitles</a></li>
-							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured Subtitles</a></li>
-							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming Subtitles</a></li>
-							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming Movies </a></li>
+							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured
+									Subtitles</a></li>
+							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming
+									Subtitles</a></li>
+							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming
+									Movies </a></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a
 								class="btn test dropright" href="#">Filter by Categories<span
@@ -80,7 +84,8 @@
 									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
 									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
 									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
-									<li><a class="btn" href="Category_TvSeries.jsp">TV Series</a></li>
+									<li><a class="btn" href="Category_TvSeries.jsp">TV
+											Series</a></li>
 								</ul></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a class="btn test"
@@ -111,8 +116,8 @@
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact Us
-						&nbsp; </a></li>
+				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact
+						Us &nbsp; </a></li>
 				<li class="nav-item"><a class="nav-link"
 					href="GeneralSettings.jsp">Settings &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
@@ -142,202 +147,232 @@
 		</script>
 
 	</nav>
-	<a class="float-right" id="google_translate_element"></a>
+	<!-- Google Translator Widget -->
+	<a class="btn btn-light btn-sm float-right"
+		id="google_translate_element"></a>
+	<!-- Advances settings button -->
+	<a class="btn btn-light btn-sm float-right" href="AdvancedSearch.jsp">
+		Advanced Search</a>
 	<nav aria-label="breadcrumb">
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
 			<li class="breadcrumb-item active" aria-current="page">Summary</li>
 		</ol>
 	</nav>
-	
-
-<!-- background image -->
 
 
-<!-- 
+	<!-- background image -->
+
+
+	<!-- 
 <!-- table starts -->
 
-<!--  -->
+	<!--  -->
 
-<div class="container">
+	<div class="container">
 		<div class="by-warning m-5">
 
-<div class="container">
-  <h2>Dashboard</h2>
-  <br> 
+			<div class="container">
+				<h2>Dashboard</h2>
+				<br>
 
 
-  <!-- Page Heading -->
-          
-
-          <div class="row">
-
-            <!-- Earnings (Monthly) Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-primary shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">All files</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">3,869</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-calendar fa-2x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Earnings (Monthly) Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-success shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-success text-uppercase mb-1">movie Review</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">125</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Earnings (Monthly) Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-info shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Categories</div>
-                      <div class="row no-gutters align-items-center">
-                        <div class="col-auto">
-                          <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">7</div>
-                        </div>
-                        <div class="col">
-                          <div class="progress progress-sm mr-2">
-                            <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Pending Requests Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-warning shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Subtitle Requests</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-comments fa-2x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+				<!-- Page Heading -->
 
 
-<br>
+				<div class="row">
 
-  
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">Category</th>
-      <th scope="col">Description</th>
-      <th scope="col">Files</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">Audio</th>
-      <td>Audio Files </br>
-            Sub-Categories:
-            <a href="#" class="stretched-link">Original</a>    
-        </td>
-        <td>31</td>
-    </tr>
-    <tr>
-      <th scope="row">Video</th>
-      <td>All video files </br>
-            Sub-Categories:
-             <a href="#" class="stretched-link">TV</a>     
-        </td>
-        <td>66</td>
-    </tr>
-     <tr>
-      <th scope="row">Subtitles</th>
-     <td>Sinhala Subtitles </br>
-            Sub-Categories:
-             <a href="TvSeries.jsp" class="stretched-link">TV Series</a> 
-        </td>
-        <td>3,771</td>
-    </tr>
-  </tbody>
-</table>
-  
-  
-  
-</div>
+					<!-- Earnings (Monthly) Card Example -->
+					<div class="col-xl-3 col-md-6 mb-4">
+						<div class="card border-left-primary shadow h-100 py-2">
+							<div class="card-body">
+								<div class="row no-gutters align-items-center">
+									<div class="col mr-2">
+										<div
+											class="text-xs font-weight-bold text-primary text-uppercase mb-1">All
+											files</div>
+										<div class="h5 mb-0 font-weight-bold text-gray-800">3,869</div>
+									</div>
+									<div class="col-auto">
+										<i class="fas fa-calendar fa-2x text-gray-300"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Earnings (Monthly) Card Example -->
+					<div class="col-xl-3 col-md-6 mb-4">
+						<div class="card border-left-success shadow h-100 py-2">
+							<div class="card-body">
+								<div class="row no-gutters align-items-center">
+									<div class="col mr-2">
+										<div
+											class="text-xs font-weight-bold text-success text-uppercase mb-1">movie
+											Review</div>
+										<div class="h5 mb-0 font-weight-bold text-gray-800">125</div>
+									</div>
+									<div class="col-auto">
+										<i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Earnings (Monthly) Card Example -->
+					<div class="col-xl-3 col-md-6 mb-4">
+						<div class="card border-left-info shadow h-100 py-2">
+							<div class="card-body">
+								<div class="row no-gutters align-items-center">
+									<div class="col mr-2">
+										<div
+											class="text-xs font-weight-bold text-info text-uppercase mb-1">Categories</div>
+										<div class="row no-gutters align-items-center">
+											<div class="col-auto">
+												<div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">7</div>
+											</div>
+											<div class="col">
+												<div class="progress progress-sm mr-2">
+													<div class="progress-bar bg-info" role="progressbar"
+														style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+														aria-valuemax="100"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-auto">
+										<i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Pending Requests Card Example -->
+					<div class="col-xl-3 col-md-6 mb-4">
+						<div class="card border-left-warning shadow h-100 py-2">
+							<div class="card-body">
+								<div class="row no-gutters align-items-center">
+									<div class="col mr-2">
+										<div
+											class="text-xs font-weight-bold text-warning text-uppercase mb-1">Subtitle
+											Requests</div>
+										<div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
+									</div>
+									<div class="col-auto">
+										<i class="fas fa-comments fa-2x text-gray-300"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<br>
+
+
+				<table class="table">
+					<thead>
+						<tr>
+							<th scope="col">Category</th>
+							<th scope="col">Description</th>
+							<th scope="col">Files</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row">Audio</th>
+							<td>Audio Files </br> Sub-Categories: <a href="#"
+								class="stretched-link">Original</a>
+							</td>
+							<td>31</td>
+						</tr>
+						<tr>
+							<th scope="row">Video</th>
+							<td>All video files </br> Sub-Categories: <a href="#"
+								class="stretched-link">TV</a>
+							</td>
+							<td>66</td>
+						</tr>
+						<tr>
+							<th scope="row">Subtitles</th>
+							<td>Sinhala Subtitles </br> Sub-Categories: <a
+								href="TvSeries.jsp" class="stretched-link">TV Series</a>
+							</td>
+							<td>3,771</td>
+						</tr>
+					</tbody>
+				</table>
 
 
 
- <!-- Project Card Example -->
- 
- 	
- 
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Download History</h6>
-                </div>
-                <div class="card-body">
-                  <h4 class="small font-weight-bold">Horror<span class="float-right">20%</span></h4>
-                  <div class="progress mb-4">
-                    <div class="progress-bar bg-danger" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <h4 class="small font-weight-bold">Detective <span class="float-right">40%</span></h4>
-                  <div class="progress mb-4">
-                    <div class="progress-bar bg-warning" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <h4 class="small font-weight-bold">TV Series <span class="float-right">60%</span></h4>
-                  <div class="progress mb-4">
-                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <h4 class="small font-weight-bold">Romance<span class="float-right">75%</span></h4>
-                  <div class="progress mb-4">
-                    <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <h4 class="small font-weight-bold">Adventure<span class="float-right">90%</span></h4>
-                  <div class="progress">
-                    <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-              </div>
+			</div>
 
-</div>
-</div>
-<br>
 
- 
-<!-- table ends -->   
-	
-<!-- footer starts -->
 
-   <footer class="page-footer font-small unique-color-dark"
+			<!-- Project Card Example -->
+
+
+
+			<div class="card shadow mb-4">
+				<div class="card-header py-3">
+					<h6 class="m-0 font-weight-bold text-primary">Download History</h6>
+				</div>
+				<div class="card-body">
+					<h4 class="small font-weight-bold">
+						Horror<span class="float-right">20%</span>
+					</h4>
+					<div class="progress mb-4">
+						<div class="progress-bar bg-danger" role="progressbar"
+							style="width: 20%" aria-valuenow="20" aria-valuemin="0"
+							aria-valuemax="100"></div>
+					</div>
+					<h4 class="small font-weight-bold">
+						Detective <span class="float-right">40%</span>
+					</h4>
+					<div class="progress mb-4">
+						<div class="progress-bar bg-warning" role="progressbar"
+							style="width: 40%" aria-valuenow="40" aria-valuemin="0"
+							aria-valuemax="100"></div>
+					</div>
+					<h4 class="small font-weight-bold">
+						TV Series <span class="float-right">60%</span>
+					</h4>
+					<div class="progress mb-4">
+						<div class="progress-bar" role="progressbar" style="width: 60%"
+							aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<h4 class="small font-weight-bold">
+						Romance<span class="float-right">75%</span>
+					</h4>
+					<div class="progress mb-4">
+						<div class="progress-bar bg-info" role="progressbar"
+							style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+							aria-valuemax="100"></div>
+					</div>
+					<h4 class="small font-weight-bold">
+						Adventure<span class="float-right">90%</span>
+					</h4>
+					<div class="progress">
+						<div class="progress-bar bg-success" role="progressbar"
+							style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+							aria-valuemax="100"></div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<br>
+
+
+	<!-- table ends -->
+
+	<!-- footer starts -->
+
+	<footer class="page-footer font-small unique-color-dark"
 		style="background-color: #555;">
 		<div style="background-color: #f0ad4e;">
 			<div class="container">

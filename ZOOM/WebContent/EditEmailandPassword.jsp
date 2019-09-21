@@ -267,7 +267,7 @@
 						<a class="btn btn-light btn-sm float-right"
 							id="google_translate_element"></a>
 						<!-- Advances settings button -->
-						<a class="btn btn-light btn-sm float-right" href="#"> Advanced
+						<a class="btn btn-light btn-sm float-right" href="AdvancedSearch.jsp"> Advanced
 							Search</a> <br>
 						<br> <br> <img class="img-fluid" src="pix/set.png"
 							align="right">
