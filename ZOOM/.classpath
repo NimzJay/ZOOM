@@ -41,5 +41,8 @@
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat-api.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat-coyote.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="G:/git/user/WebContent/WEB-INF/lib/mysql-connector-java-5.0.0-beta-bin.jar"/>
+	<classpathentry kind="lib" path="G:/git/user/WebContent/WEB-INF/lib/mysql-connector-java-5.1.6.jar"/>
+	<classpathentry kind="lib" path="G:/git/user/WebContent/WEB-INF/lib/mysql-connector-java-5.1.46-bin.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
