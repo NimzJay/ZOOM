@@ -162,7 +162,7 @@
 				<a class="btn btn-outline-primary active"
 					href="EditEmailandPassword.jsp" style="width: 250px;">Edit
 					Password and Email</a><br> <a class="btn btn-outline-primary"
-					href="#" style="width: 250px;">Privacy Settings</a><br>
+					href="PrivacySettings.jsp" style="width: 250px;">Privacy Settings</a><br>
 
 				<h3 style="font-size: 25px">Legal Policies</h3>
 
@@ -323,7 +323,7 @@
 			<br> <a href="index.jsp"
 				style="color: #eee; text-decoration: none;"> <img
 				src="pix/logo.png" width="120px" height="45px">
-			</a><br> Copyright © 2019 &nbsp - &nbsp All rights reserved. <br>
+			</a><br> Copyright Â© 2019 &nbsp - &nbsp All rights reserved. <br>
 			<br>
 		</div>
 	</footer>
