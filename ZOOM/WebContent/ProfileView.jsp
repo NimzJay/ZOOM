@@ -164,14 +164,8 @@
 
 				<a class="btn btn-outline-primary" href="EditEmailandPassword.jsp"
 					style="width: 250px;">Edit Password and Email</a><br> <a
-					class="btn btn-outline-primary" href="#" style="width: 250px;">Privacy
+					class="btn btn-outline-primary" href="PrivacySettings.jsp" style="width: 250px;">Privacy
 					Settings</a><br>
-
-				<h3 style="font-size: 25px">Legal Policies</h3>
-
-				<a class="btn btn-outline-primary" href="#" style="width: 250px;">Terms
-					of Services</a><br> <a class="btn btn-outline-primary" href="#"
-					style="width: 250px;">Data Policy</a><br> <br>
 
 			</div>
 
