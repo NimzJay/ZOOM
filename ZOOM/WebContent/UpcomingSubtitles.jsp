@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>All Subtitles | Zoom.lk</title>
+<title>New Releases | Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
 <link rel="stylesheet" type="text/css" href="Styles/menu.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">
@@ -60,18 +60,19 @@
 								Subtitles</a></li>
 						<li><a class="dropdown-item" href="NewReleases.jsp">New
 								Subtitles</a></li>
-								<li><a class="dropdown-item" href="UpcomingSubtitles.jsp">Upcoming Subtitles</a></li>
+						<li><a class="dropdown-item" href="UpcomingSubtitles.jsp">Upcoming
+								Subtitles</a></li>
 					</ul></li>
-				<li class="nav-item"><a class="nav-link" href="UpcomingMovies.jsp">Upcoming
-						Movies &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="UpcomingMovies.jsp">Upcoming Movies &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About
 						Us &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="GeneralSettings.jsp">Settings
-						&nbsp; &nbsp; &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="GeneralSettings.jsp">Settings &nbsp; &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
 						<input class="form-control" type="text" placeholder="Search"
@@ -94,8 +95,13 @@
 			<div class="col-md-3">
 				<div class="menu">
 					<br>
-					<h2><span>&nbsp; &nbsp; CATEGORY</span></h2><hr>
-					<p class="menuLabel"><b>&nbsp; &nbsp; Filter by Type</b></p>
+					<h2>
+						<span>&nbsp; &nbsp; CATEGORY</span>
+					</h2>
+					<hr>
+					<p class="menuLabel">
+						<b>&nbsp; &nbsp; Filter by Type</b>
+					</p>
 					<ul class="nav flex-column">
 						<li><a class="menu-link" href="AllSubtitles.jsp">All
 								Subtitles</a></li>
@@ -104,16 +110,25 @@
 						<li><a class="menu-link" href="NewReleases.jsp">Newly
 								Released Subtitles</a></li>
 
-					</ul><br>
-					<p class="menuLabel"><b>&nbsp; &nbsp; Filter by Genre</b></p>
+						<li><a class="menu-link" href="UpcomingSubtitles.jsp">Upcoming
+								Subtitles</a></li>
+
+					</ul>
+					<br>
+					<p class="menuLabel">
+						<b>&nbsp; &nbsp; Filter by Genre</b>
+					</p>
 					<ul class="nav flex-column">
 						<li><a class="menu-link" href="#">Adventure</a></li>
 						<li><a class="menu-link" href="Detective.jsp">Detective</a></li>
 						<li><a class="menu-link" href="#">Horror</a></li>
 						<li><a class="menu-link" href="#">Romance</a></li>
 						<li><a class="menu-link" href="#">TV Series</a></li>
-					</ul><br>
-					<p class="menuLabel"><b>&nbsp; &nbsp; Filter by Year</b></p>
+					</ul>
+					<br>
+					<p class="menuLabel">
+						<b>&nbsp; &nbsp; Filter by Year</b>
+					</p>
 					<ul class="nav flex-column">
 						<li><a class="menu-link" href="#">2019</a></li>
 						<li><a class="menu-link" href="#">2018</a></li>
@@ -121,8 +136,11 @@
 						<li><a class="menu-link" href="#">2016</a></li>
 						<li><a class="menu-link" href="#">2015</a></li>
 
-					</ul><br>
-					<p class="menuLabel"><b>&nbsp; &nbsp; Filter by Language</b></p>
+					</ul>
+					<br>
+					<p class="menuLabel">
+						<b>&nbsp; &nbsp; Filter by Language</b>
+					</p>
 					<ul class="nav flex-column">
 						<li><a class="menu-link" href="#">English</a></li>
 						<li><a class="menu-link" href="#">Sinhala</a></li>
@@ -136,7 +154,7 @@
 			<div class="col-md-9">
 				<div class="container">
 					<br>
-					<h1 class="display-4">Newly Released Subtitles</h1>
+					<h1 class="display-4">Upcoming Subtitles</h1>
 					<br>
 					<div class="row">
 						<div class="col-sm-4">
@@ -341,8 +359,8 @@
 						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Downloads</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="UpcomingMovies.jsp">Upcoming
-							Subtitles</a>
+						<a class="btn btn-outline-light btn-block"
+							href="UpcomingMovies.jsp">Upcoming Subtitles</a>
 					</p>
 					<p>
 						<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">New

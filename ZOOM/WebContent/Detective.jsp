@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>All Subtitles | Zoom.lk</title>
+<title>New Releases | Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
 <link rel="stylesheet" type="text/css" href="Styles/menu.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">
@@ -60,18 +60,19 @@
 								Subtitles</a></li>
 						<li><a class="dropdown-item" href="NewReleases.jsp">New
 								Subtitles</a></li>
-								<li><a class="dropdown-item" href="UpcomingSubtitles.jsp">Upcoming Subtitles</a></li>
+						<li><a class="dropdown-item" href="UpcomingSubtitles.jsp">Upcoming
+								Subtitles</a></li>
 					</ul></li>
-				<li class="nav-item"><a class="nav-link" href="UpcomingMovies.jsp">Upcoming
-						Movies &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="UpcomingMovies.jsp">Upcoming Movies &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About
 						Us &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="GeneralSettings.jsp">Settings
-						&nbsp; &nbsp; &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="GeneralSettings.jsp">Settings &nbsp; &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
 						<input class="form-control" type="text" placeholder="Search"
@@ -94,8 +95,13 @@
 			<div class="col-md-3">
 				<div class="menu">
 					<br>
-					<h2><span>&nbsp; &nbsp; CATEGORY</span></h2><hr>
-					<p class="menuLabel"><b>&nbsp; &nbsp; Filter by Type</b></p>
+					<h2>
+						<span>&nbsp; &nbsp; CATEGORY</span>
+					</h2>
+					<hr>
+					<p class="menuLabel">
+						<b>&nbsp; &nbsp; Filter by Type</b>
+					</p>
 					<ul class="nav flex-column">
 						<li><a class="menu-link" href="AllSubtitles.jsp">All
 								Subtitles</a></li>
@@ -103,17 +109,25 @@
 								Movies</a></li>
 						<li><a class="menu-link" href="NewReleases.jsp">Newly
 								Released Subtitles</a></li>
+						<li><a class="menu-link" href="UpcomingSubtitles.jsp">Upcoming
+								Subtitles</a></li>
 
-					</ul><br>
-					<p class="menuLabel"><b>&nbsp; &nbsp; Filter by Genre</b></p>
+					</ul>
+					<br>
+					<p class="menuLabel">
+						<b>&nbsp; &nbsp; Filter by Genre</b>
+					</p>
 					<ul class="nav flex-column">
 						<li><a class="menu-link" href="#">Adventure</a></li>
 						<li><a class="menu-link" href="Detective.jsp">Detective</a></li>
 						<li><a class="menu-link" href="#">Horror</a></li>
 						<li><a class="menu-link" href="#">Romance</a></li>
 						<li><a class="menu-link" href="#">TV Series</a></li>
-					</ul><br>
-					<p class="menuLabel"><b>&nbsp; &nbsp; Filter by Year</b></p>
+					</ul>
+					<br>
+					<p class="menuLabel">
+						<b>&nbsp; &nbsp; Filter by Year</b>
+					</p>
 					<ul class="nav flex-column">
 						<li><a class="menu-link" href="#">2019</a></li>
 						<li><a class="menu-link" href="#">2018</a></li>
@@ -121,8 +135,11 @@
 						<li><a class="menu-link" href="#">2016</a></li>
 						<li><a class="menu-link" href="#">2015</a></li>
 
-					</ul><br>
-					<p class="menuLabel"><b>&nbsp; &nbsp; Filter by Language</b></p>
+					</ul>
+					<br>
+					<p class="menuLabel">
+						<b>&nbsp; &nbsp; Filter by Language</b>
+					</p>
 					<ul class="nav flex-column">
 						<li><a class="menu-link" href="#">English</a></li>
 						<li><a class="menu-link" href="#">Sinhala</a></li>
@@ -136,57 +153,65 @@
 			<div class="col-md-9">
 				<div class="container">
 					<br>
-					<h1 class="display-4">Newly Released Subtitles</h1>
+					<h1 class="display-4">Detective Movies</h1>
 					<br>
 					<div class="row">
 						<div class="col-sm-4">
 							<div class="card" style="width: 16rem;">
-								<img class="card-img-top" src="pix/x.jpg" alt="Movie Poster">
+								<img class="card-img-top" src="pix/Diva1.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
-										<b>Aladdin</b>
+										<b>Memento</b>
 									</h5>
-									<p class="card-text">A kind-hearted street urchin and a
-										power-hungry Grand Vizier vie for a magic lamp that has the
-										power to make their deepest wishes come true.</p>
+									<p class="card-text">Memento chronicles two separate
+										stories of Leonard, an ex-insurance investigator who can no
+										longer build new memories, as he attempts to find the murderer
+										of his wife, which is the last thing he remembers. One story
+										line moves forward in time while the other tells the story
+										backwards revealing more each time. Written by Scion013.</p>
 									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
 									&nbsp; <a
-										href="https://www.imdb.com/title/tt6139732/?ref_=tt_sims_tti"
+										href="https://www.imdb.com/title/tt0209144/?ref_=ttls_li_tt"
 										class="btn btn-warning">IMDB link</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-sm-4">
 							<div class="card" style="width: 16rem;">
-								<img class="card-img-top" src="pix/y.jpg" alt="Movie Poster">
+								<img class="card-img-top" src="pix/Diva2.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
-										<b>The Lion King</b>
+										<b>The Maltese Falcon</b>
 									</h5>
-									<p class="card-text">After the murder of his father, a
-										young lion prince flees his kingdom only to learn the true
-										meaning of responsibility and bravery.</p>
+									<p class="card-text">Spade and Archer is the name of a San
+										Francisco detective agency. That's for Sam Spade and Miles
+										Archer. The two men are partners, but Sam doesn't like Miles
+										much. A knockout, who goes by the name of Miss Wonderly, walks
+										into their office; and by that night everything's changed.
+										Miles is dead. And so is a man named Floyd Thursby.</p>
 									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
 									&nbsp; <a
-										href="https://www.imdb.com/title/tt6105098/?ref_=nv_sr_1?ref_=nv_sr_1"
+										href="https://www.imdb.com/title/tt0033870/?ref_=ttls_li_tt"
 										class="btn btn-warning">IMDB link</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-sm-4">
 							<div class="card" style="width: 16rem;">
-								<img class="card-img-top" src="pix/dark2.jpg" alt="Movie Poster">
+								<img class="card-img-top" src="pix/Diva3.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
-										<b>Dark Phoenix</b>
+										<b>Brick</b>
 									</h5>
-									<p class="card-text">Jean Grey begins to develop incredible
-										powers that corrupt and turn her into a Dark Phoenix. Now the
-										X-Men will have to decide if the life of a team member is
-										worth more than all of humanity.</p>
+									<p class="card-text">The lonely teenager Brendan finds his
+										former girlfriend Emily dead in the entrance of a tunnel of
+										sewage and recalls her phone call two days ago, when she said
+										to him that she was in trouble. Brendan, who still loved
+										Emily, met bad elements of his high-school trying to contact
+										her, and when he succeeded, she told him that she was OK. </p>
 									<a href="Mov_DarkPhoenix.jsp" class="btn btn-primary">Download</a>
 									&nbsp; &nbsp; &nbsp; <a
-										href="https://www.imdb.com/title/tt6565702/?ref_=nv_sr_1?ref_=nv_sr_1"
+										href="https://www.imdb.com/title/tt0393109/?ref_=ttls_li_tt"
 										class="btn btn-warning">IMDB link</a>
 								</div>
 							</div>
@@ -196,52 +221,73 @@
 					<div class="row">
 						<div class="col-sm-4">
 							<div class="card" style="width: 16rem;">
-								<img class="card-img-top" src="pix/w.jpg" alt="Movie Poster">
+								<img class="card-img-top" src="pix/Diva4.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
-										<b>Deadpool 2</b>
+										<b>The Silence of the Lambs (1991) 2</b>
 									</h5>
-									<p class="card-text">Foul-mouthed mutant mercenary Wade
-										Wilson (AKA. Deadpool), brings together a team of fellow
-										mutant rogues to protect a young boy with supernatural
-										abilities from the brutal, time-traveling cyborg, Cable.</p>
+									<p class="card-text">F.B.I. trainee Clarice Starling (Jodie
+										Foster) works hard to advance her career, while trying to hide
+										or put behind her West Virginia roots, of which if some knew,
+										would automatically classify her as being backward or white
+										trash. After graduation, she aspires to work in the agency's
+										Behavioral Science Unit under the leadership of Jack Crawford
+										(Scott Glenn). While she is still a trainee, Crawford asks her
+										to question Dr. Hannibal Lecter (Sir Anthony Hopkins), a
+										psychiatrist imprisoned, thus far, for eight years in maximum
+										security isolation for being a serial killer who cannibalized
+										his victims.</p>
 									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-									&nbsp; <a href="https://www.imdb.com/title/tt5463162/"
+									&nbsp; <a
+										href="https://www.imdb.com/title/tt0102926/?ref_=ttls_li_tt"
 										class="btn btn-warning">IMDB link</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-sm-4">
 							<div class="card" style="width: 16rem;">
-								<img class="card-img-top" src="pix/hellboy.jpg"
-									alt="Movie Poster">
+								<img class="card-img-top" src="pix/Diva5.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
-										<b>Hellboy</b>
+										<b>Chinatown (1974)</b>
 									</h5>
-									<p class="card-text">Based on the graphic novels by Mike
-										Mignola, Hellboy, caught between the worlds of the
-										supernatural and human, battles an ancient sorceress bent on
-										revenge.</p>
+									<p class="card-text">In 1937 Los Angeles, private
+										investigator Jake 'J.J.' Gittes specializes in cheating-spouse
+										cases. His current target is Hollis Mulwray, high-profile
+										chief engineer for the Los Angeles Department of Water and
+										Power, whose wife suspects him of infidelity. In following
+										Mulwray, Gittes witnesses some usual business dealings, such
+										as a public meeting for construction of a new dam to create
+										additional water supply for Los Angeles, as fresh water is
+										vital to the growing community during the chronic drought;
+										Mulwray opposes the dam. Eventually Gittes sees Mulwray
+										meeting with an unknown young woman who isn't his wife.</p>
 									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-									&nbsp; <a href="https://www.imdb.com/title/tt2274648/"
+									&nbsp; <a
+										href="https://www.imdb.com/title/tt0071315/?ref_=ttls_li_tt"
 										class="btn btn-warning">IMDB link</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-sm-4">
 							<div class="card" style="width: 16rem;">
-								<img class="card-img-top" src="pix/z.jpg" alt="Movie Poster">
+								<img class="card-img-top" src="pix/Diva6.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
-										<b>Wonder Woman</b>
+										<b>Se7en (1995)</b>
 									</h5>
-									<p class="card-text">When a pilot crashes and tells of
-										conflict in the outside world, Diana, an Amazonian warrior in
-										training, leaves home to fight a war, discovering her full
-										powers and true destiny.</p>
+									<p class="card-text">A film about two homicide detectives'
+										(Morgan Freeman and Brad Pitt) desperate hunt for a serial
+										killer who justifies his crimes as absolution for the world's
+										ignorance of the Seven Deadly Sins. The movie takes us from
+										the tortured remains of one victim to the next as the
+										sociopathic "John Doe" (Kevin Spacey) sermonizes to Detectives
+										Somerset and Mills -- one sin at a time. The sin of Gluttony
+										comes first and the murderer's terrible capacity is
+										graphically demonstrated in the dark and subdued tones
+										characteristic of film noir.</p>
 									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-									&nbsp; <a href="https://www.imdb.com/title/tt0451279/"
+									&nbsp; <a href="https://www.imdb.com/title/tt0114369/?ref_=ttls_li_tt"
 										class="btn btn-warning">IMDB link</a>
 								</div>
 							</div>
@@ -341,8 +387,8 @@
 						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Downloads</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="UpcomingMovies.jsp">Upcoming
-							Subtitles</a>
+						<a class="btn btn-outline-light btn-block"
+							href="UpcomingMovies.jsp">Upcoming Subtitles</a>
 					</p>
 					<p>
 						<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">New

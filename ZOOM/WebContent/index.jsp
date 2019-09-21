@@ -117,6 +117,9 @@
 								Subtitles</a></li>
 						<li><a class="dropdown-item" href="NewReleases.jsp">New
 								Subtitles</a></li>
+
+						<li><a class="dropdown-item" href="UpcomingSubtitles.jsp">Upcoming
+								Subtitles</a></li>
 					</ul></li>
 				<li class="nav-item"><a class="nav-link"
 					href="UpcomingMovies.jsp">Upcoming Movies &nbsp;</a></li>

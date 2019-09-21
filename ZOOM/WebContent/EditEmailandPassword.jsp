@@ -56,6 +56,7 @@
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 						<li><a class="dropdown-item" href="AllSubtitles.jsp">All Subtitles</a></li>
 						<li><a class="dropdown-item" href="NewReleaseSub.jsp">New Subtitles</a></li>
+						<li><a class="dropdown-item" href="UpcomingSubtitles.jsp">Upcoming Subtitles</a></li>
 					</ul></li>
 				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About Us
 						&nbsp</a></li>
@@ -97,7 +98,7 @@
 
 				<a class="btn btn-outline-primary active" href="EditEmailandPassword.jsp" style="width: 250px;">Edit
 					Password and Email</a><br> <a class="btn btn-outline-primary"
-					href="#" style="width: 250px;">Privacy Settings</a><br>
+					href="PrivacySettings.jsp" style="width: 250px;">Privacy Settings</a><br>
 
 				<h3 style="font-size: 25px">Legal Policies</h3>
 

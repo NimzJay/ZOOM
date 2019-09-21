@@ -60,6 +60,8 @@
 								Subtitles</a></li>
 						<li><a class="dropdown-item" href="NewReleases.jsp">New
 								Subtitles</a></li>
+						<li><a class="dropdown-item" href="UpcomingSubtitles.jsp">Upcoming
+								Subtitles</a></li>
 					</ul></li>
 				<li class="nav-item"><a class="nav-link"
 					href="UpcomingMovies.jsp">Upcoming Movies &nbsp;</a></li>
@@ -69,8 +71,8 @@
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="GeneralSettings.jsp">Settings
-						&nbsp; &nbsp; &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="GeneralSettings.jsp">Settings &nbsp; &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
 						<input class="form-control" type="text" placeholder="Search"
@@ -108,6 +110,9 @@
 						<li><a class="menu-link" href="NewReleases.jsp">Newly
 								Released Subtitles</a></li>
 
+						<li><a class="menu-link" href="UpcomingSubtitles.jsp">Upcoming
+								Subtitles</a></li>
+
 					</ul>
 					<br>
 					<p class="menuLabel">
@@ -115,7 +120,7 @@
 					</p>
 					<ul class="nav flex-column">
 						<li><a class="menu-link" href="#">Adventure</a></li>
-						<li><a class="menu-link" href="#">Detective</a></li>
+						<li><a class="menu-link" href="Detective.jsp">Detective</a></li>
 						<li><a class="menu-link" href="#">Horror</a></li>
 						<li><a class="menu-link" href="#">Romance</a></li>
 						<li><a class="menu-link" href="#">TV Series</a></li>

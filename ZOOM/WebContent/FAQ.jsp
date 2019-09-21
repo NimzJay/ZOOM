@@ -117,6 +117,9 @@
 								Subtitles</a></li>
 						<li><a class="dropdown-item" href="NewReleases.jsp">New
 								Subtitles</a></li>
+
+						<li><a class="dropdown-item" href="UpcomingSubtitles.jsp">Upcoming
+								Subtitles</a></li>
 					</ul></li>
 
 				<li class="nav-item"><a class="nav-link"
@@ -154,8 +157,7 @@
 					about how the board works. Use the links or search box below to
 					find your way around.</p>
 			</div>
-			<a name="faq_vb3_contact_members"></a>
-			<br>
+			<a name="faq_vb3_contact_members"></a> <br>
 			<div>
 				<h2 class="blockhead">Contacting other Members</h2>
 				<div class="blockbody">
@@ -177,7 +179,8 @@
 									</footer>
 								</blockquote>
 							</div>
-						</div><br>
+						</div>
+						<br>
 						<div class="card">
 							<div class="card-header">Can I see email addresses?</div>
 							<div class="card-body">
@@ -199,7 +202,8 @@
 									</footer>
 								</blockquote>
 							</div>
-						</div><br>
+						</div>
+						<br>
 						<div class="card">
 							<div class="card-header">Can I email a link to a friend?</div>
 							<div class="card-body">
@@ -218,7 +222,8 @@
 									</footer>
 								</blockquote>
 							</div>
-						</div><br>
+						</div>
+						<br>
 						<div class="card">
 							<div class="card-header">What is private messaging?</div>
 							<div class="card-body">
@@ -234,7 +239,8 @@
 									</footer>
 								</blockquote>
 							</div>
-						</div><br>
+						</div>
+						<br>
 						<div class="card">
 							<div class="card-header">What are visitor messages?</div>
 							<div class="card-body">
@@ -249,7 +255,8 @@
 									</footer>
 								</blockquote>
 							</div>
-						</div><br>
+						</div>
+						<br>
 					</div>
 					<br> <br>
 					<nav aria-label="Page navigation example">
