@@ -57,9 +57,9 @@
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item"><a class="nav-link" href="index.jsp">Home
 						&nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Calendar
+				<li class="nav-item"><a class="nav-link" href="Calender.jsp">Calendar
 						&nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Summary
+				<li class="nav-item"><a class="nav-link" href="Summary.jsp">Summary
 						&nbsp;</a></li>
 				<!-- Drop down menu -->
 				<li class="nav-item dropdown">
@@ -234,7 +234,7 @@
 					<a class="btn btn-light btn-sm float-right"
 						id="google_translate_element"></a>
 					<!-- Advances settings button -->
-					<a class="btn btn-light btn-sm float-right" href="#"> Advanced
+					<a class="btn btn-light btn-sm float-right" href="AdvancedSearch.jsp"> Advanced
 						Search</a> <br> <img class="img-fluid" src="pix/regq.png"
 						height="625px" align="right">
 				</div>

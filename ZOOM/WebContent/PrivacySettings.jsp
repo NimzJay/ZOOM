@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>General Setting| Zoom.lk</title>
+<title>Privacy Setting| Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -52,7 +52,7 @@
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="Calender.jsp">Calendar
 						&nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Summary
+				<li class="nav-item"><a class="nav-link" href="Summary.jsp">Summary
 						&nbsp;</a></li>
 				<!-- Drop down menu -->
 				<li class="nav-item dropdown">
@@ -130,7 +130,6 @@
 					href="Register.jsp"> Register </a></li>
 			</ul>
 		</div>
-
 		<!-- Dropdown Multi level -->
 		<script>
 			$(document).ready(function() {
@@ -143,6 +142,11 @@
 		</script>
 
 	</nav>
+<!-- Google Translator -->
+	<a class="float-right" id="google_translate_element"></a>
+	<!-- Advances settings button -->
+	<a class="btn btn-light btn-sm float-right" href="AdvancedSearch.jsp"> Advanced
+		Search</a>
 
 	<div class="container-fluid" style="margin: 20px; padding: 0px">
 		<div class="row">

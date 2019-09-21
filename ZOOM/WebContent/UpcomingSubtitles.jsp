@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>New Releases | Zoom.lk</title>
+<title>Upcoming Subtitles | Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
 <link rel="stylesheet" type="text/css" href="Styles/menu.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">
@@ -148,7 +148,7 @@
 	<a class="btn btn-light btn-sm float-right"
 		id="google_translate_element"></a>
 	<!-- Advances settings button -->
-	<a class="btn btn-light btn-sm float-right" href="#"> Advanced
+	<a class="btn btn-light btn-sm float-right" href="AdvancedSearch.jsp"> Advanced
 		Search</a>
 	<nav aria-label="breadcrumb">
 		<ol class="breadcrumb">

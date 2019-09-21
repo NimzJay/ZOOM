@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Help | Zoom.lk</title>
+<title>Featured Subtitles | Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
 <link rel="stylesheet" type="text/css" href="Styles/loginRegister.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">
@@ -51,9 +51,9 @@
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item"><a class="nav-link" href="index.jsp">Home
 						&nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Calendar
+				<li class="nav-item"><a class="nav-link" href="Calender.jsp">Calendar
 						&nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Summary
+				<li class="nav-item"><a class="nav-link" href="Summary.jsp">Summary
 						&nbsp;</a></li>
 
 				<!-- Drop down menu -->
@@ -145,6 +145,11 @@
 		</script>
 
 	</nav>
+	<a class="btn btn-light btn-sm float-right"
+		id="google_translate_element"></a>
+	<!-- Advances settings button -->
+	<a class="btn btn-light btn-sm float-right" href="AdvancedSearch.jsp"> Advanced
+		Search</a>
 	<nav aria-label="breadcrumb">
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
@@ -467,7 +472,6 @@
 				</div>
 			</div>
 		</div>
-		<a class="float-right" id="google_translate_element"></a> <br>
 		<!-- Footer Links -->
 		<div class="container text-center text-md-left mt-2">
 
