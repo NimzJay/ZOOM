@@ -22,7 +22,7 @@ $(document).ready(function() {
 					maxlength : 10
 
 				},
-				password : {
+				pass : {
 					required : true,
 					minlength : 6,
 					maxlength : 10
