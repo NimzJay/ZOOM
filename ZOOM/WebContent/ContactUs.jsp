@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <meta charset="ISO-8859-1">
 <title>Contact Us | Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
@@ -41,7 +42,7 @@
 		style="border-bottom: 1px; border-color: white;">
 		<a class="navbar-brand" href="index.jsp"> <img src="pix/logo.png"
 			width="100" height="35" class="d-inline-block align-top" alt="">
-			&nbsp; | <span>Subtitle Portal</span>
+			| <span>Subtitles</span>
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#collapsibleNavbar">
@@ -49,28 +50,74 @@
 		</button>
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav ml-auto">
+				<li class="nav-item"><a class="nav-link" href="index.jsp">Home
+						&nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Calendar
+						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Summary
 						&nbsp;</a></li>
-				<li class="nav-item dropdown"><a
-					class="nav-link dropdown-toggle" href="#"
-					id="navbarDropdownMenuLink" data-toggle="dropdown"
-					aria-haspopup="true" aria-expanded="false"> Downloads &nbsp;</a>
-					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<li><a class="dropdown-item" href="AllSubtitles.jsp">All
-								Subtitles</a></li>
-						<li><a class="dropdown-item" href="NewReleases.jsp">New
-								Subtitles</a></li>
-					</ul></li>
-				<li class="nav-item"><a class="nav-link"
-					href="UpcomingMovies.jsp">Upcoming Movies &nbsp;</a></li>
+				<!-- Drop down menu -->
+				<li class="nav-item dropdown">
+					<div class="dropdown">
+						<a class="nav-link dropdown-toggle" href="#"
+							id="navbarDropdownMenuLink" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false"> Subtitles <span
+							class="caret"></span> &nbsp;
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="btn" href="AllSubtitles.jsp">All Subtitles</a></li>
+							<li><a class="btn" href="NewReleases.jsp">New Subtitles</a></li>
+							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured
+									Subtitles</a></li>
+							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming
+									Subtitles</a></li>
+							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming
+									Movies </a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li class="dropdown-submenu dropright"><a
+								class="btn test dropright" href="#">Filter by Categories<span
+									class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a class="btn" href="Category_Adventure.jsp">Adventure</a></li>
+									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
+									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
+									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
+									<li><a class="btn" href="Category_TvSeries.jsp">TV
+											Series</a></li>
+								</ul></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li class="dropdown-submenu dropright"><a class="btn test"
+								href="#">Filter by Language<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a class="btn" href="#">English</a></li>
+									<li><a class="btn" href="#">Sinhala</a></li>
+									<li><a class="btn" href="#">Tamil</a></li>
+									<li><a class="btn" href="#">French</a></li>
+									<li><a class="btn" href="#">Spanish</a></li>
+								</ul></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li class="dropdown-submenu dropright"><a class="btn test"
+								href="#">Filter by Year<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a class="btn" href="#">2019</a></li>
+									<li><a class="btn" href="#">2018</a></li>
+									<li><a class="btn" href="#">2017</a></li>
+									<li><a class="btn" href="#">2016</a></li>
+									<li><a class="btn" href="#">2015</a></li>
+								</ul></li>
+						</ul>
+					</div>
+				</li>
 				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About
 						Us &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
+				<li class="nav-item active"><a class="nav-link"
+					href="ContactUs.jsp">Contact Us &nbsp; </a></li>
 				<li class="nav-item"><a class="nav-link"
-					href="GeneralSettings.jsp">Settings &nbsp; &nbsp; &nbsp;</a></li>
+					href="GeneralSettings.jsp">Settings &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
 						<input class="form-control" type="text" placeholder="Search"
@@ -78,24 +125,41 @@
 							class="fas fa-search text-white ml-2" aria-hidden="true"></i>
 					</form>
 				</li>
-				<li class="nav-item">&nbsp; &nbsp; &nbsp;<a
-					class="btn btn-primary" href="Login.jsp"> Log in </a>&nbsp; &nbsp;
+				<li class="nav-item">&nbsp; &nbsp;<a class="btn btn-primary"
+					href="Login.jsp"> Log in </a>&nbsp; &nbsp;
 				</li>
 				<li class="nav-item"><a class="btn btn-primary"
 					href="Register.jsp"> Register </a></li>
 			</ul>
 		</div>
+
+		<!-- Dropdown Multi level -->
+		<script>
+			$(document).ready(function() {
+				$('.dropdown-submenu a.test').on("click", function(e) {
+					$(this).next('ul').toggle();
+					e.stopPropagation();
+					e.preventDefault();
+				});
+			});
+		</script>
+
 	</nav>
 	<div class="main">
 		<nav aria-label="breadcrumb">
 			<ol class="breadcrumb">
 				<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
-				<li class="breadcrumb-item"><a href="AboutUs.jsp">AboutUs</a></li>
-				<li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+				<li class="breadcrumb-item active" aria-current="page">Contact
+					Us</li>
 			</ol>
 		</nav>
 		<div class="wrapper cont">
-		<a class="float-right" id="google_translate_element"></a><br>
+			<!-- Google Translator Widget -->
+			<a class="btn btn-light btn-sm float-right"
+				id="google_translate_element"></a>
+			<!-- Advances settings button -->
+			<a class="btn btn-light btn-sm float-right" href="#"> Advanced
+				Search</a>
 			<div class="row">
 				<div class="col-5" style="padding-left: 110px;">
 					<h1 class="display-4">Contact Us</h1>
@@ -104,20 +168,20 @@
 						<div class="form-row">
 							<div class="form-group col-md-12">
 								<label for="inputname">Your Name</label> <input type="text"
-									class="form-control" placeholder="Your Name"required>
+									class="form-control" placeholder="Your Name" required>
 							</div>
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-12">
-								<label for="inputemail">Email</label> <input
-									type="email" class="form-control" id="inputemail"
-									placeholder="email" required>
+								<label for="inputemail">Email</label> <input type="email"
+									class="form-control" id="inputemail" placeholder="email"
+									required>
 							</div>
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-12">
-								<label for="inputsubject">Subject</label> <input
-									type="subject" class="form-control" id="inputsubject"
+								<label for="inputsubject">Subject</label> <input type="subject"
+									class="form-control" id="inputsubject"
 									placeholder="Subject of the message" required>
 							</div>
 						</div>
@@ -140,11 +204,7 @@
 								<input type="submit" class="btn btn-primary btn-block"
 									value="Send">
 							</div>
-							<br>
-							
-							<br>
-							<br>
-							<br>
+							<br> <br> <br> <br>
 						</div>
 					</form>
 				</div>

@@ -4,9 +4,8 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Register | Zoom.lk</title>
+<title>The Lion King | Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
-<link rel="stylesheet" type="text/css" href="Styles/loginRegister.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
@@ -24,7 +23,7 @@
 
 <script type="text/javascript"
 	src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-<script type="text/javascript" src="jQuery/RegisterValidation.js"></script>
+
 <script type="text/javascript">
 	function googleTranslateElementInit() {
 		new google.translate.TranslateElement({
@@ -34,9 +33,8 @@
 		}, 'google_translate_element');
 	}
 </script>
-
 </head>
-<body>
+<body style="background-color: #E9ECEF">
 	<!-- Navigation Bar -->
 	<nav class="navbar navbar-expand-xl bg-dark navbar-dark sticky-top"
 		style="border-bottom: 1px; border-color: white;">
@@ -61,18 +59,15 @@
 					<div class="dropdown">
 						<a class="nav-link dropdown-toggle" href="#"
 							id="navbarDropdownMenuLink" data-toggle="dropdown"
-							aria-haspopup="true" aria-expanded="false"> Subtitles <span
-							class="caret"></span> &nbsp;
+							aria-haspopup="true" aria-expanded="false" style="color: white;">
+							Subtitles <span class="caret"></span> &nbsp;
 						</a>
 						<ul class="dropdown-menu">
 							<li><a class="btn" href="AllSubtitles.jsp">All Subtitles</a></li>
 							<li><a class="btn" href="NewReleases.jsp">New Subtitles</a></li>
-							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured
-									Subtitles</a></li>
-							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming
-									Subtitles</a></li>
-							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming
-									Movies </a></li>
+							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured Subtitles</a></li>
+							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming Subtitles</a></li>
+							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming Movies </a></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a
 								class="btn test dropright" href="#">Filter by Categories<span
@@ -82,8 +77,7 @@
 									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
 									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
 									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
-									<li><a class="btn" href="Category_TvSeries.jsp">TV
-											Series</a></li>
+									<li><a class="btn" href="Category_TvSeries.jsp">TV Series</a></li>
 								</ul></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a class="btn test"
@@ -145,98 +139,111 @@
 		</script>
 
 	</nav>
-	<div class="main">
-		<nav aria-label="breadcrumb">
-			<ol class="breadcrumb">
-				<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
-				<li class="breadcrumb-item active" aria-current="page">Register</li>
-			</ol>
-		</nav>
-		<!-- Google Translator Widget -->
-		<a class="btn btn-light btn-sm float-right"
-			id="google_translate_element"></a>
-		<!-- Advances settings button -->
-		<a class="btn btn-light btn-sm float-right" href="#"> Advanced
-			Search</a> <br>
-		<div class="wrapper register">
-			<div class="row">
-				<div class="col-5" style="padding-left: 110px;">
+	<!-- Google Translator Widget -->
+	<a class="btn btn-light btn-sm float-right" id="google_translate_element"></a>
+	<!-- Advances settings button -->
+	<a class="btn btn-light btn-sm float-right" href="#"> Advanced
+		Search</a>
+	<nav aria-label="breadcrumb">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
+			<li class="breadcrumb-item active" aria-current="page">The Lion
+				King Subtitles</li>
+		</ol>
+	</nav>
 
-					<h1 class="display-4">Register</h1>
-					<form id="register">
-						<div class="form-row">
-							<div class="col">
-								<label for="inputEmail4">Name</label>
-							</div>
-						</div>
-						<div class="form-row">
-							<div class="form-group col-md-6">
-								<input type="text" class="form-control" name="fname"
-									placeholder="First name" required>
-							</div>
-							<div class="form-group col-md-6">
-								<input type="text" class="form-control" name="lname"
-									placeholder="Last name" required>
-							</div>
-						</div>
-						<div class="form-row">
-							<div class="form-group col-md-12">
-								<label for="inputEmail4">Username</label> <input type="text"
-									class="form-control" name="user" required>
-							</div>
-						</div>
-						<div class="form-row">
-							<div class="form-group col-md-12">
-								<label for="inputPassword4">Password</label> <input
-									type="password" class="form-control" id="inputPassword4"
-									placeholder="Password" name="pass" required>
-							</div>
-						</div>
-						<div class="form-row">
-							<div class="form-group col-md-12">
-								<input type="password" class="form-control" id="inputPassword4"
-									placeholder="Re-Enter Password" name="repass" required>
-							</div>
-						</div>
-						<div class="form-row">
-							<div class="form-group col-md-12">
-								<label for="inputAddress">Email</label> <input type="email"
-									class="form-control" id="inputAddress"
-									placeholder="johndoe@example.com" name="email" required>
-							</div>
-						</div>
-						<div class="form-row">
-							<div class="form-group col-md-12">
-								<label for="inputAddress">Phone</label> <input type="text"
-									class="form-control" id="inputAddress" name="phone"
-									placeholder="0777123456" required>
-							</div>
-						</div>
-						<br>
-						<div class="form-row">
-							<div class="form-group col-md-6">
-								<input type="submit" class="btn btn-primary btn-block"
-									value="Sign in">
-							</div>
-							<div class="form-group col-md-6">
-								<input type="reset" value="Reset"
-									class="btn btn-primary btn-block">
-							</div>
-							<br>
-							<p>
-								Already Registered? &nbsp;<a href="Login.jsp">Log in</a>
-							</p>
-							<br> <br> <br>
-						</div>
-					</form>
-				</div>
-				<div class="col-7">
-					<img class="img-fluid" src="pix/regq.png" height="625px"
-						align="right">
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3 justify-content-center">
+				<p style="text-align: center;">
+					<img class="img-fluid" src="pix/lion.jpg" width="250px"><br>
+					<br> <a class="btn btn-primary w-75" href="#">Download</a>
+				</p>
+			</div>
+			<div class="col-md-9">
+				<h1 class="display-4" style="color: black;">The Lion King
+					(2019) Sinhala Subtitles</h1>
+				<h4 class="display-8 text-primary">Animation, Adventure, Drama</h4>
+				<div class="row ">
+					<div class="col-md-5 ">
+						<p>
+							<br>Simba idolizes his father, King Mufasa, and takes to
+							heart his own royal destiny on the plains of Africa. But not
+							everyone in the kingdom celebrates the new cub's arrival. Scar,
+							Mufasa's brother -- and former heir to the throne -- has plans of
+							his own. The battle for Pride Rock is soon ravaged with betrayal,
+							tragedy and drama, ultimately resulting in Simba's exile. Now,
+							with help from a curious pair of newfound friends, Simba must
+							figure out how to grow up and take back what is rightfully his.
+						</p>
+						<br> <br>
+					</div>
+					<div class="col-md-5 ">
+
+						<iframe width="560" height="315"
+							src="https://www.youtube.com/embed/7TavVZMewpY" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+						<br> <br>
+					</div>
 				</div>
 			</div>
 		</div>
+		<div class="row justify-content-around">
+			<div class="card col-md-5" style="width: 18rem; padding: 5px;">
+				<br> <br>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-md-5 text-secondary">COMPANY</div>
+							<div class="col-md-7 text-right">20th Century Fox</div>
+						</div>
+					</li>
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-md-5 text-secondary">RATED</div>
+							<div class="col-md-7 text-right">PG-13</div>
+						</div>
+					</li>
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-md-5 text-secondary">RELEASED</div>
+							<div class="col-md-7 text-right">07 Jun 2019</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="card col-md-5" style="width: 18rem; padding: 5px;">
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-md-5 text-secondary">WRITER</div>
+							<div class="col-md-7 text-right">Simon Kinberg, Stan Lee, J</div>
+						</div>
+					</li>
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-md-5 text-secondary">DIRECTOR</div>
+							<div class="col-md-7 text-right">Simon Kinberg</div>
+						</div>
+					</li>
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-md-5 text-secondary">WEBSITE</div>
+							<div class="col-md-7 text-right">
+								<a href="https://movies.disney.com/dark-phoenix">https://movies.disney.com/dark-phoenix</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+
+			</div>
+		</div>
 	</div>
+
+	<br>
+	<br>
 	<footer class="page-footer font-small unique-color-dark"
 		style="background-color: #555;">
 		<div style="background-color: #f0ad4e;">
