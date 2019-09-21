@@ -67,9 +67,12 @@
 						<ul class="dropdown-menu">
 							<li><a class="btn" href="AllSubtitles.jsp">All Subtitles</a></li>
 							<li><a class="btn" href="NewReleases.jsp">New Subtitles</a></li>
-							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured Subtitles</a></li>
-							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming Subtitles</a></li>
-							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming Movies </a></li>
+							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured
+									Subtitles</a></li>
+							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming
+									Subtitles</a></li>
+							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming
+									Movies </a></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a
 								class="btn test dropright" href="#"
@@ -84,26 +87,6 @@
 										style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">Romance</a></li>
 									<li><a class="btn" href="Category_TvSeries.jsp">TV
 											Series</a></li>
-								</ul></li>
-							<li><div class="dropdown-divider"></div></li>
-							<li class="dropdown-submenu dropright"><a class="btn test"
-								href="#">Filter by Language<span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a class="btn" href="#">English</a></li>
-									<li><a class="btn" href="#">Sinhala</a></li>
-									<li><a class="btn" href="#">Tamil</a></li>
-									<li><a class="btn" href="#">French</a></li>
-									<li><a class="btn" href="#">Spanish</a></li>
-								</ul></li>
-							<li><div class="dropdown-divider"></div></li>
-							<li class="dropdown-submenu dropright"><a class="btn test"
-								href="#">Filter by Year<span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a class="btn" href="#">2019</a></li>
-									<li><a class="btn" href="#">2018</a></li>
-									<li><a class="btn" href="#">2017</a></li>
-									<li><a class="btn" href="#">2016</a></li>
-									<li><a class="btn" href="#">2015</a></li>
 								</ul></li>
 						</ul>
 					</div>
@@ -146,10 +129,11 @@
 
 	</nav>
 	<!-- Google Translator Widget -->
-	<a class="btn btn-light btn-sm float-right" id="google_translate_element"></a>
+	<a class="btn btn-light btn-sm float-right"
+		id="google_translate_element"></a>
 	<!-- Advances settings button -->
-	<a class="btn btn-light btn-sm float-right" href="AdvancedSearch.jsp"> Advanced
-		Search</a>
+	<a class="btn btn-light btn-sm float-right" href="AdvancedSearch.jsp">
+		Advanced Search</a>
 	<nav aria-label="breadcrumb">
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>

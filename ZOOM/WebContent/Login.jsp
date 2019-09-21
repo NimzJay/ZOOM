@@ -85,26 +85,6 @@
 									<li><a class="btn" href="Category_TvSeries.jsp">TV
 											Series</a></li>
 								</ul></li>
-							<li><div class="dropdown-divider"></div></li>
-							<li class="dropdown-submenu dropright"><a class="btn test"
-								href="#">Filter by Language<span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a class="btn" href="#">English</a></li>
-									<li><a class="btn" href="#">Sinhala</a></li>
-									<li><a class="btn" href="#">Tamil</a></li>
-									<li><a class="btn" href="#">French</a></li>
-									<li><a class="btn" href="#">Spanish</a></li>
-								</ul></li>
-							<li><div class="dropdown-divider"></div></li>
-							<li class="dropdown-submenu dropright"><a class="btn test"
-								href="#">Filter by Year<span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a class="btn" href="#">2019</a></li>
-									<li><a class="btn" href="#">2018</a></li>
-									<li><a class="btn" href="#">2017</a></li>
-									<li><a class="btn" href="#">2016</a></li>
-									<li><a class="btn" href="#">2015</a></li>
-								</ul></li>
 						</ul>
 					</div>
 				</li>
@@ -193,9 +173,9 @@
 					<a class="btn btn-light btn-sm float-right"
 						id="google_translate_element"></a>
 					<!-- Advances settings button -->
-					<a class="btn btn-light btn-sm float-right" href="AdvancedSearch.jsp"> Advanced
-						Search</a> <br> <img class="img-fluid" src="pix/regq.png"
-						height="625px" align="right">
+					<a class="btn btn-light btn-sm float-right"
+						href="AdvancedSearch.jsp"> Advanced Search</a> <br> <img
+						class="img-fluid" src="pix/regq.png" height="625px" align="right">
 				</div>
 			</div>
 		</div>

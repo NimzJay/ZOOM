@@ -127,9 +127,12 @@
 						<ul class="dropdown-menu">
 							<li><a class="btn" href="AllSubtitles.jsp">All Subtitles</a></li>
 							<li><a class="btn" href="NewReleases.jsp">New Subtitles</a></li>
-							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured Subtitles</a></li>
-							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming Subtitles</a></li>
-							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming Movies </a></li>
+							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured
+									Subtitles</a></li>
+							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming
+									Subtitles</a></li>
+							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming
+									Movies </a></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a
 								class="btn test dropright" href="#">Filter by Categories<span
@@ -139,27 +142,8 @@
 									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
 									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
 									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
-									<li><a class="btn" href="Category_TvSeries.jsp">TV Series</a></li>
-								</ul></li>
-							<li><div class="dropdown-divider"></div></li>
-							<li class="dropdown-submenu dropright"><a class="btn test"
-								href="#">Filter by Language<span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a class="btn" href="#">English</a></li>
-									<li><a class="btn" href="#">Sinhala</a></li>
-									<li><a class="btn" href="#">Tamil</a></li>
-									<li><a class="btn" href="#">French</a></li>
-									<li><a class="btn" href="#">Spanish</a></li>
-								</ul></li>
-							<li><div class="dropdown-divider"></div></li>
-							<li class="dropdown-submenu dropright"><a class="btn test"
-								href="#">Filter by Year<span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a class="btn" href="#">2019</a></li>
-									<li><a class="btn" href="#">2018</a></li>
-									<li><a class="btn" href="#">2017</a></li>
-									<li><a class="btn" href="#">2016</a></li>
-									<li><a class="btn" href="#">2015</a></li>
+									<li><a class="btn" href="Category_TvSeries.jsp">TV
+											Series</a></li>
 								</ul></li>
 						</ul>
 					</div>
@@ -170,8 +154,8 @@
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact Us
-						&nbsp; </a></li>
+				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact
+						Us &nbsp; </a></li>
 				<li class="nav-item"><a class="nav-link"
 					href="GeneralSettings.jsp">Settings &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
@@ -203,15 +187,17 @@
 	</nav>
 
 	<!-- Google Translator Widget -->
-	<a class="btn btn-light btn-sm float-right" id="google_translate_element"></a>
+	<a class="btn btn-light btn-sm float-right"
+		id="google_translate_element"></a>
 	<!-- Advances settings button -->
-	<a class="btn btn-light btn-sm float-right" href="AdvancedSearch.jsp"> Advanced
-		Search</a>
+	<a class="btn btn-light btn-sm float-right" href="AdvancedSearch.jsp">
+		Advanced Search</a>
 
 	<div class="jumbotron jumbotron-fluid">
 		<div class="container">
 
-			<h1 class="display-4">Featured Subtitles</h1><br>
+			<h1 class="display-4">Featured Subtitles</h1>
+			<br>
 
 			<!-- Search Featured subtitles -->
 			<div class="input-group md-form form-sm form-2 pl-0">
@@ -222,7 +208,8 @@
 						class="fas fa-search text-grey" aria-hidden="true"></i></span>
 				</div>
 			</div>
-			<br><br>
+			<br>
+			<br>
 			<div class="row">
 				<div class="col-sm-3">
 					<div class="card h-100" style="width: 16rem;">
@@ -234,8 +221,8 @@
 							<p class="card-text">A kind-hearted street urchin and a
 								power-hungry Grand Vizier vie for a magic lamp that has the
 								power to make their deepest wishes come true.</p>
-							<a href="Mov_Aladdin.jsp" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-							&nbsp; <a
+							<a href="Mov_Aladdin.jsp" class="btn btn-primary">Download</a>
+							&nbsp; &nbsp; &nbsp; <a
 								href="https://www.imdb.com/title/tt6139732/?ref_=tt_sims_tti"
 								class="btn btn-warning">IMDB link</a>
 						</div>
@@ -251,8 +238,8 @@
 							<p class="card-text">After the murder of his father, a young
 								lion prince flees his kingdom only to learn the true meaning of
 								responsibility and bravery.</p>
-							<a href="Mov_LionKing.jsp" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-							&nbsp; <a
+							<a href="Mov_LionKing.jsp" class="btn btn-primary">Download</a>
+							&nbsp; &nbsp; &nbsp; <a
 								href="https://www.imdb.com/title/tt6105098/?ref_=nv_sr_1?ref_=nv_sr_1"
 								class="btn btn-warning">IMDB link</a>
 						</div>
@@ -353,8 +340,8 @@
 							<p class="card-text">Following the events of Avengers:
 								Endgame (2019), Spider-Man must step up to take on new threats
 								in a world...</p>
-							<a href="Mov_SpiderMan.jsp" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-							&nbsp; <a
+							<a href="Mov_SpiderMan.jsp" class="btn btn-primary">Download</a>
+							&nbsp; &nbsp; &nbsp; <a
 								href="https://www.imdb.com/title/tt6320628/?ref_=inth_ov_tt"
 								class="btn btn-warning">IMDB link</a>
 						</div>
@@ -372,9 +359,9 @@
 							</h5>
 							<p class="card-text">A deactivated cyborg is revived, but
 								cannot remember anything of her past life and goes on a quest to
-								find out who she is.</p><br>
-							<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-							&nbsp; <a
+								find out who she is.</p>
+							<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
+							&nbsp; &nbsp; <a
 								href="https://www.imdb.com/title/tt0437086/?ref_=rvi_tt"
 								class="btn btn-warning">IMDB link</a>
 						</div>
@@ -388,9 +375,11 @@
 								<b>Abominable</b>
 							</h5>
 							<p class="card-text">A magical Yeti must return to his
-								family.</p><br><br><br>
-							<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-							&nbsp; <a
+								family.</p>
+							<br>
+							<br>
+							<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
+							&nbsp; &nbsp; <a
 								href="https://www.imdb.com/title/tt6324278/?ref_=cs_ov_tt"
 								class="btn btn-warning">IMDB link</a>
 						</div>
