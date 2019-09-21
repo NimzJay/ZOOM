@@ -57,7 +57,7 @@
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item"><a class="nav-link" href="index.jsp">Home
 						&nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Calendar
+				<li class="nav-item"><a class="nav-link" href="Calender.jsp">Calendar
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="Summary.jsp">Summary
 						&nbsp;</a></li>
