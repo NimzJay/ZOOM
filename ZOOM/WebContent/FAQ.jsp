@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Home | Zoom.lk</title>
+<title>FAQ | Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,7 +35,7 @@
 </script>
 
 </head>
-<body>
+<body style="background-color: #E9ECEF;">
 	<div id="carouselExampleControls" class="carousel slide"
 		data-ride="carousel">
 		<ol class="carousel-indicators">
@@ -98,7 +98,7 @@
 		style="border-bottom: 1px; border-color: white;">
 		<a class="navbar-brand" href="index.jsp"> <img src="pix/logo.png"
 			width="100" height="35" class="d-inline-block align-top" alt="">
-			&nbsp; | <span>Subtitle Portal</span>
+			| <span>Subtitles</span>
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#collapsibleNavbar">
@@ -106,28 +106,54 @@
 		</button>
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a class="nav-link" href="#">Summary
+				<li class="nav-item"><a class="nav-link" href="index.jsp">Home
 						&nbsp;</a></li>
-				<li class="nav-item dropdown"><a
-					class="nav-link dropdown-toggle" href="#"
-					id="navbarDropdownMenuLink" data-toggle="dropdown"
-					aria-haspopup="true" aria-expanded="false"> Downloads &nbsp;</a>
-					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<li><a class="dropdown-item" href="AllSubtitles.jsp">All
-								Subtitles</a></li>
-						<li><a class="dropdown-item" href="NewReleases.jsp">New
-								Subtitles</a></li>
-					</ul></li>
-				<li class="nav-item"><a class="nav-link" href="UpcomingMovies.jsp">Upcoming
-						Movies &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="Calender.jsp">Calendar
+						&nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="Summary.jsp">Summary
+						&nbsp;</a></li>
+				<!-- Drop down menu -->
+				<li class="nav-item dropdown">
+					<div class="dropdown">
+						<a class="nav-link dropdown-toggle" href="#"
+							id="navbarDropdownMenuLink" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false"> Subtitles <span
+							class="caret"></span> &nbsp;
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="btn" href="AllSubtitles.jsp">All Subtitles</a></li>
+							<li><a class="btn" href="NewReleases.jsp">New Subtitles</a></li>
+							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured
+									Subtitles</a></li>
+							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming
+									Subtitles</a></li>
+							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming
+									Movies </a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li class="dropdown-submenu dropright"><a
+								class="btn test dropright" href="#">Filter by Categories<span
+									class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a class="btn" href="Category_Adventure.jsp">Adventure</a></li>
+									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
+									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
+									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
+									<li><a class="btn" href="Category_TvSeries.jsp">TV
+											Series</a></li>
+								</ul></li>
+						</ul>
+					</div>
+				</li>
 				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About
 						Us &nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
+				<li class="nav-item active"><a class="nav-link" href="FAQ.jsp">FAQ
 						&nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Help
+				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Settings
-						&nbsp; &nbsp; &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact
+						Us &nbsp; </a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="GeneralSettings.jsp">Settings &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
 						<input class="form-control" type="text" placeholder="Search"
@@ -135,36 +161,168 @@
 							class="fas fa-search text-white ml-2" aria-hidden="true"></i>
 					</form>
 				</li>
-				<li class="nav-item">&nbsp; &nbsp; &nbsp;<a
-					class="btn btn-primary" href="Login.jsp"> Log in </a>&nbsp; &nbsp;
+				<li class="nav-item">&nbsp; &nbsp;<a class="btn btn-primary"
+					href="Login.jsp"> Log in </a>&nbsp; &nbsp;
 				</li>
 				<li class="nav-item"><a class="btn btn-primary"
 					href="Register.jsp"> Register </a></li>
 			</ul>
 		</div>
+
+		<!-- Dropdown Multi level -->
+		<script>
+			$(document).ready(function() {
+				$('.dropdown-submenu a.test').on("click", function(e) {
+					$(this).next('ul').toggle();
+					e.stopPropagation();
+					e.preventDefault();
+				});
+			});
+		</script>
+
 	</nav>
-	<a class="float-right" id="google_translate_element"></a>
+	<!-- Google Translator Widget -->
+	<a class="btn btn-light btn-sm float-right"
+		id="google_translate_element"></a>
+	<!-- Advances settings button -->
+	<a class="btn btn-light btn-sm float-right" href="AdvancedSearch.jsp">
+		Advanced Search</a>
+	<nav aria-label="breadcrumb">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
+			<li class="breadcrumb-item active" aria-current="page">FAQ</li>
+		</ol>
+	</nav>
+
 	<div class="jumbotron jumbotron-fluid">
 		<div class="container">
+			<div id="pagetitle">
+				<h1>Zoom Community FAQ</h1>
+				<p class="description">Here you can find answers to questions
+					about how the board works. Use the links or search box below to
+					find your way around.</p>
+			</div>
+			<a name="faq_vb3_contact_members"></a> <br>
+			<div>
+				<h2 class="blockhead">Contacting other Members</h2>
+				<div class="blockbody">
+					<div class="blockrow restore faqtext">
+						<div class="card">
+							<div class="card-header">Can I email other members?</div>
+							<div class="card-body">
+								<blockquote class="blockquote mb-0">
+									<p>Yes. To send an email to another member, you can either
+										find them on the member list, or choose the Send Email option
+										from the username menu in any post they have written.</p>
 
+									<p>This will usually open a page that contains a form where
+										you can enter your message. When you have finished typing your
+										message, press the 'send email' button and your message will
+										be sent instantly.</p>
+									<footer class="blockquote-footer">
+										Chamika Ravindra </cite>
+									</footer>
+								</blockquote>
+							</div>
+						</div>
+						<br>
+						<div class="card">
+							<div class="card-header">Can I see email addresses?</div>
+							<div class="card-body">
+								<blockquote class="blockquote mb-0">
+									<p>For privacy reasons, the recipient's email address is
+										not revealed to you during this process.</p>
 
+									<p>
+										<b><span class="highlight">Why</span> can't I send an
+											email to someone?</b>
+									</p>
 
+									<p>If you cannot find an email button or link for a member,
+										it means either that the administrator has disabled email
+										functions for this forum, or that the member has said that
+										they do not wish to receive email from other members.</p>
+									<footer class="blockquote-footer">
+										Kalana Elapatha </cite>
+									</footer>
+								</blockquote>
+							</div>
+						</div>
+						<br>
+						<div class="card">
+							<div class="card-header">Can I email a link to a friend?</div>
+							<div class="card-body">
+								<blockquote class="blockquote mb-0">
+									<p>Another useful email function is the ability to send a
+										friend a link to a thread you think they may find interesting.
+										Whenever you view a thread, you will find a link somewhere on
+										the page which will allow you to send a brief message to
+										anyone you like. Your referrer ID is added to the link you
+										send, so if your friend registers on this forum as a result of
+										viewing the link you sent to them, your referrals total will
+										automatically be credited.</p>
 
-			<h1 class="display-4">FAQ</h1>
+									<footer class="blockquote-footer">
+										Haritha Chanuka </cite>
+									</footer>
+								</blockquote>
+							</div>
+						</div>
+						<br>
+						<div class="card">
+							<div class="card-header">What is private messaging?</div>
+							<div class="card-body">
+								<blockquote class="blockquote mb-0">
+									<p>
+										Registered members may also be able to send messages to other
+										members of this forum using the private messaging</a> system. For
+										more information about private messaging,
+									</p>
 
+									<footer class="blockquote-footer">
+										Navindu Eshan </cite>
+									</footer>
+								</blockquote>
+							</div>
+						</div>
+						<br>
+						<div class="card">
+							<div class="card-header">What are visitor messages?</div>
+							<div class="card-body">
+								<blockquote class="blockquote mb-0">
+									<p>Registered members may leave messages for other members
+										on their profile page. These messages can generally be viewed
+										by all visitors, including members, guests and search engine
+										spiders. For more information on visitor messages,</p>
 
-
-
-
-
-
-			<br> <br>
-
+									<footer class="blockquote-footer">
+										Sachintha Liyanage </cite>
+									</footer>
+								</blockquote>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br> <br>
+					<nav aria-label="Page navigation example">
+						<ul class="pagination justify-content-center">
+							<li class="page-item"><a class="page-link" href="#"
+								aria-label="Previous" tabindex="-1"> <span
+									aria-hidden="true">&laquo;</span> <span class="sr-only">Previous</span></a></li>
+							<li class="page-item active"><a class="page-link"
+								href="index.jsp">1</a></li>
+							<li class="page-item"><a class="page-link" href="#">2</a></li>
+							<li class="page-item"><a class="page-link" href="#">3</a></li>
+							<li class="page-item"><a class="page-link" href="#"
+								aria-label="Next"> <span aria-hidden="true">&raquo;</span> <span
+									class="sr-only">Next</span>
+							</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
 		</div>
-		<br> <br>
-
 	</div>
-
 	<footer class="page-footer font-small unique-color-dark"
 		style="background-color: #555;">
 		<div style="background-color: #f0ad4e;">
@@ -230,17 +388,18 @@
 					<hr class="deep-purple accent-2 mb-4 mt-2 d-inline-block mx-auto"
 						style="width: 60px; border-color: #777;">
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">IMdB</a>
+						<a class="btn btn-outline-light btn-block"
+							href="https://www.imdb.com/">IMdB</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Downloads</a>
+						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Subtitles</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Upcoming
-							Subtitles</a>
+						<a class="btn btn-outline-light btn-block"
+							href="UpcomingSubtitles.jsp">Upcoming Subtitles</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Latest
+						<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">New
 							Subtitles</a>
 					</p>
 				</div>
@@ -255,19 +414,19 @@
 					<hr class="deep-purple accent-2 mb-4 mt-2 d-inline-block mx-auto"
 						style="width: 80px; border-color: #777;">
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Your
+						<a class="btn btn-outline-light btn-block" href="ProfileView.jsp">Your
 							Account</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Latest
+						<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">Latest
 							Subtitles</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Movie
+						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Movie
 							details</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Help</a>
+						<a class="btn btn-outline-light btn-block" href="Help.jsp">Help</a>
 					</p>
 				</div>
 
@@ -303,7 +462,7 @@
 			<br> <a href="index.jsp"
 				style="color: #eee; text-decoration: none;"> <img
 				src="pix/logo.png" width="120px" height="45px">
-			</a><br> Copyright � 2019 &nbsp - &nbsp All rights reserved. <br>
+			</a><br> Copyright Â© 2019 &nbsp; - &nbsp; All rights reserved. <br>
 			<br>
 		</div>
 	</footer>

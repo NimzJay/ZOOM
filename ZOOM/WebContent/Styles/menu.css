@@ -1,18 +1,37 @@
 @charset "ISO-8859-1";
 
-.content{
-	padding-left: 100px;
+.content {
+	
 }
-.menu{
-	background-color: #FFFACD;
-	padding-left: 250px;
+
+.menu {
+	color: white;
+	background-color: #05499c;
 }
-.menu-link{
-	color: black;
+
+.menuLabel {
+	display: inline-block;
+	background-color: #032f65;
+	color: white;
+	padding: 15px;
+	WIDTH: 100%;
+}
+
+.menu-link {
+	padding: 10px;
+	width: 100%;
+	padding-left: 30px;
+	color: white;
+	display: inline-block;
 	text-decoration: none;
 }
 
-.menu-link :hover{
-	color: #404040;
+.menu-link:hover {
+	width: 100%;
+	color: #05499c;
+	background-color: #E9ECEF;
+	border-radius: 20px;
+	display: inline-block;
 	text-decoration: none;
+	box-shadow: 0 0 11px rgba(33, 33, 33, .2);
 }
