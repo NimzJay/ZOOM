@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Romance | Zoom.lk</title>
+<title>Romance Category| Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
 <link rel="stylesheet" type="text/css" href="Styles/loginRegister.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">

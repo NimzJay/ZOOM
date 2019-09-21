@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Help | Zoom.lk</title>
+<title>TvSeries Category | Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
 <link rel="stylesheet" type="text/css" href="Styles/loginRegister.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">
