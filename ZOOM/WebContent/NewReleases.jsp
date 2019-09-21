@@ -37,11 +37,12 @@
 
 </head>
 <body style="background-color: #E9ECEF">
+	<!-- Navigation Bar -->
 	<nav class="navbar navbar-expand-xl bg-dark navbar-dark sticky-top"
 		style="border-bottom: 1px; border-color: white;">
 		<a class="navbar-brand" href="index.jsp"> <img src="pix/logo.png"
 			width="100" height="35" class="d-inline-block align-top" alt="">
-			&nbsp; | <span>Subtitle Portal</span>
+			| <span>Subtitles</span>
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#collapsibleNavbar">
@@ -49,99 +50,121 @@
 		</button>
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a class="nav-link" href="#">Summary
+				<li class="nav-item"><a class="nav-link" href="index.jsp">Home
 						&nbsp;</a></li>
-				<li class="nav-item dropdown active"><a
-					class="nav-link dropdown-toggle" href="#"
-					id="navbarDropdownMenuLink" data-toggle="dropdown"
-					aria-haspopup="true" aria-expanded="false"> Downloads &nbsp;</a>
-					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<li><a class="dropdown-item" href="AllSubtitles.jsp">All
-								Subtitles</a></li>
-						<li><a class="dropdown-item" href="NewReleases.jsp">New
-								Subtitles</a></li>
-						<li><a class="dropdown-item" href="#">Upcoming Movies</a>
-					</ul></li>
+				<li class="nav-item"><a class="nav-link" href="Calender.jsp">Calendar
+						&nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="Summary.jsp">Summary
+						&nbsp;</a></li>
+				<!-- Drop down menu -->
+				<li class="nav-item dropdown">
+					<div class="dropdown">
+						<a class="nav-link dropdown-toggle" href="#"
+							id="navbarDropdownMenuLink" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false" style="color: white;">
+							Subtitles <span class="caret"></span> &nbsp;
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="btn" href="AllSubtitles.jsp">All Subtitles</a></li>
+							<li><a class="btn" href="NewReleases.jsp"
+								style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">New
+									Subtitles</a></li>
+							<li><a class="btn" href="#">Featured Subtitles</a></li>
+							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming
+									Subtitles</a></li>
+							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming
+									Movies </a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li class="dropdown-submenu dropright"><a
+								class="btn test dropright" href="#">Filter by Categories<span
+									class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a class="btn" href="Category_Adventure.jsp">Adventure</a></li>
+									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
+									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
+									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
+									<li><a class="btn" href="Category_TvSeries.jsp">TV
+											Series</a></li>
+								</ul></li>
+						</ul>
+					</div>
+				</li>
 				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About
 						Us &nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">FAQ
+				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
 						&nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Help
+				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Settings
-						&nbsp; &nbsp; &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact
+						Us &nbsp; </a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="GeneralSettings.jsp">Settings &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
 						<input class="form-control" type="text" placeholder="Search"
 							aria-label="Search"> <i
-							class="fas fa-search text-white ml-2 form-inline"
-							aria-hidden="true"></i>
+							class="fas fa-search text-white ml-2" aria-hidden="true"></i>
 					</form>
 				</li>
-				<li class="nav-item">&nbsp; &nbsp; &nbsp;<a
-					class="btn btn-primary" href="Login.jsp"> Log in </a>&nbsp; &nbsp;
+				<li class="nav-item">&nbsp; &nbsp;<a class="btn btn-primary"
+					href="Login.jsp"> Log in </a>&nbsp; &nbsp;
 				</li>
 				<li class="nav-item"><a class="btn btn-primary"
 					href="Register.jsp"> Register </a></li>
 			</ul>
 		</div>
-	</nav>
-	<a class="float-right" id="google_translate_element"></a>
 
+		<!-- Dropdown Multi level -->
+		<script>
+			$(document).ready(function() {
+				$('.dropdown-submenu a.test').on("click", function(e) {
+					$(this).next('ul').toggle();
+					e.stopPropagation();
+					e.preventDefault();
+				});
+			});
+		</script>
+
+	</nav>
+	<!-- Google Translator Widget -->
+	<a class="btn btn-light btn-sm float-right"
+		id="google_translate_element"></a>
+	<!-- Advances settings button -->
+	<a class="btn btn-light btn-sm float-right" href="AdvancedSearch.jsp">
+		Advanced Search</a>
+	<nav aria-label="breadcrumb">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
+			<li class="breadcrumb-item"><a href="#">Subtitles</a></li>
+			<li class="breadcrumb-item active" aria-current="page">New
+				Subtitles</li>
+		</ol>
+	</nav>
 	<div class="content">
 		<div class="row">
-			<div class="col-md-3">
-				<div class="menu">
-					<br>
-					<h2>Categories</h2>
-					<hr>
-					<p>Filter by Type</p>
-					<ul class="nav flex-column">
-						<li><a class="menu-link" href="AllSubtitles.jsp">All Subtitles</a></li>
-						<li><a class="menu-link" href="#">Upcoming Subtitles</a></li>
-						<li><a class="menu-link" href="NewReleases.jsp">Newly
-								Released Subtitles</a></li>
-
-					</ul>
-					<hr>
-					<p>Filter by Genre</p>
-					<ul class="nav flex-column">
-						<li><a class="menu-link" href="#">Adventure</a></li>
-						<li><a class="menu-link" href="#">Detective</a></li>
-						<li><a class="menu-link" href="#">Horror</a></li>
-						<li><a class="menu-link" href="#">Romance</a></li>
-						<li><a class="menu-link" href="#">TV Series</a></li>
-					</ul>
-					<hr>
-					<p>Filter by Year</p>
-					<ul class="nav flex-column">
-						<li><a class="menu-link" href="#">2019</a></li>
-						<li><a class="menu-link" href="#">2018</a></li>
-						<li><a class="menu-link" href="#">2017</a></li>
-						<li><a class="menu-link" href="#">2016</a></li>
-						<li><a class="menu-link" href="#">2015</a></li>
-
-					</ul>
-					<hr>
-					<p>Filter by Language</p>
-					<ul class="nav flex-column">
-						<li><a class="menu-link" href="#">English</a></li>
-						<li><a class="menu-link" href="#">Sinhala</a></li>
-						<li><a class="menu-link" href="#">Tamil</a></li>
-						<li><a class="menu-link" href="#">French</a></li>
-						<li><a class="menu-link" href="#">Spanish</a></li>
-					</ul>
-					<br>
-				</div>
-			</div>
-			<div class="col-md-9">
+			<div class="col-md-12">
 				<div class="container">
+
+					<!-- Google Translator -->
+					<div class="row justify-content-end">
+						<a class="float-right" id="google_translate_element"></a>
+					</div>
 					<br>
 					<h1 class="display-4">Newly Released Subtitles</h1>
 					<br>
+					<!-- Search Featured subtitles -->
+					<div class="input-group md-form form-sm form-2 pl-0">
+						<input class="form-control my-0 py-1 red-border" type="text"
+							placeholder="Search Featured subtitles" aria-label="Search">
+						<div class="input-group-append">
+							<span class="input-group-text red lighten-3" id="basic-text1"><i
+								class="fas fa-search text-grey" aria-hidden="true"></i></span>
+						</div>
+					</div>
+					<br>
 					<div class="row">
-						<div class="col-sm-4">
-							<div class="card" style="width: 18rem;">
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
 								<img class="card-img-top" src="pix/x.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
@@ -150,15 +173,15 @@
 									<p class="card-text">A kind-hearted street urchin and a
 										power-hungry Grand Vizier vie for a magic lamp that has the
 										power to make their deepest wishes come true.</p>
-									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-									&nbsp; <a
+									<a href="Mov_Aladdin.jsp" class="btn btn-primary">Download</a>
+									&nbsp; &nbsp; &nbsp; <a
 										href="https://www.imdb.com/title/tt6139732/?ref_=tt_sims_tti"
 										class="btn btn-warning">IMDB link</a>
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-4">
-							<div class="card" style="width: 18rem;">
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
 								<img class="card-img-top" src="pix/y.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
@@ -174,8 +197,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-4">
-							<div class="card" style="width: 18rem;">
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
 								<img class="card-img-top" src="pix/dark2.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
@@ -183,8 +206,7 @@
 									</h5>
 									<p class="card-text">Jean Grey begins to develop incredible
 										powers that corrupt and turn her into a Dark Phoenix. Now the
-										X-Men will have to decide if the life of a team member is
-										worth more than all of humanity.</p>
+										X-Men will have to decide if the life...</p>
 									<a href="Mov_DarkPhoenix.jsp" class="btn btn-primary">Download</a>
 									&nbsp; &nbsp; &nbsp; <a
 										href="https://www.imdb.com/title/tt6565702/?ref_=nv_sr_1?ref_=nv_sr_1"
@@ -192,11 +214,28 @@
 								</div>
 							</div>
 						</div>
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/dora.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>Dora and the Lost City of Gold</b>
+									</h5>
+									<p class="card-text">Dora, a teenage explorer, leads her
+										friends on an adventure to save her parents and solve the
+										mystery behind a lost city...</p>
+									<a href="Mov_DarkPhoenix.jsp" class="btn btn-primary">Download</a>
+									&nbsp; &nbsp; &nbsp; <a
+										href="https://www.imdb.com/title/tt7547410/?ref_=inth_ov_tt"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
 					</div>
 					<br>
 					<div class="row">
-						<div class="col-sm-4">
-							<div class="card" style="width: 18rem;">
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
 								<img class="card-img-top" src="pix/w.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
@@ -204,16 +243,15 @@
 									</h5>
 									<p class="card-text">Foul-mouthed mutant mercenary Wade
 										Wilson (AKA. Deadpool), brings together a team of fellow
-										mutant rogues to protect a young boy with supernatural
-										abilities from the brutal, time-traveling cyborg, Cable.</p>
+										mutant rogues to protect a young boy with...</p>
 									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
 									&nbsp; <a href="https://www.imdb.com/title/tt5463162/"
 										class="btn btn-warning">IMDB link</a>
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-4">
-							<div class="card" style="width: 18rem;">
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
 								<img class="card-img-top" src="pix/hellboy.jpg"
 									alt="Movie Poster">
 								<div class="card-body">
@@ -222,16 +260,16 @@
 									</h5>
 									<p class="card-text">Based on the graphic novels by Mike
 										Mignola, Hellboy, caught between the worlds of the
-										supernatural and human, battles an ancient sorceress bent on
-										revenge.</p>
+										supernatural and human, battles an ancient sorceress bent
+										on...</p>
 									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
 									&nbsp; <a href="https://www.imdb.com/title/tt2274648/"
 										class="btn btn-warning">IMDB link</a>
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-4">
-							<div class="card" style="width: 18rem;">
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
 								<img class="card-img-top" src="pix/z.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
@@ -239,37 +277,124 @@
 									</h5>
 									<p class="card-text">When a pilot crashes and tells of
 										conflict in the outside world, Diana, an Amazonian warrior in
-										training, leaves home to fight a war, discovering her full
-										powers and true destiny.</p>
+										training, leaves home to fight a war, discovering her full...</p>
 									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
 									&nbsp; <a href="https://www.imdb.com/title/tt0451279/"
 										class="btn btn-warning">IMDB link</a>
 								</div>
 							</div>
 						</div>
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/spider.jpg"
+									alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b> Spider-Man: Far from Home </b>
+									</h5>
+									<p class="card-text">Following the events of Avengers:
+										Endgame (2019), Spider-Man must step up to take on new threats
+										in a world...</p>
+									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+									&nbsp; <a
+										href="https://www.imdb.com/title/tt6320628/?ref_=inth_ov_tt"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/alita.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>Alita: Battle Angel</b>
+									</h5>
+									<p class="card-text">A deactivated cyborg is revived, but
+										cannot remember anything of her past life and goes on a quest
+										to find out who she is.</p>
+									<br> <a href="#" class="btn btn-primary">Download</a>
+									&nbsp; &nbsp; &nbsp; <a
+										href="https://www.imdb.com/title/tt0437086/?ref_=rvi_tt"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/abo.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>Abominable</b>
+									</h5>
+									<p class="card-text">A magical Yeti must return to his
+										family.</p>
+									<br> <br> <br> <a href="#"
+										class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
+										href="https://www.imdb.com/title/tt6324278/?ref_=cs_ov_tt"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/joker.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>Joker</b>
+									</h5>
+									<p class="card-text">An original standalone origin story of
+										the iconic villain not seen before on the big screen, it's a
+										gritty character study of Arthur Fleck, a man...</p>
+									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+									&nbsp; <a
+										href="https://www.imdb.com/title/tt7286456/?ref_=cs_ov_tt"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/mal.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>Maleficent: Mistress of Evil</b>
+									</h5>
+									<p class="card-text">Maleficent and her goddaughter Aurora
+										begin to question the complex family ties that bind them as
+										they are pulled in...</p>
+									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+									&nbsp; <a
+										href="https://www.imdb.com/title/tt4777008/?ref_=cs_ov_tt"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
+
 					</div>
 				</div>
 			</div>
 		</div>
+		<br> <br>
+		<nav aria-label="Page navigation example">
+			<ul class="pagination justify-content-center">
+				<li class="page-item"><a class="page-link" href="#"
+					aria-label="Previous" tabindex="-1"> <span aria-hidden="true">&laquo;</span>
+						<span class="sr-only">Previous</span></a></li>
+				<li class="page-item active"><a class="page-link"
+					href="index.jsp">1</a></li>
+				<li class="page-item"><a class="page-link" href="#">2</a></li>
+				<li class="page-item"><a class="page-link" href="#">3</a></li>
+				<li class="page-item"><a class="page-link" href="#"
+					aria-label="Next"> <span aria-hidden="true">&raquo;</span> <span
+						class="sr-only">Next</span>
+				</a></li>
+			</ul>
+		</nav>
+		<br>
 	</div>
-	<br>
-	<br>
-	<nav aria-label="Page navigation example">
-		<ul class="pagination justify-content-center">
-			<li class="page-item"><a class="page-link" href="#"
-				aria-label="Previous" tabindex="-1"> <span aria-hidden="true">&laquo;</span>
-					<span class="sr-only">Previous</span></a></li>
-			<li class="page-item active"><a class="page-link"
-				href="index.jsp">1</a></li>
-			<li class="page-item"><a class="page-link" href="#">2</a></li>
-			<li class="page-item"><a class="page-link" href="#">3</a></li>
-			<li class="page-item"><a class="page-link" href="#"
-				aria-label="Next"> <span aria-hidden="true">&raquo;</span> <span
-					class="sr-only">Next</span>
-			</a></li>
-		</ul>
-	</nav>
-	<br>
 	<footer class="page-footer font-small unique-color-dark"
 		style="background-color: #555;">
 		<div style="background-color: #f0ad4e;">
@@ -342,8 +467,8 @@
 						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Downloads</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Upcoming
-							Subtitles</a>
+						<a class="btn btn-outline-light btn-block"
+							href="UpcomingMovies.jsp">Upcoming Subtitles</a>
 					</p>
 					<p>
 						<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">New
@@ -361,7 +486,7 @@
 					<hr class="deep-purple accent-2 mb-4 mt-2 d-inline-block mx-auto"
 						style="width: 80px; border-color: #777;">
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Your
+						<a class="btn btn-outline-light btn-block" href="ProfileView.jsp">Your
 							Account</a>
 					</p>
 					<p>
@@ -373,7 +498,7 @@
 							details</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Help</a>
+						<a class="btn btn-outline-light btn-block" href="Help.jsp">Help</a>
 					</p>
 				</div>
 
@@ -409,7 +534,7 @@
 			<br> <a href="index.jsp"
 				style="color: #eee; text-decoration: none;"> <img
 				src="pix/logo.png" width="120px" height="45px">
-			</a><br> Copyright © 2019 &nbsp; - &nbsp; All rights reserved. <br>
+			</a><br> Copyright Â© 2019 &nbsp; - &nbsp; All rights reserved. <br>
 			<br>
 		</div>
 	</footer>

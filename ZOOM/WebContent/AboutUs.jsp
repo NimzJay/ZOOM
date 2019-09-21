@@ -3,9 +3,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-
-
 <meta charset="ISO-8859-1">
 <title>About Us| Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
@@ -44,7 +41,7 @@
 		style="border-bottom: 1px; border-color: white;">
 		<a class="navbar-brand" href="index.jsp"> <img src="pix/logo.png"
 			width="100" height="35" class="d-inline-block align-top" alt="">
-			&nbsp | <span>Subtitle Portal</span>
+			| <span>Subtitles</span>
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#collapsibleNavbar">
@@ -52,25 +49,54 @@
 		</button>
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a class="nav-link" href="#">Summary
-						&nbsp</a></li>
-				<li class="nav-item dropdown"><a
-					class="nav-link dropdown-toggle" href="#"
-					id="navbarDropdownMenuLink" data-toggle="dropdown"
-					aria-haspopup="true" aria-expanded="false"> Download &nbsp</a>
-					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<li><a class="dropdown-item" href="#">All Subtitles</a></li>
-						<li><a class="dropdown-item" href="NewReleaseSub.jsp">New
-								Subtitles</a></li>
-						<li><a class="dropdown-item" href="#">Upcoming Subtitles</a>
-					</ul></li>
-				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About
-						Us &nbsp</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">FAQ &nbsp</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Help
-						&nbsp </a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Settings
-						&nbsp &nbsp &nbsp</a></li>
+				<li class="nav-item"><a class="nav-link" href="index.jsp">Home
+						&nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="Calendar.jsp">Calendar
+						&nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="Summary.jsp">Summary
+						&nbsp;</a></li>
+				<!-- Drop down menu -->
+				<li class="nav-item dropdown">
+					<div class="dropdown">
+						<a class="nav-link dropdown-toggle" href="#"
+							id="navbarDropdownMenuLink" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false"> Subtitles <span
+							class="caret"></span> &nbsp;
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="btn" href="AllSubtitles.jsp">All Subtitles</a></li>
+							<li><a class="btn" href="NewReleases.jsp">New Subtitles</a></li>
+							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured
+									Subtitles</a></li>
+							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming
+									Subtitles</a></li>
+							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming
+									Movies </a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li class="dropdown-submenu dropright"><a
+								class="btn test dropright" href="#">Filter by Categories<span
+									class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a class="btn" href="Category_Adventure.jsp">Adventure</a></li>
+									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
+									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
+									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
+									<li><a class="btn" href="Category_TvSeries.jsp">TV
+											Series</a></li>
+								</ul></li>
+						</ul>
+					</div>
+				</li>
+				<li class="nav-item active"><a class="nav-link"
+					href="AboutUs.jsp">About Us &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
+						&nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
+						&nbsp; </a></li>
+				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact
+						Us &nbsp; </a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="GeneralSettings.jsp">Settings &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
 						<input class="form-control" type="text" placeholder="Search"
@@ -78,27 +104,35 @@
 							class="fas fa-search text-white ml-2" aria-hidden="true"></i>
 					</form>
 				</li>
-				<li class="nav-item">&nbsp &nbsp &nbsp<a
-					class="btn btn-primary" href="Login.jsp"> Log in </a>&nbsp &nbsp
+				<li class="nav-item">&nbsp; &nbsp;<a class="btn btn-primary"
+					href="Login.jsp"> Log in </a>&nbsp; &nbsp;
 				</li>
 				<li class="nav-item"><a class="btn btn-primary"
 					href="Register.jsp"> Register </a></li>
 			</ul>
 		</div>
+
+		<!-- Dropdown Multi level -->
+		<script>
+			$(document).ready(function() {
+				$('.dropdown-submenu a.test').on("click", function(e) {
+					$(this).next('ul').toggle();
+					e.stopPropagation();
+					e.preventDefault();
+				});
+			});
+		</script>
+
 	</nav>
-	<a class="float-right" id="google_translate_element"></a>
-	<div class="jumbotron jumbotron-fluid">
-
-
-		<div class="card" bg-white align="center">
+	<!-- Google Translator Widget -->
+	<a class="btn btn-light btn-sm float-right" id="google_translate_element"></a>
+	<!-- Advances settings button -->
+	<a class="btn btn-light btn-sm float-right" href="AdvancedSearch.jsp"> Advanced
+		Search</a>
+	<div>
+		<br> <br>
+		<div align="center">
 			<div class="card-body">
-
-		
-
-
-				</head>
-
-
 				<div id="carouselExampleControls" class="carousel slide"
 					data-ride="carousel">
 					<ol class="carousel-indicators">
@@ -110,17 +144,17 @@
 
 
 					</ol>
-					<div class="carousel-inner">
+					<div class="carousel-inner" style="height: 430px;">
 						<div class="carousel-item active">
-							<img class="d-block w-50" src="pix/m11.png" alt="First slide">
+							<img class="d-block w-75" src="pix/m11.png" alt="First slide">
 						</div>
 						<div class="carousel-item">
-							<img class="d-block w-50" src="pix/m12.png" alt="Second slide">
+							<img class="d-block w-75" src="pix/m12.png" alt="Second slide">
 						</div>
 						<div class="carousel-item">
-							<img class="d-block w-50" src="pix/m13.png" alt="Third slide">
+							<img class="d-block w-75" src="pix/m13.png" alt="Third slide">
 						</div>
-						
+
 
 					</div>
 					<a class="carousel-control-prev" href="#carouselExampleControls"
@@ -135,32 +169,46 @@
 				</div>
 			</div>
 		</div>
+		<div style="background-color: #E9ECEF;">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<br>
+						<br>
+						<br>
+						<img class="img-fluid" src="pix/ppl2.png" align="right">
+					</div>
+					<div class="col-md-5">
+						<br> <br>
+						<h1>
+							<center>About Us</center>
+						</h1>
+						<br>
+						<p align="center" style="color: dim-grey" style=style="font-size:30px">
+							When most people think of downloading movie subtitles, you have
+							to make visit to our web site and have a view. I am sure once you
+							visit us, You will never ever leave Us. Because We have a bank of
+							Subtitles. If you prefer to get one, You can download it without
+							any trouble because all these are open to you at your finger
+							tips. If you don't understand English, you can change the
+							language as you prefer. This web site ensure that the right
+							subtitle is available at the right time and of the right quality.<br>
+							<br>
+						</p>
 
+						<br>
+						<center>
+							<a class="btn btn-primary text-center" align="center"
+								href="ContactUs.jsp">Contact Us</a>
+						</center>
+						<br> <br>
+					</div>
+				</div>
 
-
-
-		<div class="container" style="background-color: #E9ECEF;">
-			<br><br><br>
-			<h1 align="left">About Us</h1>
-			<br>
-			<p align="center" style="color: dim-grey" style=style="font-size:30px">
-				When most people think of downloading movie subtitles, you have to
-				make visit to our website and have a view. <br>I am sure once
-				you visit us, You will never ever leave Us. Because We have a bank
-				of Subtitles. <br>If you prefer to get one, You can download it
-				without any trouble because all these are open to you at your finger
-				tips. <br> If you don't understand English, you can change the
-				language as you prefer. <br> This website ensure that the right
-				subtitle is available at the right time and <br> of the right
-				quality.<br> <br>
-			</p>
-<br><br><br>
-			<center><a class="btn btn-primary text-center" align="center" href="ContactUs.jsp"  >Contact Us</a></center>
+			</div>
 		</div>
-				
-		<br> <br> <br> <br> <br> <br> <br>
-		<br> <br> <br> <br> <br> <br>
 
+		<br>
 		<footer class="page-footer font-small unique-color-dark"
 			style="background-color: #555;">
 			<div style="background-color: #f0ad4e;">
@@ -226,17 +274,19 @@
 						<hr class="deep-purple accent-2 mb-4 mt-2 d-inline-block mx-auto"
 							style="width: 60px; border-color: #777;">
 						<p>
-							<a class="btn btn-outline-light btn-block" href="#!">IMdB</a>
+							<a class="btn btn-outline-light btn-block"
+								href="https://www.imdb.com/">IMdB</a>
 						</p>
 						<p>
-							<a class="btn btn-outline-light btn-block" href="#!">Downloads</a>
+							<a class="btn btn-outline-light btn-block"
+								href="AllSubtitles.jsp">Subtitles</a>
 						</p>
 						<p>
-							<a class="btn btn-outline-light btn-block" href="#!">Upcoming
-								Subtitles</a>
+							<a class="btn btn-outline-light btn-block"
+								href="UpcomingSubtitles.jsp">Upcoming Subtitles</a>
 						</p>
 						<p>
-							<a class="btn btn-outline-light btn-block" href="#!">Latest
+							<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">New
 								Subtitles</a>
 						</p>
 					</div>
@@ -251,19 +301,19 @@
 						<hr class="deep-purple accent-2 mb-4 mt-2 d-inline-block mx-auto"
 							style="width: 80px; border-color: #777;">
 						<p>
-							<a class="btn btn-outline-light btn-block" href="#!">Your
+							<a class="btn btn-outline-light btn-block" href="ProfileView.jsp">Your
 								Account</a>
 						</p>
 						<p>
-							<a class="btn btn-outline-light btn-block" href="#!">Latest
+							<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">Latest
 								Subtitles</a>
 						</p>
 						<p>
-							<a class="btn btn-outline-light btn-block" href="#!">Movie
-								details</a>
+							<a class="btn btn-outline-light btn-block"
+								href="AllSubtitles.jsp">Movie details</a>
 						</p>
 						<p>
-							<a class="btn btn-outline-light btn-block" href="#!">Help</a>
+							<a class="btn btn-outline-light btn-block" href="Help.jsp">Help</a>
 						</p>
 					</div>
 
@@ -299,9 +349,11 @@
 				<br> <a href="index.jsp"
 					style="color: #eee; text-decoration: none;"> <img
 					src="pix/logo.png" width="120px" height="45px">
-				</a><br> Copyright © 2019 &nbsp - &nbsp All rights reserved. <br>
+				</a><br> Copyright Â© 2019 &nbsp; - &nbsp; All rights reserved. <br>
 				<br>
 			</div>
 		</footer>
+	</div>
+
 </body>
 </html>

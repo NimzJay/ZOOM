@@ -36,6 +36,8 @@
 
 </head>
 <body style="background-color: #E9ECEF">
+
+	<!-- Image Slideshow -->
 	<div id="carouselExampleControls" class="carousel slide"
 		data-ride="carousel">
 		<ol class="carousel-indicators">
@@ -94,11 +96,12 @@
 		</a>
 	</div>
 
+	<!-- Navigation Bar -->
 	<nav class="navbar navbar-expand-xl bg-dark navbar-dark sticky-top"
 		style="border-bottom: 1px; border-color: white;">
 		<a class="navbar-brand" href="index.jsp"> <img src="pix/logo.png"
 			width="100" height="35" class="d-inline-block align-top" alt="">
-			&nbsp; | <span>Subtitle Portal</span>
+			| <span>Subtitles</span>
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#collapsibleNavbar">
@@ -106,26 +109,55 @@
 		</button>
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a class="nav-link" href="#">Summary
+				<li class="nav-item active"><a class="nav-link"
+					href="index.jsp">Home &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="Calender.jsp">Calendar
 						&nbsp;</a></li>
-				<li class="nav-item dropdown"><a
-					class="nav-link dropdown-toggle" href="#"
-					id="navbarDropdownMenuLink" data-toggle="dropdown"
-					aria-haspopup="true" aria-expanded="false"> Downloads &nbsp;</a>
-					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<li><a class="dropdown-item" href="AllSubtitles.jsp">All Subtitles</a></li>
-						<li><a class="dropdown-item" href="NewReleases.jsp">New
-								Subtitles</a></li>
-						<li><a class="dropdown-item" href="UpcomingMovies.jsp">Upcoming Movies</a>
-					</ul></li>
+				<li class="nav-item"><a class="nav-link" href="Summary.jsp">Summary
+						&nbsp;</a></li>
+
+				<!-- Drop down menu -->
+				<li class="nav-item dropdown">
+					<div class="dropdown">
+						<a class="nav-link dropdown-toggle" href="#"
+							id="navbarDropdownMenuLink" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false"> Subtitles <span
+							class="caret"></span> &nbsp;
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="btn" href="AllSubtitles.jsp">All Subtitles</a></li>
+							<li><a class="btn" href="NewReleases.jsp">New Subtitles</a></li>
+							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured
+									Subtitles</a></li>
+							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming
+									Subtitles</a></li>
+							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming
+									Movies </a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li class="dropdown-submenu dropright"><a
+								class="btn test dropright" href="#">Filter by Categories<span
+									class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a class="btn" href="Category_Adventure.jsp">Adventure</a></li>
+									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
+									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
+									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
+									<li><a class="btn" href="Category_TvSeries.jsp">TV
+											Series</a></li>
+								</ul></li>
+						</ul>
+					</div>
+				</li>
 				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About
 						Us &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
 						&nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Help
+				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Settings
-						&nbsp; &nbsp; &nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact
+						Us &nbsp; </a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="GeneralSettings.jsp">Settings &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
 						<input class="form-control" type="text" placeholder="Search"
@@ -133,23 +165,54 @@
 							class="fas fa-search text-white ml-2" aria-hidden="true"></i>
 					</form>
 				</li>
-				<li class="nav-item">&nbsp; &nbsp; &nbsp;<a
-					class="btn btn-primary" href="Login.jsp"> Log in </a>&nbsp; &nbsp;
+				<li class="nav-item">&nbsp; &nbsp;<a class="btn btn-primary"
+					href="Login.jsp"> Log in </a>&nbsp; &nbsp;
 				</li>
 				<li class="nav-item"><a class="btn btn-primary"
 					href="Register.jsp"> Register </a></li>
 			</ul>
 		</div>
+
+		<!-- Dropdown Multi level -->
+		<script>
+			$(document).ready(function() {
+				$('.dropdown-submenu a.test').on("click", function(e) {
+					$(this).next('ul').toggle();
+					e.stopPropagation();
+					e.preventDefault();
+				});
+			});
+		</script>
+
 	</nav>
 
-	<a class="float-right" id="google_translate_element"></a>
+	<!-- Google Translator Widget -->
+	<a class="btn btn-light btn-sm float-right"
+		id="google_translate_element"></a>
+	<!-- Advances settings button -->
+	<a class="btn btn-light btn-sm float-right" href="AdvancedSearch.jsp">
+		Advanced Search</a>
+
 	<div class="jumbotron jumbotron-fluid">
 		<div class="container">
-			<h1 class="display-4">Featured Subtitle</h1>
+
+			<h1 class="display-4">Featured Subtitles</h1>
+			<br>
+
+			<!-- Search Featured subtitles -->
+			<div class="input-group md-form form-sm form-2 pl-0">
+				<input class="form-control my-0 py-1 red-border" type="text"
+					placeholder="Search Featured subtitles" aria-label="Search">
+				<div class="input-group-append">
+					<span class="input-group-text red lighten-3" id="basic-text1"><i
+						class="fas fa-search text-grey" aria-hidden="true"></i></span>
+				</div>
+			</div>
+			<br>
 			<br>
 			<div class="row">
 				<div class="col-sm-3">
-					<div class="card" style="width: 16rem;">
+					<div class="card h-100" style="width: 16rem;">
 						<img class="card-img-top" src="pix/x.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
@@ -158,15 +221,15 @@
 							<p class="card-text">A kind-hearted street urchin and a
 								power-hungry Grand Vizier vie for a magic lamp that has the
 								power to make their deepest wishes come true.</p>
-							<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-							&nbsp; <a
+							<a href="Mov_Aladdin.jsp" class="btn btn-primary">Download</a>
+							&nbsp; &nbsp; &nbsp; <a
 								href="https://www.imdb.com/title/tt6139732/?ref_=tt_sims_tti"
 								class="btn btn-warning">IMDB link</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<div class="card" style="width: 16rem;">
+					<div class="card h-100" style="width: 16rem;">
 						<img class="card-img-top" src="pix/y.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
@@ -175,15 +238,15 @@
 							<p class="card-text">After the murder of his father, a young
 								lion prince flees his kingdom only to learn the true meaning of
 								responsibility and bravery.</p>
-							<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-							&nbsp; <a
+							<a href="Mov_LionKing.jsp" class="btn btn-primary">Download</a>
+							&nbsp; &nbsp; &nbsp; <a
 								href="https://www.imdb.com/title/tt6105098/?ref_=nv_sr_1?ref_=nv_sr_1"
 								class="btn btn-warning">IMDB link</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<div class="card" style="width: 16rem;">
+					<div class="card h-100" style="width: 16rem;">
 						<img class="card-img-top" src="pix/dark2.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
@@ -191,8 +254,7 @@
 							</h5>
 							<p class="card-text">Jean Grey begins to develop incredible
 								powers that corrupt and turn her into a Dark Phoenix. Now the
-								X-Men will have to decide if the life of a team member is worth
-								more than all of humanity.</p>
+								X-Men will have to decide if the life...</p>
 							<a href="Mov_DarkPhoenix.jsp" class="btn btn-primary">Download</a>
 							&nbsp; &nbsp; &nbsp; <a
 								href="https://www.imdb.com/title/tt6565702/?ref_=nv_sr_1?ref_=nv_sr_1"
@@ -201,19 +263,18 @@
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<div class="card" style="width: 16rem;">
-						<img class="card-img-top" src="pix/dark2.jpg" alt="Movie Poster">
+					<div class="card h-100" style="width: 16rem;">
+						<img class="card-img-top" src="pix/dora.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
-								<b>Dark Phoenix</b>
+								<b>Dora and the Lost City of Gold</b>
 							</h5>
-							<p class="card-text">Jean Grey begins to develop incredible
-								powers that corrupt and turn her into a Dark Phoenix. Now the
-								X-Men will have to decide if the life of a team member is worth
-								more than all of humanity.</p>
-							<a href="Mov_DarkPhoenix.jsp" class="btn btn-primary">Download</a>
+							<p class="card-text">Dora, a teenage explorer, leads her
+								friends on an adventure to save her parents and solve the
+								mystery behind a lost city...</p>
+							<a href="Mov_Dora.jsp" class="btn btn-primary">Download</a>
 							&nbsp; &nbsp; &nbsp; <a
-								href="https://www.imdb.com/title/tt6565702/?ref_=nv_sr_1?ref_=nv_sr_1"
+								href="https://www.imdb.com/title/tt7547410/?ref_=inth_ov_tt"
 								class="btn btn-warning">IMDB link</a>
 						</div>
 					</div>
@@ -222,7 +283,7 @@
 			<br>
 			<div class="row">
 				<div class="col-sm-3">
-					<div class="card" style="width: 16rem;">
+					<div class="card h-100" style="width: 16rem;">
 						<img class="card-img-top" src="pix/w.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
@@ -230,8 +291,7 @@
 							</h5>
 							<p class="card-text">Foul-mouthed mutant mercenary Wade
 								Wilson (AKA. Deadpool), brings together a team of fellow mutant
-								rogues to protect a young boy with supernatural abilities from
-								the brutal, time-traveling cyborg, Cable.</p>
+								rogues to protect a young boy with...</p>
 							<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
 							&nbsp; <a href="https://www.imdb.com/title/tt5463162/"
 								class="btn btn-warning">IMDB link</a>
@@ -239,7 +299,7 @@
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<div class="card" style="width: 16rem;">
+					<div class="card h-100" style="width: 16rem;">
 						<img class="card-img-top" src="pix/hellboy.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
@@ -247,7 +307,7 @@
 							</h5>
 							<p class="card-text">Based on the graphic novels by Mike
 								Mignola, Hellboy, caught between the worlds of the supernatural
-								and human, battles an ancient sorceress bent on revenge.</p>
+								and human, battles an ancient sorceress bent on...</p>
 							<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
 							&nbsp; <a href="https://www.imdb.com/title/tt2274648/"
 								class="btn btn-warning">IMDB link</a>
@@ -255,7 +315,7 @@
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<div class="card" style="width: 16rem;">
+					<div class="card h-100" style="width: 16rem;">
 						<img class="card-img-top" src="pix/z.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
@@ -263,8 +323,7 @@
 							</h5>
 							<p class="card-text">When a pilot crashes and tells of
 								conflict in the outside world, Diana, an Amazonian warrior in
-								training, leaves home to fight a war, discovering her full
-								powers and true destiny.</p>
+								training, leaves home to fight a war, discovering her full...</p>
 							<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
 							&nbsp; <a href="https://www.imdb.com/title/tt0451279/"
 								class="btn btn-warning">IMDB link</a>
@@ -272,18 +331,18 @@
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<div class="card" style="width: 16rem;">
-						<img class="card-img-top" src="pix/z.jpg" alt="Movie Poster">
+					<div class="card h-100" style="width: 16rem;">
+						<img class="card-img-top" src="pix/spider.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
-								<b>Wonder Woman</b>
+								<b> Spider-Man: Far from Home </b>
 							</h5>
-							<p class="card-text">When a pilot crashes and tells of
-								conflict in the outside world, Diana, an Amazonian warrior in
-								training, leaves home to fight a war, discovering her full
-								powers and true destiny.</p>
-							<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-							&nbsp; <a href="https://www.imdb.com/title/tt0451279/"
+							<p class="card-text">Following the events of Avengers:
+								Endgame (2019), Spider-Man must step up to take on new threats
+								in a world...</p>
+							<a href="Mov_SpiderMan.jsp" class="btn btn-primary">Download</a>
+							&nbsp; &nbsp; &nbsp; <a
+								href="https://www.imdb.com/title/tt6320628/?ref_=inth_ov_tt"
 								class="btn btn-warning">IMDB link</a>
 						</div>
 					</div>
@@ -292,68 +351,70 @@
 			<br>
 			<div class="row">
 				<div class="col-sm-3">
-					<div class="card" style="width: 16rem;">
-						<img class="card-img-top" src="pix/w.jpg" alt="Movie Poster">
+					<div class="card h-100" style="width: 16rem;">
+						<img class="card-img-top" src="pix/alita.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
-								<b>Deadpool 2</b>
+								<b>Alita: Battle Angel</b>
 							</h5>
-							<p class="card-text">Foul-mouthed mutant mercenary Wade
-								Wilson (AKA. Deadpool), brings together a team of fellow mutant
-								rogues to protect a young boy with supernatural abilities from
-								the brutal, time-traveling cyborg, Cable.</p>
-							<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-							&nbsp; <a href="https://www.imdb.com/title/tt5463162/"
+							<p class="card-text">A deactivated cyborg is revived, but
+								cannot remember anything of her past life and goes on a quest to
+								find out who she is.</p>
+							<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
+							&nbsp; &nbsp; <a
+								href="https://www.imdb.com/title/tt0437086/?ref_=rvi_tt"
 								class="btn btn-warning">IMDB link</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<div class="card" style="width: 16rem;">
-						<img class="card-img-top" src="pix/hellboy.jpg" alt="Movie Poster">
+					<div class="card h-100" style="width: 16rem;">
+						<img class="card-img-top" src="pix/abo.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
-								<b>Hellboy</b>
+								<b>Abominable</b>
 							</h5>
-							<p class="card-text">Based on the graphic novels by Mike
-								Mignola, Hellboy, caught between the worlds of the supernatural
-								and human, battles an ancient sorceress bent on revenge.</p>
-							<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-							&nbsp; <a href="https://www.imdb.com/title/tt2274648/"
+							<p class="card-text">A magical Yeti must return to his
+								family.</p>
+							<br>
+							<br>
+							<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
+							&nbsp; &nbsp; <a
+								href="https://www.imdb.com/title/tt6324278/?ref_=cs_ov_tt"
 								class="btn btn-warning">IMDB link</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<div class="card" style="width: 16rem;">
-						<img class="card-img-top" src="pix/z.jpg" alt="Movie Poster">
+					<div class="card h-100" style="width: 16rem;">
+						<img class="card-img-top" src="pix/joker.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
-								<b>Wonder Woman</b>
+								<b>Joker</b>
 							</h5>
-							<p class="card-text">When a pilot crashes and tells of
-								conflict in the outside world, Diana, an Amazonian warrior in
-								training, leaves home to fight a war, discovering her full
-								powers and true destiny.</p>
+							<p class="card-text">An original standalone origin story of
+								the iconic villain not seen before on the big screen, it's a
+								gritty character study of Arthur Fleck, a man...</p>
 							<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-							&nbsp; <a href="https://www.imdb.com/title/tt0451279/"
+							&nbsp; <a
+								href="https://www.imdb.com/title/tt7286456/?ref_=cs_ov_tt"
 								class="btn btn-warning">IMDB link</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<div class="card" style="width: 16rem;">
-						<img class="card-img-top" src="pix/z.jpg" alt="Movie Poster">
+					<div class="card h-100" style="width: 16rem;">
+						<img class="card-img-top" src="pix/mal.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">
-								<b>Wonder Woman</b>
+								<b>Maleficent: Mistress of Evil</b>
 							</h5>
-							<p class="card-text">When a pilot crashes and tells of
-								conflict in the outside world, Diana, an Amazonian warrior in
-								training, leaves home to fight a war, discovering her full
-								powers and true destiny.</p>
+							<p class="card-text">Maleficent and her goddaughter Aurora
+								begin to question the complex family ties that bind them as they
+								are pulled in...</p>
 							<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-							&nbsp; <a href="https://www.imdb.com/title/tt0451279/"
+							&nbsp; <a
+								href="https://www.imdb.com/title/tt4777008/?ref_=cs_ov_tt"
 								class="btn btn-warning">IMDB link</a>
 						</div>
 					</div>
@@ -447,11 +508,11 @@
 							href="https://www.imdb.com/">IMdB</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Downloads</a>
+						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Subtitles</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Upcoming
-							Subtitles</a>
+						<a class="btn btn-outline-light btn-block"
+							href="UpcomingSubtitles.jsp">Upcoming Subtitles</a>
 					</p>
 					<p>
 						<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">New
@@ -469,7 +530,7 @@
 					<hr class="deep-purple accent-2 mb-4 mt-2 d-inline-block mx-auto"
 						style="width: 80px; border-color: #777;">
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Your
+						<a class="btn btn-outline-light btn-block" href="ProfileView.jsp">Your
 							Account</a>
 					</p>
 					<p>
@@ -481,7 +542,7 @@
 							details</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="#!">Help</a>
+						<a class="btn btn-outline-light btn-block" href="Help.jsp">Help</a>
 					</p>
 				</div>
 
