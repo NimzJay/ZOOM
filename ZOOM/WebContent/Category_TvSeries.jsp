@@ -1,12 +1,13 @@
+
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>New Releases | Zoom.lk</title>
+<title>Help | Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
-<link rel="stylesheet" type="text/css" href="Styles/menu.css">
+<link rel="stylesheet" type="text/css" href="Styles/loginRegister.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
@@ -51,17 +52,17 @@
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item"><a class="nav-link" href="index.jsp">Home
 						&nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="Calendar.jsp">Calendar
+				<li class="nav-item"><a class="nav-link" href="#">Calendar
 						&nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="Summary.jsp">Summary
+				<li class="nav-item"><a class="nav-link" href="#">Summary
 						&nbsp;</a></li>
 				<!-- Drop down menu -->
 				<li class="nav-item dropdown">
 					<div class="dropdown">
-						<a class="nav-link dropdown-toggle active" href="#"
+						<a class="nav-link dropdown-toggle" href="#"
 							id="navbarDropdownMenuLink" data-toggle="dropdown"
-							aria-haspopup="true" aria-expanded="false"> Subtitles <span
-							class="caret"></span> &nbsp;
+							aria-haspopup="true" aria-expanded="false" style="color: white;">
+							Subtitles <span class="caret"></span> &nbsp;
 						</a>
 						<ul class="dropdown-menu">
 							<li><a class="btn" href="AllSubtitles.jsp">All Subtitles</a></li>
@@ -74,12 +75,15 @@
 									Movies </a></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a
-								class="btn test dropright" href="#">Filter by Categories<span
-									class="caret"></span></a>
+								class="btn test dropright" href="#"
+								style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">Filter
+									by Categories<span class="caret"></span>
+							</a>
 								<ul class="dropdown-menu">
 									<li><a class="btn" href="Category_Adventure.jsp">Adventure</a></li>
 									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
-									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
+									<li><a class="btn" href="Category_Horror.jsp"
+										style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">Horror</a></li>
 									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
 									<li><a class="btn" href="Category_TvSeries.jsp">TV
 											Series</a></li>
@@ -154,125 +158,261 @@
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
 			<li class="breadcrumb-item"><a href="#">Subtitles</a></li>
-			<li class="breadcrumb-item active" aria-current="page">Upcoming Subtitles</li>
+			<li class="breadcrumb-item"><a href="#">Filter by Category</a></li>
+			<li class="breadcrumb-item active" aria-current="page">TV Series</li>
 
 		</ol>
 	</nav>
-	<div class="content">
+	<div class="container">
+		<h1 class="display-4">
+			Category - <b>TV Series</b>
+		</h1>
+		<br>
+		<!-- Search Featured subtitles -->
+		<div class="input-group md-form form-sm form-2 pl-0">
+			<input class="form-control my-0 py-1 red-border" type="text"
+				placeholder="Search Featured subtitles" aria-label="Search">
+			<div class="input-group-append">
+				<span class="input-group-text red lighten-3" id="basic-text1"><i
+					class="fas fa-search text-grey" aria-hidden="true"></i></span>
+			</div>
+		</div>
+		<br>
 		<div class="row">
-			<div class="col-md-12">
-				<div class="container">
-					<br>
-					<h1 class="display-4">Upcoming Subtitles</h1>
-					<br>
-					<div class="row">
-						<div class="col-sm-4">
-							<div class="card" style="width: 16rem;">
-								<img class="card-img-top" src="pix/x.jpg" alt="Movie Poster">
-								<div class="card-body">
-									<h5 class="card-title">
-										<b>Aladdin</b>
-									</h5>
-									<p class="card-text">A kind-hearted street urchin and a
-										power-hungry Grand Vizier vie for a magic lamp that has the
-										power to make their deepest wishes come true.</p>
-									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-									&nbsp; <a
-										href="https://www.imdb.com/title/tt6139732/?ref_=tt_sims_tti"
-										class="btn btn-warning">IMDB link</a>
-								</div>
-							</div>
+			<div class="col-sm-3">
+				<div class="card" style="width: 16rem;">
+					<img class="card-img-top" src="pix/q4.jpg" alt="Movie Poster">
+					<div class="card-body">
+						<h5 class="card-title">
+							<b>Revolution S02 E01 [2013]</b>
+						</h5>
+						<div class="text-justify">
+							<p class="card-text">Fifteen years after a permanent global
+								blackout, a group of revolutionaries seeks to drive out an ...
+								S2.E18. Austin City Limits. Jason turns to Miles with crucial
+								information about...</p>
 						</div>
-						<div class="col-sm-4">
-							<div class="card" style="width: 16rem;">
-								<img class="card-img-top" src="pix/y.jpg" alt="Movie Poster">
-								<div class="card-body">
-									<h5 class="card-title">
-										<b>The Lion King</b>
-									</h5>
-									<p class="card-text">After the murder of his father, a
-										young lion prince flees his kingdom only to learn the true
-										meaning of responsibility and bravery.</p>
-									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-									&nbsp; <a
-										href="https://www.imdb.com/title/tt6105098/?ref_=nv_sr_1?ref_=nv_sr_1"
-										class="btn btn-warning">IMDB link</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="card" style="width: 16rem;">
-								<img class="card-img-top" src="pix/dark2.jpg" alt="Movie Poster">
-								<div class="card-body">
-									<h5 class="card-title">
-										<b>Dark Phoenix</b>
-									</h5>
-									<p class="card-text">Jean Grey begins to develop incredible
-										powers that corrupt and turn her into a Dark Phoenix. Now the
-										X-Men will have to decide if the life of a team member is
-										worth more than all of humanity.</p>
-									<a href="Mov_DarkPhoenix.jsp" class="btn btn-primary">Download</a>
-									&nbsp; &nbsp; &nbsp; <a
-										href="https://www.imdb.com/title/tt6565702/?ref_=nv_sr_1?ref_=nv_sr_1"
-										class="btn btn-warning">IMDB link</a>
-								</div>
-							</div>
-						</div>
+						<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
+						&nbsp; &nbsp; <a
+							href="https://www.imdb.com/title/tt2070791/episodes"
+							class="btn btn-warning">IMDB link</a>
 					</div>
-					<br>
-					<div class="row">
-						<div class="col-sm-4">
-							<div class="card" style="width: 16rem;">
-								<img class="card-img-top" src="pix/w.jpg" alt="Movie Poster">
-								<div class="card-body">
-									<h5 class="card-title">
-										<b>Deadpool 2</b>
-									</h5>
-									<p class="card-text">Foul-mouthed mutant mercenary Wade
-										Wilson (AKA. Deadpool), brings together a team of fellow
-										mutant rogues to protect a young boy with supernatural
-										abilities from the brutal, time-traveling cyborg, Cable.</p>
-									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-									&nbsp; <a href="https://www.imdb.com/title/tt5463162/"
-										class="btn btn-warning">IMDB link</a>
-								</div>
-							</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="card" style="width: 16rem;">
+					<img class="card-img-top" src="pix/q5.jpg" alt="Movie Poster">
+					<div class="card-body">
+						<h5 class="card-title">
+							<b>Criminal Justice 2019 Hindi S01 E10</b>
+						</h5>
+						<div class="text-justify">
+							<p class="card-text">Criminal Justice is an Indian series
+								based on Criminal Justice by Peter Moffat, adapted for India by
+								Shridhar Raghavan streaming on Hotstar on its new label Hotstar
+								Specials on...</p>
 						</div>
-						<div class="col-sm-4">
-							<div class="card" style="width: 16rem;">
-								<img class="card-img-top" src="pix/hellboy.jpg"
-									alt="Movie Poster">
-								<div class="card-body">
-									<h5 class="card-title">
-										<b>Hellboy</b>
-									</h5>
-									<p class="card-text">Based on the graphic novels by Mike
-										Mignola, Hellboy, caught between the worlds of the
-										supernatural and human, battles an ancient sorceress bent on
-										revenge.</p>
-									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-									&nbsp; <a href="https://www.imdb.com/title/tt2274648/"
-										class="btn btn-warning">IMDB link</a>
-								</div>
-							</div>
+						<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
+						&nbsp; &nbsp; <a href="https://www.imdb.com/title/tt9095260/"
+							class="btn btn-warning">IMDB link</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="card" style="width: 16rem;">
+					<img class="card-img-top" src="pix/q6.jpg" alt="Movie Poster">
+					<div class="card-body">
+						<h5 class="card-title">
+							<b>Breaking Bad TV Series [2008-2013]</b>
+						</h5>
+						<div class="text-justify">
+							<p class="card-text">Breaking Bad is an American neo-Western
+								crime drama television series created and produced by Vince
+								Gilligan. The show originally aired on AMC for five seasons,
+								from January 20...</p>
 						</div>
-						<div class="col-sm-4">
-							<div class="card" style="width: 16rem;">
-								<img class="card-img-top" src="pix/z.jpg" alt="Movie Poster">
-								<div class="card-body">
-									<h5 class="card-title">
-										<b>Wonder Woman</b>
-									</h5>
-									<p class="card-text">When a pilot crashes and tells of
-										conflict in the outside world, Diana, an Amazonian warrior in
-										training, leaves home to fight a war, discovering her full
-										powers and true destiny.</p>
-									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-									&nbsp; <a href="https://www.imdb.com/title/tt0451279/"
-										class="btn btn-warning">IMDB link</a>
-								</div>
-							</div>
+						<br> <a href="Mov_DarkPhoenix.jsp" class="btn btn-primary">Download</a>
+						&nbsp; &nbsp; &nbsp; <a
+							href="https://www.imdb.com/title/tt0903747/"
+							class="btn btn-warning">IMDB link</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="card" style="width: 16rem;">
+					<img class="card-img-top" src="pix/q7.jpg" alt="Movie Poster">
+					<div class="card-body">
+						<h5 class="card-title">
+							<b>Twin Peaks TV Series [1990-1991]</b>
+						</h5>
+						<div class="text-justify">
+							<p class="card-text">Twin Peaks is an American mystery horror
+								drama television series created by Mark Frost and David Lynch
+								that premiered on April 8, 1990, on ABC. The series developed a
+								notably loyal...</p>
 						</div>
+						<br> <a href="Mov_DarkPhoenix.jsp" class="btn btn-primary">Download</a>
+						&nbsp; &nbsp; &nbsp; <a
+							href="https://www.imdb.com/title/tt0098936/"
+							class="btn btn-warning">IMDB link</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="card" style="width: 16rem;">
+					<img class="card-img-top" src="pix/q8.jpg" alt="Movie Poster">
+					<div class="card-body">
+						<h5 class="card-title">
+							<b>Game of Thrones(GOT) [2011-2019]</b>
+						</h5>
+						<div class="text-justify">
+							<p class="card-text">Game of Thrones is an American fantasy
+								drama television series created by David Benioff and D. B. Weiss
+								for HBO. It is an adaptation of A Song of Ice and Fire, George
+								R. R. Martin's...</p>
+						</div>
+						<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
+						&nbsp; &nbsp; <a href="https://www.imdb.com/title/tt0944947/"
+							class="btn btn-warning">IMDB link</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="card" style="width: 16rem;">
+					<img class="card-img-top" src="pix/q9.jpg" alt="Movie Poster">
+					<div class="card-body">
+						<h5 class="card-title">
+							<b>Stranger Things TV Series [2016]</b>
+						</h5>
+						<div class="text-justify">
+							<p class="card-text">Stranger Things is an American science
+								fiction horror web television series created by the Duffer
+								Brothers and released on Netflix.Fearless kids. And a dark force
+								that turns a small town...</p>
+						</div>
+						<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
+						&nbsp; &nbsp; <a href="https://www.imdb.com/title/tt4574334/"
+							class="btn btn-warning">IMDB link</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="card" style="width: 16rem;">
+					<img class="card-img-top" src="pix/q10.jpg" alt="Movie Poster">
+					<div class="card-body">
+						<h5 class="card-title">
+							<b>Black Mirror TV Series [2011-]</b>
+						</h5>
+						<div class="text-justify">
+							<p class="card-text">Black Mirror. 2011TV-MA 5 SeasonsBritish
+								TV Shows. This sci-fi anthology series explores a twisted,
+								high-tech near-future where humanity's greatest.Jun 5, 2019 -
+								Charlie Brooker's...</p>
+						</div>
+						<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
+						&nbsp; &nbsp; <a href="https://www.imdb.com/title/tt2085059/"
+							class="btn btn-warning">IMDB link</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="card" style="width: 16rem;">
+					<img class="card-img-top" src="pix/q11.jpg" alt="Movie Poster">
+					<div class="card-body">
+						<h5 class="card-title">
+							<b>Peaky Blinders TV Series [2013-]</b>
+						</h5>
+						<div class="text-justify">
+							<p class="card-text">Peaky Blinders is a gangster family epic
+								set in Birmingham, England in 1919, several months after the end
+								of the First World War in November 1918. The story centres on
+								the Peaky...</p>
+						</div>
+						<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
+						&nbsp; &nbsp; <a href="https://www.imdb.com/title/tt2442560/"
+							class="btn btn-warning">IMDB link</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="card" style="width: 16rem;">
+					<img class="card-img-top" src="pix/q12.jpg" alt="Movie Poster">
+					<div class="card-body">
+						<h5 class="card-title">
+							<b>The Handmaid's Tale TV Series [2017-]</b>
+						</h5>
+						<div class="text-justify">
+							<p class="card-text">The Handmaid's Tale is an American
+								dystopian drama web television series created by Bruce Miller,
+								based on the 1985 novel of the same name by Margaret Atwood. It
+								was ordered by the...</p>
+						</div>
+						<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
+						&nbsp; &nbsp; <a href="https://www.imdb.com/title/tt5834204/"
+							class="btn btn-warning">IMDB link</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="card" style="width: 16rem;">
+					<img class="card-img-top" src="pix/q13.jpg" alt="Movie Poster">
+					<div class="card-body">
+						<h5 class="card-title">
+							<b>Veronica Mars TV Series [2004-]</b>
+						</h5>
+						<div class="text-justify">
+							<p class="card-text">Veronica Mars is an American teen noir
+								mystery drama television series created by screenwriter Rob
+								Thomas. The series is set in the fictional town of Neptune,
+								California, and stars Kristen...</p>
+						</div>
+						<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
+						&nbsp; &nbsp; <a href="https://www.imdb.com/title/tt0412253/"
+							class="btn btn-warning">IMDB link</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="card" style="width: 16rem;">
+					<img class="card-img-top" src="pix/q14.jpg" alt="Movie Poster">
+					<div class="card-body">
+						<h5 class="card-title">
+							<b>Broad City TV Series [2014-2019]</b>
+						</h5>
+						<div class="text-justify">
+							<p class="card-text">Broad City is an American television
+								sitcom created by and starring Ilana Glazer and Abbi Jacobson.
+								It was developed from their independent web series of the same
+								name, which was produced between...</p>
+						</div>
+						<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
+						&nbsp; &nbsp; <a href="https://www.imdb.com/title/tt2578560/"
+							class="btn btn-warning">IMDB link</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="card" style="width: 16rem;">
+					<img class="card-img-top" src="pix/q15.jpg" alt="Movie Poster">
+					<div class="card-body">
+						<h5 class="card-title">
+							<b>Dead to Me TV Series [2019-]</b>
+						</h5>
+						<div class="text-justify">
+							<p class="card-text">Premise. Dead to Me is about "a powerful
+								friendship that blossoms between Jen (Applegate) and Judy
+								(Cardellini). Jen is a recently widowed real estate agent trying
+								to come to terms with her loss...</p>
+						</div>
+						<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
+						&nbsp; &nbsp; <a href="https://www.imdb.com/title/tt8064302/"
+							class="btn btn-warning">IMDB link</a>
 					</div>
 				</div>
 			</div>
@@ -295,7 +435,15 @@
 			</a></li>
 		</ul>
 	</nav>
-	<br>
+	</div>
+
+
+
+
+
+
+	<!-- footer starts -->
+
 	<footer class="page-footer font-small unique-color-dark"
 		style="background-color: #555;">
 		<div style="background-color: #f0ad4e;">

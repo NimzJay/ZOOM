@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+ <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
@@ -37,6 +37,7 @@
 
 </head>
 <body style="background-color: #E9ECEF">
+	<!-- Navigation Bar -->
 	<nav class="navbar navbar-expand-xl bg-dark navbar-dark sticky-top"
 		style="border-bottom: 1px; border-color: white;">
 		<a class="navbar-brand" href="index.jsp"> <img src="pix/logo.png"
@@ -49,12 +50,13 @@
 		</button>
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a class="nav-link" href="index.jsp">Home
-						&nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="index.jsp">Home &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Calendar
 						&nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Summary
+				<li class="nav-item active"><a class="nav-link" href="Summary.jsp">Summary
 						&nbsp;</a></li>
+
 				<!-- Drop down menu -->
 				<li class="nav-item dropdown">
 					<div class="dropdown">
@@ -66,12 +68,9 @@
 						<ul class="dropdown-menu">
 							<li><a class="btn" href="AllSubtitles.jsp">All Subtitles</a></li>
 							<li><a class="btn" href="NewReleases.jsp">New Subtitles</a></li>
-							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured
-									Subtitles</a></li>
-							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming
-									Subtitles</a></li>
-							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming
-									Movies </a></li>
+							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured Subtitles</a></li>
+							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming Subtitles</a></li>
+							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming Movies </a></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a
 								class="btn test dropright" href="#">Filter by Categories<span
@@ -81,8 +80,7 @@
 									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
 									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
 									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
-									<li><a class="btn" href="Category_TvSeries.jsp">TV
-											Series</a></li>
+									<li><a class="btn" href="Category_TvSeries.jsp">TV Series</a></li>
 								</ul></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a class="btn test"
@@ -111,10 +109,10 @@
 						Us &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
 						&nbsp;</a></li>
-				<li class="nav-item active"><a class="nav-link" href="Help.jsp">Help
+				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
-				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact
-						Us &nbsp; </a></li>
+				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact Us
+						&nbsp; </a></li>
 				<li class="nav-item"><a class="nav-link"
 					href="GeneralSettings.jsp">Settings &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
@@ -144,213 +142,202 @@
 		</script>
 
 	</nav>
-	<!-- Google Translator Widget -->
-	<a class="btn btn-light btn-sm float-right"
-		id="google_translate_element"></a>
-	<!-- Advances settings button -->
-	<a class="btn btn-light btn-sm float-right" href="#"> Advanced
-		Search</a>
+	<a class="float-right" id="google_translate_element"></a>
 	<nav aria-label="breadcrumb">
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
-			<li class="breadcrumb-item active" aria-current="page">Help</li>
+			<li class="breadcrumb-item active" aria-current="page">Summary</li>
 		</ol>
 	</nav>
+	
+
+<!-- background image -->
 
 
-	<div class="text-center">
-		<h1 class="display-4">How Can We Help?</h1>
-	</div>
+<!-- 
+<!-- table starts -->
 
+<!--  -->
 
-	<!-- Bootstrap seach bar start-->
-
-	<div class="container">
+<div class="container">
 		<div class="by-warning m-5">
 
-
-			<div class="input-group md-form form-sm form-2 pl-0">
-				<input class="form-control my-0 py-1 red-border" type="text"
-					placeholder="Search" aria-label="Search">
-				<div class="input-group-append">
-					<span class="input-group-text red lighten-3" id="basic-text1"><i
-						class="fas fa-search text-grey" aria-hidden="true"></i></span>
-				</div>
-			</div>
-
-			<!-- ---search bar end -->
-
-			<a class="float-right" id="google_translate_element"></a>
-			<div class="jumbotron jumbotron-fluid">
-				<div class="container">
-					<div class="text-justify"></div>
-					<h5 align="center" style="color: dimgray">
-						When most people think of downloading movie subtitles, you have to
-						make visit to our website and have a view.I am sure once you visit
-						us, You will never ever leave Us. Because We have a bank of
-						Subtitles.If you prefer to get one, You can download it without
-						any trouble because all these are open to you at your finger
-						tips.If you don't understand English, you can change the language
-						as you prefer.This website ensure that the right subtitle is
-						available at the right time. <br>
-					</h5>
-				</div>
-			</div>
-			<br>
-
-			<div class="container">
-				<div class="row">
-					<div class="row">
-						<div class="text-center">
-							<h2 class="display-5">Featured Questions</h2>
-						</div>
-					</div>
-				</div>
-			</div>
+<div class="container">
+  <h2>Dashboard</h2>
+  <br> 
 
 
+  <!-- Page Heading -->
+          
+
+          <div class="row">
+
+            <!-- Earnings (Monthly) Card Example -->
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">All files</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">3,869</div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Earnings (Monthly) Card Example -->
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="card border-left-success shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-success text-uppercase mb-1">movie Review</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">125</div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Earnings (Monthly) Card Example -->
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="card border-left-info shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Categories</div>
+                      <div class="row no-gutters align-items-center">
+                        <div class="col-auto">
+                          <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">7</div>
+                        </div>
+                        <div class="col">
+                          <div class="progress progress-sm mr-2">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pending Requests Card Example -->
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="card border-left-warning shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Subtitle Requests</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-comments fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
 
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="pix/q1.jpg" alt="Movie Poster">
-						<div class="card-body">
-							<h5 class="card-title">How to download subtitles?</h5>
-							<p class="card-text">Some quick example text to build on the
-								card title and make up the bulk of the card's content.</p>
+<br>
 
-							<div class="text-center">
-								<a href="#" class="btn btn-primary">View More</a> &nbsp &nbsp
-								&nbsp
-							</div>
-
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="pix/q2.jpg" alt="Movie Poster">
-						<div class="card-body">
-							<h5 class="card-title">How to add subtitle to a film?</h5>
-							<p class="card-text">Some quick example text to build on the
-								card title and make up the bulk of the card's content.</p>
-
-
-							<div class="text-center">
-								<a href="#" class="btn btn-primary">View More</a> &nbsp &nbsp
-								&nbsp
-							</div>
-
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="pix/q3.jpg" alt="Movie Poster">
-						<div class="card-body">
-							<h5 class="card-title">How to register this site?</h5>
-							<p class="card-text">Some quick example text to build on the
-								card title and make up the bulk of the card's content.</p>
-
-							<div class="text-center">
-								<a href="#" class="btn btn-primary">View More</a>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-			<br> <br>
-
-			<div class="container">
-				<div class="text-center">
-					<h2 class="display-4">Most Popular Files</h2>
-				</div>
-			</div>
-			<br>
-
-			<!-- popular article section starts -->
-
-
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="card" style="width: 18rem;">
-
-						<div class="card-body">
-							<article>
-								<div class="text-center">
-									<h2>Jumanji(2017) Subtitle</h2>
-									<p>Welcome to the Jungle premiered at the Grand Rex in
-										Paris on December 5, 2017, and was theatrically released in
-										the United States on December 20 in RealD 3D and IMAX...</p>
-									<a
-										href="https://www.google.com/search?sxsrf=ACYBGNQ6-EDYNKmdOggYj2fj29h2TndzkA%3A1568817888308&ei=4EKCXazIEoO0vwTJiKHgBw&q=Jumanji+Welcome+to+the+Jungle+%282017%29+&oq=Jumanji+Welcome+to+the+Jungle+%282017%29+&gs_l=psy-ab.3..0i7i30l3j0i30.19480.24605..24924...0.3..1.280.1255.2-5......0....1..gws-wiz.......0i71.ZdPtehfi7E8&ved=0ahUKEwisuMyHztrkAhUD2o8KHUlECHwQ4dUDCAs&uact=5"
-										title="Go to google.com">Click here for more on this film</a>
-								</div>
-							</article>
-							<br>
-
-
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="card" style="width: 18rem;">
-
-						<div class="card-body">
-							<article>
-								<div class="text-center">
-									<h2>Maari 2(2018) Subtitle</h2>
-									<p>Maari 2 is a 2018 Indian Tamil-language action comedy
-										film directed by Balaji Mohan. It is a sequel to his 2015 film
-										Maari. Dhanush, besides producing the film...</p>
-									<a
-										href="https://www.google.com/search?q=maari+2&oq=maari+2&aqs=chrome..69i57j0l5.2254j0j7&sourceid=chrome&ie=UTF-8"
-										title="Go to google.com">Click here for more on this film</a>
-								</div>
-							</article>
-							<br>
+  
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Category</th>
+      <th scope="col">Description</th>
+      <th scope="col">Files</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Audio</th>
+      <td>Audio Files </br>
+            Sub-Categories:
+            <a href="#" class="stretched-link">Original</a>    
+        </td>
+        <td>31</td>
+    </tr>
+    <tr>
+      <th scope="row">Video</th>
+      <td>All video files </br>
+            Sub-Categories:
+             <a href="#" class="stretched-link">TV</a>     
+        </td>
+        <td>66</td>
+    </tr>
+     <tr>
+      <th scope="row">Subtitles</th>
+     <td>Sinhala Subtitles </br>
+            Sub-Categories:
+             <a href="TvSeries.jsp" class="stretched-link">TV Series</a> 
+        </td>
+        <td>3,771</td>
+    </tr>
+  </tbody>
+</table>
+  
+  
+  
+</div>
 
 
 
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="card" style="width: 18rem;">
+ <!-- Project Card Example -->
+ 
+ 	
+ 
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Download History</h6>
+                </div>
+                <div class="card-body">
+                  <h4 class="small font-weight-bold">Horror<span class="float-right">20%</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h4 class="small font-weight-bold">Detective <span class="float-right">40%</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h4 class="small font-weight-bold">TV Series <span class="float-right">60%</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h4 class="small font-weight-bold">Romance<span class="float-right">75%</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h4 class="small font-weight-bold">Adventure<span class="float-right">90%</span></h4>
+                  <div class="progress">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
 
-						<div class="card-body">
-							<article>
-								<div class="text-center">
-									<h2>Rampage(2018) Subtitle</h2>
-									<p>Rampage is a 2018 American science fiction monster film
-										directed by Brad Peyton, and based on the video game series of
-										the same name by Midway Games...</p>
-									<a
-										href="https://www.google.com/search?q=rampage(2018)&oq=rampage(2018)&aqs=chrome..69i57j0l5.8174j0j7&sourceid=chrome&ie=UTF-8"
-										title="Go to google.com">Click here for more on this film</a>
-								</div>
-							</article>
-							<br>
+</div>
+</div>
+<br>
 
+ 
+<!-- table ends -->   
+	
+<!-- footer starts -->
 
-						</div>
-					</div>
-				</div>
-			</div>
-
-
-		</div>
-
-		<a class="btn btn-primary btn-lg btn-block" href="FeaturedSubtitles.jsp"
-			role="button">View More Most Popular Files</a> <br> <br>
-	</div>
-	</div>
-
-	<!-- popular articles section ends -->
-
-	<footer class="page-footer font-small unique-color-dark"
+   <footer class="page-footer font-small unique-color-dark"
 		style="background-color: #555;">
 		<div style="background-color: #f0ad4e;">
 			<div class="container">
@@ -419,11 +406,11 @@
 							href="https://www.imdb.com/">IMdB</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Subtitles</a>
+						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Downloads</a>
 					</p>
 					<p>
 						<a class="btn btn-outline-light btn-block"
-							href="UpcomingSubtitles.jsp">Upcoming Subtitles</a>
+							href="UpcomingMovies.jsp">Upcoming Subtitles</a>
 					</p>
 					<p>
 						<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">New

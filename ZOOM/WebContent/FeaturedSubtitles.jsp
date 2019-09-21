@@ -55,10 +55,11 @@
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Summary
 						&nbsp;</a></li>
+
 				<!-- Drop down menu -->
 				<li class="nav-item dropdown">
 					<div class="dropdown">
-						<a class="nav-link dropdown-toggle" href="#"
+						<a class="nav-link dropdown-toggle active" href="#"
 							id="navbarDropdownMenuLink" data-toggle="dropdown"
 							aria-haspopup="true" aria-expanded="false"> Subtitles <span
 							class="caret"></span> &nbsp;
@@ -111,7 +112,7 @@
 						Us &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
 						&nbsp;</a></li>
-				<li class="nav-item active"><a class="nav-link" href="Help.jsp">Help
+				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
 				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact
 						Us &nbsp; </a></li>
@@ -144,124 +145,18 @@
 		</script>
 
 	</nav>
-	<!-- Google Translator Widget -->
-	<a class="btn btn-light btn-sm float-right"
-		id="google_translate_element"></a>
-	<!-- Advances settings button -->
-	<a class="btn btn-light btn-sm float-right" href="#"> Advanced
-		Search</a>
 	<nav aria-label="breadcrumb">
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
-			<li class="breadcrumb-item active" aria-current="page">Help</li>
+			<li class="breadcrumb-item"><a href="Help.jsp">Help</a></li>
+			<li class="breadcrumb-item active" aria-current="page">Most
+				Popular Files</li>
 		</ol>
 	</nav>
-
-
-	<div class="text-center">
-		<h1 class="display-4">How Can We Help?</h1>
-	</div>
-
-
-	<!-- Bootstrap seach bar start-->
 
 	<div class="container">
 		<div class="by-warning m-5">
 
-
-			<div class="input-group md-form form-sm form-2 pl-0">
-				<input class="form-control my-0 py-1 red-border" type="text"
-					placeholder="Search" aria-label="Search">
-				<div class="input-group-append">
-					<span class="input-group-text red lighten-3" id="basic-text1"><i
-						class="fas fa-search text-grey" aria-hidden="true"></i></span>
-				</div>
-			</div>
-
-			<!-- ---search bar end -->
-
-			<a class="float-right" id="google_translate_element"></a>
-			<div class="jumbotron jumbotron-fluid">
-				<div class="container">
-					<div class="text-justify"></div>
-					<h5 align="center" style="color: dimgray">
-						When most people think of downloading movie subtitles, you have to
-						make visit to our website and have a view.I am sure once you visit
-						us, You will never ever leave Us. Because We have a bank of
-						Subtitles.If you prefer to get one, You can download it without
-						any trouble because all these are open to you at your finger
-						tips.If you don't understand English, you can change the language
-						as you prefer.This website ensure that the right subtitle is
-						available at the right time. <br>
-					</h5>
-				</div>
-			</div>
-			<br>
-
-			<div class="container">
-				<div class="row">
-					<div class="row">
-						<div class="text-center">
-							<h2 class="display-5">Featured Questions</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-
-
-
-
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="pix/q1.jpg" alt="Movie Poster">
-						<div class="card-body">
-							<h5 class="card-title">How to download subtitles?</h5>
-							<p class="card-text">Some quick example text to build on the
-								card title and make up the bulk of the card's content.</p>
-
-							<div class="text-center">
-								<a href="#" class="btn btn-primary">View More</a> &nbsp &nbsp
-								&nbsp
-							</div>
-
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="pix/q2.jpg" alt="Movie Poster">
-						<div class="card-body">
-							<h5 class="card-title">How to add subtitle to a film?</h5>
-							<p class="card-text">Some quick example text to build on the
-								card title and make up the bulk of the card's content.</p>
-
-
-							<div class="text-center">
-								<a href="#" class="btn btn-primary">View More</a> &nbsp &nbsp
-								&nbsp
-							</div>
-
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="pix/q3.jpg" alt="Movie Poster">
-						<div class="card-body">
-							<h5 class="card-title">How to register this site?</h5>
-							<p class="card-text">Some quick example text to build on the
-								card title and make up the bulk of the card's content.</p>
-
-							<div class="text-center">
-								<a href="#" class="btn btn-primary">View More</a>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-			<br> <br>
 
 			<div class="container">
 				<div class="text-center">
@@ -270,8 +165,6 @@
 			</div>
 			<br>
 
-			<!-- popular article section starts -->
-
 
 			<div class="row">
 				<div class="col-sm-4">
@@ -280,12 +173,11 @@
 						<div class="card-body">
 							<article>
 								<div class="text-center">
-									<h2>Jumanji(2017) Subtitle</h2>
-									<p>Welcome to the Jungle premiered at the Grand Rex in
-										Paris on December 5, 2017, and was theatrically released in
-										the United States on December 20 in RealD 3D and IMAX...</p>
-									<a
-										href="https://www.google.com/search?sxsrf=ACYBGNQ6-EDYNKmdOggYj2fj29h2TndzkA%3A1568817888308&ei=4EKCXazIEoO0vwTJiKHgBw&q=Jumanji+Welcome+to+the+Jungle+%282017%29+&oq=Jumanji+Welcome+to+the+Jungle+%282017%29+&gs_l=psy-ab.3..0i7i30l3j0i30.19480.24605..24924...0.3..1.280.1255.2-5......0....1..gws-wiz.......0i71.ZdPtehfi7E8&ved=0ahUKEwisuMyHztrkAhUD2o8KHUlECHwQ4dUDCAs&uact=5"
+									<h2>Padmaavat(2018) Subtitle</h2>
+									<p>Padmaavat is a 2018 Indian Hindi-language epic period
+										drama film directed by Sanjay Leela Bhansali. Loosely based on
+										the epic...</p>
+									<a href="https://www.imdb.com/title/tt5935704/"
 										title="Go to google.com">Click here for more on this film</a>
 								</div>
 							</article>
@@ -301,12 +193,11 @@
 						<div class="card-body">
 							<article>
 								<div class="text-center">
-									<h2>Maari 2(2018) Subtitle</h2>
-									<p>Maari 2 is a 2018 Indian Tamil-language action comedy
-										film directed by Balaji Mohan. It is a sequel to his 2015 film
-										Maari. Dhanush, besides producing the film...</p>
-									<a
-										href="https://www.google.com/search?q=maari+2&oq=maari+2&aqs=chrome..69i57j0l5.2254j0j7&sourceid=chrome&ie=UTF-8"
+									<h2>Mersal(2017) Subtitle</h2>
+									<p>Mersal ( transl. zapped) is a 2017 Indian Tamil-language
+										action thriller film directed by Atlee and co-written by
+										Atlee, K. V. Vijayendra Prasad...</p>
+									<a href="https://www.imdb.com/title/tt6485666/"
 										title="Go to google.com">Click here for more on this film</a>
 								</div>
 							</article>
@@ -323,12 +214,13 @@
 						<div class="card-body">
 							<article>
 								<div class="text-center">
-									<h2>Rampage(2018) Subtitle</h2>
-									<p>Rampage is a 2018 American science fiction monster film
-										directed by Brad Peyton, and based on the video game series of
-										the same name by Midway Games...</p>
-									<a
-										href="https://www.google.com/search?q=rampage(2018)&oq=rampage(2018)&aqs=chrome..69i57j0l5.8174j0j7&sourceid=chrome&ie=UTF-8"
+									<h2>
+										DJ (2017) <br>Subtitle
+									</h2>
+									<p>Duvvada Jagannadham or DJ is a 2017 Indian
+										Telugu-language vigilante action comedy film written and
+										directed by Harish Shankar...</p>
+									<a href="https://www.imdb.com/title/tt6734984/"
 										title="Go to google.com">Click here for more on this film</a>
 								</div>
 							</article>
@@ -339,17 +231,208 @@
 					</div>
 				</div>
 			</div>
+			<br>
 
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="card" style="width: 18rem;">
+
+						<div class="card-body">
+							<article>
+								<div class="text-center">
+									<h2>Jurassic world fallen kingdom(2018) Subtitle</h2>
+									<p>Jurassic World: Fallen Kingdom is a 2018 American
+										science fiction...</p>
+									<a href="https://www.imdb.com/title/tt4881806/"
+										title="Go to google.com">Click here for more on this film</a>
+								</div>
+							</article>
+							<br>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card" style="width: 18rem;">
+
+						<div class="card-body">
+							<article>
+								<div class="text-center">
+									<h2>Avengers Infinity War(2018) Subtitle</h2>
+									<p>Avengers: Infinity War held its world premiere on April
+										23, 2018, in Los Angeles and was released in the United States
+										on April 27, 2018, in IMAX and 3D...</p>
+									<a href="https://www.imdb.com/title/tt4154756/"
+										title="Go to google.com">Click here for more on this film</a>
+								</div>
+							</article>
+							<br>
+
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card" style="width: 18rem;">
+
+						<div class="card-body">
+							<article>
+								<div class="text-center">
+									<h2>Justice League (2017) Subtitle</h2>
+									<p>Justice League is a 2017 American superhero film based
+										on the DC Comics superhero team of the same name, distributed
+										by Warner Bros. Pictures. It is the follow-up...</p>
+									<a href="https://www.imdb.com/title/tt0974015/"
+										title="Go to google.com">Click here for more on this film</a>
+								</div>
+							</article>
+							<br>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="card" style="width: 18rem;">
+
+						<div class="card-body">
+							<article>
+								<div class="text-center">
+									<h2>
+										Sarrainodu <br>(2016) Subtitle
+									</h2>
+									<p>Sarrainodu (English: The Right Guy) is a 2016 Indian
+										Telugu-language action film written and directed by Boyapati
+										Srinu. Produced by Allu Aravind under the Geetha Arts
+										banner...</p>
+									<a href="https://www.imdb.com/title/tt5457772/"
+										title="Go to google.com">Click here for more on this film</a>
+								</div>
+							</article>
+							<br>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card" style="width: 18rem;">
+
+						<div class="card-body">
+							<article>
+								<div class="text-center">
+									<h2>The Avengers (2012) Subtitle</h2>
+									<p>Marvel's The Avengers or simply The Avengers, is a 2012
+										American superhero film based on the Marvel Comics superhero
+										team of the same name, produced by...</p>
+									<a href="https://www.imdb.com/title/tt0848228/"
+										title="Go to google.com">Click here for more on this film</a>
+								</div>
+							</article>
+							<br>
+
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card" style="width: 18rem;">
+
+						<div class="card-body">
+							<article>
+								<div class="text-center">
+									<h2>Thor Ragnarok (2017) Subtitle</h2>
+									<p>Thor: Ragnarok is a 2017 American superhero film based
+										on the Marvel Comics character Thor, produced by Marvel
+										Studios and distributed by Walt Disney...</p>
+									<a href="https://www.imdb.com/title/tt3501632/"
+										title="Go to google.com">Click here for more on this film</a>
+								</div>
+							</article>
+							<br>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="card" style="width: 18rem;">
+
+						<div class="card-body">
+							<article>
+								<div class="text-center">
+									<h2>Oru Adaar Love (2019) Subtitle</h2>
+									<p>Oru Adaar Love ( transl. A fantastic love) is a 2019
+										Indian Malayalam-language romantic comedy film directed by
+										Omar Lulu. The screenplay was written by...</p>
+									<a href="https://www.imdb.com/title/tt7387300/"
+										title="Go to google.com">Click here for more on this film</a>
+								</div>
+							</article>
+							<br>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card" style="width: 18rem;">
+
+						<div class="card-body">
+							<article>
+								<div class="text-center">
+									<h2>Jurassic World (2015) Subtitle</h2>
+									<p>Jurassic World is a 2015 American science fiction
+										adventure film, the fourth installment of the Jurassic Park
+										film series, and the first film in the Jurassic World
+										trilogy...</p>
+									<a href="https://www.imdb.com/title/tt0369610/"
+										title="Go to google.com">Click here for more on this film</a>
+								</div>
+							</article>
+							<br>
+
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card" style="width: 18rem;">
+
+						<div class="card-body">
+							<article>
+								<div class="text-center">
+									<h2>Tiger Zinda Hai (2017) Subtitle</h2>
+									<p>Tiger Zinda Hai ( transl. 'Tiger is alive') is a 2017
+										Indian Hindi-language action thriller film directed by Ali
+										Abbas Zafar and co-written by Neelesh Misra...</p>
+									<a href="https://www.imdb.com/title/tt5956100/"
+										title="Go to google.com">Click here for more on this film</a>
+								</div>
+							</article>
+							<br>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
 
 		</div>
-
-		<a class="btn btn-primary btn-lg btn-block" href="FeaturedSubtitles.jsp"
-			role="button">View More Most Popular Files</a> <br> <br>
 	</div>
-	</div>
-
-	<!-- popular articles section ends -->
-
 	<footer class="page-footer font-small unique-color-dark"
 		style="background-color: #555;">
 		<div style="background-color: #f0ad4e;">
@@ -419,11 +502,11 @@
 							href="https://www.imdb.com/">IMdB</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Subtitles</a>
+						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Downloads</a>
 					</p>
 					<p>
 						<a class="btn btn-outline-light btn-block"
-							href="UpcomingSubtitles.jsp">Upcoming Subtitles</a>
+							href="UpcomingMovies.jsp">Upcoming Subtitles</a>
 					</p>
 					<p>
 						<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">New
@@ -489,7 +572,7 @@
 			<br> <a href="index.jsp"
 				style="color: #eee; text-decoration: none;"> <img
 				src="pix/logo.png" width="120px" height="45px">
-			</a><br> Copyright Â© 2019 &nbsp; - &nbsp; All rights reserved. <br>
+			</a><br> Copyright © 2019 &nbsp; - &nbsp; All rights reserved. <br>
 			<br>
 		</div>
 	</footer>

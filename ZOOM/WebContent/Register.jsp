@@ -7,6 +7,7 @@
 <title>Register | Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
 <link rel="stylesheet" type="text/css" href="Styles/loginRegister.css">
+<link rel="stylesheet" type="text/css" href="Styles/validationLabel.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
@@ -24,7 +25,11 @@
 
 <script type="text/javascript"
 	src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+<script type="text/javascript" src="js/jquery.validate.js"></script>
 <script type="text/javascript" src="jQuery/RegisterValidation.js"></script>
+
+
 <script type="text/javascript">
 	function googleTranslateElementInit() {
 		new google.translate.TranslateElement({
@@ -152,12 +157,6 @@
 				<li class="breadcrumb-item active" aria-current="page">Register</li>
 			</ol>
 		</nav>
-		<!-- Google Translator Widget -->
-		<a class="btn btn-light btn-sm float-right"
-			id="google_translate_element"></a>
-		<!-- Advances settings button -->
-		<a class="btn btn-light btn-sm float-right" href="#"> Advanced
-			Search</a> <br>
 		<div class="wrapper register">
 			<div class="row">
 				<div class="col-5" style="padding-left: 110px;">
@@ -172,11 +171,11 @@
 						<div class="form-row">
 							<div class="form-group col-md-6">
 								<input type="text" class="form-control" name="fname"
-									placeholder="First name" required>
+									placeholder="First name">
 							</div>
 							<div class="form-group col-md-6">
 								<input type="text" class="form-control" name="lname"
-									placeholder="Last name" required>
+									placeholder="Last name">
 							</div>
 						</div>
 						<div class="form-row">
@@ -231,8 +230,13 @@
 					</form>
 				</div>
 				<div class="col-7">
-					<img class="img-fluid" src="pix/regq.png" height="625px"
-						align="right">
+					<!-- Google Translator Widget -->
+					<a class="btn btn-light btn-sm float-right"
+						id="google_translate_element"></a>
+					<!-- Advances settings button -->
+					<a class="btn btn-light btn-sm float-right" href="#"> Advanced
+						Search</a> <br> <img class="img-fluid" src="pix/regq.png"
+						height="625px" align="right">
 				</div>
 			</div>
 		</div>

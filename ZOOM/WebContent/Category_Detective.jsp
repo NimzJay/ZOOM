@@ -41,7 +41,7 @@
 		style="border-bottom: 1px; border-color: white;">
 		<a class="navbar-brand" href="index.jsp"> <img src="pix/logo.png"
 			width="100" height="35" class="d-inline-block align-top" alt="">
-			&nbsp; | <span>Subtitle Portal</span>
+			| <span>Subtitles</span>
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#collapsibleNavbar">
@@ -49,30 +49,72 @@
 		</button>
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav ml-auto">
+				<li class="nav-item"><a class="nav-link" href="index.jsp">Home
+						&nbsp;</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Calendar
+						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Summary
 						&nbsp;</a></li>
-				<li class="nav-item dropdown"><a
-					class="nav-link dropdown-toggle" href="#"
-					id="navbarDropdownMenuLink" data-toggle="dropdown"
-					aria-haspopup="true" aria-expanded="false"> Downloads &nbsp;</a>
-					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<li><a class="dropdown-item" href="AllSubtitles.jsp">All
-								Subtitles</a></li>
-						<li><a class="dropdown-item" href="NewReleases.jsp">New
-								Subtitles</a></li>
-						<li><a class="dropdown-item" href="UpcomingSubtitles.jsp">Upcoming
-								Subtitles</a></li>
-					</ul></li>
-				<li class="nav-item"><a class="nav-link"
-					href="UpcomingMovies.jsp">Upcoming Movies &nbsp;</a></li>
+				<!-- Drop down menu -->
+				<li class="nav-item dropdown">
+					<div class="dropdown">
+						<a class="nav-link dropdown-toggle" href="#"
+							id="navbarDropdownMenuLink" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false" style="color: white;">
+							Subtitles <span class="caret"></span> &nbsp;
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="btn" href="AllSubtitles.jsp">All Subtitles</a></li>
+							<li><a class="btn" href="NewReleases.jsp">New Subtitles</a></li>
+							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured Subtitles</a></li>
+							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming Subtitles</a></li>
+							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming Movies </a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li class="dropdown-submenu dropright"><a
+								class="btn test dropright" href="#"
+								style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">Filter
+									by Categories<span class="caret"></span>
+							</a>
+								<ul class="dropdown-menu">
+									<li><a class="btn" href="Category_Adventure.jsp">Adventure</a></li>
+									<li><a class="btn" href="Category_Detective.jsp" style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">Detective</a></li>
+									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
+									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
+									<li><a class="btn" href="Category_TvSeries.jsp">TV Series</a></li>
+								</ul></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li class="dropdown-submenu dropright"><a class="btn test"
+								href="#">Filter by Language<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a class="btn" href="#">English</a></li>
+									<li><a class="btn" href="#">Sinhala</a></li>
+									<li><a class="btn" href="#">Tamil</a></li>
+									<li><a class="btn" href="#">French</a></li>
+									<li><a class="btn" href="#">Spanish</a></li>
+								</ul></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li class="dropdown-submenu dropright"><a class="btn test"
+								href="#">Filter by Year<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a class="btn" href="#">2019</a></li>
+									<li><a class="btn" href="#">2018</a></li>
+									<li><a class="btn" href="#">2017</a></li>
+									<li><a class="btn" href="#">2016</a></li>
+									<li><a class="btn" href="#">2015</a></li>
+								</ul></li>
+						</ul>
+					</div>
+				</li>
 				<li class="nav-item"><a class="nav-link" href="AboutUs.jsp">About
 						Us &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="FAQ.jsp">FAQ
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
+				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact
+						Us &nbsp; </a></li>
 				<li class="nav-item"><a class="nav-link"
-					href="GeneralSettings.jsp">Settings &nbsp; &nbsp; &nbsp;</a></li>
+					href="GeneralSettings.jsp">Settings &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
 					<form class="form-inline mr-auto">
 						<input class="form-control" type="text" placeholder="Search"
@@ -80,80 +122,56 @@
 							class="fas fa-search text-white ml-2" aria-hidden="true"></i>
 					</form>
 				</li>
-				<li class="nav-item">&nbsp; &nbsp; &nbsp;<a
-					class="btn btn-primary" href="Login.jsp"> Log in </a>&nbsp; &nbsp;
+				<li class="nav-item">&nbsp; &nbsp;<a class="btn btn-primary"
+					href="Login.jsp"> Log in </a>&nbsp; &nbsp;
 				</li>
 				<li class="nav-item"><a class="btn btn-primary"
 					href="Register.jsp"> Register </a></li>
 			</ul>
 		</div>
-	</nav>
-	<a class="float-right" id="google_translate_element"></a>
 
+		<!-- Dropdown Multi level -->
+		<script>
+			$(document).ready(function() {
+				$('.dropdown-submenu a.test').on("click", function(e) {
+					$(this).next('ul').toggle();
+					e.stopPropagation();
+					e.preventDefault();
+				});
+			});
+		</script>
+
+	</nav>
+	<!-- Google Translator Widget -->
+	<a class="btn btn-light btn-sm float-right"
+		id="google_translate_element"></a>
+	<!-- Advances settings button -->
+	<a class="btn btn-light btn-sm float-right" href="#"> Advanced
+		Search</a>
+	<nav aria-label="breadcrumb">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
+			<li class="breadcrumb-item"><a href="#">Subtitles</a></li>
+			<li class="breadcrumb-item"><a href="#">Filter by Category</a></li>
+			<li class="breadcrumb-item active" aria-current="page">Detective</li>
+
+		</ol>
+	</nav>
 	<div class="content">
 		<div class="row">
-			<div class="col-md-3">
-				<div class="menu">
-					<br>
-					<h2>
-						<span>&nbsp; &nbsp; CATEGORY</span>
-					</h2>
-					<hr>
-					<p class="menuLabel">
-						<b>&nbsp; &nbsp; Filter by Type</b>
-					</p>
-					<ul class="nav flex-column">
-						<li><a class="menu-link" href="AllSubtitles.jsp">All
-								Subtitles</a></li>
-						<li><a class="menu-link" href="UpcomingMovies.jsp">Upcoming
-								Movies</a></li>
-						<li><a class="menu-link" href="NewReleases.jsp">Newly
-								Released Subtitles</a></li>
-						<li><a class="menu-link" href="UpcomingSubtitles.jsp">Upcoming
-								Subtitles</a></li>
-
-					</ul>
-					<br>
-					<p class="menuLabel">
-						<b>&nbsp; &nbsp; Filter by Genre</b>
-					</p>
-					<ul class="nav flex-column">
-						<li><a class="menu-link" href="#">Adventure</a></li>
-						<li><a class="menu-link" href="Detective.jsp">Detective</a></li>
-						<li><a class="menu-link" href="#">Horror</a></li>
-						<li><a class="menu-link" href="#">Romance</a></li>
-						<li><a class="menu-link" href="#">TV Series</a></li>
-					</ul>
-					<br>
-					<p class="menuLabel">
-						<b>&nbsp; &nbsp; Filter by Year</b>
-					</p>
-					<ul class="nav flex-column">
-						<li><a class="menu-link" href="#">2019</a></li>
-						<li><a class="menu-link" href="#">2018</a></li>
-						<li><a class="menu-link" href="#">2017</a></li>
-						<li><a class="menu-link" href="#">2016</a></li>
-						<li><a class="menu-link" href="#">2015</a></li>
-
-					</ul>
-					<br>
-					<p class="menuLabel">
-						<b>&nbsp; &nbsp; Filter by Language</b>
-					</p>
-					<ul class="nav flex-column">
-						<li><a class="menu-link" href="#">English</a></li>
-						<li><a class="menu-link" href="#">Sinhala</a></li>
-						<li><a class="menu-link" href="#">Tamil</a></li>
-						<li><a class="menu-link" href="#">French</a></li>
-						<li><a class="menu-link" href="#">Spanish</a></li>
-					</ul>
-					<br>
-				</div>
-			</div>
-			<div class="col-md-9">
+			<div class="col-md-12">
 				<div class="container">
+					<h1 class="display-4">Category - <b>Detective</b></h1>
 					<br>
-					<h1 class="display-4">Detective Movies</h1>
+					<!-- Search Featured subtitles -->
+					<div class="input-group md-form form-sm form-2 pl-0">
+						<input class="form-control my-0 py-1 red-border" type="text"
+							placeholder="Search Featured subtitles" aria-label="Search">
+						<div class="input-group-append">
+							<span class="input-group-text red lighten-3" id="basic-text1"><i
+								class="fas fa-search text-grey" aria-hidden="true"></i></span>
+						</div>
+					</div>
 					<br>
 					<div class="row">
 						<div class="col-sm-4">
@@ -208,7 +226,7 @@
 										sewage and recalls her phone call two days ago, when she said
 										to him that she was in trouble. Brendan, who still loved
 										Emily, met bad elements of his high-school trying to contact
-										her, and when he succeeded, she told him that she was OK. </p>
+										her, and when he succeeded, she told him that she was OK.</p>
 									<a href="Mov_DarkPhoenix.jsp" class="btn btn-primary">Download</a>
 									&nbsp; &nbsp; &nbsp; <a
 										href="https://www.imdb.com/title/tt0393109/?ref_=ttls_li_tt"
@@ -287,7 +305,8 @@
 										graphically demonstrated in the dark and subdued tones
 										characteristic of film noir.</p>
 									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-									&nbsp; <a href="https://www.imdb.com/title/tt0114369/?ref_=ttls_li_tt"
+									&nbsp; <a
+										href="https://www.imdb.com/title/tt0114369/?ref_=ttls_li_tt"
 										class="btn btn-warning">IMDB link</a>
 								</div>
 							</div>

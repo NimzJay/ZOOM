@@ -65,9 +65,6 @@
 							Subtitles <span class="caret"></span> &nbsp;
 						</a>
 						<ul class="dropdown-menu">
-							<li><a class="btn" href="AllSubtitles.jsp"
-								style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">All
-									Subtitles</a></li>
 							<li><a class="btn" href="AllSubtitles.jsp" style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">All Subtitles</a></li>
 							<li><a class="btn" href="NewReleases.jsp">New Subtitles</a></li>
 							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured Subtitles</a></li>

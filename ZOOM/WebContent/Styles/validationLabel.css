@@ -1,0 +1,6 @@
+@charset "ISO-8859-1";
+label.error{
+	display: inline;
+	color:red;
+	margin-left: 5px;
+}

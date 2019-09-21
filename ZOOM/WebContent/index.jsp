@@ -113,7 +113,7 @@
 					href="index.jsp">Home &nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Calendar
 						&nbsp;</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Summary
+				<li class="nav-item"><a class="nav-link" href="Summary.jsp">Summary
 						&nbsp;</a></li>
 
 				<!-- Drop down menu -->
@@ -205,7 +205,7 @@
 	<!-- Google Translator Widget -->
 	<a class="btn btn-light btn-sm float-right" id="google_translate_element"></a>
 	<!-- Advances settings button -->
-	<a class="btn btn-light btn-sm float-right" href="#"> Advanced
+	<a class="btn btn-light btn-sm float-right" href="AdvancedSearch.jsp"> Advanced
 		Search</a>
 
 	<div class="jumbotron jumbotron-fluid">

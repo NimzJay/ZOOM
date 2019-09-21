@@ -152,12 +152,6 @@
 				<li class="breadcrumb-item active" aria-current="page">Log in</li>
 			</ol>
 		</nav>
-		<!-- Google Translator Widget -->
-		<a class="btn btn-light btn-sm float-right"
-			id="google_translate_element"></a>
-		<!-- Advances settings button -->
-		<a class="btn btn-light btn-sm float-right" href="#"> Advanced
-			Search</a> <br>
 		<div class="wrapper cont">
 			<div class="row">
 				<div class="col-5" style="padding-left: 110px;">
@@ -195,8 +189,13 @@
 					</form>
 				</div>
 				<div class="col-7">
-					<img class="img-fluid" src="pix/regq.png" height="625px"
-						align="right">
+					<!-- Google Translator Widget -->
+					<a class="btn btn-light btn-sm float-right"
+						id="google_translate_element"></a>
+					<!-- Advances settings button -->
+					<a class="btn btn-light btn-sm float-right" href="#"> Advanced
+						Search</a> <br> <img class="img-fluid" src="pix/regq.png"
+						height="625px" align="right">
 				</div>
 			</div>
 		</div>
