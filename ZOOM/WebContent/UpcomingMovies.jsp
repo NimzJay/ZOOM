@@ -218,10 +218,13 @@
 						<img class="card-img-top" src="pix/sali1.jpg" alt="Movie Poster">
 						<div class="card-body">
 							<h5 class="card-title">BAD BOYS 3</h5>
+							<div class="text-justify">
 							<p class="card-text">Marcus Burnett is now a police inspector
 								and Mike Lowery is in a midlife crisis. They unite again when an
 								Albanian mercenary, whose brother they killed, promises them an
 								important bonus.</p>
+								</div>
+								<br>
 							<a
 								href="https://www.imdb.com/title/tt1502397/?ref_=nv_sr_1?ref_=nv_sr_1"
 								class="btn btn-primary">IMDb Link</a> &nbsp &nbsp &nbsp <a
