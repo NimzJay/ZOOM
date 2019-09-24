@@ -34,4 +34,19 @@ $(document).ready(function() {
 			}
 
 		});
+		
+		$('#ContactInformation').validate({
+			rules : {
+				email : {
+					required : true,
+					email : true
+				},
+				website : {
+					url : true,
+
+				}
+			}
+
+		});
+
 	});

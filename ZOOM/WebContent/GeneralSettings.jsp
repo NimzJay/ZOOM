@@ -199,7 +199,7 @@
 							</div>
 						</form>
 						<br> <br>
-						<form class="form-horizontal" role="form" style="color: #010101">
+						<form class="form-horizontal" role="form" style="color: #010101" id="ContactInformation">
 							<h2>Contact Information</h2>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="email"
