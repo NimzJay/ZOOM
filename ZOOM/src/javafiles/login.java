@@ -55,7 +55,8 @@ public class login extends HttpServlet {
 				
 				
 				if(Username.equals(rs.getString("username"))&& Password.equals(rs.getString("password"))) {
-					 response.sendRedirect("index.jsp");
+					 //response.sendRedirect("index.jsp");
+					request.getRequestDispatcher("index.jsp").forward(request, response);
 					return;
 				}
 
