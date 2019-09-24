@@ -142,7 +142,7 @@
 				<div class="col-5" style="padding-left: 110px;">
 
 					<h1 class="display-4">Register</h1>
-					<form id="register">
+					<form id="register" action="register" method="POST">
 						<div class="form-row">
 							<div class="col">
 								<label for="inputEmail4">Name</label>

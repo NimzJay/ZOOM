@@ -2,15 +2,14 @@ package javafiles;
 
 import java.io.IOException;
 import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import dbConnection.DBconnection;
 /**
  * Servlet implementation class register
  */
@@ -44,16 +43,17 @@ public class register extends HttpServlet {
 		try {
 
 			String fname = request.getParameter("fname");
+			System.out.println(fname);
 			String lname = request.getParameter("lname");
-			String username = request.getParameter("username");
-			String password = request.getParameter("Password");
+			String username = request.getParameter("user");
+			String password = request.getParameter("pass");
 			String email = request.getParameter("email");
 			String x = request.getParameter("phone");
 			int phone = Integer.parseInt(x);
 			
 			//Connection con=filename.getconn();
 			
-			Connection con=getconn();
+			Connection con=DBconnection.getconn();
 			String sql = "INSERT INTO zoom_users(fname,lname,username,password,email,phone) VALUES ('"+fname+"','"+lname+"','"+username+"','"+password+"','"+email+"',"+phone+")";
 			System.out.println("sql : "+sql);
 			
@@ -68,32 +68,6 @@ public class register extends HttpServlet {
 		catch(Exception ex) {
 		System.out.println("error " +ex);
 		}
-		
-		
-		
-	}
-
-	
-	public Connection getconn() {
-		// TODO Auto-generated method stub
-		Connection con=null;
-		
-		try {
-
-			
-			Class.forName("com.mysql.jdbc.Driver").newInstance();
-			
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/zoom_db", "root", "");
-			
-			return con;
-			
-			
-			
-		}
-		catch(Exception ex) {
-		System.out.println("error " +ex);
-		}
-		return null;
 		
 		
 		
