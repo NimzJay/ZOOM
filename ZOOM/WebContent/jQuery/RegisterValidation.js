@@ -11,21 +11,21 @@ $(document).ready(function() {
 				fname : {
 					lettersonly: true,
 					required : true,
-					minlength : 6,
+					minlength : 3,
 					maxlength : 10
 
 				},
 				lname : {
 					lettersonly: true,
 					required : true,
-					minlength : 6,
+					minlength : 3,
 					maxlength : 10
 
 				},
 				pass : {
 					required : true,
 					minlength : 6,
-					maxlength : 10
+					maxlength : 15
 
 				},
 				age : {
