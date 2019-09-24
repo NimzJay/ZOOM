@@ -45,8 +45,8 @@ public class register extends HttpServlet {
 			String fname = request.getParameter("fname");
 			System.out.println(fname);
 			String lname = request.getParameter("lname");
-			String username = request.getParameter("username");
-			String password = request.getParameter("Password");
+			String username = request.getParameter("user");
+			String password = request.getParameter("pass");
 			String email = request.getParameter("email");
 			String x = request.getParameter("phone");
 			int phone = Integer.parseInt(x);
