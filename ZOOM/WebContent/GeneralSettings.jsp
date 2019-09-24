@@ -34,6 +34,11 @@
 	}
 </script>
 
+<script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+<script type="text/javascript" src="js/jquery.validate.js"></script>
+<script type="text/javascript" src="jQuery/GeneralSettingValidation.js"></script>
+<link rel="stylesheet" type="text/css" href="Styles/validationLabel.css">
+
 </head>
 <body>
 	<!-- Navigation Bar -->
@@ -149,13 +154,13 @@
 			<div class="col-md-8">
 				<div class="row">
 					<div class="col-md-5">
-						<form class="form-horizontal" role="form" style="color: #010101">
+						<form class="form-horizontal" role="form" style="color: #010101" id="PersonalInformation">
 							<h2>Personal Information</h2>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="firstName"
 									class="col-md-3 col-form-label">First Name</label>
 								<div class="col-md-8">
-									<input type="text" class="form-control" id="firstName"
+									<input type="text" class="form-control" id="firstName" name="firstName"
 										placeholder="First Name">
 								</div>
 							</div>
@@ -163,7 +168,7 @@
 								&nbsp &nbsp &nbsp &nbsp <label for="lastname"
 									class="col-md-3 col-form-label">Last Name</label>
 								<div class="col-sm-8">
-									<input type="text" class="form-control" id="lastname"
+									<input type="text" class="form-control" id="lastname" name="lastname"
 										placeholder="Last Name">
 								</div>
 							</div>
@@ -171,7 +176,7 @@
 								&nbsp &nbsp &nbsp &nbsp <label for="username"
 									class="col-md-3 col-form-label">Username*</label>
 								<div class="col-sm-8">
-									<input type="text" class="form-control" id="username"
+									<input type="text" class="form-control" id="username" name="username"
 										placeholder="username">
 								</div>
 							</div>
@@ -179,7 +184,7 @@
 								&nbsp &nbsp &nbsp &nbsp <label for="displayname"
 									class="col-md-3 col-form-label">Display Name*</label>
 								<div class="col-md-8">
-									<input type="text" class="form-control" id="displayname"
+									<input type="text" class="form-control" id="displayname" name="displayname"
 										placeholder="Password">
 								</div>
 							</div>
@@ -200,7 +205,7 @@
 								&nbsp &nbsp &nbsp &nbsp <label for="email"
 									class="col-sm-3 col-form-label">Email</label>
 								<div class="col-sm-8">
-									<input type="text" class="form-control" id="email"
+									<input type="text" class="form-control" id="email" name="email"
 										placeholder="Email">
 								</div>
 							</div>
@@ -208,7 +213,7 @@
 								&nbsp &nbsp &nbsp &nbsp <label for="website"
 									class="col-sm-3 col-form-label">Web Site</label>
 								<div class="col-sm-8">
-									<input type="text" class="form-control" id="website"
+									<input type="text" class="form-control" id="website" name="website"
 										placeholder="Web site">
 								</div>
 							</div>
@@ -216,7 +221,7 @@
 								&nbsp &nbsp &nbsp &nbsp <label for="Aboutyourself"
 									class="col-sm-3 col-form-label">About yourself</label>
 								<div class="col-sm-8">
-									<textarea class="form-control rounded-0" id="Aboutyourself"
+									<textarea class="form-control rounded-0" id="Aboutyourself" name="Aboutyourself"
 										rows="3" placeholder="discribe yourself"></textarea>
 								</div>
 							</div>
