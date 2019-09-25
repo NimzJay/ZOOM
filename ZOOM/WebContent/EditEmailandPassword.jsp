@@ -191,7 +191,7 @@
 								&nbsp &nbsp &nbsp &nbsp <label for="Cpassword"
 									class="col-md-3 col-form-label">Current Password</label>
 								<div class="col-md-8">
-									<input type="text" class="form-control" id="Cpassword"
+									<input type="password" class="form-control" id="Cpassword"
 										placeholder="Current Password">
 
 								</div>
@@ -212,7 +212,7 @@
 								&nbsp &nbsp &nbsp &nbsp <label for="Password"
 									class="col-sm-3 col-form-label">New Password</label>
 								<div class="col-md-8">
-									<input type="text" class="form-control" id="pass"
+									<input type="password" class="form-control" id="pass"
 										placeholder="New Password">
 								</div>
 							</div>
@@ -220,7 +220,7 @@
 								&nbsp &nbsp &nbsp &nbsp <label for="confPassword"
 									class="col-sm-3 col-form-label">Confirm Password</label>
 								<div class="col-md-8">
-									<input type="text" class="form-control" id="website"
+									<input type="password" class="form-control" id="website"
 										placeholder="Confirm Password">
 								</div>
 							</div>
