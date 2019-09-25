@@ -199,7 +199,7 @@
 						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
 						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
 						<button type="button" class="btn btn-primary btn-md">
-							<b>Submit</b>
+							<b>Search</b>
 						</button>
 					</center>
 					<br>

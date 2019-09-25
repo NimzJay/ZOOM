@@ -24,6 +24,12 @@
 
 <script type="text/javascript"
 	src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	
+<script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+<script type="text/javascript" src="js/jquery.validate.js"></script>
+<script type="text/javascript" src="jQuery/LoginValidation.js"></script>
+<link rel="stylesheet" type="text/css" href="Styles/validationLabel.css">
+
 
 <script type="text/javascript">
 	function googleTranslateElementInit() {
@@ -136,18 +142,18 @@
 			<div class="row">
 				<div class="col-5" style="padding-left: 110px;">
 					<h1 class="display-4">Sign in</h1>
-					<form name="login" method="post" action="login">
+					<form id="login" method="post" action="login">
 						<div class="form-row">
 							<div class="form-group col-md-12">
 								<label for="inputEmail4">Username</label> <input type="text" name="username" id="username"
-									class="form-control" required>
+									class="form-control">
 							</div>
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-12">
 								<label for="inputPassword4">Password</label> <input
 									type="password" class="form-control" name="Password" id="Password"
-									placeholder="Password" required>
+									placeholder="Password">
 							</div>
 						</div>
 						<br>
