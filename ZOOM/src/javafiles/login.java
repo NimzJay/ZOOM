@@ -12,6 +12,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import dbConnection.DBconnection;
+
 /**
  * Servlet implementation class login
  */
@@ -42,9 +44,7 @@ public class login extends HttpServlet {
 			System.out.println("pw: " +Password);
 			
 			
-			Class.forName("com.mysql.jdbc.Driver").newInstance();
-			Connection con;
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/zoom_db","root",""); 
+			Connection con = DBconnection.getconn();
 			String sql = "SELECT * FROM zoom_users";
 			java.sql.PreparedStatement stm = con.prepareStatement(sql);
 			ResultSet rs = stm.executeQuery(sql);
