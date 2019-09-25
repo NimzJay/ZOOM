@@ -7,7 +7,6 @@
 <title>Register | Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
 <link rel="stylesheet" type="text/css" href="Styles/loginRegister.css">
-<link rel="stylesheet" type="text/css" href="Styles/validationLabel.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
@@ -25,9 +24,11 @@
 
 <script type="text/javascript"
 	src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	
 <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
 <script type="text/javascript" src="js/jquery.validate.js"></script>
 <script type="text/javascript" src="jQuery/RegisterValidation.js"></script>
+<link rel="stylesheet" type="text/css" href="Styles/validationLabel.css">
 
 
 <script type="text/javascript">
@@ -161,34 +162,34 @@
 						<div class="form-row">
 							<div class="form-group col-md-12">
 								<label for="inputEmail4">Username</label> <input type="text"
-									class="form-control" name="user" required>
+									class="form-control" name="user">
 							</div>
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-12">
 								<label for="inputPassword4">Password</label> <input
-									type="password" class="form-control" id="inputPassword4"
-									placeholder="Password" name="pass" required>
+									type="password" class="form-control" id="pass"
+									placeholder="Password" name="pass">
 							</div>
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-12">
-								<input type="password" class="form-control" id="inputPassword4"
-									placeholder="Re-Enter Password" name="repass" required>
+								<input type="password" class="form-control" id="repass"
+									placeholder="Confirm Password" name="repass">
 							</div>
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-12">
 								<label for="inputAddress">Email</label> <input type="email"
-									class="form-control" id="inputAddress"
-									placeholder="johndoe@example.com" name="email" required>
+									class="form-control" id="inputEmail"
+									placeholder="johndoe@example.com" name="email">
 							</div>
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-12">
 								<label for="inputAddress">Phone</label> <input type="text"
-									class="form-control" id="inputAddress" name="phone"
-									placeholder="0777123456" required>
+									class="form-control" id="inputPhone" name="phone"
+									placeholder="0777123456">
 							</div>
 						</div>
 						<br>
