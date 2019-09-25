@@ -170,10 +170,9 @@
 									</h5>
 									<p class="card-text">In the summer of 1989, a group of
 										bullied kids band together to destroy a shape-shifting
-										monster, which disguises itself as a clown and preys on the
-										children of Derry, their small Maine town.</p>
-									<a href="Mov_It.jsp" class="btn btn-primary">Download</a>
-									&nbsp; &nbsp; &nbsp; <a
+										monster, which disguises itself as a clown...<a href="#">Read More</a></p>
+									<a href="ZipFiles/test_file.zip" download
+										class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
 										href="https://www.imdb.com/title/tt1396484/?ref_=adv_li_tt"
 										class="btn btn-warning">IMDB link</a>
 								</div>
@@ -188,9 +187,9 @@
 									</h5>
 									<p class="card-text">A mother gives her 13-year-old son a
 										toy doll for his birthday, unaware of its more sinister
-										nature, he also kills people who disobeyed Andy.</p>
-									<a href="Mov_ChildsPlay.jsp" class="btn btn-primary">Download</a>
-									&nbsp; &nbsp; &nbsp; <a
+										nature, he also kills people who disobeyed Andy...<a href="#">Read More</a></p>
+									<a href="ZipFiles/test_file.zip" download
+										class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
 										href="https://www.imdb.com/title/tt8663516/?ref_=adv_li_tt"
 										class="btn btn-warning">IMDB link</a>
 								</div>
@@ -205,9 +204,9 @@
 									</h5>
 									<p class="card-text">A family's serene beach vacation turns
 										to chaos when their doppelgängers appear and begin to
-										terrorize them.</p>
-									<a href="Mov_Us.jsp" class="btn btn-primary">Download</a>
-									&nbsp; &nbsp; &nbsp; <a
+										terrorize them...<a href="#">Read More</a></p>
+									<a href="ZipFiles/test_file.zip" download
+										class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
 										href="https://www.imdb.com/title/tt6857112/?ref_=adv_li_tt"
 										class="btn btn-warning">IMDB link</a>
 								</div>
@@ -224,9 +223,9 @@
 									<p class="card-text">Based on the graphic novels by Mike
 										Mignola, Hellboy, caught between the worlds of the
 										supernatural and human, battles an ancient sorceress bent
-										on...</p>
-									<a href="Mov_Hellboy.jsp" class="btn btn-primary">Download</a>
-									&nbsp; &nbsp; &nbsp; <a
+										on...<a href="#">Read More</a></p>
+									<a href="ZipFiles/test_file.zip" download
+										class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
 										href="https://www.imdb.com/title/tt2274648/"
 										class="btn btn-warning">IMDB link</a>
 								</div>

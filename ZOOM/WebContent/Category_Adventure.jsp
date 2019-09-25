@@ -171,11 +171,12 @@
 									<h5 class="card-title">
 										<b>Aladdin</b>
 									</h5>
-									<p class="card-text">A kind-hearted street urchin and a
-										power-hungry Grand Vizier vie for a magic lamp that has the
-										power to make their deepest wishes come true.</p>
-									<a href="Mov_Aladdin.jsp" class="btn btn-primary">Download</a>
-									&nbsp; &nbsp; &nbsp; <a
+									<p class="card-text">
+										A kind-hearted street urchin and a power-hungry Grand Vizier
+										vie for a magic lamp that has the power to make their deepest...<a href="#">Read More</a>
+									</p>
+									<a href="ZipFiles/test_file.zip" download
+										class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
 										href="https://www.imdb.com/title/tt6139732/?ref_=tt_sims_tti"
 										class="btn btn-warning">IMDB link</a>
 								</div>
@@ -188,11 +189,13 @@
 									<h5 class="card-title">
 										<b>The Lion King</b>
 									</h5>
-									<p class="card-text">After the murder of his father, a
-										young lion prince flees his kingdom only to learn the true
-										meaning of responsibility and bravery.</p>
-									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-									&nbsp; <a
+									<p class="card-text">
+										After the murder of his father, a young lion prince flees his
+										kingdom only to learn the true meaning of responsibility and
+										bravery...<a href="Mov_LionKing.jsp">Read More</a>
+									</p>
+									<a href="ZipFiles/test_file.zip" download
+										class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
 										href="https://www.imdb.com/title/tt6105098/?ref_=nv_sr_1?ref_=nv_sr_1"
 										class="btn btn-warning">IMDB link</a>
 								</div>
@@ -205,12 +208,13 @@
 									<h5 class="card-title">
 										<b>Dark Phoenix</b>
 									</h5>
-									<p class="card-text">Jean Grey begins to develop incredible
-										powers that corrupt and turn her into a Dark Phoenix. Now the
-										X-Men will have to decide if the life of a team member is
-										worth more than all of humanity.</p>
-									<a href="Mov_DarkPhoenix.jsp" class="btn btn-primary">Download</a>
-									&nbsp; &nbsp; &nbsp; <a
+									<p class="card-text">
+										Jean Grey begins to develop incredible powers that corrupt and
+										turn her into a Dark Phoenix. Now the X-Men will have to
+										decide...<a href="Mov_DarkPhoenix.jsp">Read More</a>
+									</p>
+									<a href="ZipFiles/test_file.zip" download
+										class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
 										href="https://www.imdb.com/title/tt6565702/?ref_=nv_sr_1?ref_=nv_sr_1"
 										class="btn btn-warning">IMDB link</a>
 								</div>
@@ -224,12 +228,13 @@
 									<h5 class="card-title">
 										<b>Godzilla: King of the Monsters</b>
 									</h5>
-									<p class="card-text">The crypto-zoological agency Monarch
-										faces off against a battery of god-sized monsters, including
-										the mighty Godzilla, who collides with Mothra, Rodan, and his
-										ultimate nemesis, the three-headed King Ghidorah.</p>
-									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-									&nbsp; <a
+									<p class="card-text">
+										The crypto-zoological agency Monarch faces off against a
+										battery of god-sized monsters, including ...<a
+											href="Mov_DarkPhoenix.jsp">Read More</a>
+									</p>
+									<a href="ZipFiles/test_file.zip" download
+										class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
 										href=https://www.imdb.com/title/tt3741700/?ref_=adv_li_tt
 										class="btn btn-warning">IMDB link</a>
 								</div>
