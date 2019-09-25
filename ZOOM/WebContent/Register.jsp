@@ -161,6 +161,12 @@
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-12">
+								<label for="inputEmail4">Display Name</label> <input type="text"
+									class="form-control" name="display">
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-12">
 								<label for="inputEmail4">Username</label> <input type="text"
 									class="form-control" name="user">
 							</div>

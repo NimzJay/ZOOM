@@ -1,6 +1,6 @@
 package javafiles;
 
-import java.io.IOException; 
+import java.io.IOException;
 import java.sql.Connection;
 
 import javax.servlet.ServletException;
@@ -13,16 +13,16 @@ import dbConnection.DBconnection;
 import util.Session;
 
 /**
- * Servlet implementation class register
+ * Servlet implementation class PersonalInfoUpdate
  */
-@WebServlet("/register")
-public class register extends HttpServlet {
+@WebServlet("/UpdatePersonalInfo")
+public class UpdatePersonalInfo extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	/**
 	 * @see HttpServlet#HttpServlet()
 	 */
-	public register() {
+	public UpdatePersonalInfo() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
@@ -45,35 +45,31 @@ public class register extends HttpServlet {
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);
-
 		try {
 
-			String fname = request.getParameter("fname");
-			System.out.println(fname);
-			String lname = request.getParameter("lname");
-			String dis = request.getParameter("display");
-			String username = request.getParameter("user");
-			String password = request.getParameter("pass");
-			String email = request.getParameter("email");
-			String x = request.getParameter("phone");
-			int phone = Integer.parseInt(x);
+			String sessionUser = Session.getUser();
+			System.out.println("Session UN: " + sessionUser);
 
-			Session.setUser(username);
-    		System.out.println("Session UN: " + Session.getUser());
+			String fname = request.getParameter("firstName");
+			String lname = request.getParameter("lastname");
+			String dis = request.getParameter("displayname");
+			String username = request.getParameter("username");
 
 			Connection con = DBconnection.getconn();
-			String sql = "INSERT INTO zoom_users(fname,lname,displayname,username,password,email,phone) VALUES ('" + fname + "','"
-					+ lname + "','" + dis + "','" + username + "','" + password + "','" + email + "'," + phone + ")";
+			String sql = "UPDATE zoom_users SET fname='" + fname + "', lname='" + lname + "', displayname='" + dis
+					+ "', username='" + username + "' WHERE username = '" + sessionUser + "'";
+
 			System.out.println("sql : " + sql);
 
 			java.sql.PreparedStatement stm = con.prepareStatement(sql);
 			stm.executeUpdate(sql);
-			System.out.println("Successfully Inserted!");
-			request.getRequestDispatcher("index.jsp").forward(request, response);
+			System.out.println("Personal Info: Successfully Updated!");
+			request.getRequestDispatcher("GeneralSettings.jsp").forward(request, response);
 
 		} catch (Exception ex) {
 			System.out.println("error " + ex);
 		}
 
 	}
+
 }

@@ -1,5 +1,19 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
+
+<%@page import="java.sql.ResultSet"%>
+<%@page import="java.sql.Statement"%>
+<%@page import="java.sql.Connection"%>
+<%@page import="java.sql.DriverManager"%>
+
+<%@page import="dbConnection.DBconnection"%>
+<%@page import="util.Session"%>
+
+<%
+	Statement st = null;
+	ResultSet rs = null;
+%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -130,12 +144,31 @@
 	<div class="container-fluid" style="margin: 20px; padding: 0px">
 
 		<div class="row">
+
+			<%
+				try {
+
+					String sessionUser = Session.getUser();
+					System.out.println("Session UN: " + sessionUser);
+
+					Connection con = DBconnection.getconn();
+					st = con.createStatement();
+					String sql = ("SELECT * FROM zoom_users WHERE username = '" + sessionUser + "'");
+					rs = st.executeQuery(sql);
+					while (rs.next()) {
+						//String bt = rs.getString("bTitle");
+						//Sesh.setbTitle(bt);
+			%>
+
 			<!--Left Navigaion Bar-->
 			<div class="col-md-3 card align-items-center">
+
+
+
 				<br> <img src="pix/avatar2.jpg" class="rounded-circle"
 					width="200px" height="200px">
 
-				<h2 style="font-size: 30px">Kavindu Mihiranga</h2>
+				<h2 style="font-size: 30px"><%=rs.getString("fname")%>&nbsp;<%=rs.getString("lname")%></h2>
 				<br> <a class="btn btn-outline-primary active"
 					href="ProfileView.jsp" style="width: 250px;">My Profile</a> <br>
 				<a class="btn btn-outline-primary" href="GeneralSettings.jsp"
@@ -153,55 +186,53 @@
 				<div class="row">
 					<div class="col-md-5">
 						<form class="form-horizontal" role="form" style="color: #010101">
-							<h2>Personal Information</h2>
+							<h2>Personal Information</h2><br>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="firstName"
-									class="col-md-3 col-form-label">Name</label> <label
-									for="firstName" class="col-md-8 col-form-label"
-									style="color: blue; font-size: 22px;"><b>Kavindu
-										Mihiranga</b></label>
+									class="col-md-4 col-form-label">Name</label> <label
+									for="firstName" class="col-md-7 col-form-label"
+									style="border: 1px solid gray; border-radius: 5px;"><b><%=rs.getString("fname")%>&nbsp;<%=rs.getString("lname")%></b></label>
 							</div>
 
 
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="username"
-									class="col-md-3 col-form-label">User Name*</label> <label
-									for="firstName" class="col-md-8 col-form-label"
-									style="color: blue; font-size: 22px;"><b>kavindumihiranga</b></label>
+									class="col-md-4 col-form-label">User Name *</label> <label
+									for="firstName" class="col-md-7 col-form-label"
+									style="border: 1px solid gray; border-radius: 5px;"><b><%=rs.getString("username")%></b></label>
 
 
 							</div>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="displayname"
-									class="col-md-3 col-form-label">Display Name*</label> <label
-									for="firstName" class="col-md-8 col-form-label"
-									style="color: blue; font-size: 22px;"><b>kaviya</b></label>
+									class="col-md-4 col-form-label">Display Name *</label> <label
+									for="firstName" class="col-md-7 col-form-label"
+									style="border: 1px solid gray; border-radius: 5px;"><b><%=rs.getString("displayname")%></b></label>
 
 							</div>
 						</form>
 						<br> <br>
 						<form class="form-horizontal" role="form" style="color: #010101">
-							<h2>Contact Information</h2>
+							<h2>Contact Information</h2><br>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="email"
-									class="col-sm-3 col-form-label">Email</label> <label
-									for="firstName" class="col-md-8 col-form-label"
-									style="color: #808080; font-size: 22px;"><b>kavindumihiranga@gmail.com</b></label>
+									class="col-sm-4 col-form-label">Email</label> <label
+									for="firstName" class="col-md-7 col-form-label"
+									style="border: 1px solid gray; border-radius: 5px;"><b><%=rs.getString("email")%></b></label>
 
 							</div>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="website"
-									class="col-sm-3 col-form-label">Web Site</label> <label
-									for="firstName" class="col-md-8 col-form-label"
-									style="color: #808080; font-size: 22px;"><b>www.kawiya.com</b></label>
+									class="col-sm-4 col-form-label">Web Site</label> <label
+									for="firstName" class="col-md-7 col-form-label"
+									style="border: 1px solid gray; border-radius: 5px;"><b><%=rs.getString("website")%></b></label>
 
 							</div>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="Aboutyourself"
-									class="col-sm-3 col-form-label">About yourself</label> <label
-									for="firstName" class="col-md-8 col-form-label"
-									style="color: #808080; font-size: 20px;"><b>Film
-										Lover</b></label>
+									class="col-sm-4 col-form-label">About yourself</label> <label
+									for="firstName" class="col-md-7 col-form-label"
+									style="border: 1px solid gray; border-radius: 5px;"><b><%=rs.getString("about")%></b></label>
 
 							</div>
 
@@ -218,6 +249,12 @@
 					</div>
 				</div>
 			</div>
+			<%
+				}
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			%>
 		</div>
 	</div>
 	<br>

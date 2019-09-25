@@ -1,8 +1,7 @@
 package javafiles;
 
-import java.io.IOException;
+import java.io.IOException; 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
@@ -13,6 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import dbConnection.DBconnection;
+import util.Session;
 
 /**
  * Servlet implementation class login
@@ -43,6 +43,8 @@ public class login extends HttpServlet {
 			System.out.println("un:  " +Username);
 			System.out.println("pw: " +Password);
 			
+			Session.setUser(Username);
+    		System.out.println("Session UN: " + Session.getUser());
 			
 			Connection con = DBconnection.getconn();
 			String sql = "SELECT * FROM zoom_users";
