@@ -213,7 +213,7 @@
 									class="col-sm-3 col-form-label">New Password</label>
 								<div class="col-md-8">
 									<input type="password" class="form-control" id="pass"
-										placeholder="New Password">
+										placeholder=rs.getString("password")%>">
 								</div>
 							</div>
 							<div class="form-group row">
@@ -221,7 +221,7 @@
 									class="col-sm-3 col-form-label">Confirm Password</label>
 								<div class="col-md-8">
 									<input type="password" class="form-control" id="website"
-										placeholder="Confirm Password">
+										placeholder=rs.getString("password")%>">
 								</div>
 							</div>
 
