@@ -81,7 +81,7 @@
 							</a>
 								<ul class="dropdown-menu">
 									<li><a class="btn" href="Category_Adventure.jsp">Adventure</a></li>
-									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
+									<li><a class="btn" href="Category_Detective.jsp">Action</a></li>
 									<li><a class="btn" href="Category_Horror.jsp"
 										style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">Horror</a></li>
 									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
