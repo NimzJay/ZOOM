@@ -85,7 +85,7 @@
 									class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li><a class="btn" href="Category_Adventure.jsp">Adventure</a></li>
-									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
+									<li><a class="btn" href="Category_Detective.jsp">Action</a></li>
 									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
 									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
 									<li><a class="btn" href="Category_TvSeries.jsp">TV
@@ -157,6 +157,12 @@
 							<div class="form-group col-md-6">
 								<input type="text" class="form-control" name="lname"
 									placeholder="Last name">
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-12">
+								<label for="inputEmail4">Display Name</label> <input type="text"
+									class="form-control" name="display">
 							</div>
 						</div>
 						<div class="form-row">

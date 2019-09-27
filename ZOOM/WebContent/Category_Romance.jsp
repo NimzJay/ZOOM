@@ -81,7 +81,7 @@
 							</a>
 								<ul class="dropdown-menu">
 									<li><a class="btn" href="Category_Adventure.jsp">Adventure</a></li>
-									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
+									<li><a class="btn" href="Category_Detective.jsp">Action</a></li>
 									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
 									<li><a class="btn" href="Category_Romance.jsp"
 										style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">Romance</a></li>
@@ -171,9 +171,9 @@
 							<p class="card-text">On a routine journey through space to a
 								new home, two passengers, sleeping in suspended animation, are
 								awakened 90 years too early when their ship malfunctions. As Jim
-								and Aurora...</p>
+								and Aurora...<a href="#">Read More</a></p>
 						</div>
-						<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
+						<br> <a href="ZipFiles/test_file.zip" download class="btn btn-primary">Download</a> &nbsp;
 						&nbsp; &nbsp; <a
 							href="https://www.imdb.com/title/tt2070791/episodes"
 							class="btn btn-warning">IMDB link</a>
@@ -191,9 +191,9 @@
 							<p class="card-text">Tessa Young is a dedicated student,
 								dutiful daughter and loyal girlfriend to her high school
 								sweetheart. Entering her first semester of college, Tessa's
-								guarded world opens up when she meets Hardin...</p>
+								guarded world opens up when she meets Hardin...<a href="#">Read More</a></p>
 						</div>
-						<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
+						<br> <a href="ZipFiles/test_file.zip" download class="btn btn-primary">Download</a> &nbsp;
 						&nbsp; &nbsp; <a href="https://www.imdb.com/title/tt4126476/"
 							class="btn btn-warning">IMDB link</a>
 					</div>
@@ -210,9 +210,9 @@
 							<p class="card-text">Sam is a disenchanted 33-year-old who
 								discovers a mysterious woman, Sarah, frolicking in his
 								apartment's swimming pool. When she vanishes, Sam embarks on a
-								surreal quest across Los Angeles to decode...</p>
+								surreal quest across Los Angeles to decode...<a href="#">Read More</a></p>
 						</div>
-						<br> <a href="Mov_DarkPhoenix.jsp" class="btn btn-primary">Download</a>
+						<br> <a href="ZipFiles/test_file.zip" download class="btn btn-primary">Download</a>
 						&nbsp; &nbsp; &nbsp; <a
 							href="https://www.imdb.com/title/tt5691670/"
 							class="btn btn-warning">IMDB link</a>
@@ -230,9 +230,9 @@
 							<p class="card-text">Aladdin is a lovable street urchin who
 								meets Princess Jasmine, the beautiful daughter of the sultan of
 								Agrabah. While visiting her exotic palace, Aladdin stumbles upon
-								a magic oil lamp that unleashes...</p>
+								a magic oil lamp that unleashes...<a href="#">Read More</a></p>
 						</div>
-						<br> <a href="Mov_DarkPhoenix.jsp" class="btn btn-primary">Download</a>
+						<br> <a href="ZipFiles/test_file.zip" download class="btn btn-primary">Download</a>
 						&nbsp; &nbsp; &nbsp; <a
 							href="https://www.imdb.com/title/tt6139732/"
 							class="btn btn-warning">IMDB link</a>
@@ -253,7 +253,7 @@
 							<p class="card-text">Childhood sweethearts have a falling out
 								and don't speak for 15 years, only reconnecting as adults when
 								Sasha runs into Marcus in San Francisco. Although the old sparks
-								are still there, the couple ...</p>
+								are still there, the couple...</p>
 						</div>
 						<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
 						&nbsp; &nbsp; <a href="https://www.imdb.com/title/tt7374948/"

@@ -81,7 +81,7 @@
 							</a>
 								<ul class="dropdown-menu">
 									<li><a class="btn" href="Category_Adventure.jsp">Adventure</a></li>
-									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
+									<li><a class="btn" href="Category_Detective.jsp">Action</a></li>
 									<li><a class="btn" href="Category_Horror.jsp"
 										style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">Horror</a></li>
 									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
@@ -170,9 +170,9 @@
 							<p class="card-text">Fifteen years after a permanent global
 								blackout, a group of revolutionaries seeks to drive out an ...
 								S2.E18. Austin City Limits. Jason turns to Miles with crucial
-								information about...</p>
+								information about...<a href="#">Read More</a></p>
 						</div>
-						<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
+						<br> <a href="ZipFiles/test_file.zip" download class="btn btn-primary">Download</a> &nbsp;
 						&nbsp; &nbsp; <a
 							href="https://www.imdb.com/title/tt2070791/episodes"
 							class="btn btn-warning">IMDB link</a>
@@ -190,9 +190,9 @@
 							<p class="card-text">Criminal Justice is an Indian series
 								based on Criminal Justice by Peter Moffat, adapted for India by
 								Shridhar Raghavan streaming on Hotstar on its new label Hotstar
-								Specials on...</p>
+								Specials on...<a href="#">Read More</a></p>
 						</div>
-						<br> <a href="#" class="btn btn-primary">Download</a> &nbsp;
+						<br> <a href="ZipFiles/test_file.zip" download class="btn btn-primary">Download</a> &nbsp;
 						&nbsp; &nbsp; <a href="https://www.imdb.com/title/tt9095260/"
 							class="btn btn-warning">IMDB link</a>
 					</div>
@@ -209,9 +209,9 @@
 							<p class="card-text">Breaking Bad is an American neo-Western
 								crime drama television series created and produced by Vince
 								Gilligan. The show originally aired on AMC for five seasons,
-								from January 20...</p>
+								from January 20...<a href="#">Read More</a></p>
 						</div>
-						<br> <a href="Mov_DarkPhoenix.jsp" class="btn btn-primary">Download</a>
+						<br> <a href="ZipFiles/test_file.zip" download class="btn btn-primary">Download</a>
 						&nbsp; &nbsp; &nbsp; <a
 							href="https://www.imdb.com/title/tt0903747/"
 							class="btn btn-warning">IMDB link</a>
@@ -229,9 +229,9 @@
 							<p class="card-text">Twin Peaks is an American mystery horror
 								drama television series created by Mark Frost and David Lynch
 								that premiered on April 8, 1990, on ABC. The series developed a
-								notably loyal...</p>
+								notably loyal...<a href="#">Read More</a></p>
 						</div>
-						<br> <a href="Mov_DarkPhoenix.jsp" class="btn btn-primary">Download</a>
+						<br> <a href="ZipFiles/test_file.zip" download class="btn btn-primary">Download</a>
 						&nbsp; &nbsp; &nbsp; <a
 							href="https://www.imdb.com/title/tt0098936/"
 							class="btn btn-warning">IMDB link</a>

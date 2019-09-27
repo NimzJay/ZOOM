@@ -33,6 +33,12 @@ $(document).ready(function() {
 				maxlength : 10
 
 			},
+			display : {
+				required : true,
+				minlength : 4,
+				maxlength : 10
+
+			},
 			pass : {
 				required : true,
 				minlength : 6,

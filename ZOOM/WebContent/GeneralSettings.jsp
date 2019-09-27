@@ -1,5 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
+	
+<%@page import="java.sql.ResultSet"%>
+<%@page import="java.sql.Statement"%>
+<%@page import="java.sql.Connection"%>
+<%@page import="java.sql.DriverManager"%>
+
+<%@page import="dbConnection.DBconnection"%>
+<%@page import="util.Session"%>
+
+
+	
 <!DOCTYPE html>
 <html>
 <head>
@@ -83,7 +94,7 @@
 									class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li><a class="btn" href="Category_Adventure.jsp">Adventure</a></li>
-									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
+									<li><a class="btn" href="Category_Detective.jsp">Action</a></li>
 									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
 									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
 									<li><a class="btn" href="Category_TvSeries.jsp">TV
@@ -132,12 +143,30 @@
 
 	<div class="container-fluid" style="margin: 20px; padding: 0px">
 		<div class="row">
+
+			<%
+				try {
+					
+					Statement st = null;
+					ResultSet rs = null;
+
+					String sessionUser = Session.getUser();
+					System.out.println("Session UN: " + sessionUser);
+
+					Connection con = DBconnection.getconn();
+					st = con.createStatement();
+					String sql = ("SELECT * FROM zoom_users WHERE username = '" + sessionUser + "'");
+					rs = st.executeQuery(sql);
+					while (rs.next()) {
+
+			%>
+
 			<!--Left Navigation Bar-->
 			<div class="col-md-3 card align-items-center">
 				<br> <img src="pix/avatar2.jpg" class="rounded-circle"
 					width="200px" height="200px">
 
-				<h2 style="font-size: 30px">Kavindu Mihiranga</h2>
+				<h2 style="font-size: 30px"><%=rs.getString("fname")%>&nbsp;<%=rs.getString("lname")%></h2>
 				<br> <a class="btn btn-outline-primary" href="ProfileView.jsp"
 					style="width: 250px;">My Profile</a> <br> <a
 					class="btn btn-outline-primary active" href="GeneralSettings.jsp"
@@ -154,85 +183,92 @@
 			<div class="col-md-8">
 				<div class="row">
 					<div class="col-md-5">
-						<form class="form-horizontal" role="form" style="color: #010101" id="PersonalInformation">
-							<h2>Personal Information</h2>
+						<form class="form-horizontal" role="form" style="color: #010101"
+							id="PersonalInformation" action="UpdatePersonalInfo"
+							method="POST">
+							<h2>Personal Information</h2><br>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="firstName"
-									class="col-md-3 col-form-label">First Name</label>
-								<div class="col-md-8">
-									<input type="text" class="form-control" id="firstName" name="firstName"
-										placeholder="First Name">
+									class="col-md-4 col-form-label">First Name</label>
+								<div class="col-md-7">
+									<input type="text" class="form-control" id="firstName"
+										name="firstName" placeholder="<%=rs.getString("fname")%>">
 								</div>
 							</div>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="lastname"
-									class="col-md-3 col-form-label">Last Name</label>
-								<div class="col-sm-8">
-									<input type="text" class="form-control" id="lastname" name="lastname"
-										placeholder="Last Name">
+									class="col-md-4 col-form-label">Last Name</label>
+								<div class="col-sm-7">
+									<input type="text" class="form-control" id="lastname"
+										name="lastname" placeholder="<%=rs.getString("lname")%>">
 								</div>
 							</div>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="username"
-									class="col-md-3 col-form-label">Username*</label>
-								<div class="col-sm-8">
-									<input type="text" class="form-control" id="username" name="username"
-										placeholder="username">
+									class="col-md-4 col-form-label">Username*</label>
+								<div class="col-sm-7">
+									<input type="text" class="form-control" id="username"
+										name="username" placeholder="<%=rs.getString("username")%>">
 								</div>
 							</div>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="displayname"
-									class="col-md-3 col-form-label">Display Name*</label>
-								<div class="col-md-8">
-									<input type="text" class="form-control" id="displayname" name="displayname"
-										placeholder="Password">
+									class="col-md-4 col-form-label">Display Name*</label>
+								<div class="col-md-7">
+									<input type="text" class="form-control" id="displayname"
+										name="displayname" placeholder="<%=rs.getString("displayname")%>">
 								</div>
 							</div>
-							<div class="form-group">
-								&nbsp &nbsp &nbsp &nbsp &nbsp
-								<button type="submit" class="btn btn-secondary">Cancel</button>
-								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-								<button type="button" class="btn btn-success btn-md">
-									<b>Submit</b>
-								</button>
+							<div class="form-group row">
+								<div class="form-group col-md-4 align-right">
+									<input type="submit" class="btn btn-success btn-md"
+										value="Save">
+								</div>
+								<div class="form-group col-md-7">
+									<input type="reset" value="Reset"
+										class="btn btn-secondary btn-md">
+								</div>
 							</div>
+
 						</form>
 						<br> <br>
-						<form class="form-horizontal" role="form" style="color: #010101" id="ContactInformation">
-							<h2>Contact Information</h2>
+						<form class="form-horizontal" role="form" style="color: #010101"
+							id="ContactInformation" action="UpdateContactInfo"
+							method="POST">
+							<h2>Contact Information</h2><br>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="email"
-									class="col-sm-3 col-form-label">Email</label>
-								<div class="col-sm-8">
+									class="col-sm-4 col-form-label">Email</label>
+								<div class="col-sm-7">
 									<input type="text" class="form-control" id="email" name="email"
-										placeholder="Email">
+										placeholder="<%=rs.getString("email")%>">
 								</div>
 							</div>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="website"
-									class="col-sm-3 col-form-label">Web Site</label>
-								<div class="col-sm-8">
-									<input type="text" class="form-control" id="website" name="website"
-										placeholder="Web site">
+									class="col-sm-4 col-form-label">Web Site</label>
+								<div class="col-sm-7">
+									<input type="text" class="form-control" id="website"
+										name="website" placeholder="<%=rs.getString("website")%>">
 								</div>
 							</div>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="Aboutyourself"
-									class="col-sm-3 col-form-label">About yourself</label>
-								<div class="col-sm-8">
-									<textarea class="form-control rounded-0" id="Aboutyourself" name="Aboutyourself"
-										rows="3" placeholder="discribe yourself"></textarea>
+									class="col-sm-4 col-form-label">About yourself</label>
+								<div class="col-sm-7">
+									<textarea class="form-control rounded-0" id="Aboutyourself"
+										name="Aboutyourself" rows="3" placeholder="<%=rs.getString("about")%>"></textarea>
 								</div>
 							</div>
-							<div class="form-group">
-								&nbsp &nbsp &nbsp &nbsp &nbsp
-								<button type="submit" class="btn btn-secondary align-items-left">Cancel</button>
-								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-								<button type="button" class="btn btn-success btn-md">
-									<b>Submit</b>
-								</button>
+							<div class="form-group row">
+								<div class="form-group col-md-4 align-right">
+									<input type="submit" class="btn btn-success btn-md"
+										value="Save">
+								</div>
+								<div class="form-group col-md-7">
+									<input type="reset" value="Reset"
+										class="btn btn-secondary btn-md">
+								</div>
 							</div>
 						</form>
 					</div>
@@ -256,7 +292,7 @@
 							<input type="checkbox" name="MOV4" value="TR">Tragedies<br>
 							<input type="checkbox" name="MOV5" value="CC" checked>Comic
 							Cons<br> <input class="btn btn-success" type="submit"
-								value="Submit">
+								value="Save">
 						</form>
 						<br>
 					</div>
@@ -268,12 +304,18 @@
 							<input type="checkbox" name="LANG3" value="TA">Tamil<br>
 							<input type="checkbox" name="LANG4" value="HIN">Hindi<br>
 							<br> <input class="btn btn-success" type="submit"
-								value="Submit">
+								value="Save">
 						</form>
 						<br>
 					</div>
 				</div>
 			</div>
+			<%
+				}
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			%>
 		</div>
 	</div>
 	<br>

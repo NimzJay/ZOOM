@@ -1,5 +1,19 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
+
+<%@page import="java.sql.ResultSet"%>
+<%@page import="java.sql.Statement"%>
+<%@page import="java.sql.Connection"%>
+<%@page import="java.sql.DriverManager"%>
+
+<%@page import="dbConnection.DBconnection"%>
+<%@page import="util.Session"%>
+
+<%
+	Statement st = null;
+	ResultSet rs = null;
+%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -77,7 +91,7 @@
 									class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li><a class="btn" href="Category_Adventure.jsp">Adventure</a></li>
-									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
+									<li><a class="btn" href="Category_Detective.jsp">Action</a></li>
 									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
 									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
 									<li><a class="btn" href="Category_TvSeries.jsp">TV
@@ -122,20 +136,29 @@
 		</script>
 
 	</nav>
-	<!-- Google Translator -->
-	<a class="float-right" id="google_translate_element"></a>
-	<!-- Advances settings button -->
-	<a class="btn btn-light btn-sm float-right" href="AdvancedSearch.jsp">
-		Advanced Search</a>
-
+	
 	<div class="container-fluid" style="margin: 20px; padding: 0px">
 		<div class="row">
+			<%
+				try {
+
+					String sessionUser = Session.getUser();
+					System.out.println("Session UN: " + sessionUser);
+
+					Connection con = DBconnection.getconn();
+					st = con.createStatement();
+					String sql = ("SELECT * FROM zoom_users WHERE username = '" + sessionUser + "'");
+					rs = st.executeQuery(sql);
+					while (rs.next()) {
+						//String bt = rs.getString("bTitle");
+						//Sesh.setbTitle(bt);
+			%>
 			<!--Left Navigation Bar-->
 			<div class="col-md-3 card align-items-center">
 				<br> <img src="pix/avatar2.jpg" class="rounded-circle"
 					width="200px" height="200px">
 
-				<h2 style="font-size: 30px">Kavindu Mihiranga</h2>
+				<h2 style="font-size: 30px"><%=rs.getString("fname")%>&nbsp;<%=rs.getString("lname")%></h2>
 				<br> <a class="btn btn-outline-primary" href="ProfileView.jsp"
 					style="width: 250px;">My Profile</a> <br> <a
 					class="btn btn-outline-primary" href="GeneralSettings.jsp"
@@ -220,12 +243,17 @@
 							id="google_translate_element"></a>
 						<!-- Advances settings button -->
 						<a class="btn btn-light btn-sm float-right" href="#"> Advanced
-							Search</a> <br> <br>
-						<br>
-						<img class="img-fluid" src="pix/set2.png" align="right">
+							Search</a> <br> <br> <br> <img class="img-fluid"
+							src="pix/set2.png" align="right">
 					</div>
 				</div>
 			</div>
+			<%
+				}
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			%>
 		</div>
 	</div>
 	<br>

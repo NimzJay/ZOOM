@@ -55,7 +55,7 @@
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="Summary.jsp">Summary
 						&nbsp;</a></li>
-        
+
 				<!-- Drop down menu -->
 				<li class="nav-item dropdown">
 					<div class="dropdown">
@@ -65,21 +65,27 @@
 							Subtitles <span class="caret"></span> &nbsp;
 						</a>
 						<ul class="dropdown-menu">
-							<li><a class="btn" href="AllSubtitles.jsp" style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">All Subtitles</a></li>
+							<li><a class="btn" href="AllSubtitles.jsp"
+								style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">All
+									Subtitles</a></li>
 							<li><a class="btn" href="NewReleases.jsp">New Subtitles</a></li>
-							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured Subtitles</a></li>
-							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming Subtitles</a></li>
-							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming Movies </a></li>
+							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured
+									Subtitles</a></li>
+							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming
+									Subtitles</a></li>
+							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming
+									Movies </a></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a
 								class="btn test dropright" href="#">Filter by Categories<span
 									class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li><a class="btn" href="Category_Adventure.jsp">Adventure</a></li>
-									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
+									<li><a class="btn" href="Category_Detective.jsp">Action</a></li>
 									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
 									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
-									<li><a class="btn" href="Category_TvSeries.jsp">TV Series</a></li>
+									<li><a class="btn" href="Category_TvSeries.jsp">TV
+											Series</a></li>
 								</ul></li>
 						</ul>
 					</div>
@@ -123,15 +129,17 @@
 
 	</nav>
 	<!-- Google Translator Widget -->
-	<a class="btn btn-light btn-sm float-right" id="google_translate_element"></a>
+	<a class="btn btn-light btn-sm float-right"
+		id="google_translate_element"></a>
 	<!-- Advances settings button -->
-	<a class="btn btn-light btn-sm float-right" href="AdvancedSearch.jsp"> Advanced
-		Search</a>
+	<a class="btn btn-light btn-sm float-right" href="AdvancedSearch.jsp">
+		Advanced Search</a>
 	<nav aria-label="breadcrumb">
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
 			<li class="breadcrumb-item"><a href="#">Subtitles</a></li>
-			<li class="breadcrumb-item active" aria-current="page">All Subtitles</li>
+			<li class="breadcrumb-item active" aria-current="page">All
+				Subtitles</li>
 
 		</ol>
 	</nav>
@@ -167,11 +175,13 @@
 									<h5 class="card-title">
 										<b>Aladdin</b>
 									</h5>
-									<p class="card-text">A kind-hearted street urchin and a
-										power-hungry Grand Vizier vie for a magic lamp that has the
-										power to make their deepest wishes come true.</p>
-									<a href="Mov_Aladdin.jsp" class="btn btn-primary">Download</a>
-									&nbsp; &nbsp; &nbsp; <a
+									<p class="card-text">
+										A kind-hearted street urchin and a power-hungry Grand Vizier
+										vie for a magic lamp that has the power to make their deepest
+										wishes come true...<a href="Mov_Aladdin.jsp">Read More</a>
+									</p>
+									<a href="ZipFiles/test_file.zip" download
+										class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
 										href="https://www.imdb.com/title/tt6139732/?ref_=tt_sims_tti"
 										class="btn btn-warning">IMDB link</a>
 								</div>
@@ -184,11 +194,13 @@
 									<h5 class="card-title">
 										<b>The Lion King</b>
 									</h5>
-									<p class="card-text">After the murder of his father, a
-										young lion prince flees his kingdom only to learn the true
-										meaning of responsibility and bravery.</p>
-									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-									&nbsp; <a
+									<p class="card-text">
+										After the murder of his father, a young lion prince flees his
+										kingdom only to learn the true meaning of responsibility and
+										bravery...<a href="Mov_LionKing.jsp">Read More</a>
+									</p>
+									<a href="ZipFiles/test_file.zip" download
+										class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
 										href="https://www.imdb.com/title/tt6105098/?ref_=nv_sr_1?ref_=nv_sr_1"
 										class="btn btn-warning">IMDB link</a>
 								</div>
@@ -201,11 +213,13 @@
 									<h5 class="card-title">
 										<b>Dark Phoenix</b>
 									</h5>
-									<p class="card-text">Jean Grey begins to develop incredible
-										powers that corrupt and turn her into a Dark Phoenix. Now the
-										X-Men will have to decide if the life...</p>
-									<a href="Mov_DarkPhoenix.jsp" class="btn btn-primary">Download</a>
-									&nbsp; &nbsp; &nbsp; <a
+									<p class="card-text">
+										Jean Grey begins to develop incredible powers that corrupt and
+										turn her into a Dark Phoenix. Now the X-Men will have to
+										decide...<a href="Mov_DarkPhoenix.jsp">Read More</a>
+									</p>
+									<a href="ZipFiles/test_file.zip" download
+										class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
 										href="https://www.imdb.com/title/tt6565702/?ref_=nv_sr_1?ref_=nv_sr_1"
 										class="btn btn-warning">IMDB link</a>
 								</div>
@@ -218,11 +232,13 @@
 									<h5 class="card-title">
 										<b>Dora and the Lost City of Gold</b>
 									</h5>
-									<p class="card-text">Dora, a teenage explorer, leads her
-										friends on an adventure to save her parents and solve the
-										mystery behind a lost city...</p>
-									<a href="Mov_DarkPhoenix.jsp" class="btn btn-primary">Download</a>
-									&nbsp; &nbsp; &nbsp; <a
+									<p class="card-text">
+										Dora, a teenage explorer, leads her friends on an adventure to
+										save her parents and solve the mystery...<a
+											href="Mov_Dora.jsp">Read More</a>
+									</p>
+									<a href="ZipFiles/test_file.zip" download
+										class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
 										href="https://www.imdb.com/title/tt7547410/?ref_=inth_ov_tt"
 										class="btn btn-warning">IMDB link</a>
 								</div>

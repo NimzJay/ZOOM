@@ -23,7 +23,7 @@ $(document).ready(function() {
 				},
 				username : {
 					required : true,
-					minlength : 6,
+					minlength : 4,
 					maxlength : 10
 				},
 				displayname : {

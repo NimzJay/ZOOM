@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Detective Category | Zoom.lk</title>
+<title>Action Category | Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
 <link rel="stylesheet" type="text/css" href="Styles/menu.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">
@@ -79,9 +79,9 @@
 									by Categories<span class="caret"></span>
 							</a>
 								<ul class="dropdown-menu">
-									<li><a class="btn" href="Category_Adventure.jsp">Adventure</a></li>
-									<li><a class="btn" href="Category_Detective.jsp"
-										style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">Detective</a></li>
+									<li><a class="btn" href="Category_Adventure.jsp"
+										style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">Adventure</a></li>
+									<li><a class="btn" href="Category_Detective.jsp">Action</a></li>
 									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
 									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
 									<li><a class="btn" href="Category_TvSeries.jsp">TV
@@ -138,7 +138,7 @@
 			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
 			<li class="breadcrumb-item"><a href="#">Subtitles</a></li>
 			<li class="breadcrumb-item"><a href="#">Filter by Category</a></li>
-			<li class="breadcrumb-item active" aria-current="page">Detective</li>
+			<li class="breadcrumb-item active" aria-current="page">Action</li>
 
 		</ol>
 	</nav>
@@ -146,8 +146,11 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="container">
+					<div class="row justify-content-around">
+						<a class="float-right" id="google_translate_element"></a>
+					</div>
 					<h1 class="display-4">
-						Category - <b>Detective</b>
+						Category - <b>Action</b>
 					</h1>
 					<br>
 					<!-- Search Featured subtitles -->
@@ -161,8 +164,8 @@
 					</div>
 					<br>
 					<div class="row">
-						<div class="col-sm-4">
-							<div class="card" style="width: 16rem;">
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
 								<img class="card-img-top" src="pix/Diva1.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
@@ -171,18 +174,16 @@
 									<p class="card-text">Memento chronicles two separate
 										stories of Leonard, an ex-insurance investigator who can no
 										longer build new memories, as he attempts to find the murderer
-										of his wife, which is the last thing he remembers. One story
-										line moves forward in time while the other tells the story
-										backwards revealing more each time. Written by Scion013.</p>
-									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-									&nbsp; <a
+										of his wife, which is the last thing he remembers.</p>
+									<a href="Mov_Memento.jsp" class="btn btn-primary">Download</a>
+									&nbsp; &nbsp; &nbsp; <a
 										href="https://www.imdb.com/title/tt0209144/?ref_=ttls_li_tt"
 										class="btn btn-warning">IMDB link</a>
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-4">
-							<div class="card" style="width: 16rem;">
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
 								<img class="card-img-top" src="pix/Diva2.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
@@ -192,17 +193,16 @@
 										Francisco detective agency. That's for Sam Spade and Miles
 										Archer. The two men are partners, but Sam doesn't like Miles
 										much. A knockout, who goes by the name of Miss Wonderly, walks
-										into their office; and by that night everything's changed.
-										Miles is dead. And so is a man named Floyd Thursby.</p>
-									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+										into their office</p>
+									<a href="Mov_MalteseFalcon.jsp" class="btn btn-primary">Download</a> &nbsp; &nbsp;
 									&nbsp; <a
 										href="https://www.imdb.com/title/tt0033870/?ref_=ttls_li_tt"
 										class="btn btn-warning">IMDB link</a>
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-4">
-							<div class="card" style="width: 16rem;">
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
 								<img class="card-img-top" src="pix/Diva3.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
@@ -211,9 +211,7 @@
 									<p class="card-text">The lonely teenager Brendan finds his
 										former girlfriend Emily dead in the entrance of a tunnel of
 										sewage and recalls her phone call two days ago, when she said
-										to him that she was in trouble. Brendan, who still loved
-										Emily, met bad elements of his high-school trying to contact
-										her, and when he succeeded, she told him that she was OK.</p>
+										to him that she was in trouble.</p>
 									<a href="Mov_DarkPhoenix.jsp" class="btn btn-primary">Download</a>
 									&nbsp; &nbsp; &nbsp; <a
 										href="https://www.imdb.com/title/tt0393109/?ref_=ttls_li_tt"
@@ -221,11 +219,8 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<br>
-					<div class="row">
-						<div class="col-sm-4">
-							<div class="card" style="width: 16rem;">
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
 								<img class="card-img-top" src="pix/Diva4.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
@@ -235,13 +230,7 @@
 										Foster) works hard to advance her career, while trying to hide
 										or put behind her West Virginia roots, of which if some knew,
 										would automatically classify her as being backward or white
-										trash. After graduation, she aspires to work in the agency's
-										Behavioral Science Unit under the leadership of Jack Crawford
-										(Scott Glenn). While she is still a trainee, Crawford asks her
-										to question Dr. Hannibal Lecter (Sir Anthony Hopkins), a
-										psychiatrist imprisoned, thus far, for eight years in maximum
-										security isolation for being a serial killer who cannibalized
-										his victims.</p>
+										trash.</p>
 									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
 									&nbsp; <a
 										href="https://www.imdb.com/title/tt0102926/?ref_=ttls_li_tt"
@@ -249,8 +238,11 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-4">
-							<div class="card" style="width: 16rem;">
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
 								<img class="card-img-top" src="pix/Diva5.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
@@ -260,13 +252,7 @@
 										investigator Jake 'J.J.' Gittes specializes in cheating-spouse
 										cases. His current target is Hollis Mulwray, high-profile
 										chief engineer for the Los Angeles Department of Water and
-										Power, whose wife suspects him of infidelity. In following
-										Mulwray, Gittes witnesses some usual business dealings, such
-										as a public meeting for construction of a new dam to create
-										additional water supply for Los Angeles, as fresh water is
-										vital to the growing community during the chronic drought;
-										Mulwray opposes the dam. Eventually Gittes sees Mulwray
-										meeting with an unknown young woman who isn't his wife.</p>
+										Power, whose wife suspects him of infidelity.</p>
 									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
 									&nbsp; <a
 										href="https://www.imdb.com/title/tt0071315/?ref_=ttls_li_tt"
@@ -274,8 +260,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-4">
-							<div class="card" style="width: 16rem;">
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
 								<img class="card-img-top" src="pix/Diva6.jpg" alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
@@ -284,16 +270,136 @@
 									<p class="card-text">A film about two homicide detectives'
 										(Morgan Freeman and Brad Pitt) desperate hunt for a serial
 										killer who justifies his crimes as absolution for the world's
-										ignorance of the Seven Deadly Sins. The movie takes us from
-										the tortured remains of one victim to the next as the
-										sociopathic "John Doe" (Kevin Spacey) sermonizes to Detectives
-										Somerset and Mills -- one sin at a time. The sin of Gluttony
-										comes first and the murderer's terrible capacity is
-										graphically demonstrated in the dark and subdued tones
-										characteristic of film noir.</p>
+										ignorance of the Seven Deadly Sins.</p>
+									<br> <br> <br> <a href="#"
+										class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
+										href="https://www.imdb.com/title/tt0114369/?ref_=ttls_li_tt"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/Diva7.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>Wonder Woman (2017)</b>
+									</h5>
+									<p class="card-text">Diana, princess of the Amazons,
+										trained to be an unconquerable warrior. Raised on a sheltered
+										island paradise, when a pilot crashes on their shores and
+										tells of a massive conflict raging in the outside world, Diana
+										leaves her home, convinced she can stop the threat.</p>
 									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
 									&nbsp; <a
-										href="https://www.imdb.com/title/tt0114369/?ref_=ttls_li_tt"
+										href="https://www.imdb.com/title/tt0451279/?ref_=nv_sr_2?ref_=nv_sr_2"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/Diva8.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>Avengers: Endgame (2019)</b>
+									</h5>
+									<p class="card-text">After the devastating events of
+										Avengers: Infinity War (2018), the universe is in ruins due to
+										the efforts of the Mad Titan, Thanos. With the help of
+										remaining allies, the Avengers must assemble once more in
+										order to undo Thanos's actions and undo the chaos to the
+										universe, no matter what consequences may be in store, and no
+										matter who they face..</p>
+									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+									&nbsp; <a
+										href="https://www.imdb.com/title/tt4154796/?ref_=nv_sr_1?ref_=nv_sr_1"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/Diva9.jpg" alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>Captain Marvel (2019)</b>
+									</h5>
+									<p class="card-text">After crashing an experimental
+										aircraft, Air Force pilot Carol Danvers is discovered by the
+										Kree and trained as a member of the elite Starforce Military
+										under the command of her mentor Yon-Rogg. Six years later,
+										after escaping to Earth while under attack by the Skrulls,
+										Danvers begins to discover there's more to her past.</p>
+									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+									&nbsp; <a
+										href="https://www.imdb.com/title/tt4154664/?ref_=nv_sr_1?ref_=nv_sr_1"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/Diva10.jpg"
+									alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>Rambo: Last Blood (2019)</b>
+									</h5>
+									<p class="card-text">Almost four decades after they drew
+										first blood, Sylvester Stallone is back as one of the greatest
+										action heroes of all time, John Rambo. Now, Rambo must
+										confront his past and unearth his ruthless combat skills to
+										exact revenge in a final mission.</p>
+									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+									&nbsp; <a
+										href="https://www.imdb.com/title/tt1206885/?ref_=nv_sr_1?ref_=nv_sr_1"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/Diva11.jpg"
+									alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b>Avengers: Infinity War</b>
+									</h5>
+									<p class="card-text">As the Avengers and their allies have
+										continued to protect the world from threats too large for any
+										one hero to handle, a new danger has emerged from the cosmic
+										shadows: Thanos. A despot of intergalactic infamy, his goal is
+										to collect all six Infinity Stones, artifacts of unimaginable
+										power, and use them to inflict his twisted will on all of
+										reality.</p>
+									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+									&nbsp; <a
+										href="https://www.imdb.com/title/tt4154756/?ref_=nv_sr_1?ref_=nv_sr_1"
+										class="btn btn-warning">IMDB link</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="card h-100" style="width: 16rem;">
+								<img class="card-img-top" src="pix/Diva12.jpg"
+									alt="Movie Poster">
+								<div class="card-body">
+									<h5 class="card-title">
+										<b> Black Panther (2018) </b>
+									</h5>
+									<p class="card-text">After the events of Captain America:
+										Civil War, Prince T'Challa returns home to the reclusive,
+										technologically advanced African nation of Wakanda to serve as
+										his country's new king. However, T'Challa soon finds that he
+										is challenged for the throne from factions within his own
+										country.</p>
+									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
+									&nbsp; <a
+										href="https://www.imdb.com/title/tt1825683/?ref_=nv_sr_1?ref_=nv_sr_1"
 										class="btn btn-warning">IMDB link</a>
 								</div>
 							</div>
@@ -390,11 +496,11 @@
 							href="https://www.imdb.com/">IMdB</a>
 					</p>
 					<p>
-						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Downloads</a>
+						<a class="btn btn-outline-light btn-block" href="AllSubtitles.jsp">Subtitles</a>
 					</p>
 					<p>
 						<a class="btn btn-outline-light btn-block"
-							href="UpcomingMovies.jsp">Upcoming Subtitles</a>
+							href="UpcomingSubtitles.jsp">Upcoming Subtitles</a>
 					</p>
 					<p>
 						<a class="btn btn-outline-light btn-block" href="NewReleases.jsp">New
