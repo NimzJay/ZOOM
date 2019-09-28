@@ -69,7 +69,7 @@
 							<li><a class="btn" href="NewReleases.jsp">New Subtitles</a></li>
 							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured
 									Subtitles</a></li>
-							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming
+							<li><a class="btn" href="UpcomingSubtitles.jsp" style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">Upcoming
 									Subtitles</a></li>
 							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming
 									Movies </a></li>
@@ -133,7 +133,7 @@
 	<nav aria-label="breadcrumb">
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
-			<li class="breadcrumb-item"><a href="Help.jsp">Help</a></li>
+			<li class="breadcrumb-item"><a href="#">Subtitles</a></li>
 			<li class="breadcrumb-item active" aria-current="page">Upcoming
 				Subtitles</li>
 		</ol>

@@ -65,15 +65,15 @@
 							Subtitles <span class="caret"></span> &nbsp;
 						</a>
 						<ul class="dropdown-menu">
-							<li><a class="btn" href="AllSubtitles.jsp"
-								style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">All
+							<li><a class="btn" href="AllSubtitles.jsp">All
 									Subtitles</a></li>
 							<li><a class="btn" href="NewReleases.jsp">New Subtitles</a></li>
 							<li><a class="btn" href="FeaturedSubtitles.jsp">Featured
 									Subtitles</a></li>
 							<li><a class="btn" href="UpcomingSubtitles.jsp">Upcoming
 									Subtitles</a></li>
-							<li><a class="btn" href="UpcomingMovies.jsp">Upcoming
+							<li><a class="btn" href="UpcomingMovies.jsp"
+								style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">Upcoming
 									Movies </a></li>
 							<li><div class="dropdown-divider"></div></li>
 							<li class="dropdown-submenu dropright"><a
@@ -389,7 +389,8 @@
 						</div>
 						<div class="col-sm-3">
 							<div class="card h-100" style="width: 16rem;">
-								<img class="card-img-top" src="pix/sali12.jpg" alt="Movie Poster">
+								<img class="card-img-top" src="pix/sali12.jpg"
+									alt="Movie Poster">
 								<div class="card-body">
 									<h5 class="card-title">
 										<b>Ford v Ferrari </b>

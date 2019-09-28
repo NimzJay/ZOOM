@@ -82,10 +82,10 @@
 								<ul class="dropdown-menu">
 									<li><a class="btn" href="Category_Adventure.jsp">Adventure</a></li>
 									<li><a class="btn" href="Category_Detective.jsp">Action</a></li>
-									<li><a class="btn" href="Category_Horror.jsp"
-										style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">Horror</a></li>
+									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
 									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
-									<li><a class="btn" href="Category_TvSeries.jsp">TV
+									<li><a class="btn" href="Category_TvSeries.jsp"
+										style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">TV
 											Series</a></li>
 								</ul></li>
 						</ul>
@@ -172,8 +172,8 @@
 								S2.E18. Austin City Limits. Jason turns to Miles with crucial
 								information about...<a href="Tvs_Revolution.jsp">Read More</a></p>
 						</div>
-						<br> <a href="ZipFiles/test_file.zip" download class="btn btn-primary">Download</a> &nbsp;
-						&nbsp; &nbsp; <a
+						<br> <a href="ZipFiles/test_file.zip" download
+							class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
 							href="https://www.imdb.com/title/tt2070791/episodes"
 							class="btn btn-warning">IMDB link</a>
 					</div>
@@ -187,13 +187,16 @@
 							<b>Criminal Justice 2019 Hindi S01 E10</b>
 						</h5>
 						<div class="text-justify">
-							<p class="card-text">Criminal Justice is an Indian series
-								based on Criminal Justice by Peter Moffat, adapted for India by
-								Shridhar Raghavan streaming on Hotstar on its new label Hotstar
-								Specials on...<a href="#">Read More</a></p>
+							<p class="card-text">
+								Criminal Justice is an Indian series based on Criminal Justice
+								by Peter Moffat, adapted for India by Shridhar Raghavan
+								streaming on Hotstar on its new label Hotstar Specials on...<a
+									href="#">Read More</a>
+							</p>
 						</div>
-						<br> <a href="ZipFiles/test_file.zip" download class="btn btn-primary">Download</a> &nbsp;
-						&nbsp; &nbsp; <a href="https://www.imdb.com/title/tt9095260/"
+						<br> <a href="ZipFiles/test_file.zip" download
+							class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
+							href="https://www.imdb.com/title/tt9095260/"
 							class="btn btn-warning">IMDB link</a>
 					</div>
 				</div>
@@ -206,13 +209,15 @@
 							<b>Breaking Bad TV Series [2008-2013]</b>
 						</h5>
 						<div class="text-justify">
-							<p class="card-text">Breaking Bad is an American neo-Western
-								crime drama television series created and produced by Vince
-								Gilligan. The show originally aired on AMC for five seasons,
-								from January 20...<a href="#">Read More</a></p>
+							<p class="card-text">
+								Breaking Bad is an American neo-Western crime drama television
+								series created and produced by Vince Gilligan. The show
+								originally aired on AMC for five seasons, from January 20...<a
+									href="#">Read More</a>
+							</p>
 						</div>
-						<br> <a href="ZipFiles/test_file.zip" download class="btn btn-primary">Download</a>
-						&nbsp; &nbsp; &nbsp; <a
+						<br> <a href="ZipFiles/test_file.zip" download
+							class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
 							href="https://www.imdb.com/title/tt0903747/"
 							class="btn btn-warning">IMDB link</a>
 					</div>
@@ -226,13 +231,15 @@
 							<b>Twin Peaks TV Series [1990-1991]</b>
 						</h5>
 						<div class="text-justify">
-							<p class="card-text">Twin Peaks is an American mystery horror
-								drama television series created by Mark Frost and David Lynch
-								that premiered on April 8, 1990, on ABC. The series developed a
-								notably loyal...<a href="#">Read More</a></p>
+							<p class="card-text">
+								Twin Peaks is an American mystery horror drama television series
+								created by Mark Frost and David Lynch that premiered on April 8,
+								1990, on ABC. The series developed a notably loyal...<a href="#">Read
+									More</a>
+							</p>
 						</div>
-						<br> <a href="ZipFiles/test_file.zip" download class="btn btn-primary">Download</a>
-						&nbsp; &nbsp; &nbsp; <a
+						<br> <a href="ZipFiles/test_file.zip" download
+							class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
 							href="https://www.imdb.com/title/tt0098936/"
 							class="btn btn-warning">IMDB link</a>
 					</div>

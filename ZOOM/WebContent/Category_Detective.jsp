@@ -79,9 +79,9 @@
 									by Categories<span class="caret"></span>
 							</a>
 								<ul class="dropdown-menu">
-									<li><a class="btn" href="Category_Adventure.jsp"
-										style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">Adventure</a></li>
-									<li><a class="btn" href="Category_Detective.jsp">Action</a></li>
+									<li><a class="btn" href="Category_Adventure.jsp">Adventure</a></li>
+									<li><a class="btn" href="Category_Detective.jsp"
+										style="background-color: #c0c0c0; width: 100%; border-radius: 0px;">Action</a></li>
 									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
 									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
 									<li><a class="btn" href="Category_TvSeries.jsp">TV
@@ -171,12 +171,15 @@
 									<h5 class="card-title">
 										<b>Memento</b>
 									</h5>
-									<p class="card-text">Memento chronicles two separate
-										stories of Leonard, an ex-insurance investigator who can no
-										longer build new memories, as he attempts to find the murderer
-										of his wife, which is the last thing he remembers.</p>
-									<a href="Mov_Memento.jsp" class="btn btn-primary">Download</a>
-									&nbsp; &nbsp; &nbsp; <a
+									<p class="card-text">
+										Memento chronicles two separate stories of Leonard, an
+										ex-insurance investigator who can no longer build new
+										memories, as he attempts to find the murderer of his wife,
+										which is the last thing he remembers...<a
+											href="Mov_Memento.jsp">Read More</a>
+									</p>
+									<a href="ZipFiles/test_file.zip" download
+										class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
 										href="https://www.imdb.com/title/tt0209144/?ref_=ttls_li_tt"
 										class="btn btn-warning">IMDB link</a>
 								</div>
@@ -189,13 +192,15 @@
 									<h5 class="card-title">
 										<b>The Maltese Falcon</b>
 									</h5>
-									<p class="card-text">Spade and Archer is the name of a San
-										Francisco detective agency. That's for Sam Spade and Miles
-										Archer. The two men are partners, but Sam doesn't like Miles
-										much. A knockout, who goes by the name of Miss Wonderly, walks
-										into their office</p>
-									<a href="Mov_MalteseFalcon.jsp" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-									&nbsp; <a
+									<p class="card-text">
+										Spade and Archer is the name of a San Francisco detective
+										agency. That's for Sam Spade and Miles Archer. The two men are
+										partners, but Sam doesn't like Miles much. A knockout, who
+										goes by the name of Miss Wonderly, walks into their office...<a
+											href="Mov_MalteseFalcon.jsp">Read More</a>
+									</p>
+									<a href="ZipFiles/test_file.zip" download
+										class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
 										href="https://www.imdb.com/title/tt0033870/?ref_=ttls_li_tt"
 										class="btn btn-warning">IMDB link</a>
 								</div>
@@ -208,12 +213,14 @@
 									<h5 class="card-title">
 										<b>Brick</b>
 									</h5>
-									<p class="card-text">The lonely teenager Brendan finds his
-										former girlfriend Emily dead in the entrance of a tunnel of
-										sewage and recalls her phone call two days ago, when she said
-										to him that she was in trouble.</p>
-									<a href="Mov_DarkPhoenix.jsp" class="btn btn-primary">Download</a>
-									&nbsp; &nbsp; &nbsp; <a
+									<p class="card-text">
+										The lonely teenager Brendan finds his former girlfriend Emily
+										dead in the entrance of a tunnel of sewage and recalls her
+										phone call two days ago, when she said to him that she was in
+										trouble....<a href="#">Read More</a>
+									</p>
+									<a href="ZipFiles/test_file.zip" download
+										class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
 										href="https://www.imdb.com/title/tt0393109/?ref_=ttls_li_tt"
 										class="btn btn-warning">IMDB link</a>
 								</div>
@@ -226,13 +233,15 @@
 									<h5 class="card-title">
 										<b>The Silence of the Lambs (1991) 2</b>
 									</h5>
-									<p class="card-text">F.B.I. trainee Clarice Starling (Jodie
-										Foster) works hard to advance her career, while trying to hide
-										or put behind her West Virginia roots, of which if some knew,
-										would automatically classify her as being backward or white
-										trash.</p>
-									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
-									&nbsp; <a
+									<p class="card-text">
+										F.B.I. trainee Clarice Starling (Jodie Foster) works hard to
+										advance her career, while trying to hide or put behind her
+										West Virginia roots, of which if some knew, would
+										automatically classify her as being backward or white
+										trash....<a href="#">Read More</a>
+									</p>
+									<a href="ZipFiles/test_file.zip" download
+										class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
 										href="https://www.imdb.com/title/tt0102926/?ref_=ttls_li_tt"
 										class="btn btn-warning">IMDB link</a>
 								</div>
