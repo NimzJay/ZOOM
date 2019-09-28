@@ -170,7 +170,7 @@
 							<p class="card-text">Fifteen years after a permanent global
 								blackout, a group of revolutionaries seeks to drive out an ...
 								S2.E18. Austin City Limits. Jason turns to Miles with crucial
-								information about...<a href="#">Read More</a></p>
+								information about...<a href="Tvs_Revolution.jsp">Read More</a></p>
 						</div>
 						<br> <a href="ZipFiles/test_file.zip" download class="btn btn-primary">Download</a> &nbsp;
 						&nbsp; &nbsp; <a

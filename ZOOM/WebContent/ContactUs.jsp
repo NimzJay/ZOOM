@@ -26,6 +26,11 @@
 <script type="text/javascript"
 	src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
+<script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+<script type="text/javascript" src="js/jquery.validate.js"></script>
+<script type="text/javascript" src="jQuery/ContactUsValidation.js"></script>
+<link rel="stylesheet" type="text/css" href="Styles/validationLabel.css">
+
 <script type="text/javascript">
 	function googleTranslateElementInit() {
 		new google.translate.TranslateElement({
@@ -144,25 +149,25 @@
 				<div class="col-5" style="padding-left: 110px;">
 					<h1 class="display-4">Contact Us</h1>
 					<h2>Your Details</h2>
-					<form>
+					<form id="Cform">
 						<div class="form-row">
 							<div class="form-group col-md-12">
 								<label for="inputname">Your Name</label> <input type="text"
-									class="form-control" placeholder="Your Name" required>
+									class="form-control" name="Yname" placeholder="Your Name" >
 							</div>
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-12">
 								<label for="inputemail">Email</label> <input type="email"
-									class="form-control" id="inputemail" placeholder="email"
-									required>
+									class="form-control" id="inputemail" name="email" placeholder="email"
+									>
 							</div>
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-12">
 								<label for="inputsubject">Subject</label> <input type="subject"
 									class="form-control" id="inputsubject"
-									placeholder="Subject of the message" required>
+									name="subject" placeholder="Subject of the message" >
 							</div>
 						</div>
 						<div class="form-row">
@@ -170,7 +175,7 @@
 								<label for="Message">Your Message</label>
 								<div class="col-md-12">
 									<textarea class="form-control rounded-0 col-md-12" id="message"
-										rows="3" placeholder="write message"></textarea>
+										rows="3" name="message" placeholder="write message"></textarea>
 								</div>
 							</div>
 						</div>

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Passengers | Zoom.lk</title>
+<title>Revolution | Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -132,7 +132,7 @@
 	<nav aria-label="breadcrumb">
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
-			<li class="breadcrumb-item active" aria-current="page">Passengers
+			<li class="breadcrumb-item active" aria-current="page">Revolution
 				Subtitles</li>
 		</ol>
 	</nav>
@@ -142,30 +142,29 @@
 		<div class="row">
 			<div class="col-md-3 justify-content-center">
 				<p style="text-align: center;">
-					<img class="img-fluid" src="pix/m37.jpg" width="250px"><br>
-					<br> <a class="btn btn-primary w-75" href="https://www.imdb.com/title/tt1355644/">Download</a>
+					<img class="img-fluid" src="pix/m38.jpg" width="250px"><br>
+					<br> <a class="btn btn-primary w-75" href="https://www.imdb.com/title/tt2070791/">Download</a>
 				</p>
 			</div>
 			<div class="col-md-9">
-				<h1 class="display-4" style="color: black;">Passengers (2016)
+				<h1 class="display-4" style="color: black;">Revolution (2013)
 					Sinhala Subtitles</h1>
-				<h4 class="display-8 text-primary">Romance, Family, Fantasy</h4>
+				<h4 class="display-8 text-primary">Tv Series, Family, Fantasy</h4>
 				<div class="row ">
 					<div class="col-md-5 ">
 						<p>
-							<br>On a routine journey through space to a new home, 
-							two passengers, sleeping in suspended animation, are awakened 90 years 
-							too early when their ship malfunctions. As Jim and Aurora face living the 
-							rest of their lives on board, with every luxury they could ever ask for, 
-							they begin to fall for each other, unable to deny their intense attraction until they discover 
-							the ship is in grave danger. With the lives of 5,000 sleeping passengers at stake, 
-							only Jim and Aurora can save them all.
+							<br>Fifteen years after an unknown event caused all electricity to stop working, plunging the world 
+							back into the dark ages, people have adjusted to life without planes and communication and electric lights.
+							 In small farming communities, life seems sweeter at this slower pace, but danger and mystery lurk 
+							 beyond the shadows. After the militia kills a man who supposedly had something to do with the blackout, 
+							 his daughter teams up with two unlikely allies and sets out to find the truth about the past, 
+							 in order to reclaim the future.
 						</p>
 						<br> <br>
 					</div>
 					<div class="col-md-5 ">
 
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/7BWWWQzTpNU" 
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/y4Bq-h2JCSE" 
 						frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 						allowfullscreen></iframe>
 						<br> <br>
@@ -192,7 +191,7 @@
 					<li class="list-group-item">
 						<div class="row">
 							<div class="col-md-5 text-secondary">RELEASED</div>
-							<div class="col-md-7 text-right">22 Dec 2016</div>
+							<div class="col-md-7 text-right">22 May 2013</div>
 						</div>
 					</li>
 				</ul>
@@ -215,7 +214,7 @@
 						<div class="row">
 							<div class="col-md-5 text-secondary">WEBSITE</div>
 							<div class="col-md-7 text-right">
-								<a href="https://Passengers">https://Passengers</a>
+								<a href="https://Passengers">https://Revolution</a>
 							</div>
 						</div>
 					</li>
