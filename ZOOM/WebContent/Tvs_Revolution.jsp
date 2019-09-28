@@ -3,11 +3,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 <meta charset="ISO-8859-1">
-<title>Contact Us | Zoom.lk</title>
+<title>Revolution | Zoom.lk</title>
 <link rel="stylesheet" type="text/css" href="Styles/main.css">
-<link rel="stylesheet" type="text/css" href="Styles/loginRegister.css">
 <link rel="icon" type="image/png" href="pix/favicon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
@@ -26,11 +24,6 @@
 <script type="text/javascript"
 	src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-<script type="text/javascript" src="js/jquery-3.4.1.js"></script>
-<script type="text/javascript" src="js/jquery.validate.js"></script>
-<script type="text/javascript" src="jQuery/ContactUsValidation.js"></script>
-<link rel="stylesheet" type="text/css" href="Styles/validationLabel.css">
-
 <script type="text/javascript">
 	function googleTranslateElementInit() {
 		new google.translate.TranslateElement({
@@ -40,9 +33,9 @@
 		}, 'google_translate_element');
 	}
 </script>
-
 </head>
-<body>
+<body style="background-color: #E9ECEF">
+	<!-- Navigation Bar -->
 	<nav class="navbar navbar-expand-xl bg-dark navbar-dark sticky-top"
 		style="border-bottom: 1px; border-color: white;">
 		<a class="navbar-brand" href="index.jsp"> <img src="pix/logo.png"
@@ -66,8 +59,8 @@
 					<div class="dropdown">
 						<a class="nav-link dropdown-toggle" href="#"
 							id="navbarDropdownMenuLink" data-toggle="dropdown"
-							aria-haspopup="true" aria-expanded="false"> Subtitles <span
-							class="caret"></span> &nbsp;
+							aria-haspopup="true" aria-expanded="false" style="color: white;">
+							Subtitles <span class="caret"></span> &nbsp;
 						</a>
 						<ul class="dropdown-menu">
 							<li><a class="btn" href="AllSubtitles.jsp">All Subtitles</a></li>
@@ -84,7 +77,7 @@
 									class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li><a class="btn" href="Category_Adventure.jsp">Adventure</a></li>
-									<li><a class="btn" href="Category_Detective.jsp">Action</a></li>
+									<li><a class="btn" href="Category_Detective.jsp">Detective</a></li>
 									<li><a class="btn" href="Category_Horror.jsp">Horror</a></li>
 									<li><a class="btn" href="Category_Romance.jsp">Romance</a></li>
 									<li><a class="btn" href="Category_TvSeries.jsp">TV
@@ -99,8 +92,8 @@
 						&nbsp;</a></li>
 				<li class="nav-item"><a class="nav-link" href="Help.jsp">Help
 						&nbsp; </a></li>
-				<li class="nav-item active"><a class="nav-link"
-					href="ContactUs.jsp">Contact Us &nbsp; </a></li>
+				<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact
+						Us &nbsp; </a></li>
 				<li class="nav-item"><a class="nav-link"
 					href="GeneralSettings.jsp">Settings &nbsp; &nbsp;</a></li>
 				<li class="nav-item">
@@ -130,76 +123,109 @@
 		</script>
 
 	</nav>
-	<div class="main">
-		<nav aria-label="breadcrumb">
-			<ol class="breadcrumb">
-				<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
-				<li class="breadcrumb-item active" aria-current="page">Contact
-					Us</li>
-			</ol>
-		</nav>
-		<div class="wrapper cont">
-			<!-- Google Translator Widget -->
-			<a class="btn btn-light btn-sm float-right"
-				id="google_translate_element"></a>
-			<!-- Advances settings button -->
-			<a class="btn btn-light btn-sm float-right" href="AdvancedSearch.jsp">
-				Advanced Search</a>
-			<div class="row">
-				<div class="col-5" style="padding-left: 110px;">
-					<h1 class="display-4">Contact Us</h1>
-					<h2>Your Details</h2>
-					<form id="Cform">
-						<div class="form-row">
-							<div class="form-group col-md-12">
-								<label for="inputname">Your Name</label> <input type="text"
-									class="form-control" name="Yname" placeholder="Your Name" >
-							</div>
-						</div>
-						<div class="form-row">
-							<div class="form-group col-md-12">
-								<label for="inputemail">Email</label> <input type="email"
-									class="form-control" id="inputemail" name="email" placeholder="email"
-									>
-							</div>
-						</div>
-						<div class="form-row">
-							<div class="form-group col-md-12">
-								<label for="inputsubject">Subject</label> <input type="subject"
-									class="form-control" id="inputsubject"
-									name="subject" placeholder="Subject of the message" >
-							</div>
-						</div>
-						<div class="form-row">
-							<div class="form-group col-md-12">
-								<label for="Message">Your Message</label>
-								<div class="col-md-12">
-									<textarea class="form-control rounded-0 col-md-12" id="message"
-										rows="3" name="message" placeholder="write message"></textarea>
-								</div>
-							</div>
-						</div>
-						<br>
-						<div class="form-row">
-							<div class="form-group col-md-6">
-								<input type="reset" value="Reset"
-									class="btn btn-primary btn-block">
-							</div>
-							<div class="form-group col-md-6">
-								<input type="submit" class="btn btn-primary btn-block"
-									value="Send">
-							</div>
-							<br> <br> <br> <br>
-						</div>
-					</form>
-				</div>
-				<div class="col-7">
-					<br> <img class="img-fluid" src="pix/m5.png" height="625px"
-						align="right">
+	<!-- Google Translator Widget -->
+	<a class="btn btn-light btn-sm float-right"
+		id="google_translate_element"></a>
+	<!-- Advances settings button -->
+	<a class="btn btn-light btn-sm float-right" href="AdvancedSearch.jsp">
+		Advanced Search</a>
+	<nav aria-label="breadcrumb">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
+			<li class="breadcrumb-item active" aria-current="page">Revolution
+				Subtitles</li>
+		</ol>
+	</nav>
+
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3 justify-content-center">
+				<p style="text-align: center;">
+					<img class="img-fluid" src="pix/m38.jpg" width="250px"><br>
+					<br> <a class="btn btn-primary w-75" href="https://www.imdb.com/title/tt2070791/">Download</a>
+				</p>
+			</div>
+			<div class="col-md-9">
+				<h1 class="display-4" style="color: black;">Revolution (2013)
+					Sinhala Subtitles</h1>
+				<h4 class="display-8 text-primary">Tv Series, Family, Fantasy</h4>
+				<div class="row ">
+					<div class="col-md-5 ">
+						<p>
+							<br>Fifteen years after an unknown event caused all electricity to stop working, plunging the world 
+							back into the dark ages, people have adjusted to life without planes and communication and electric lights.
+							 In small farming communities, life seems sweeter at this slower pace, but danger and mystery lurk 
+							 beyond the shadows. After the militia kills a man who supposedly had something to do with the blackout, 
+							 his daughter teams up with two unlikely allies and sets out to find the truth about the past, 
+							 in order to reclaim the future.
+						</p>
+						<br> <br>
+					</div>
+					<div class="col-md-5 ">
+
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/y4Bq-h2JCSE" 
+						frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+						allowfullscreen></iframe>
+						<br> <br>
+					</div>
 				</div>
 			</div>
 		</div>
+		<div class="row justify-content-around">
+			<div class="card col-md-5" style="width: 18rem; padding: 5px;">
+				<br> <br>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-md-5 text-secondary">COMPANY</div>
+							<div class="col-md-7 text-right">20th Century Fox</div>
+						</div>
+					</li>
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-md-5 text-secondary">RATED</div>
+							<div class="col-md-7 text-right">PG-13</div>
+						</div>
+					</li>
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-md-5 text-secondary">RELEASED</div>
+							<div class="col-md-7 text-right">22 May 2013</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="card col-md-5" style="width: 18rem; padding: 5px;">
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-md-5 text-secondary">WRITER</div>
+							<div class="col-md-7 text-right">Jon Spaihts</div>
+						</div>
+					</li>
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-md-5 text-secondary">DIRECTOR</div>
+							<div class="col-md-7 text-right">Morton Tyldum</div>
+						</div>
+					</li>
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-md-5 text-secondary">WEBSITE</div>
+							<div class="col-md-7 text-right">
+								<a href="https://Passengers">https://Revolution</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+
+			</div>
+		</div>
 	</div>
+
+	<br>
+	<br>
 	<footer class="page-footer font-small unique-color-dark"
 		style="background-color: #555;">
 		<div style="background-color: #f0ad4e;">

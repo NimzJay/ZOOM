@@ -37,6 +37,11 @@
 
 <script type="text/javascript"
 	src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	
+<script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+<script type="text/javascript" src="js/jquery.validate.js"></script>
+<script type="text/javascript" src="jQuery/EditEmailandPasswordValidation.js"></script>
+<link rel="stylesheet" type="text/css" href="Styles/validationLabel.css">
 
 <script type="text/javascript">
 	function googleTranslateElementInit() {
@@ -204,7 +209,7 @@
 
 
 						</form>
-						<form class="form-horizontal" role="form" style="color: #010101">
+						<form id="passwordReset" class="form-horizontal" role="form" style="color: #010101">
 							<!--Edit Passwords-->
 							&nbsp &nbsp &nbsp &nbsp
 							<h2>Change Password</h2>
@@ -212,16 +217,16 @@
 								&nbsp &nbsp &nbsp &nbsp <label for="Password"
 									class="col-sm-3 col-form-label">New Password</label>
 								<div class="col-md-8">
-									<input type="password" class="form-control" id="pass"
-										placeholder="New Password">
+									<input type="password" class="form-control" name ="pass" id="pass"
+										placeholder="Password">
 								</div>
 							</div>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="confPassword"
 									class="col-sm-3 col-form-label">Confirm Password</label>
 								<div class="col-md-8">
-									<input type="password" class="form-control" id="website"
-										placeholder="Confirm Password">
+									<input type="password" class="form-control" name="repass" id="website"
+										placeholder= "Password">
 								</div>
 							</div>
 
@@ -236,7 +241,7 @@
 								</button>
 							</div>
 						</form>
-						<form class="form-horizontal" role="form" style="color: #010101">
+						<form id = "EmailReset" class="form-horizontal" role="form" style="color: #010101">
 							<!--Edit email-->
 							&nbsp &nbsp &nbsp &nbsp
 							<h2>Change email</h2>
@@ -244,16 +249,16 @@
 								&nbsp &nbsp &nbsp &nbsp <label for="Nemail"
 									class="col-sm-3 col-form-label">New email</label>
 								<div class="col-md-8">
-									<input type="text" class="form-control" id="Nemail"
-										placeholder="New Email">
+									<input type="text" class="form-control" name="email" id="email"
+										placeholder="****@*****.com">
 								</div>
 							</div>
 							<div class="form-group row">
 								&nbsp &nbsp &nbsp &nbsp <label for="confirmEmail"
 									class="col-sm-3 col-form-label">Confirm Email </label>
 								<div class="col-md-8">
-									<input type="text" class="form-control" id="confirmEmail"
-										placeholder="Confirm email">
+									<input type="text" class="form-control" name="Nemail" id="email"
+										placeholder="****@*****.com">
 								</div>
 							</div>
 

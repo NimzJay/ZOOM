@@ -171,11 +171,11 @@
 							<p class="card-text">On a routine journey through space to a
 								new home, two passengers, sleeping in suspended animation, are
 								awakened 90 years too early when their ship malfunctions. As Jim
-								and Aurora...<a href="#">Read More</a></p>
+								and Aurora...<a href="Mov_Passengers.jsp">Read More</a></p>
 						</div>
 						<br> <a href="ZipFiles/test_file.zip" download class="btn btn-primary">Download</a> &nbsp;
 						&nbsp; &nbsp; <a
-							href="https://www.imdb.com/title/tt2070791/episodes"
+							href="https://www.imdb.com/title/tt1355644/"
 							class="btn btn-warning">IMDB link</a>
 					</div>
 				</div>
