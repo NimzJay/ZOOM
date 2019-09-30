@@ -165,7 +165,7 @@
 
 
 
-				<br> <img src="pix/avatar2.jpg" class="rounded-circle"
+				<br> <img src="pix/av.jpg" class="rounded-circle"
 					width="200px" height="200px">
 
 				<h2 style="font-size: 30px"><%=rs.getString("fname")%>&nbsp;<%=rs.getString("lname")%></h2>

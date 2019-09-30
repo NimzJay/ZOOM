@@ -265,21 +265,21 @@
 						<tr>
 							<th scope="row">Audio</th>
 							<td>Audio Files </br> Sub-Categories: <a href="#"
-								class="stretched-link">Original</a>
+								>Original</a>
 							</td>
 							<td>31</td>
 						</tr>
 						<tr>
 							<th scope="row">Video</th>
 							<td>All video files </br> Sub-Categories: <a href="#"
-								class="stretched-link">TV</a>
+								>TV</a>
 							</td>
 							<td>66</td>
 						</tr>
 						<tr>
 							<th scope="row">Subtitles</th>
 							<td>Sinhala Subtitles </br> Sub-Categories: <a
-								href="TvSeries.jsp" class="stretched-link">TV Series</a>
+								href="Category_TvSeries.jsp">TV Series</a>
 							</td>
 							<td>3,771</td>
 						</tr>

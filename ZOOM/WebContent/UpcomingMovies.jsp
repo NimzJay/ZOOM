@@ -196,7 +196,7 @@
 									</h5>
 									<p class="card-text">Sarah Connor and a hybrid cyborg human
 										must protect a young girl from a newly modified liquid
-										Terminator from the future.</p>
+										Terminator from the future.</p><br><br>
 									<a href="https://www.imdb.com/title/tt6450804/"
 										class="btn btn-primary">IMDb Link</a> &nbsp &nbsp &nbsp <a
 										href="https://www.youtube.com/watch?v=rVy1BPd4A0I"
@@ -213,7 +213,7 @@
 									</h5>
 									<p class="card-text">A crew of underwater researchers must
 										scramble to safety after an earthquake devastates their
-										subterranean laboratory.</p>
+										subterranean laboratory.</p><br><br>
 									<a href="https://www.imdb.com/title/tt5774060/"
 										class="btn btn-primary">IMDb Link</a> &nbsp &nbsp &nbsp <a
 										href="https://www.youtube.com/watch?v=tFzFgGGnKu4"
@@ -254,7 +254,7 @@
 										masked vigilantes are treated as outlaws, Watchmen embraces
 										the nostalgia of the original groundbreaking graphic novel of
 										the same name, while attempting to break new ground of its
-										own.</p>
+										own.</p><br><br><br><br>
 									<a
 										href="https://www.imdb.com/title/tt7049682/?ref_=nv_sr_2?ref_=nv_sr_2"
 										class="btn btn-primary">IMDb Link</a> &nbsp &nbsp &nbsp <a
@@ -274,7 +274,7 @@
 										Shining," a now-adult Dan Torrence meets a young girl with
 										similar powers as his and tries to protect her from a cult
 										known as The True Knot who prey on children with powers to
-										remain immortal.</p>
+										remain immortal.</p><br><br><br><br>
 									<a
 										href="https://www.imdb.com/title/tt5606664/?ref_=nv_sr_2?ref_=nv_sr_2"
 										class="btn btn-primary">IMDb Link</a> &nbsp &nbsp &nbsp <a
@@ -294,7 +294,7 @@
 										the Emmys is making a jump to the movies and coming for an
 										Oscar. In one of the most grandiose TV to movie transitions
 										ever, Downton Abbey is attempting to button up its period
-										drama status with one final movie.</p>
+										drama status with one final movie.</p><br><br><br>
 									<a
 										href="https://www.imdb.com/title/tt6398184/?ref_=nv_sr_1?ref_=nv_sr_1"
 										class="btn btn-primary">IMDb Link</a> &nbsp &nbsp &nbsp <a
@@ -338,7 +338,7 @@
 										"plot" per se. Starring Robert Pattinson and Willem Dafoe, the
 										A24 film looks like it will take two lighthouse keepers to the
 										brink of their sanity on a remote island off the coast of
-										Maine.</p>
+										Maine.</p><br><br>
 									<br> <a
 										href="https://www.imdb.com/title/tt7984734/?ref_=nv_sr_1?ref_=nv_sr_1"
 										class="btn btn-primary">IMDb Link</a> &nbsp &nbsp &nbsp <a
@@ -359,8 +359,8 @@
 										Erivo cast in the leading role, the film also features Janelle
 										Monae and fellow Tony winner Leslie Odom Jr. Following
 										Tubman’s harrowing journey out of slavery and her eventual
-										return to the Underground Railroad as a free woman.</p>
-									<br> <br> <br> <a
+										return to the Underground Railroad as a free woman.</p><br>
+									<a
 										href="https://www.imdb.com/title/tt4648786/?ref_=nv_sr_1?ref_=nv_sr_1"
 										class="btn btn-primary">IMDb Link</a> &nbsp &nbsp &nbsp <a
 										href="https://youtu.be/GqoEs4cG6Uw" class="btn btn-warning">Trailer</a>
@@ -379,7 +379,7 @@
 										Scorsese movie? Is this the '90s? The Irishman is set for a
 										release later this year before it moves to Netflix, but it's
 										poised to be a major awards contender—how can it not be with
-										those names attached? Telling the story of Frank Sheeran,</p>
+										those names attached? Telling the story of Frank Sheeran,</p><br><br><br>
 									<a
 										href="https://www.imdb.com/title/tt1302006/mediaindex?ref_=tt_pv_mi_sm"
 										class="btn btn-primary">IMDb Link</a> &nbsp &nbsp &nbsp <a

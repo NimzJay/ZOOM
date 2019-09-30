@@ -176,7 +176,7 @@
 										ex-insurance investigator who can no longer build new
 										memories, as he attempts to find the murderer of his wife,
 										which is the last thing he remembers...<a
-											href="Mov_Memento.jsp">Read More</a>
+											href="Mov_Memento.jsp">Read More</a><br><br>
 									</p>
 									<a href="ZipFiles/test_file.zip" download
 										class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
@@ -217,7 +217,7 @@
 										The lonely teenager Brendan finds his former girlfriend Emily
 										dead in the entrance of a tunnel of sewage and recalls her
 										phone call two days ago, when she said to him that she was in
-										trouble....<a href="#">Read More</a>
+										trouble....<a href="#">Read More</a><br><br><br>
 									</p>
 									<a href="ZipFiles/test_file.zip" download
 										class="btn btn-primary">Download</a> &nbsp; &nbsp; &nbsp; <a
@@ -261,7 +261,7 @@
 										investigator Jake 'J.J.' Gittes specializes in cheating-spouse
 										cases. His current target is Hollis Mulwray, high-profile
 										chief engineer for the Los Angeles Department of Water and
-										Power, whose wife suspects him of infidelity.</p>
+										Power, whose wife suspects him of infidelity.</p><br>
 									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
 									&nbsp; <a
 										href="https://www.imdb.com/title/tt0071315/?ref_=ttls_li_tt"
@@ -298,7 +298,7 @@
 										trained to be an unconquerable warrior. Raised on a sheltered
 										island paradise, when a pilot crashes on their shores and
 										tells of a massive conflict raging in the outside world, Diana
-										leaves her home, convinced she can stop the threat.</p>
+										leaves her home, convinced she can stop the threat.</p><br>
 									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
 									&nbsp; <a
 										href="https://www.imdb.com/title/tt0451279/?ref_=nv_sr_2?ref_=nv_sr_2"
@@ -342,7 +342,7 @@
 										Kree and trained as a member of the elite Starforce Military
 										under the command of her mentor Yon-Rogg. Six years later,
 										after escaping to Earth while under attack by the Skrulls,
-										Danvers begins to discover there's more to her past.</p>
+										Danvers begins to discover there's more to her past.</p><br>
 									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
 									&nbsp; <a
 										href="https://www.imdb.com/title/tt4154664/?ref_=nv_sr_1?ref_=nv_sr_1"
@@ -362,7 +362,7 @@
 										first blood, Sylvester Stallone is back as one of the greatest
 										action heroes of all time, John Rambo. Now, Rambo must
 										confront his past and unearth his ruthless combat skills to
-										exact revenge in a final mission.</p>
+										exact revenge in a final mission.</p><br><br><br>
 									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
 									&nbsp; <a
 										href="https://www.imdb.com/title/tt1206885/?ref_=nv_sr_1?ref_=nv_sr_1"
@@ -405,7 +405,7 @@
 										technologically advanced African nation of Wakanda to serve as
 										his country's new king. However, T'Challa soon finds that he
 										is challenged for the throne from factions within his own
-										country.</p>
+										country.</p><br><br>
 									<a href="#" class="btn btn-primary">Download</a> &nbsp; &nbsp;
 									&nbsp; <a
 										href="https://www.imdb.com/title/tt1825683/?ref_=nv_sr_1?ref_=nv_sr_1"
